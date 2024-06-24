@@ -1,4 +1,4 @@
-stevertaylor.github.io
+sanikakhadkikar.github.io
 =======================
 
-This is the personal website for Dr Stephen R. Taylor. 
+This is the personal website for Sanika Khadkikar. 
