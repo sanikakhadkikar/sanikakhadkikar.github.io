@@ -1,74 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Enigma of Gravitational Radiation</title>
-  <style>
-    body {
-      font-family: Georgia, serif;
-      line-height: 1.7;
-      background-color: #fff;
-      color: #111;
-      margin: 0;
-      padding: 2rem;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 1.2rem;
-    }
-    img, video {
-      max-width: 100%;
-      display: block;
-      margin: 2rem auto;
-    }
-    .figure-caption {
-      text-align: center;
-      font-style: italic;
-      margin-top: 0.5rem;
-      font-size: 0.95rem;
-    }
-    .math {
-      font-family: 'Latin Modern Math', 'Cambria Math', serif;
-      font-style: italic;
-    }
-  </style>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Why Gravitational Radiation Starts at the Quadrupole</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            svg: { fontCache: 'global' }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
 </head>
-<body>
-  <h1>Why Gravitational Radiation Starts at the Quadrupole</h1>
+<body class="is-preload">
+    <div id="page-wrapper">
 
-  <p>I have always been absolutely awestruck by the fact that gravitational radiation can <strong>only</strong> be quadrupolar and never understood it quite intuitively until I took some time and found analogies and visualizations to understand it. I am documenting this for future reference for me and anyone who would find this useful. So let's begin!</p>
+        <header id="header">
+            <h1 id="logo"><a href="index.html">Sanika Khadkikar</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+        </header>
 
-  <p>For understanding something that I do not have a grasp on at all, I generally start from what I do understand about the topic. Naively, if I were to ask my undergraduate self: "How can you possibly produce gravitational radiation?" I would have had some ideas. Let me start from there.</p>
+        <div id="main" class="wrapper style1">
+            <div class="container">
+                <header class="major">
+                    <h2>Why Gravitational Radiation Starts at the Quadrupole</h2>
+                    <p>Sanika Khadkikar — May 2025</p>
+                </header>
 
-  <p>Mass produces curvature and this curvature is what forms our notion of gravity. So if I were to provide some momentum to this mass and change its distribution spatially, the metric which helps us define curvature should change and that should produce gravitational radiation. This idea isn't entirely wrong but to understand the beautiful nuances of general relativity, we need to dive in deeper.</p>
+                <section>
+                    <p>I have always been absolutely awestruck by the fact that gravitational radiation can <strong>only</strong> be quadrupolar and never understood it quite intuitively until I took some time and found analogies and visualizations to understand it. I am documenting this for future reference for me and anyone who would find this useful. So let's begin!</p>
 
-  <img src="mass_dist.png" alt="Shell Theorem" />
-  <div class="figure-caption">Figure 1: Newtonian shell argument and its compact equivalent</div>
+                    <div style="float: right; width: 40%; margin-left: 2em;">
+                        <img src="/mnt/data/Untitled_Artwork (1).png" alt="Shell theorem" style="width: 100%; height: auto;" />
+                        <p class="figure-caption">Figure 1: Newtonian shell argument and equivalent point mass</p>
+                    </div>
 
-  <p>Consider a uniform spherical mass distribution of mass <span class="math">m</span> as shown in the left panel of the figure. With some notions of Newtonian gravity, we know that measuring gravitational field at <span class="math">r > R</span> for this mass distribution should be exactly equivalent to measuring the gravitational field of a mass <span class="math">m</span> concentrated at <span class="math">r = 0</span> as shown in the right panel. This happens because the fields of all the individual masses add up and lead up to being equivalent to a concentrated mass rather than a distribution. This ideology is extremely important in understanding gravitational radiation. As long as the total mass enclosed inside a given shell is the same and has spherical symmetry, the field outside would be the same irrespective of how it's arranged inside. The analogue of this theorem is the Birkhoff theorem in general relativity. Birkhoff's theorem states that any spherically symmetric solution of the vacuum field equations must be static and asymptotically flat, meaning it should follow the Schwarzschild metric. The Schwarzschild metric for the exterior of a static object under consideration is expressed as follows:</p>
+                    <p>For understanding something that I do not have a grasp on at all, I generally start from what I <em>do</em> understand about the topic. Naively, if I were to ask my undergraduate self: "How can you possibly produce gravitational radiation?" I would have had some ideas. Let me start from there.</p>
 
-  <p class="math">\[ds^2 = \left(1 - \frac{2GM}{c^2r}\right)c^2dt^2 + \left(1 - \frac{2GM}{c^2r}\right)^{-1}dr^2 + r^2d\Omega^2\]</p>
+                    <p>Mass produces curvature and this curvature is what forms our notion of gravity. So if I were to provide some momentum to this mass and change its distribution spatially, the metric which helps us define curvature should change and that should produce gravitational radiation. This idea isn't entirely wrong but to understand the beautiful nuances of general relativity, we need to dive in deeper.</p>
 
-  <p>The first time I noticed that this metric has no mention of <span class="math">R_{\text{obj}} </span> of the object under consideration, I was so surprised. This means no matter what is the difference in the compactness of two objects in consideration, as long as they are the same mass and spherically symmetric, the metric in their exteriors would look exactly the same...</p>
+                    <p>Consider a uniform spherical mass distribution of mass $m$. With some notions of Newtonian gravity, we know that measuring gravitational field at $r > R$ for this mass distribution should be exactly equivalent to measuring the gravitational field of a mass $m$ concentrated at $r = 0$. This happens because the fields of all the individual masses add up and lead up to being equivalent to a concentrated mass rather than a distribution. This ideology is extremely important in understanding gravitational radiation. As long as the total mass enclosed inside a given shell is the same and has spherical symmetry, the field outside would be the same irrespective of how it's arranged inside. The analogue of this theorem is the Birkhoff theorem in general relativity.</p>
 
-  <img src="final_breathing_mode_00.gif" alt="Monopole Mode (l=0)" />
-  <div class="figure-caption">Figure 2: Breathing mode (\(\ell = 0\))</div>
+                    <p>Birkhoff's theorem states that any spherically symmetric solution of the vacuum field equations must be static and asymptotically flat, meaning it should follow the Schwarzschild metric:</p>
 
-  <p>The monopolar radiation (if it existed), would come from the zeroth moment of a mass distribution, which is just its total mass. An oscillation of this monopole (\(\ell = 0\)), often termed as the breathing mode is shown in Figure 2...</p>
+                    <p>$$ds^2 = \left(1 - \frac{2GM}{c^2r}\right)c^2dt^2 + \left(1 - \frac{2GM}{c^2r}\right)^{-1}dr^2 + r^2d\Omega^2$$</p>
 
-  <img src="final_breathing_mode_10.gif" alt="Dipole Mode (l=1)" />
-  <div class="figure-caption">Figure 3: Dipole mode (\(\ell = 1\))</div>
+                    <p>The first time I noticed that this metric has no mention of $R_{obj}$, I was so surprised. This means no matter what is the difference in the compactness of two objects in consideration, as long as they are the same mass and spherically symmetric, the metric in their exteriors would look exactly the same...</p>
 
-  <p>...The dipole provides one additional trinket of information about the mass distribution under consideration than the monopole distribution; i.e. the mean or the center of mass of the distribution...</p>
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2em;">
+                        <div style="text-align: center;">
+                            <img src="/mnt/data/final_breathing_mode_00.gif" alt="l=0" style="width: 250px;" />
+                            <p class="figure-caption">Figure 2: Monopole ($\ell = 0$) breathing mode</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <img src="/mnt/data/final_breathing_mode_10.gif" alt="l=1" style="width: 250px;" />
+                            <p class="figure-caption">Figure 3: Dipole ($\ell = 1$) mode</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <img src="/mnt/data/final_breathing_mode_20.gif" alt="l=2" style="width: 250px;" />
+                            <p class="figure-caption">Figure 4: Quadrupole ($\ell = 2$) mode</p>
+                        </div>
+                    </div>
 
-  <img src="final_breathing_mode_20.gif" alt="Quadrupole Mode (l=2)" />
-  <div class="figure-caption">Figure 4: Quadrupole mode (\(\ell = 2\))</div>
+                    <h3>Code Used to Generate the Modes</h3>
+                    <pre><code>import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import animation
+from scipy.special import sph_harm
 
-  <p>...If the object is now oscillating in the quadrupolar mode (\(\ell = 2\)) as shown in Figure 4, it is neither spherically symmetric, nor can we pick a frame in which this effect would go away...</p>
+l, m = 2, 0
+A = 0.3
+omega = 2 * np.pi / 5
+R0 = 1.0
+frames = 20
+T_total = 10
 
-  <p>So yeah, it's all very fascinating and exciting. But to conclude, monopolar and dipolar gravitational radiation does not exist. The leading order contribution to the gravitational radiation is from the quadrupolar mode but higher modes also exist. This is also why we need two polarizations for describing the gravitational waves because they are created using an \(\ell = 2\) excitation. I love this field man. Cheers.</p>
+theta = np.linspace(0, np.pi, 100)
+phi = np.linspace(0, 2 * np.pi, 100)
+theta_g, phi_g = np.meshgrid(theta, phi)
+
+Y = np.real(sph_harm(m, l, phi_g, theta_g))
+Y /= np.max(np.abs(Y))
+
+fig = plt.figure(figsize=(6, 6))
+ax = fig.add_subplot(111, projection='3d')
+ax.set_box_aspect([1, 1, 1])
+ax.axis('off')
+
+def update(frame):
+    ax.cla()
+    t = frame / frames * T_total
+    R = R0 * (1 + A * Y * np.sin(omega * t))
+
+    X = R * np.sin(theta_g) * np.cos(phi_g)
+    Y_ = R * np.sin(theta_g) * np.sin(phi_g)
+    Z = R * np.cos(theta_g)
+
+    color = (Y + 1) / 2
+    ax.plot_surface(X, Y_, Z, facecolors=plt.cm.plasma(color),
+                    rstride=1, cstride=1, antialiased=True)
+
+    ax.set_xlim(-1.5, 1.5)
+    ax.set_ylim(-1.5, 1.5)
+    ax.set_zlim(-1.5, 1.5)
+    ax.axis('off')
+    ax.view_init(elev=20, azim=frame * 3)
+    return []
+
+anim = animation.FuncAnimation(fig, update, frames=frames, interval=100)
+anim.save("./final_breathing_mode_20.gif", writer="pillow", fps=10)</code></pre>
+                </section>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/sanikakhadkikar" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                <li><a href="http://www.github.com/sanikakhadkikar" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="mailto:sanika@psu.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Sanika Khadkikar (2025). All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
