@@ -1,0 +1,101 @@
+<!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+		<header class="major">
+			<h2>Eccentricities in Gravitational Wave Binaries</h2>
+			<p>Sanika Samir Khadkikar — May 2025</p>
+		</header>
+
+		<section>
+			<h3>Introduction</h3>
+			<p>
+			Recently, I have noticed increased discussion on the importance of eccentricity in the gravitational wave (GW) compact object coalescence literature. However, I lack intuition for why eccentricity is considered significant, for the following reasons:
+			</p>
+
+			<ol>
+				<li>The orbits circularize (\( e \to 0 \)) as the compact binary approaches coalescence due to gravitational wave emission. So why include eccentricity at all stages?</li>
+				<li>The eccentricities of binary neutron star (BNS) systems formed through isolated binary evolution channels are expected to be small (\( e < 0.3 \)), as shown in \cite{Ihm:2005tw}. Dynamically formed binaries contribute only a small fraction of the total BNS population.</li>
+				<li>The orbital period does not depend on eccentricity. To explore this, I begin by revisiting the basics of orbital dynamics.</li>
+			</ol>
+
+			<p>
+			The Lagrangian for a two-body system in the center-of-mass frame is:
+			</p>
+
+			<p>
+			$$
+			\mathcal{L} = \frac{1}{2}\mu\dot{r}^2 + \frac{1}{2}\mu r^2 \dot{\theta}^2 + \frac{Gm_1m_2}{r}
+			$$
+			</p>
+
+			<p>
+			Here, \( \mu = \frac{m_1 m_2}{m_1 + m_2} \) is the reduced mass. Since \( \theta \) is a cyclic coordinate, we have:
+			</p>
+
+			<p>
+			$$
+			\mu r^2 \dot{\theta} = \ell
+			$$
+			</p>
+
+			<p>
+			And the radial equation of motion becomes:
+			</p>
+
+			<p>
+			$$
+			\mu \ddot{r} = \frac{\ell^2}{\mu r^3} - \frac{Gm_1m_2}{r^2}
+			$$
+			</p>
+
+			<p>
+			Using the substitution \( u = \frac{1}{r} \), the solution is a conic:
+			</p>
+
+			<p>
+			$$
+			r(\theta) = \frac{\ell^2}{\mu^2 GM (1 + e \cos\theta)}
+			$$
+			</p>
+
+			<p>
+			Here \( M = m_1 + m_2 \) and \( e \) is the orbital eccentricity. The orbital radius \( r \) depends on \( e \), but the period \( T \) is independent of it for bound orbits. By Kepler's second law:
+			</p>
+
+			<p>
+			$$
+			\frac{dA}{dt} = \frac{1}{2} r^2 \frac{d\theta}{dt} = \frac{\ell}{2\mu} = \text{constant}
+			$$
+			</p>
+
+			<p>
+			Integrating over a full orbit:
+			$$
+			A = \frac{\ell T}{2\mu}
+			$$
+			and for an ellipse:
+			$$
+			A = \pi a b = \pi a^2 \sqrt{1 - e^2}
+			$$
+
+			From the conic solution:
+			$$
+			a(1 - e^2) = \frac{\ell^2}{\mu^2 GM}
+			$$
+
+			Combining these results:
+			$$
+			T^2 = \frac{4\pi^2}{GM} a^3
+			$$
+			</p>
+
+			<p>
+			This is Kepler’s third law, which confirms that the period \( T \) is independent of eccentricity.
+			</p>
+
+			<p>
+			My skepticism about the emphasis on eccentricity is rooted in these points. However, the inclusion of gravitational radiation may alter this picture. I will explore this further in future work.
+			</p>
+		</section>
+	</div>
+</div>
