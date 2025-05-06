@@ -43,7 +43,7 @@
                     <p>I have always been absolutely awestruck by the fact that gravitational radiation can <strong>only</strong> be quadrupolar and never understood it quite intuitively until I took some time and found analogies and visualizations to understand it. I am documenting this for future reference for me and anyone who would find this useful. So let's begin!</p>
 
                     <div style="float: right; width: 40%; margin-left: 2em;">
-                        <img src="/mnt/data/Untitled_Artwork (1).png" alt="Shell theorem" style="width: 100%; height: auto;" />
+                        <img src="mass_dist.png" alt="Shell theorem" style="width: 100%; height: auto;" />
                         <p class="figure-caption">Figure 1: Newtonian shell argument and equivalent point mass</p>
                     </div>
 
@@ -57,19 +57,23 @@
 
                     <p>$$ds^2 = \left(1 - \frac{2GM}{c^2r}\right)c^2dt^2 + \left(1 - \frac{2GM}{c^2r}\right)^{-1}dr^2 + r^2d\Omega^2$$</p>
 
-                    <p>The first time I noticed that this metric has no mention of $R_{obj}$, I was so surprised. This means no matter what is the difference in the compactness of two objects in consideration, as long as they are the same mass and spherically symmetric, the metric in their exteriors would look exactly the same...</p>
+                    <p>The first time I noticed that this metric has no mention of $R_{obj}$ of the object under consideration, I was so surprised. This means no matter what is the difference in the compactness of two objects in consideration, as long as they are the same mass and spherically symmetric, the metric in their exteriors would look exactly the same. This is because the Schwarzschild solution in the exterior of an object is a vacuum solution, leading to the stress-energy tensor being zero identically everywhere outside the object as long as there is no energy outflow. This is very fascinating to me that the spacetime only obeys the value of one dial, the energy content or mass.</p>
 
+                    <p>Connecting this back to the original discussion about gravitational radiation, Birkhoff theorem and the Newtonian analogue of it can help us gain better intuition. When it comes to radiation, it can be helpful to break the radiation like a Taylor series in decreasing order of contribution from different mass distributions. The monopolar radiation (if it existed), would come from the zeroth moment of a mass distribution, which is just its total mass. An oscillation of this monopole ($l=0$), often termed as the breathing mode is shown in Figure 2. In this mode, the mass remains unchanged and the spherical symmetry of the object is still intact, but it pulsates about a mean radius. Using Birkhoff theorem here, we can understand that even if the mass distribution is changed in the case of a monopolar oscillation, since the total mass remains the same and spherically symmetric, the external metric also stays the same and there are no tides outside the object. Thus, monopolar gravitational radiation does not exist.</p>
+                    <p>The terms following the monopole in the multipole expansion can be understood as various degrees of asymmetry which can be added into the system. The next order term is the dipole as shown in Figure 3. The dipole provides one additional trinket of information about the mass distribution under consideration than the monopole distribution; i.e. the mean or the center of mass of the distribution. If the system is oscillating with a dipolar ($l=1$) mode, we get an idea of the movement of the center of mass of the system. We can then change our frame to have the velocity of the center of mass and can always take our observations in a frame where there is no motion of the center of mass. Thus, dipolar gravitational radiation also does not exist. The consequences of both of these conclusions are so cool! The object can be anything including a quark matter core, a singularity, electron degenerate matter, whatever your imagination is capable of picturing. But if it perturbed to oscillate in the monopolar ($l=0$) or dipolar ($l=1$) modes, they will all basically look the exact same to us. Is that not phenomenal?! The difference comes when the rearrangement is not spherically symmetric and cannot be gauged away.</p>
+                    <p>If we add another degree of asymmetry to our system, we can also measure the deviation of the mass distribution from the mean of it, i.e. the quadrupole moment. If the object is now oscillating in the quadrupolar mode ($l=2$) as shown in Figure 4, it is neither spherically symmetric, nor can we pick a frame in which this effect would go away. A time varying quadrupolar moment thus changes the gravitational field outside the object too causing tides. So for quadrupole, hexapole and other higher oscillations, information about the mass distribution inside the objects leaks into the exterior with gravitational waves. As a very contextual example, neutron stars have a lot of deformities on their surface. We can actually aim to characterize this topology of neutron stars using the continuous gravitational waves emitted by them. Additionally, when two compact objects like black holes and neutron stars are about to merge, a lot of quadrupolar and higher modes are excited in these objects and we can actually measure these higher modes for binary black hole mergers at least with LIGO.</p>
+                    <p>So yeah, it's all very fascinating and exciting. But to conclude, monopolar and dipolar gravitational radiation does not exist. The leading order contribution to the gravitational radiation is from the quadrupolar mode but higher modes also exist. This is also why we need two polarizations for describing the gravitational waves because they are created using an $l=2$ excitation. I love this field man. Cheers.</p>
                     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2em;">
                         <div style="text-align: center;">
-                            <img src="/mnt/data/final_breathing_mode_00.gif" alt="l=0" style="width: 250px;" />
+                            <img src="final_breathing_mode_00.gif" alt="l=0" style="width: 250px;" />
                             <p class="figure-caption">Figure 2: Monopole ($\ell = 0$) breathing mode</p>
                         </div>
                         <div style="text-align: center;">
-                            <img src="/mnt/data/final_breathing_mode_10.gif" alt="l=1" style="width: 250px;" />
+                            <img src="final_breathing_mode_10.gif" alt="l=1" style="width: 250px;" />
                             <p class="figure-caption">Figure 3: Dipole ($\ell = 1$) mode</p>
                         </div>
                         <div style="text-align: center;">
-                            <img src="/mnt/data/final_breathing_mode_20.gif" alt="l=2" style="width: 250px;" />
+                            <img src="final_breathing_mode_20.gif" alt="l=2" style="width: 250px;" />
                             <p class="figure-caption">Figure 4: Quadrupole ($\ell = 2$) mode</p>
                         </div>
                     </div>
