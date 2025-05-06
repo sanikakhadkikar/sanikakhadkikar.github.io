@@ -1,101 +1,124 @@
-<!-- Main -->
-<div id="main" class="wrapper style1">
-	<div class="container">
-		<header class="major">
-			<h2>Eccentricities in Gravitational Wave Binaries</h2>
-			<p>Sanika Samir Khadkikar — May 2025</p>
-		</header>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Eccentricities in GW Orbits</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            svg: { fontCache: 'global' }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+</head>
+<body class="is-preload">
+    <div id="page-wrapper">
 
-		<section>
-			<h3>Introduction</h3>
-			<p>
-			Recently, I have noticed increased discussion on the importance of eccentricity in the gravitational wave (GW) compact object coalescence literature. However, I lack intuition for why eccentricity is considered significant, for the following reasons:
-			</p>
+        <!-- Header -->
+        <header id="header">
+            <h1 id="logo"><a href="index.html">Sanika Khadkikar</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+        </header>
 
-			<ol>
-				<li>The orbits circularize (\( e \to 0 \)) as the compact binary approaches coalescence due to gravitational wave emission. So why include eccentricity at all stages?</li>
-				<li>The eccentricities of binary neutron star (BNS) systems formed through isolated binary evolution channels are expected to be small (\( e < 0.3 \)), as shown in \cite{Ihm:2005tw}. Dynamically formed binaries contribute only a small fraction of the total BNS population.</li>
-				<li>The orbital period does not depend on eccentricity. To explore this, I begin by revisiting the basics of orbital dynamics.</li>
-			</ol>
+        <!-- Main -->
+        <div id="main" class="wrapper style1">
+            <div class="container">
+                <header class="major">
+                    <h2>Eccentricities in Gravitational Wave Binaries</h2>
+                    <p>Sanika Samir Khadkikar — May 2025</p>
+                </header>
 
-			<p>
-			The Lagrangian for a two-body system in the center-of-mass frame is:
-			</p>
+                <section>
+                    <h3>Introduction</h3>
+                    <p>
+                        Recently, I have noticed increased discussion on the importance of eccentricity in the gravitational wave (GW) compact object coalescence literature. However, I lack intuition for why eccentricity is considered significant, for the following reasons:
+                    </p>
 
-			<p>
-			$$
-			\mathcal{L} = \frac{1}{2}\mu\dot{r}^2 + \frac{1}{2}\mu r^2 \dot{\theta}^2 + \frac{Gm_1m_2}{r}
-			$$
-			</p>
+                    <ol>
+                        <li>The orbits circularize ($e \to 0$) as the compact binary approaches coalescence due to gravitational wave emission. So why include eccentricity at all stages?</li>
+                        <li>The eccentricities of binary neutron star (BNS) systems formed through isolated binary evolution channels are expected to be small ($e < 0.3$), as shown in \cite{Ihm:2005tw}. Dynamically formed binaries contribute only a small fraction of the total BNS population.</li>
+                        <li>The orbital period does not depend on eccentricity. To explore this, I begin by revisiting the basics of orbital dynamics.</li>
+                    </ol>
 
-			<p>
-			Here, \( \mu = \frac{m_1 m_2}{m_1 + m_2} \) is the reduced mass. Since \( \theta \) is a cyclic coordinate, we have:
-			</p>
+                    <p>The Lagrangian for a two-body system in the center-of-mass frame is:</p>
 
-			<p>
-			$$
-			\mu r^2 \dot{\theta} = \ell
-			$$
-			</p>
+                    <p>$$ \mathcal{L} = \frac{1}{2}\mu\dot{r}^2 + \frac{1}{2}\mu r^2 \dot{\theta}^2 + \frac{Gm_1m_2}{r} $$</p>
 
-			<p>
-			And the radial equation of motion becomes:
-			</p>
+                    <p>Here, $\mu = \frac{m_1 m_2}{m_1 + m_2}$ is the reduced mass. Since $\theta$ is a cyclic coordinate, we have:</p>
 
-			<p>
-			$$
-			\mu \ddot{r} = \frac{\ell^2}{\mu r^3} - \frac{Gm_1m_2}{r^2}
-			$$
-			</p>
+                    <p>$$ \mu r^2 \dot{\theta} = \ell $$</p>
 
-			<p>
-			Using the substitution \( u = \frac{1}{r} \), the solution is a conic:
-			</p>
+                    <p>And the radial equation of motion becomes:</p>
 
-			<p>
-			$$
-			r(\theta) = \frac{\ell^2}{\mu^2 GM (1 + e \cos\theta)}
-			$$
-			</p>
+                    <p>$$ \mu \ddot{r} = \frac{\ell^2}{\mu r^3} - \frac{Gm_1m_2}{r^2} $$</p>
 
-			<p>
-			Here \( M = m_1 + m_2 \) and \( e \) is the orbital eccentricity. The orbital radius \( r \) depends on \( e \), but the period \( T \) is independent of it for bound orbits. By Kepler's second law:
-			</p>
+                    <p>Using the substitution $u = \frac{1}{r}$, the solution is a conic:</p>
 
-			<p>
-			$$
-			\frac{dA}{dt} = \frac{1}{2} r^2 \frac{d\theta}{dt} = \frac{\ell}{2\mu} = \text{constant}
-			$$
-			</p>
+                    <p>$$ r(\theta) = \frac{\ell^2}{\mu^2 GM (1 + e \cos\theta)} $$</p>
 
-			<p>
-			Integrating over a full orbit:
-			$$
-			A = \frac{\ell T}{2\mu}
-			$$
-			and for an ellipse:
-			$$
-			A = \pi a b = \pi a^2 \sqrt{1 - e^2}
-			$$
+                    <p>Here $M = m_1 + m_2$ and $e$ is the orbital eccentricity. The orbital radius $r$ depends on $e$, but the period $T$ is independent of it for bound orbits. By Kepler's second law:</p>
 
-			From the conic solution:
-			$$
-			a(1 - e^2) = \frac{\ell^2}{\mu^2 GM}
-			$$
+                    <p>$$ \frac{dA}{dt} = \frac{1}{2} r^2 \frac{d\theta}{dt} = \frac{\ell}{2\mu} = \text{constant} $$</p>
 
-			Combining these results:
-			$$
-			T^2 = \frac{4\pi^2}{GM} a^3
-			$$
-			</p>
+                    <p>Integrating over a full orbit:</p>
 
-			<p>
-			This is Kepler’s third law, which confirms that the period \( T \) is independent of eccentricity.
-			</p>
+                    <p>$$ A = \frac{\ell T}{2\mu} $$</p>
 
-			<p>
-			My skepticism about the emphasis on eccentricity is rooted in these points. However, the inclusion of gravitational radiation may alter this picture. I will explore this further in future work.
-			</p>
-		</section>
-	</div>
-</div>
+                    <p>And for an ellipse:</p>
+
+                    <p>$$ A = \pi a b = \pi a^2 \sqrt{1 - e^2} $$</p>
+
+                    <p>From the conic solution:</p>
+
+                    <p>$$ a(1 - e^2) = \frac{\ell^2}{\mu^2 GM} $$</p>
+
+                    <p>Combining these results:</p>
+
+                    <p>$$ T^2 = \frac{4\pi^2}{GM} a^3 $$</p>
+
+                    <p>This is Kepler’s third law, which confirms that the period $T$ is independent of eccentricity.</p>
+
+                    <p>My skepticism about the emphasis on eccentricity is rooted in these points. However, the inclusion of gravitational radiation may alter this picture. I will explore this further in future work.</p>
+                </section>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/sanikakhadkikar" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                <li><a href="http://www.github.com/sanikakhadkikar" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="mailto:sanika@psu.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Sanika Khadkikar (2024). All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
