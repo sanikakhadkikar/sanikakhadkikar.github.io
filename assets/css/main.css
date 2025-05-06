@@ -4132,10 +4132,11 @@ input, select, textarea {
     content: '';
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
+    background-image: var(--bg-img);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    opacity: 0.08; /* faint image */
+    opacity: 0.08;
     pointer-events: none;
     z-index: 0;
 }
