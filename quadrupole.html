@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Enigma of Gravitational Radiation</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      line-height: 1.7;
+      background-color: #fff;
+      color: #111;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1.2rem;
+    }
+    img, video {
+      max-width: 100%;
+      display: block;
+      margin: 2rem auto;
+    }
+    .figure-caption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+    }
+    .math {
+      font-family: 'Latin Modern Math', 'Cambria Math', serif;
+      font-style: italic;
+    }
+  </style>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <h1>Why Gravitational Radiation Starts at the Quadrupole</h1>
+
+  <p>I have always been absolutely awestruck by the fact that gravitational radiation can <strong>only</strong> be quadrupolar and never understood it quite intuitively until I took some time and found analogies and visualizations to understand it. I am documenting this for future reference for me and anyone who would find this useful. So let's begin!</p>
+
+  <p>For understanding something that I do not have a grasp on at all, I generally start from what I do understand about the topic. Naively, if I were to ask my undergraduate self: "How can you possibly produce gravitational radiation?" I would have had some ideas. Let me start from there.</p>
+
+  <p>Mass produces curvature and this curvature is what forms our notion of gravity. So if I were to provide some momentum to this mass and change its distribution spatially, the metric which helps us define curvature should change and that should produce gravitational radiation. This idea isn't entirely wrong but to understand the beautiful nuances of general relativity, we need to dive in deeper.</p>
+
+  <img src="Untitled_Artwork (1).png" alt="Shell Theorem" />
+  <div class="figure-caption">Figure 1: Newtonian shell argument and its compact equivalent</div>
+
+  <p>Consider a uniform spherical mass distribution of mass <span class="math">m</span> as shown in the left panel of the figure. With some notions of Newtonian gravity, we know that measuring gravitational field at <span class="math">r > R</span> for this mass distribution should be exactly equivalent to measuring the gravitational field of a mass <span class="math">m</span> concentrated at <span class="math">r = 0</span> as shown in the right panel. This happens because the fields of all the individual masses add up and lead up to being equivalent to a concentrated mass rather than a distribution. This ideology is extremely important in understanding gravitational radiation. As long as the total mass enclosed inside a given shell is the same and has spherical symmetry, the field outside would be the same irrespective of how it's arranged inside. The analogue of this theorem is the Birkhoff theorem in general relativity. Birkhoff's theorem states that any spherically symmetric solution of the vacuum field equations must be static and asymptotically flat, meaning it should follow the Schwarzschild metric. The Schwarzschild metric for the exterior of a static object under consideration is expressed as follows:</p>
+
+  <p class="math">\[ds^2 = \left(1 - \frac{2GM}{c^2r}\right)c^2dt^2 + \left(1 - \frac{2GM}{c^2r}\right)^{-1}dr^2 + r^2d\Omega^2\]</p>
+
+  <p>The first time I noticed that this metric has no mention of <span class="math">R_{\text{obj}} </span> of the object under consideration, I was so surprised. This means no matter what is the difference in the compactness of two objects in consideration, as long as they are the same mass and spherically symmetric, the metric in their exteriors would look exactly the same...</p>
+
+  <img src="final_breathing_mode_00.gif" alt="Monopole Mode (l=0)" />
+  <div class="figure-caption">Figure 2: Breathing mode (\(\ell = 0\))</div>
+
+  <p>The monopolar radiation (if it existed), would come from the zeroth moment of a mass distribution, which is just its total mass. An oscillation of this monopole (\(\ell = 0\)), often termed as the breathing mode is shown in Figure 2...</p>
+
+  <img src="final_breathing_mode_10.gif" alt="Dipole Mode (l=1)" />
+  <div class="figure-caption">Figure 3: Dipole mode (\(\ell = 1\))</div>
+
+  <p>...The dipole provides one additional trinket of information about the mass distribution under consideration than the monopole distribution; i.e. the mean or the center of mass of the distribution...</p>
+
+  <img src="final_breathing_mode_20.gif" alt="Quadrupole Mode (l=2)" />
+  <div class="figure-caption">Figure 4: Quadrupole mode (\(\ell = 2\))</div>
+
+  <p>...If the object is now oscillating in the quadrupolar mode (\(\ell = 2\)) as shown in Figure 4, it is neither spherically symmetric, nor can we pick a frame in which this effect would go away...</p>
+
+  <p>So yeah, it's all very fascinating and exciting. But to conclude, monopolar and dipolar gravitational radiation does not exist. The leading order contribution to the gravitational radiation is from the quadrupolar mode but higher modes also exist. This is also why we need two polarizations for describing the gravitational waves because they are created using an \(\ell = 2\) excitation. I love this field man. Cheers.</p>
+</body>
+</html>
