@@ -4112,15 +4112,35 @@ input, select, textarea {
 	}
 /* Custom Card */
 .card {
+    position: relative;
     background: #272833;
     border-radius: 1rem;
     padding: 2rem;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
     margin: 2rem 0;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden; /* ensures image stays inside card */
+    color: white;
 }
 
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.08; /* faint image */
+    pointer-events: none;
+    z-index: 0;
+}
+
+.card > * {
+    position: relative;
+    z-index: 1; /* ensures text appears above image */
 }
