@@ -4,8 +4,8 @@
     <title>That One Chirp Amidst The Noise</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
     <script>
         window.MathJax = {
             tex: {
@@ -22,13 +22,13 @@
 
         <!-- Header -->
         <header id="header">
-            <h1 id="logo"><a href="index.html">Sanika Khadkikar</a></h1>
+            <h1 id="logo"><a href="../index.html">Sanika Khadkikar</a></h1>
             <nav id="nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../research.html">Research</a></li>
+                    <li><a href="../cv.html">CV</a></li>
+                    <li><a href="../resources.html">Resources</a></li>
                 </ul>
             </nav>
         </header>
@@ -71,7 +71,7 @@ plt.plot(l1_strain)
 plt.axvline(trigger_time, color='red')</code></pre>
 
 <div style="text-align: center;">
-    <img src="figures/raw_data.png" alt="Raw data plot" style="width: 80%;">
+    <img src="../figures/raw_data.png" alt="Raw data plot" style="width: 80%;">
     <p class="figure-caption">Figure: Raw LIGO strain data centered around the trigger time.</p>
 </div>
 
@@ -117,7 +117,7 @@ psd_gps_end_time = psd_gps_start_time + 256</code></pre>
     )</code></pre>
 
 <div style="text-align: center;">
-    <img src="figures/whitened.png" alt="Whitened signal plot" style="width: 80%;">
+    <img src="../figures/whitened.png" alt="Whitened signal plot" style="width: 80%;">
     <p class="figure-caption">Figure: The whitened data using median Welch PSD. The signal is now clearly visible.</p>
 </div>
 
@@ -140,14 +140,14 @@ plt.xlim(-0.1, 0.1)</code></pre>
 <p style="text-align: center;">$$Q = \frac{f_0}{\Delta f}$$</p>
 
 <div style="text-align: center;">
-    <img src="figures/q-scan_before.png" alt="Q-scan before Bayeswave" style="width: 90%;">
+    <img src="../figures/q-scan_before.png" alt="Q-scan before Bayeswave" style="width: 90%;">
     <p class="figure-caption">Figure: Q-scan showing a glitch near -5 seconds before S240601co.</p>
 </div>
 
 <p>Using wavelet-based subtraction (e.g., via <strong>BayesWave</strong>), such glitches can be modeled and removed.</p>
 
 <div style="text-align: center;">
-    <img src="figures/q-scan_after.png" alt="Q-scan after Bayeswave" style="width: 90%;">
+    <img src="../figures/q-scan_after.png" alt="Q-scan after Bayeswave" style="width: 90%;">
     <p class="figure-caption">Figure: Q-scan after glitch subtraction using BayesWave. Clean and glitch-free!</p>
 </div>
 
@@ -171,13 +171,13 @@ plt.xlim(-0.1, 0.1)</code></pre>
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/jquery.dropotron.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
