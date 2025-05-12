@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Gravitational Wave Signal Pre-processing</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            svg: { fontCache: 'global' }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+</head>
+<body class="is-preload">
+<div id="page-wrapper">
+    <header id="header">
+        <h1 id="logo"><a href="index.html">Sanika Khadkikar</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main" class="wrapper style1">
+        <div class="container">
+            <header class="major">
+                <h2>Gravitational Wave Signal Pre-processing</h2>
+                <p>Understanding PSD estimation, whitening, and Q-scans with real LIGO data</p>
+              <div style="text-align: center; margin-top: 2em; margin-bottom: 2em;">
+                <p style="font-style: italic;">
+                    “What we observe is not nature itself, but nature exposed to our method of questioning.”
+                </p>
+                <p style="font-style: italic; margin-top: 0.5em;">— Werner Heisenberg</p>
+            </div>
+
+            </header>
+
+            <section>
+<p>For my research, I primarily use gravitational wave signals to estimate the source parameters of binary mergers observed by LIGO. Although most of my previous work has focused on forecasting binary neutron star observations, I have had very limited interaction with real detector data. To address this, I recently began volunteering as an analyst for actual gravitational wave events. This post is a primer on the pre-processing steps applied to the raw data before it is passed to the Bayesian inference pipeline for parameter estimation.</p>
+
+<p>Gravitational wave signals in their raw form must go through several stages of processing before they are suitable for inference. These steps help clean the signal and prepare it for extracting meaningful physics. One of the first and most essential steps is <strong>whitening</strong>.</p>
+
+<p>Detector data includes not only the gravitational wave signal but also significant noise from various sources, such as seismic motion, thermal fluctuations, photon shot noise, and human activity. This noise varies with frequency, and its distribution is described by the power spectral density (PSD), which is estimated using data that does not contain any astrophysical signal.</p>
+
+<p>In the case of LIGO, the PSD typically shows much higher noise at low frequencies (below about 20 Hz) and at very high frequencies (above about 1000 Hz). Even within the most sensitive frequency band, the noise is not uniform. To ensure all frequency components are treated equally in the analysis, we flatten the noise spectrum by whitening the data. This process divides the signal by the square root of the PSD.</p>
+
+<p>The reason we whiten the data is not because nature prefers flat noise spectra, but because the downstream analysis tools require the noise to be white and Gaussian. This means the noise must have zero mean, unit variance, and no frequency preference. When noise power varies across frequencies, it is called colored noise. Colored noise makes some frequency bands noisier than others, which interferes with our ability to recover accurate source parameters. Whitening removes this issue and allows the gravitational wave signal to appear as sharp features against a uniform background.</p>
+
+<p>For the loudest signal ever seen with LIGO (GW230814), I will now describe the code used for this step.</p>
+
+<pre><code class="language-python">import matplotlib.pyplot as plt
+import gwpy.timeseries
+
+trigger_time = 1376089759.8100667
+tstart = trigger_time - 500
+tend = trigger_time + 10
+
+l1_strain = TimeSeries.get(channel='L1:GDS-CALIB_STRAIN_CLEAN', start=tstart, end=tend)
+plt.figure(figsize=(15,3))
+plt.plot(l1_strain)
+plt.axvline(trigger_time, color='red')</code></pre>
+
+<div style="text-align: center;">
+    <img src="figures/raw_data.png" alt="Raw data plot" style="width: 80%;">
+    <p class="figure-caption">Figure: Raw LIGO strain data centered around the trigger time.</p>
+</div>
+
+<p>Just by inspecting the data shown above, it is impossible to discern anything about the signal. The signal's location is not even visually obvious. To make the features of the data more interpretable, the data must first be <strong>whitened</strong>. Whitening flattens the noise spectrum, which requires an accurate estimate of the PSD.</p>
+
+<p>The most basic approach to estimating the PSD is the <strong>Periodogram</strong>:</p>
+<p style="text-align: center;">$$PSD_{\text{Periodogram}}(f) = \frac{1}{T} |\mathcal{F}(h(t))|^2$$</p>
+
+<p>This method is highly sensitive to fluctuations because it is computed from just one realization of the data. A more robust alternative is the <strong>Welch method</strong>, which splits the data into $K$ overlapping segments, windows each segment, and averages (or takes the median of) the power spectra:</p>
+<p style="text-align: center;">$$PSD_{\text{Welch}}(f) = \frac{1}{K} \sum_{k=1}^K |\mathcal{F}(h_k(t))|^2$$</p>
+
+<p>In GW analyses, the <strong>median</strong> is preferred over the mean because it is less sensitive to glitches and more representative of the stationary noise floor.</p>
+
+<pre><code class="language-python">detectors = ['L1']
+channels = {'L1': 'L1:GDS-CALIB_STRAIN_CLEAN'}
+start_time = trigger_time - 4
+duration = 6
+ifos = bilby.gw.detector.InterferometerList([])</code></pre>
+
+<pre><code class="language-python">psd_gps_start_time = start_time - 512
+psd_gps_end_time = psd_gps_start_time + 256</code></pre>
+
+<pre><code class="language-python">for detector in detectors:
+    ifo = bilby.gw.detector.get_empty_interferometer(detector)
+    ifo.minimum_frequency = 20
+    ifo.maximum_frequency = 1024
+    ifo.set_strain_data_from_channel_name(
+        channel=channels[detector],
+        sampling_frequency=4096,
+        duration=duration,
+        start_time=start_time
+    )
+    ts = TimeSeries.get(
+        channel=channels[detector],
+        start=psd_gps_start_time,
+        end=psd_gps_end_time
+    )
+    ts = ts.highpass(20)
+    psd = ts.psd(fftlength=16, overlap=8, method='median')
+    ifo.power_spectral_density = bilby.gw.detector.PowerSpectralDensity(
+        frequency_array=psd.frequencies.value,
+        psd_array=psd.value
+    )</code></pre>
+
+<div style="text-align: center;">
+    <img src="figures/whitened.png" alt="Whitened signal plot" style="width: 80%;">
+    <p class="figure-caption">Figure: The whitened data using median Welch PSD. The signal is now clearly visible.</p>
+</div>
+
+<pre><code class="language-python">frequency_window_factor = (np.sum(ifo.frequency_mask) / len(ifo.frequency_mask))
+whitened_time_series = (np.fft.irfft(ifo.whitened_frequency_domain_strain) *
+                        np.sqrt(np.sum(ifo.frequency_mask)) / frequency_window_factor)
+
+plt.figure(figsize=(15, 3))
+plt.plot(ifo.time_array - trigger_time, whitened_time_series)
+plt.ylim(-20, 20)
+plt.xlim(-0.1, 0.1)</code></pre>
+
+<p>This worked beautifully for GW230814, but failed for S240601co — a lower SNR (~8) event. Two reasons:</p>
+<ol>
+<li>The signal is intrinsically weaker, so harder to see even after whitening.</li>
+<li>A glitch occurred a few seconds before the event, contaminating the data.</li>
+</ol>
+
+<p>To spot such glitches, <strong>Q-scans</strong> are useful. These are time-frequency plots made by fitting wavelets of varying quality factors:</p>
+<p style="text-align: center;">$$Q = \frac{f_0}{\Delta f}$$</p>
+
+<div style="text-align: center;">
+    <img src="figures/q-scan_before.png" alt="Q-scan before Bayeswave" style="width: 90%;">
+    <p class="figure-caption">Figure: Q-scan showing a glitch near -5 seconds before S240601co.</p>
+</div>
+
+<p>Using wavelet-based subtraction (e.g., via <strong>BayesWave</strong>), such glitches can be modeled and removed.</p>
+
+<div style="text-align: center;">
+    <img src="figures/q-scan_after.png" alt="Q-scan after Bayeswave" style="width: 90%;">
+    <p class="figure-caption">Figure: Q-scan after glitch subtraction using BayesWave. Clean and glitch-free!</p>
+</div>
+
+<p>Initially, Welch PSD estimation with 16-second segments failed because the data was non-stationary. Reducing the segment length to 4 seconds made it work. This hands-on process really taught me how sensitive and nuanced GW data analysis is. It was fun doing this :) Cheers!</p>
+
+            </section>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/sanikakhadkikar" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+            <li><a href="http://www.github.com/sanikakhadkikar" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="mailto:sanika@psu.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Sanika Khadkikar (2025). All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </footer>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
