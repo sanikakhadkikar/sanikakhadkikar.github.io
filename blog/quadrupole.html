@@ -4,8 +4,8 @@
     <title>Why Gravitational Radiation Starts at the Quadrupole</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
     <script>
         window.MathJax = {
             tex: {
@@ -21,13 +21,13 @@
     <div id="page-wrapper">
 
         <header id="header">
-            <h1 id="logo"><a href="index.html">Sanika Khadkikar</a></h1>
+            <h1 id="logo"><a href="../index.html">Sanika Khadkikar</a></h1>
             <nav id="nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../research.html">Research</a></li>
+                    <li><a href="../cv.html">CV</a></li>
+                    <li><a href="../resources.html">Resources</a></li>
                 </ul>
             </nav>
         </header>
@@ -49,7 +49,7 @@
                     <p>I have always been absolutely awestruck by the fact that gravitational radiation can <strong>only</strong> be quadrupolar and never understood it quite intuitively until I took some time and found analogies and visualizations to understand it. I am documenting this for future reference for me and anyone who would find this useful. So let's begin!</p>
 
                     <div style="float: right; width: 40%; margin-left: 2em;">
-                        <img src="figures/mass_dist.png" alt="Shell theorem" style="width: 100%; height: auto;" />
+                        <img src="../figures/mass_dist.png" alt="Shell theorem" style="width: 100%; height: auto;" />
                         <p class="figure-caption">Figure 1: Newtonian shell argument and equivalent point mass</p>
                     </div>
 
@@ -68,21 +68,21 @@
                     <p>Connecting this back to the original discussion about gravitational radiation, Birkhoff theorem and the Newtonian analogue of it can help us gain better intuition. When it comes to radiation, it can be helpful to break the radiation like a Taylor series in decreasing order of contribution from different mass distributions. The monopolar radiation (if it existed), would come from the zeroth moment of a mass distribution, which is just its total mass. An oscillation of this monopole ($l=0$), often termed as the breathing mode is shown in Figure 2. In this mode, the mass remains unchanged and the spherical symmetry of the object is still intact, but it pulsates about a mean radius. Using Birkhoff theorem here, we can understand that even if the mass distribution is changed in the case of a monopolar oscillation, since the total mass remains the same and spherically symmetric, the external metric also stays the same and there are no tides outside the object. Thus, monopolar gravitational radiation does not exist.</p>
 
                     <div style="text-align: center;">
-                        <img src="figures/final_breathing_mode_00.gif" alt="l=0" style="width: 250px;" />
+                        <img src="../figures/final_breathing_mode_00.gif" alt="l=0" style="width: 250px;" />
                         <p class="figure-caption">Figure 2: Monopole ($\ell = 0$) breathing mode</p>
                     </div>
 
                     <p>The terms following the monopole in the multipole expansion can be understood as various degrees of asymmetry which can be added into the system. The next order term is the dipole as shown in Figure 3. The dipole provides one additional trinket of information about the mass distribution under consideration than the monopole distribution; i.e. the mean or the center of mass of the distribution. If the system is oscillating with a dipolar ($l=1$) mode, we get an idea of the movement of the center of mass of the system. We can then change our frame to have the velocity of the center of mass and can always take our observations in a frame where there is no motion of the center of mass. Thus, dipolar gravitational radiation also does not exist.</p>
 
                     <div style="text-align: center;">
-                        <img src="figures/final_breathing_mode_10.gif" alt="l=1" style="width: 250px;" />
+                        <img src="../figures/final_breathing_mode_10.gif" alt="l=1" style="width: 250px;" />
                         <p class="figure-caption">Figure 3: Dipole ($\ell = 1$) mode</p>
                     </div>
 
                     <p>If we add another degree of asymmetry to our system, we can also measure the deviation of the mass distribution from the mean of it, i.e. the quadrupole moment. If the object is now oscillating in the quadrupolar mode ($l=2$) as shown in Figure 4, it is neither spherically symmetric, nor can we pick a frame in which this effect would go away. A time varying quadrupolar moment thus changes the gravitational field outside the object too causing tides. So for quadrupole, hexapole and other higher oscillations, information about the mass distribution inside the objects leaks into the exterior with gravitational waves. As a very contextual example, neutron stars have a lot of deformities on their surface. We can actually aim to characterize this topology of neutron stars using the continuous gravitational waves emitted by them.</p>
 
                     <div style="text-align: center;">
-                        <img src="figures/final_breathing_mode_20.gif" alt="l=2" style="width: 250px;" />
+                        <img src="../figures/final_breathing_mode_20.gif" alt="l=2" style="width: 250px;" />
                         <p class="figure-caption">Figure 4: Quadrupole ($\ell = 2$) mode</p>
                     </div>
 
@@ -153,13 +153,13 @@ anim.save("./final_breathing_mode_20.gif", writer="pillow", fps=10)</code></pre>
 
     </div>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/jquery.dropotron.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
