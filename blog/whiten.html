@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Gravitational Wave Signal Pre-processing</title>
+    <title>That One Chirp Amidst The Noise</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -18,34 +18,34 @@
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
 </head>
 <body class="is-preload">
-<div id="page-wrapper">
-    <header id="header">
-        <h1 id="logo"><a href="index.html">Sanika Khadkikar</a></h1>
-        <nav id="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="resources.html">Resources</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="page-wrapper">
 
-    <div id="main" class="wrapper style1">
-        <div class="container">
-            <header class="major">
-                <h2>Gravitational Wave Signal Pre-processing</h2>
-                <p>Understanding PSD estimation, whitening, and Q-scans with real LIGO data</p>
-              <div style="text-align: center; margin-top: 2em; margin-bottom: 2em;">
-                <p style="font-style: italic;">
-                    “What we observe is not nature itself, but nature exposed to our method of questioning.”
-                </p>
-                <p style="font-style: italic; margin-top: 0.5em;">— Werner Heisenberg</p>
-            </div>
+        <!-- Header -->
+        <header id="header">
+            <h1 id="logo"><a href="index.html">Sanika Khadkikar</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            </header>
-
-            <section>
+        <!-- Main -->
+        <div id="main" class="wrapper style1">
+            <div class="container">
+                <header class="major">
+                    <h2>That One Chirp Amidst The Noise</h2>
+                <div style="text-align: center; margin-top: 2em; margin-bottom: 2em;">
+                    <p style="font-style: italic;">
+                        “What we observe is not nature itself, but nature exposed to our method of questioning.”
+                    </p>
+                    <p style="font-style: italic; margin-top: 0.5em;">— Werner Heisenberg</p>
+                </div>
+                </header>
+                <section>
 <p>For my research, I primarily use gravitational wave signals to estimate the source parameters of binary mergers observed by LIGO. Although most of my previous work has focused on forecasting binary neutron star observations, I have had very limited interaction with real detector data. To address this, I recently began volunteering as an analyst for actual gravitational wave events. This post is a primer on the pre-processing steps applied to the raw data before it is passed to the Bayesian inference pipeline for parameter estimation.</p>
 
 <p>Gravitational wave signals in their raw form must go through several stages of processing before they are suitable for inference. These steps help clean the signal and prepare it for extracting meaningful physics. One of the first and most essential steps is <strong>whitening</strong>.</p>
@@ -152,31 +152,33 @@ plt.xlim(-0.1, 0.1)</code></pre>
 </div>
 
 <p>Initially, Welch PSD estimation with 16-second segments failed because the data was non-stationary. Reducing the segment length to 4 seconds made it work. This hands-on process really taught me how sensitive and nuanced GW data analysis is. It was fun doing this :) Cheers!</p>
-
-            </section>
+                </section>
+            </div>
         </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/sanikakhadkikar" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                <li><a href="http://www.github.com/sanikakhadkikar" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="mailto:sanika@psu.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Sanika Khadkikar (2024). All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </footer>
+
     </div>
 
-    <footer id="footer">
-        <ul class="icons">
-            <li><a href="https://www.linkedin.com/in/sanikakhadkikar" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-            <li><a href="http://www.github.com/sanikakhadkikar" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="mailto:sanika@psu.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
-        <ul class="copyright">
-            <li>&copy; Sanika Khadkikar (2025). All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-    </footer>
-</div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
 </body>
 </html>
