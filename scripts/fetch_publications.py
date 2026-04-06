@@ -77,7 +77,7 @@ def process_publication(pub):
     
     # Determine authorship position for Sanika Khadkikar
     authorship_position = "other"
-    author_position = None
+    author_position = 999  # sentinel: position unknown (large collaboration paper)
 
     for i, author in enumerate(authors):
         if 'Khadkikar, Sanika' in author or 'Khadkikar, S.' in author:

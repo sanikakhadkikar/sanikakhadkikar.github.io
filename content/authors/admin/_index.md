@@ -46,7 +46,7 @@ profiles:
     url: https://scholar.google.com/citations?user=mR55UDkAAAAJ&hl=en
     label: Google Scholar
   - icon: academicons/ads
-    url: https://ui.adsabs.harvard.edu/search/q=author%3AKhadkikar%2C+Sanika&sort=date+desc
+    url: https://ui.adsabs.harvard.edu/search/filter_author_facet_hier_fq_author=OR&filter_author_facet_hier_fq_author=author_facet_hier%3A%221%2FKhadkikar%2C%20S%2FKhadkikar%2C%20S%20%20S%22&filter_author_facet_hier_fq_author=author_facet_hier%3A%221%2FKhadkikar%2C%20S%2FKhadkikar%2C%20Sanika%22&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(author_facet_hier%3A%221%2FKhadkikar%2C%20S%2FKhadkikar%2C%20S%20%20S%22%20OR%20author_facet_hier%3A%221%2FKhadkikar%2C%20S%2FKhadkikar%2C%20Sanika%22)&p_=1&q=author%3AKhadkikar%2C%20Sanika&sort=date%20desc%2C%20bibcode%20desc
     label: ADS
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-7389-8825

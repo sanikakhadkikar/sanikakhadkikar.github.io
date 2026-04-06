@@ -7,3 +7,4 @@ resources/
 hugo_stats.json
 go.sum
 _vendor/
+.claude/

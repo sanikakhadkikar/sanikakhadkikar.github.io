@@ -26,11 +26,17 @@
 
         {{ range .publications }}
           {{ if eq .authorship_position "first" }}
-            {{ $firstAuthor = $firstAuthor | append . }}
+            {{/* Only include refereed journals, skip conference abstracts/proceedings */}}
+            {{ if .is_refereed }}
+              {{ $firstAuthor = $firstAuthor | append . }}
+            {{ end }}
           {{ else if strings.Contains .authors "LIGO Scientific Collaboration" }}
             {{ $collaboration = $collaboration | append . }}
           {{ else }}
-            {{ $majorContrib = $majorContrib | append . }}
+            {{/* Only include if author position is known and reasonable (skip mass-author LVK papers) */}}
+            {{ if and .author_position (lt .author_position 100) }}
+              {{ $majorContrib = $majorContrib | append . }}
+            {{ end }}
           {{ end }}
         {{ end }}
 

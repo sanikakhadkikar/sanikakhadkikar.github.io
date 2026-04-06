@@ -9,22 +9,31 @@
     {{ range .Pages.ByDate.Reverse }}
       {{ $dest := .RelPermalink }}
       {{ with .Params.external_link }}{{ $dest = . }}{{ end }}
-      <a href="{{ $dest }}" {{ if .Params.external_link }}target="_blank" rel="noopener"{{ end }} class="news-card">
+      {{ $featured := .Resources.GetMatch "featured.*" }}
+      <a href="{{ $dest }}" {{ if .Params.external_link }}target="_blank" rel="noopener"{{ end }} class="news-card{{ if $featured }} has-image{{ end }}">
 
-        <div class="news-card-meta">
-          <span class="news-card-date">{{ .Date.Format "Jan 2006" }}</span>
-          {{ range first 1 .Params.tags }}
-            <span class="news-card-tag">{{ . }}</span>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">{{ .Date.Format "Jan 2006" }}</span>
+            {{ range first 1 .Params.tags }}
+              <span class="news-card-tag">{{ . }}</span>
+            {{ end }}
+          </div>
+
+          <h3 class="news-card-title">{{ .Title }}</h3>
+
+          {{ with .Params.summary }}
+            <p class="news-card-summary">{{ . }}</p>
           {{ end }}
+
+          <span class="news-card-arrow">{{ if $.Params.external_link }}↗{{ else }}→{{ end }}</span>
         </div>
 
-        <h3 class="news-card-title">{{ .Title }}</h3>
-
-        {{ with .Params.summary }}
-          <p class="news-card-summary">{{ . }}</p>
+        {{ if $featured }}
+          <div class="news-card-image">
+            <img src="{{ $featured.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+          </div>
         {{ end }}
-
-        <span class="news-card-arrow">{{ if $.Params.external_link }}↗{{ else }}→{{ end }}</span>
 
       </a>
     {{ end }}
@@ -39,7 +48,9 @@
 }
 
 .news-card {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
   padding: 1.75rem 0;
   border-bottom: 1px solid rgba(255,255,255,0.07);
   text-decoration: none;
@@ -48,6 +59,34 @@
 }
 .news-card:first-child { border-top: 1px solid rgba(255,255,255,0.07); }
 .news-card:hover { padding-left: 0.75rem; }
+
+.news-card-body {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  padding-right: 2rem;
+}
+
+.news-card-image {
+  flex-shrink: 0;
+  width: 200px;
+  height: 130px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+}
+
+.news-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover .news-card-image img {
+  transform: scale(1.04);
+}
 
 .news-card-meta {
   display: flex;
@@ -81,7 +120,6 @@
   color: #ffffff;
   margin: 0 0 0.5rem 0;
   line-height: 1.35;
-  padding-right: 2rem;
   transition: color 0.2s;
 }
 .news-card:hover .news-card-title { color: #b8a9ff; }
@@ -97,7 +135,7 @@
 
 .news-card-arrow {
   position: absolute;
-  top: 1.75rem;
+  top: 0;
   right: 0;
   font-size: 1rem;
   color: rgba(255,255,255,0.25);
@@ -109,7 +147,20 @@
 }
 
 @media (max-width: 640px) {
-  .news-card { padding: 1.25rem 0; }
+  .news-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem 0;
+    gap: 0.75rem;
+  }
+  .news-card-image {
+    width: 100%;
+    height: 160px;
+    order: -1;
+  }
+  .news-card-body {
+    padding-right: 1.5rem;
+  }
 }
 </style>
 
