@@ -1,0 +1,91 @@
+{{ define "main" }}
+<div class="page-header">
+  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 2rem 2rem 0;">
+    {{ if .Title }}
+    <p class="page-title">{{ .Title }}</p>
+    {{ end }}
+  </div>
+</div>
+
+<div class="page-body">
+  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 1rem 2rem 4rem;">
+    {{ .Content }}
+
+    <div style="margin-top: 1rem;">
+      {{ with .Site.Data.publications }}
+        <div style="margin-bottom: 2rem;">
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; font-family: 'DM Sans', sans-serif;">
+            {{ .total_publications }} publications{{ if .last_updated }} · last updated {{ dateFormat "January 2, 2006" (time .last_updated) }}{{ end }} ·
+            <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A{{ .orcid }}&sort=date%20desc" target="_blank" style="color: #b8a9ff; text-decoration: underline;">View on NASA ADS</a>
+          </p>
+        </div>
+
+        {{ $firstAuthor := slice }}
+        {{ $majorContrib := slice }}
+        {{ $collaboration := slice }}
+
+        {{ range .publications }}
+          {{ if eq .authorship_position "first" }}
+            {{ $firstAuthor = $firstAuthor | append . }}
+          {{ else if strings.Contains .authors "LIGO Scientific Collaboration" }}
+            {{ $collaboration = $collaboration | append . }}
+          {{ else }}
+            {{ $majorContrib = $majorContrib | append . }}
+          {{ end }}
+        {{ end }}
+
+        {{ $firstAuthor  = sort $firstAuthor  "year" "desc" }}
+        {{ $majorContrib = sort $majorContrib "year" "desc" }}
+        {{ $collaboration = sort $collaboration "year" "desc" }}
+
+        <!-- First Author -->
+        {{ if $firstAuthor }}
+          <div style="margin-bottom: 3rem;">
+            <p style="color: #b8a9ff; border-bottom: 2px solid rgba(184,169,255,0.4); padding-bottom: 0.4rem; margin-bottom: 1.25rem; font-size: 1.1rem; font-weight: 600; font-family: 'DM Sans', sans-serif; letter-spacing: 0.03em;">
+              First Author ({{ len $firstAuthor }})
+            </p>
+            {{ range $firstAuthor }}
+              {{ partial "publication-item.html" . }}
+            {{ end }}
+          </div>
+        {{ end }}
+
+        <!-- Major Contributions (non-LVK, non-first-author) -->
+        {{ if $majorContrib }}
+          <div style="margin-bottom: 3rem;">
+            <p style="color: #b8a9ff; border-bottom: 2px solid rgba(184,169,255,0.4); padding-bottom: 0.4rem; margin-bottom: 1.25rem; font-size: 1.1rem; font-weight: 600; font-family: 'DM Sans', sans-serif; letter-spacing: 0.03em;">
+              Major Contributions ({{ len $majorContrib }})
+            </p>
+            {{ range $majorContrib }}
+              {{ partial "publication-item.html" . }}
+            {{ end }}
+          </div>
+        {{ end }}
+
+        <!-- LVK Collaboration Papers -->
+        {{ if $collaboration }}
+          <div style="margin-bottom: 3rem;">
+            <p style="color: #b8a9ff; border-bottom: 2px solid rgba(184,169,255,0.4); padding-bottom: 0.4rem; margin-bottom: 1.25rem; font-size: 1.1rem; font-weight: 600; font-family: 'DM Sans', sans-serif; letter-spacing: 0.03em;">
+              LIGO-Virgo-KAGRA Collaboration ({{ len $collaboration }})
+            </p>
+            {{ range $collaboration }}
+              {{ partial "publication-item.html" . }}
+            {{ end }}
+          </div>
+        {{ end }}
+
+      {{ else }}
+        <div style="padding: 2rem; background: rgba(255,193,7,0.1); border: 1px solid rgba(255,193,7,0.3); border-radius: 6px; text-align: center; font-family: 'DM Sans', sans-serif;">
+          <p>Publications will appear here once the GitHub Action runs.</p>
+          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.6);">The system fetches from NASA ADS daily.</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<style>
+.publication-item a, .publication-item span { transition: all 0.25s ease; }
+</style>
+
+{{ end }}

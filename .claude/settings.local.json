@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:ui.adsabs.harvard.edu)",
+      "WebFetch(domain:api.adsabs.harvard.edu)",
+      "Bash(where python3:*)",
+      "Bash(where python:*)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/sanik/AppData/Local/Programs/**)",
+      "Bash(curl -s \"https://api.adsabs.harvard.edu/v1/search/query?q=orcid:0000-0001-7389-8825&fl=bibcode,title,author,pubdate,pub,abstract,doi,citation_count,read_count,property&sort=date+desc&rows=50\" -H \"Authorization: Bearer TYZMfARUlANXfSWGrct05L5ChuWfyRF3o3oEEpEv\")",
+      "Bash(curl -s \"https://api.adsabs.harvard.edu/v1/search/query?q=author%3A%22Khadkikar%2C+S%22&fl=bibcode,title,author,pubdate,pub,citation_count,property&sort=date+desc&rows=100\" -H \"Authorization: Bearer TYZMfARUlANXfSWGrct05L5ChuWfyRF3o3oEEpEv\")",
+      "WebSearch",
+      "Bash(xargs sed:*)"
+    ]
+  }
+}

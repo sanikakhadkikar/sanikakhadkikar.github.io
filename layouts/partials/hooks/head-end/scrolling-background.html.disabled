@@ -1,0 +1,64 @@
+{{/* Horizontal Scrolling Background Animation */}}
+<style>
+/* Force animation on any element with background image */
+[style*="background-image"],
+section[style*="background-image"] {
+  background-size: 2000px 120% !important; /* Fixed width for consistent animation */
+  background-repeat: repeat !important; /* Repeat in both directions */
+  animation: scroll-horizontal 45s linear infinite !important; /* Faster: 45 second loop */
+}
+/* Apply horizontal scrolling animation to the biography section background */
+.resume-biography-3,
+section[data-block="resume-biography-3"],
+section.dark,
+.dark,
+body.dark section:first-child,
+.landing-page section:first-child {
+  background-size: 2000px 120% !important; /* Fixed width for consistent animation */
+  background-repeat: repeat !important; /* Repeat in both directions */
+  background-position: 0 center !important;
+  animation: scroll-horizontal 45s linear infinite !important; /* Faster: 45 second loop */
+}
+
+/* Keyframe animation for horizontal scrolling */
+@keyframes scroll-horizontal {
+  0% {
+    background-position: 0px center;
+  }
+  100% {
+    background-position: 2000px center; /* Match the background-size width */
+  }
+}
+
+/* Pause animation on hover (optional) */
+.resume-biography-3:hover,
+section[data-block="resume-biography-3"]:hover,
+section.dark:hover,
+.dark:hover,
+body.dark section:first-child:hover,
+.landing-page section:first-child:hover {
+  animation-play-state: paused;
+}
+
+/* Ensure smooth animation on all devices */
+@media (prefers-reduced-motion: reduce) {
+  .resume-biography-3,
+  section[data-block="resume-biography-3"],
+  section.dark {
+    animation: none !important;
+    background-position: 0 center !important;
+  }
+}
+
+/* Alternative slower speed and zoom for mobile */
+@media (max-width: 768px) {
+  .resume-biography-3,
+  section[data-block="resume-biography-3"],
+  section.dark,
+  [style*="background-image"],
+  section[style*="background-image"] {
+    animation-duration: 60s; /* Adjusted mobile speed */
+    background-size: 2000px 100% !important; /* Less zoomed in on mobile */
+  }
+}
+</style>

@@ -1,0 +1,19 @@
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Curriculum Vitae
+    url: /cv/
+    weight: 20
+  - name: Publications
+    url: publication/
+    weight: 30
+  - name: Research
+    url: projects/
+    weight: 40
+  - name: News
+    url: post/
+    weight: 45
+  - name: Food for Thought
+    url: notes/
+    weight: 50

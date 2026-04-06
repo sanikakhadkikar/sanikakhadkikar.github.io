@@ -1,0 +1,41 @@
+<div class="publication-item" style="margin-bottom: 1.25rem; padding: 1.25rem 1.5rem; background: rgba(0,0,0,0.25); border-left: 3px solid {{ if eq .authorship_position "first" }}#28a745{{ else }}#6c757d{{ end }}; border-radius: 6px; backdrop-filter: blur(4px); transition: all 0.25s ease; cursor: pointer;"
+  onmouseover="this.style.background='rgba(184,169,255,0.08)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 24px rgba(0,0,0,0.2)';"
+  onmouseout="this.style.background='rgba(0,0,0,0.25)'; this.style.transform='translateY(0)'; this.style.boxShadow='none';"
+  onclick="if(this.querySelector('a[href*=&quot;ui.adsabs.harvard.edu&quot;]')) { window.open(this.querySelector('a[href*=&quot;ui.adsabs.harvard.edu&quot;]').href, '_blank'); }">
+
+  <!-- Badge + Year row -->
+  <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.55rem;">
+    <span style="background-color: {{ if eq .authorship_position "first" }}#28a745{{ else }}#6c757d{{ end }}; color: white; padding: 2px 8px; border-radius: 8px; font-size: 0.78rem; font-family: 'DM Sans', sans-serif; font-weight: 500;">
+      {{ if eq .authorship_position "first" }}1st{{ else }}Co-auth{{ end }}
+    </span>
+    <span style="color: #b8a9ff; font-size: 0.78rem; font-family: 'DM Sans', sans-serif; font-weight: 400; margin-left: auto;">{{ .year }}</span>
+  </div>
+
+  <!-- Title -->
+  <p style="margin: 0 0 0.4rem 0; color: #ffffff; font-size: 1rem; font-weight: 500; line-height: 1.45; font-family: 'DM Sans', sans-serif;">
+    {{ if .ads_url }}
+      <a href="{{ .ads_url }}" target="_blank" style="color: #ffffff; text-decoration: none;">{{ .title }}</a>
+    {{ else }}
+      {{ .title }}
+    {{ end }}
+  </p>
+
+  <!-- Authors -->
+  <p style="margin: 0 0 0.4rem 0; color: rgba(255,255,255,0.65); font-size: 0.9rem; line-height: 1.45; font-family: 'DM Sans', sans-serif; font-weight: 300;">
+    {{ .authors_highlighted | safeHTML }}
+  </p>
+
+  <!-- Journal + links -->
+  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; font-size: 0.88rem; font-family: 'DM Sans', sans-serif;">
+    <span style="font-style: italic; color: rgba(184,169,255,0.8);">{{ .journal }}</span>
+    <div style="margin-left: auto; display: flex; gap: 0.6rem;">
+      {{ if .ads_url }}
+        <a href="{{ .ads_url }}" target="_blank" style="color: #b8a9ff; text-decoration: none; font-weight: 500;" onclick="event.stopPropagation();">ADS</a>
+      {{ end }}
+      {{ if .doi_url }}
+        <a href="{{ .doi_url }}" target="_blank" style="color: #b8a9ff; text-decoration: none; font-weight: 500;" onclick="event.stopPropagation();">DOI</a>
+      {{ end }}
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,359 @@
+{{/* Custom News Carousel Block */}}
+{{ $block := .block }}
+{{ $page := .page }}
+
+{{/* Get all posts sorted by date */}}
+{{ $posts := where site.RegularPages "Type" "post" }}
+{{ $posts = sort $posts "Date" "desc" }}
+
+{{/* Limit to specified count or default to 8 */}}
+{{ $count := $block.content.count | default 8 }}
+{{ $posts = first $count $posts }}
+
+<section id="{{ $block.id | default "news" }}" class="custom-news-carousel">
+  <div class="section-header">
+    <h2 class="section-title">{{ $block.content.title | default "Recent News" }}</h2>
+    {{ with $block.content.subtitle }}
+      <p class="section-subtitle">{{ . | markdownify }}</p>
+    {{ end }}
+  </div>
+  
+  <div class="carousel-container">
+    <div class="carousel-wrapper">
+      {{ range $index, $post := $posts }}
+        <div class="news-item" data-index="{{ $index }}">
+          {{ $image := $post.Resources.GetMatch "featured.*" }}
+          <div class="news-content{{ if not $image }} full-width{{ end }}">
+            <h3 class="news-title">
+              <a href="{{ $post.RelPermalink }}">{{ $post.Title }}</a>
+            </h3>
+            <div class="news-date">{{ $post.Date.Format "January 2, 2006" }}</div>
+            {{ with $post.Summary }}
+              <p class="news-summary">{{ . | truncate 200 }}</p>
+            {{ end }}
+            {{ with $post.Params.tags }}
+              <div class="news-tags">
+                {{ range first 3 . }}
+                  <span class="tag">{{ . }}</span>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+          {{ $image := $post.Resources.GetMatch "featured.*" }}
+          {{ if $image }}
+            <div class="news-image">
+              <img src="{{ $image.RelPermalink }}" alt="{{ $post.Title }}" loading="lazy">
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+    
+    {{ if gt (len $posts) 1 }}
+      <div class="carousel-nav">
+        <button class="nav-btn nav-prev" aria-label="Previous news item">‹</button>
+        <span class="nav-counter">
+          <span class="current-item">1</span> / <span class="total-items">{{ len $posts }}</span>
+        </span>
+        <button class="nav-btn nav-next" aria-label="Next news item">›</button>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+<style>
+.custom-news-carousel {
+  margin: 2rem auto;
+  padding: 0;
+  max-width: 1200px; /* Match website content width */
+}
+
+.section-header {
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  color: #ffffff !important; /* White text for visibility on dark backgrounds */
+  text-align: center;
+}
+
+.section-subtitle {
+  color: #cccccc; /* Light gray text */
+  margin: 0;
+}
+
+.carousel-container {
+  position: relative;
+  background: #000000; /* Pure black background */
+  border: 1px solid #333333; /* Dark gray border */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-wrapper {
+  position: relative;
+  height: 240px; /* Slightly taller for images */
+  overflow: hidden;
+}
+
+.news-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  background: #000000; /* Pure black item background */
+  display: flex;
+  gap: 1.5rem;
+}
+
+.news-item.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.news-image {
+  flex-shrink: 0;
+  width: 180px; /* Wider images */
+  height: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  order: 2; /* Move image to right side */
+}
+
+.news-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Allow text truncation */
+  order: 1; /* Content on left side */
+}
+
+.news-content.full-width {
+  width: 100%;
+}
+
+.news-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.4;
+}
+
+.news-title a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+}
+
+.news-title a:hover {
+  color: #cccccc; /* Light gray hover */
+}
+
+.news-date {
+  font-size: 0.875rem;
+  color: #999999; /* Medium gray text */
+  margin-bottom: 0.75rem;
+}
+
+.news-summary {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #cccccc; /* Light gray text */
+  margin: 0 0 0.75rem 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.news-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  background: #333333; /* Dark gray tag background */
+  color: #cccccc; /* Light gray tag text */
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.carousel-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: #1a1a1a; /* Very dark gray nav background */
+  border-top: 1px solid #333333; /* Dark gray border */
+}
+
+.nav-btn {
+  background: #666666; /* Medium gray button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.nav-btn:hover {
+  background: #888888; /* Lighter gray hover */
+}
+
+.nav-btn:disabled {
+  background: #444444; /* Dark gray disabled */
+  cursor: not-allowed;
+}
+
+.nav-counter {
+  font-size: 0.875rem;
+  color: #999999; /* Medium gray text */
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-news-carousel {
+    margin: 2rem 1rem; /* Add side margins on mobile */
+  }
+  
+  .carousel-wrapper {
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+  }
+  
+  .news-item {
+    position: static;
+    display: none;
+    height: auto;
+    padding: 1rem;
+    flex-direction: column; /* Stack image above content */
+    gap: 0.75rem;
+  }
+
+  .news-item.active {
+    display: flex;
+  }
+  
+  .news-image {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    aspect-ratio: 16 / 7;
+    order: 1; /* Image back on top for mobile */
+  }
+  
+  .news-content {
+    order: 2; /* Content below image on mobile */
+  }
+
+  .news-summary {
+    -webkit-line-clamp: 2;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .news-title {
+    font-size: 1.125rem;
+  }
+
+  .nav-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .news-item {
+    padding: 0.75rem;
+  }
+  
+  .carousel-nav {
+    padding: 0.5rem 1rem;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const carousel = document.querySelector('.custom-news-carousel');
+  if (!carousel) return;
+  
+  const items = carousel.querySelectorAll('.news-item');
+  const prevBtn = carousel.querySelector('.nav-prev');
+  const nextBtn = carousel.querySelector('.nav-next');
+  const currentSpan = carousel.querySelector('.current-item');
+  const totalSpan = carousel.querySelector('.total-items');
+  
+  if (items.length === 0) return;
+  
+  let currentIndex = 0;
+  
+  function showItem(index) {
+    // Hide all items
+    items.forEach(item => item.classList.remove('active'));
+    
+    // Show current item
+    if (items[index]) {
+      items[index].classList.add('active');
+    }
+    
+    // Update counter
+    if (currentSpan) {
+      currentSpan.textContent = index + 1;
+    }
+    
+    currentIndex = index;
+  }
+  
+  function nextItem() {
+    const next = (currentIndex + 1) % items.length;
+    showItem(next);
+  }
+  
+  function prevItem() {
+    const prev = (currentIndex - 1 + items.length) % items.length;
+    showItem(prev);
+  }
+  
+  // Set up navigation
+  if (nextBtn) nextBtn.addEventListener('click', nextItem);
+  if (prevBtn) prevBtn.addEventListener('click', prevItem);
+  
+  // Initialize
+  showItem(0);
+  
+  // Auto-advance every 5 seconds
+  setInterval(nextItem, 5000);
+});
+</script>

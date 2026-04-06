@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container" style="max-width: 900px; margin: 0 auto; padding: 2rem 2rem 0;">
+    <a href="{{ "/projects/" | relURL }}" style="color: #b8a9ff; font-size: 0.9rem; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 1.5rem;">
+      ← All Projects
+    </a>
+    <p class="page-title" style="font-size: 1.75rem; font-weight: 400; color: #ffffff; margin-bottom: 1rem; line-height: 1.3;">{{ .Title }}</p>
+
+    {{ if .Params.tags }}
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+        {{ range .Params.tags }}
+          <span style="background: rgba(184,169,255,0.15); color: #b8a9ff; padding: 4px 10px; border-radius: 16px; font-size: 0.8rem; border: 1px solid rgba(184,169,255,0.25);">{{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ if .Params.summary }}
+      <p style="font-size: 1.1rem; color: #b8a9ff; font-style: italic; line-height: 1.6; margin-bottom: 1.25rem; border-left: 3px solid rgba(184,169,255,0.4); padding-left: 1rem;">{{ .Params.summary }}</p>
+    {{ end }}
+    {{ if .Params.ads_url }}
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 2rem;">
+        <a href="{{ .Params.ads_url }}" target="_blank" rel="noopener" style="background: rgba(184,169,255,0.12); color: #b8a9ff; padding: 0.45rem 1.1rem; border-radius: 6px; text-decoration: none; border: 1px solid rgba(184,169,255,0.3); font-size: 0.88rem; font-family: 'DM Sans', sans-serif;">ADS</a>
+        {{ if .Params.doi_url }}<a href="{{ .Params.doi_url }}" target="_blank" rel="noopener" style="background: rgba(184,169,255,0.12); color: #b8a9ff; padding: 0.45rem 1.1rem; border-radius: 6px; text-decoration: none; border: 1px solid rgba(184,169,255,0.3); font-size: 0.88rem; font-family: 'DM Sans', sans-serif;">DOI</a>{{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+<div class="page-body">
+  <div class="container" style="max-width: 900px; margin: 0 auto; padding: 1rem 2rem 4rem;">
+    <div style="color: #e8e6f0; font-size: 1.05rem; line-height: 1.8; font-weight: 300;">
+      {{ .Content }}
+    </div>
+
+    {{ if or .Params.url_code .Params.url_pdf .Params.url_slides .Params.url_video }}
+      <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+        {{ if .Params.url_pdf }}
+          <a href="{{ .Params.url_pdf }}" target="_blank" style="background: rgba(184,169,255,0.15); color: #b8a9ff; padding: 0.5rem 1.2rem; border-radius: 6px; text-decoration: none; border: 1px solid rgba(184,169,255,0.3); font-size: 0.9rem;">PDF</a>
+        {{ end }}
+        {{ if .Params.url_code }}
+          <a href="{{ .Params.url_code }}" target="_blank" style="background: rgba(184,169,255,0.15); color: #b8a9ff; padding: 0.5rem 1.2rem; border-radius: 6px; text-decoration: none; border: 1px solid rgba(184,169,255,0.3); font-size: 0.9rem;">Code</a>
+        {{ end }}
+        {{ if .Params.url_slides }}
+          <a href="{{ .Params.url_slides }}" target="_blank" style="background: rgba(184,169,255,0.15); color: #b8a9ff; padding: 0.5rem 1.2rem; border-radius: 6px; text-decoration: none; border: 1px solid rgba(184,169,255,0.3); font-size: 0.9rem;">Slides</a>
+        {{ end }}
+        {{ if .Params.url_video }}
+          <a href="{{ .Params.url_video }}" target="_blank" style="background: rgba(184,169,255,0.15); color: #b8a9ff; padding: 0.5rem 1.2rem; border-radius: 6px; text-decoration: none; border: 1px solid rgba(184,169,255,0.3); font-size: 0.9rem;">Video</a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

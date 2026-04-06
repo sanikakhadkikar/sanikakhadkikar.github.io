@@ -1,0 +1,34 @@
+{{/* Inject NASA BNS merger video as hero section background */}}
+<style>
+#hero-video-credit {
+  position: absolute;
+  bottom: 10px;
+  left: 14px;
+  z-index: 2;
+  font-size: 0.65rem;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.03em;
+  pointer-events: none;
+  user-select: none;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const hero = document.querySelector('section.dark');
+  if (!hero) return;
+
+  const video = document.createElement('video');
+  video.id = 'hero-video-bg';
+  video.src = '/media/nasa_bns.mp4';
+  video.autoplay = true;
+  video.muted = true;
+  video.playsInline = true;
+  video.loop = false;
+  hero.insertBefore(video, hero.firstChild);
+
+  const credit = document.createElement('div');
+  credit.id = 'hero-video-credit';
+  credit.textContent = 'Video: NASA Goddard Space Flight Center / CI Lab';
+  hero.appendChild(credit);
+});
+</script>

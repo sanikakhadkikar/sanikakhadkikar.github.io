@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+<div style="max-width: 800px; margin: 0 auto; padding: 2.5rem 2rem 5rem;">
+
+  <a href="{{ "/notes/" | relURL }}" style="color: #b8a9ff; font-size: 0.9rem; text-decoration: none; display: inline-block; margin-bottom: 2rem;">← Food for Thought</a>
+
+  <p style="font-size: 1.5rem; font-weight: 600; color: #ffffff; line-height: 1.3; margin-bottom: 0.75rem; font-family: 'DM Sans', sans-serif;">{{ .Title }}</p>
+
+  {{ with .Params.summary }}
+    <p style="color: #b8a9ff; font-size: 1rem; font-style: italic; margin-bottom: 0.75rem; font-family: 'DM Sans', sans-serif;">{{ . }}</p>
+  {{ end }}
+
+  {{ if .Date }}
+    <p style="color: rgba(255,255,255,0.45); font-size: 0.85rem; margin-bottom: 2.5rem; font-family: 'DM Sans', sans-serif;">{{ .Date.Format "January 2, 2006" }}</p>
+  {{ end }}
+
+  <div class="fft-content">
+    {{ .Content }}
+  </div>
+
+</div>
+
+<style>
+.fft-content {
+  color: rgba(255,255,255,0.8);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+}
+.fft-content p { margin-bottom: 1.1rem; }
+.fft-content h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 2rem 0 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.fft-content ol, .fft-content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.1rem;
+}
+.fft-content li { margin-bottom: 0.4rem; }
+.fft-content a { color: #b8a9ff; text-decoration: underline; }
+.fft-content strong { color: #ffffff; font-weight: 500; }
+.fft-content em { color: rgba(255,255,255,0.7); }
+.fft-content hr { border: none; border-top: 1px solid rgba(255,255,255,0.12); margin: 2.5rem 0; }
+.fft-content pre {
+  background: rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+}
+.fft-content code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.85rem;
+}
+mjx-container[display="true"] {
+  overflow-x: auto;
+  margin: 1.25rem 0;
+}
+</style>
+
+{{ end }}

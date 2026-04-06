@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="cv-full-wrapper">
+  <iframe
+    src="{{ (print ("/uploads/Sanika_Resume_Oct2025.pdf" | relURL) "#toolbar=1&navpanes=0&view=FitH") }}"
+    title="Sanika S. Khadkikar CV"
+    class="cv-iframe"
+  ></iframe>
+  <p class="cv-download-fallback">
+    If the document does not display, <a href="{{ "/uploads/Sanika_Resume_Oct2025.pdf" | relURL }}" target="_blank" rel="noopener">download the CV</a>.
+  </p>
+</div>
+
+<style>
+.cv-full-wrapper {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  overflow: hidden;
+  background: #050913;
+}
+
+.cv-iframe {
+  display: block;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  border: none;
+  background: #111827;
+  /* Invert the embedded PDF to mimic a dark mode view. */
+  filter: invert(0.92) hue-rotate(180deg);
+}
+
+.cv-download-fallback {
+  text-align: center;
+  margin: 1rem 0 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.cv-download-fallback a {
+  color: #b8a9ff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .cv-iframe {
+    height: calc(100vh - 90px);
+  }
+}
+</style>
+{{ end }}
