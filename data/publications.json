@@ -1,29 +1,8 @@
 {
-  "last_updated": "2026-04-08T07:27:34.093823+00:00",
+  "last_updated": "2026-04-09T07:43:03.674436+00:00",
   "total_publications": 32,
   "orcid": "0000-0001-7389-8825",
   "publications": [
-    {
-      "title": "GWTC-4.0: Tests of General Relativity. II. Parameterized Tests",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 790,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-03-00",
-      "abstract": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration. We include events up to and including the first part of the fourth observing run (O4a) of the LIGO Virgo KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$ from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the eight tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole, and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr black hole in GR, or for line of sight acceleration, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. We improve the bounds on deviations from the GR PN coefficients by factors of 1.2-5.5 and provide illustrative translations to constraints on some modified theories. Also, we update the bound on the mass of the graviton, at 90% credibility, to $m_g \\leq 1.92\\times 10^{-23} \\mathrm{eV}/c^2$. Thus, we see that GR holds, and many of the bounds on possible deviations derived from our events are the best to date.",
-      "bibcode": "2026arXiv260319020T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319020T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2603.19020",
-      "citation_count": 4,
-      "read_count": 1082,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
-    },
     {
       "title": "All-sky Searches for Continuous Gravitational Waves from Isolated Neutron Stars in the Data from the First Part of the Fourth LIGO-Virgo-KAGRA Observing Run",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
@@ -80,6 +59,27 @@
       "doi_url": "https://doi.org/10.48550/arXiv.2603.19019",
       "citation_count": 4,
       "read_count": 1588,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "GWTC-4.0: Tests of General Relativity. II. Parameterized Tests",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 790,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-03-00",
+      "abstract": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration. We include events up to and including the first part of the fourth observing run (O4a) of the LIGO Virgo KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$ from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the eight tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole, and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr black hole in GR, or for line of sight acceleration, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. We improve the bounds on deviations from the GR PN coefficients by factors of 1.2-5.5 and provide illustrative translations to constraints on some modified theories. Also, we update the bound on the mass of the graviton, at 90% credibility, to $m_g \\leq 1.92\\times 10^{-23} \\mathrm{eV}/c^2$. Thus, we see that GR holds, and many of the bounds on possible deviations derived from our events are the best to date.",
+      "bibcode": "2026arXiv260319020T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319020T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2603.19020",
+      "citation_count": 4,
+      "read_count": 1082,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
@@ -363,27 +363,6 @@
       ]
     },
     {
-      "title": "GWTC-4.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 784,
-      "journal": "arXiv e-prints",
-      "year": "2025",
-      "pubdate": "2025-09-00",
-      "abstract": "We analyze data from 142 of the 218 gravitational-wave (GW) sources in the fourth LIGO-Virgo-KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-4.0) to estimate the Hubble constant $H_0$ jointly with the population properties of merging compact binaries. We measure the luminosity distance and redshifted masses of GW sources directly; in contrast, we infer GW source redshifts statistically through i) location of features in the compact object mass spectrum and merger rate evolution, and ii) identifying potential host galaxies in the GW localization volume. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We also constrain parameterized deviations from general relativity which affect GW propagation, specifically those modifying the dependence of a GW signal on the source luminosity distance. Assuming our fiducial model for the source-frame mass distribution and using GW candidates detected up to the end of the fourth observing run (O4a), together with the GLADE+ all-sky galaxy catalog, we estimate $H_0 = 76.6^{+13.0}_{-9.5} (76.6^{+25.2}_{-14.0})$ km s$^{-1}$ Mpc$^{-1}$. This value is reported as a median with 68.3% (90%) symmetric credible interval, and includes combination with the $H_0$ measurement from GW170817 and its electromagnetic counterpart. Using a parametrization of modified GW propagation in terms of the magnitude parameter $Ξ_0$, we estimate $Ξ_0 = 1.2^{+0.8}_{-0.4} (1.2^{+2.4}_{-0.5})$, where $Ξ_0 = 1$ recovers the behavior of general relativity.",
-      "bibcode": "2025arXiv250904348T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025arXiv250904348T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2509.04348",
-      "citation_count": 61,
-      "read_count": 1447,
-      "is_refereed": false,
-      "arxiv_class": [
-        "astro-ph.CO",
-        "gr-qc"
-      ]
-    },
-    {
       "title": "GW250114: Testing Hawking's Area Law and the Kerr Nature of Black Holes",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
@@ -426,6 +405,27 @@
       ]
     },
     {
+      "title": "GWTC-4.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 784,
+      "journal": "arXiv e-prints",
+      "year": "2025",
+      "pubdate": "2025-09-00",
+      "abstract": "We analyze data from 142 of the 218 gravitational-wave (GW) sources in the fourth LIGO-Virgo-KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-4.0) to estimate the Hubble constant $H_0$ jointly with the population properties of merging compact binaries. We measure the luminosity distance and redshifted masses of GW sources directly; in contrast, we infer GW source redshifts statistically through i) location of features in the compact object mass spectrum and merger rate evolution, and ii) identifying potential host galaxies in the GW localization volume. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We also constrain parameterized deviations from general relativity which affect GW propagation, specifically those modifying the dependence of a GW signal on the source luminosity distance. Assuming our fiducial model for the source-frame mass distribution and using GW candidates detected up to the end of the fourth observing run (O4a), together with the GLADE+ all-sky galaxy catalog, we estimate $H_0 = 76.6^{+13.0}_{-9.5} (76.6^{+25.2}_{-14.0})$ km s$^{-1}$ Mpc$^{-1}$. This value is reported as a median with 68.3% (90%) symmetric credible interval, and includes combination with the $H_0$ measurement from GW170817 and its electromagnetic counterpart. Using a parametrization of modified GW propagation in terms of the magnitude parameter $Ξ_0$, we estimate $Ξ_0 = 1.2^{+0.8}_{-0.4} (1.2^{+2.4}_{-0.5})$, where $Ξ_0 = 1$ recovers the behavior of general relativity.",
+      "bibcode": "2025arXiv250904348T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025arXiv250904348T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2509.04348",
+      "citation_count": 61,
+      "read_count": 1447,
+      "is_refereed": false,
+      "arxiv_class": [
+        "astro-ph.CO",
+        "gr-qc"
+      ]
+    },
+    {
       "title": "Upper Limits on the Isotropic Gravitational-Wave Background from the first part of LIGO, Virgo, and KAGRA's fourth Observing Run",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -448,27 +448,6 @@
       ]
     },
     {
-      "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 783,
-      "journal": "arXiv e-prints",
-      "year": "2025",
-      "pubdate": "2025-08-00",
-      "abstract": "LIGO, Virgo, and KAGRA form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center. This paper describes open data from this network, including the addition of data from the first part of the fourth observing run (O4a) and selected periods from the preceding engineering run, collected from May 2023 to January 2024. The public data set includes calibrated strain time series for each instrument, data from additional channels used for noise subtraction and detector characterization, and analysis data products from version 4.0 of the Gravitational-Wave Transient Catalog.",
-      "bibcode": "2025arXiv250818079T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025arXiv250818079T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2508.18079",
-      "citation_count": 59,
-      "read_count": 1679,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
-    },
-    {
       "title": "GWTC-4.0: Updating the Gravitational-Wave Transient Catalog with Observations from the First Part of the Fourth LIGO-Virgo-KAGRA Observing Run",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -483,6 +462,27 @@
       "doi_url": "https://doi.org/10.48550/arXiv.2508.18082",
       "citation_count": 334,
       "read_count": 4008,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 783,
+      "journal": "arXiv e-prints",
+      "year": "2025",
+      "pubdate": "2025-08-00",
+      "abstract": "LIGO, Virgo, and KAGRA form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center. This paper describes open data from this network, including the addition of data from the first part of the fourth observing run (O4a) and selected periods from the preceding engineering run, collected from May 2023 to January 2024. The public data set includes calibrated strain time series for each instrument, data from additional channels used for noise subtraction and detector characterization, and analysis data products from version 4.0 of the Gravitational-Wave Transient Catalog.",
+      "bibcode": "2025arXiv250818079T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025arXiv250818079T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2508.18079",
+      "citation_count": 59,
+      "read_count": 1679,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
