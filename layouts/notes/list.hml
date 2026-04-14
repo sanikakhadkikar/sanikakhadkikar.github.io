@@ -1,0 +1,337 @@
+{{/* 
+  layouts/notes/list.html
+  
+  REPLACES your existing layouts/notes/list.html.
+  
+  What it does:
+    1. Renders the "Food for Thought" title
+    2. Shows existing blog-style notes (eccentricity, quadrupole, etc.) 
+       under "Gravitational Gleanings" as the familiar image cards
+    3. Shows flashcard-style problems under each section with 
+       click-to-reveal answers
+  
+  SAFE because:
+    - It only affects /notes/ list page (not single pages)
+    - Existing notes (type: notes, no "problem_section" param) render 
+      as blog cards exactly as before
+    - New problems (with "problem_section" in frontmatter) render as 
+      flashcards
+    - Your single.html for individual note pages is untouched
+*/}}
+
+{{ define "main" }}
+
+{{/* Load the flashcard CSS */}}
+<link rel="stylesheet" href="{{ "css/flashcards.css" | relURL }}">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+<div class="flashcard-page">
+
+  <h1 class="fc-page-title">Food for Thought</h1>
+
+  {{/* ============================================================
+       SECTION: PROBABILISTIC PONDERINGS
+       ============================================================ */}}
+  {{ $prob_problems := where .Pages "Params.problem_section" "prob" }}
+
+  <div class="fc-section fc-section--prob">
+    <div class="fc-section-head">
+      <h2 class="fc-section-title fc-section-title--prob">Probabilistic Ponderings</h2>
+    </div>
+    <p class="fc-section-desc">
+      I work with data analysis and probability daily. But how much can I really apply it?
+    </p>
+
+    {{/* Collect all tags from this section's problems */}}
+    {{ $prob_tags := slice }}
+    {{ range $prob_problems }}
+      {{ range .Params.tags }}
+        {{ $prob_tags = $prob_tags | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $prob_tags = $prob_tags | uniq }}
+
+    {{ if $prob_tags }}
+    <div class="fc-filters" data-section="prob">
+      <button class="fc-tag fc-tag--prob on" data-filter="all">all</button>
+      {{ range $prob_tags }}
+      <button class="fc-tag fc-tag--prob" data-filter="{{ . }}">{{ . }}</button>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $prob_problems }}
+    <div class="fc-cards" data-section="prob">
+      {{ range $i, $p := $prob_problems }}
+      <div class="fc-card" data-tags="{{ delimit .Params.tags " " }}">
+        <div class="fc-q" onclick="fcToggle(this)">
+          <div class="fc-q-num fc-q-num--prob">{{ printf "%02d" (add $i 1) }}</div>
+          <div class="fc-q-body">
+            {{ with .Params.source }}
+            <div class="fc-q-src">
+              {{ . }}
+              {{ with $.Params.date }}<span class="fc-q-dt">· {{ .Format "Jan 2006" }}</span>{{ end }}
+              {{ with $.Params.difficulty }}
+              <span class="fc-diff">
+                {{ range seq 3 }}
+                  <i class="fc-dot{{ if le . $.Params.difficulty }} fc-dot--on fc-dot--prob{{ end }}"></i>
+                {{ end }}
+              </span>
+              {{ end }}
+            </div>
+            {{ end }}
+            <div class="fc-q-text">{{ .Params.question | markdownify }}</div>
+            {{ with .Params.tags }}
+            <div class="fc-q-tags">
+              {{ range . }}<span class="fc-q-tag">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+          <svg class="fc-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="fc-ans">
+          <div class="fc-ans-in">
+            <div class="fc-fold"></div>
+            {{/* Render answer images (GoodNotes scans) */}}
+            {{ $images := .Resources.Match "*.{jpg,jpeg,png,gif}" }}
+            {{ range $images }}
+              <img class="fc-hw-img" src="{{ .RelPermalink }}" alt="Handwritten solution" loading="lazy" />
+            {{ end }}
+            {{/* Render markdown answer content if present */}}
+            {{ if .Content }}
+            <div class="fc-ans-content">
+              {{ .Content }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <hr class="fc-divider">
+
+  {{/* ============================================================
+       SECTION: GRAVITATIONAL GLEANINGS
+       ============================================================ */}}
+  {{ $grav_blogs := where .Pages "Params.problem_section" "nil" }}
+  {{/* Fallback: show pages that DON'T have problem_section set */}}
+  {{ $grav_blogs = where .Pages "Params.problem_section" "==" nil }}
+  {{ $grav_problems := where .Pages "Params.problem_section" "grav" }}
+
+  <div class="fc-section fc-section--grav">
+    <div class="fc-section-head">
+      <h2 class="fc-section-title fc-section-title--grav">Gravitational Gleanings</h2>
+    </div>
+    <p class="fc-section-desc">
+      Gravitational physics is what I specialize in. What are some of the coolest things, in my opinion, in gravity?
+    </p>
+
+    {{/* Existing blog-style posts as image cards */}}
+    {{ if $grav_blogs }}
+    <div class="fc-blog-grid">
+      {{ range $grav_blogs }}
+      <a class="fc-blog-card" href="{{ .RelPermalink }}">
+        {{ $img := .Resources.GetMatch "featured*" }}
+        {{ if $img }}
+        <img class="fc-blog-card-img" src="{{ $img.RelPermalink }}" alt="{{ .Title }}" />
+        {{ else }}
+          {{ with .Params.image }}
+          <img class="fc-blog-card-img" src="{{ $.Site.BaseURL }}uploads/{{ .filename | default .caption | default "" }}" alt="{{ $.Title }}" />
+          {{ end }}
+        {{ end }}
+        <div class="fc-blog-card-body">
+          <span class="fc-blog-card-arrow">→</span>
+          <div class="fc-blog-card-title">{{ .Title }}</div>
+          <div class="fc-blog-card-desc">{{ .Params.summary | default .Summary | truncate 120 }}</div>
+          <div class="fc-blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Flashcard problems for gravity */}}
+    {{ $grav_tags := slice }}
+    {{ range $grav_problems }}
+      {{ range .Params.tags }}
+        {{ $grav_tags = $grav_tags | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $grav_tags = $grav_tags | uniq }}
+
+    {{ if $grav_tags }}
+    <div class="fc-filters" data-section="grav">
+      <button class="fc-tag fc-tag--grav on" data-filter="all">all</button>
+      {{ range $grav_tags }}
+      <button class="fc-tag fc-tag--grav" data-filter="{{ . }}">{{ . }}</button>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $grav_problems }}
+    <div class="fc-cards" data-section="grav">
+      {{ range $i, $p := $grav_problems }}
+      <div class="fc-card" data-tags="{{ delimit .Params.tags " " }}">
+        <div class="fc-q" onclick="fcToggle(this)">
+          <div class="fc-q-num fc-q-num--grav">{{ printf "%02d" (add $i 1) }}</div>
+          <div class="fc-q-body">
+            {{ with .Params.source }}
+            <div class="fc-q-src">
+              {{ . }}
+              {{ with $.Params.date }}<span class="fc-q-dt">· {{ .Format "Jan 2006" }}</span>{{ end }}
+              {{ with $.Params.difficulty }}
+              <span class="fc-diff">
+                {{ range seq 3 }}
+                  <i class="fc-dot{{ if le . $.Params.difficulty }} fc-dot--on fc-dot--grav{{ end }}"></i>
+                {{ end }}
+              </span>
+              {{ end }}
+            </div>
+            {{ end }}
+            <div class="fc-q-text">{{ .Params.question | markdownify }}</div>
+            {{ with .Params.tags }}
+            <div class="fc-q-tags">
+              {{ range . }}<span class="fc-q-tag">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+          <svg class="fc-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="fc-ans">
+          <div class="fc-ans-in">
+            <div class="fc-fold"></div>
+            {{ $images := .Resources.Match "*.{jpg,jpeg,png,gif}" }}
+            {{ range $images }}
+              <img class="fc-hw-img" src="{{ .RelPermalink }}" alt="Handwritten solution" loading="lazy" />
+            {{ end }}
+            {{ if .Content }}
+            <div class="fc-ans-content">
+              {{ .Content }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <hr class="fc-divider">
+
+  {{/* ============================================================
+       SECTION: WHIMSICAL WONDERINGS
+       ============================================================ */}}
+  {{ $whim_problems := where .Pages "Params.problem_section" "whim" }}
+
+  <div class="fc-section fc-section--whim">
+    <div class="fc-section-head">
+      <h2 class="fc-section-title fc-section-title--whim">Whimsical Wonderings</h2>
+    </div>
+    <p class="fc-section-desc">
+      Using the most random thoughts I get to strengthen my mind to do back-of-the-envelope calculations.
+    </p>
+
+    {{ $whim_tags := slice }}
+    {{ range $whim_problems }}
+      {{ range .Params.tags }}
+        {{ $whim_tags = $whim_tags | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $whim_tags = $whim_tags | uniq }}
+
+    {{ if $whim_tags }}
+    <div class="fc-filters" data-section="whim">
+      <button class="fc-tag fc-tag--whim on" data-filter="all">all</button>
+      {{ range $whim_tags }}
+      <button class="fc-tag fc-tag--whim" data-filter="{{ . }}">{{ . }}</button>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $whim_problems }}
+    <div class="fc-cards" data-section="whim">
+      {{ range $i, $p := $whim_problems }}
+      <div class="fc-card" data-tags="{{ delimit .Params.tags " " }}">
+        <div class="fc-q" onclick="fcToggle(this)">
+          <div class="fc-q-num fc-q-num--whim">{{ printf "%02d" (add $i 1) }}</div>
+          <div class="fc-q-body">
+            {{ with .Params.source }}
+            <div class="fc-q-src">
+              {{ . }}
+              {{ with $.Params.date }}<span class="fc-q-dt">· {{ .Format "Jan 2006" }}</span>{{ end }}
+              {{ with $.Params.difficulty }}
+              <span class="fc-diff">
+                {{ range seq 3 }}
+                  <i class="fc-dot{{ if le . $.Params.difficulty }} fc-dot--on fc-dot--whim{{ end }}"></i>
+                {{ end }}
+              </span>
+              {{ end }}
+            </div>
+            {{ end }}
+            <div class="fc-q-text">{{ .Params.question | markdownify }}</div>
+            {{ with .Params.tags }}
+            <div class="fc-q-tags">
+              {{ range . }}<span class="fc-q-tag">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+          <svg class="fc-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="fc-ans">
+          <div class="fc-ans-in">
+            <div class="fc-fold"></div>
+            {{ $images := .Resources.Match "*.{jpg,jpeg,png,gif}" }}
+            {{ range $images }}
+              <img class="fc-hw-img" src="{{ .RelPermalink }}" alt="Handwritten solution" loading="lazy" />
+            {{ end }}
+            {{ if .Content }}
+            <div class="fc-ans-content">
+              {{ .Content }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+</div>
+
+{{/* Flashcard toggle JS */}}
+<script>
+function fcToggle(el) {
+  el.closest('.fc-card').classList.toggle('open');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.fc-tag').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var filterGroup = btn.closest('.fc-filters');
+      filterGroup.querySelectorAll('.fc-tag').forEach(function(b) { b.classList.remove('on'); });
+      btn.classList.add('on');
+
+      var section = filterGroup.dataset.section;
+      var tag = btn.dataset.filter;
+      var cardsContainer = filterGroup.nextElementSibling;
+      if (!cardsContainer) return;
+
+      cardsContainer.querySelectorAll('.fc-card').forEach(function(c) {
+        if (tag === 'all') {
+          c.style.display = '';
+        } else {
+          var tags = (c.dataset.tags || '');
+          c.style.display = tags.indexOf(tag) !== -1 ? '' : 'none';
+        }
+      });
+    });
+  });
+});
+</script>
+
+{{ end }}
