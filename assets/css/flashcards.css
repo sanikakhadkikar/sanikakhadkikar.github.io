@@ -1,0 +1,362 @@
+/* ================================================================
+   flashcards.css
+   
+   All classes prefixed with fc- to guarantee zero collision
+   with Hugo Blox theme styles.
+   
+   Place in: assets/css/flashcards.css
+   (loaded by the notes list.html template, not globally)
+   ================================================================ */
+
+/* --- Color tokens --- */
+.flashcard-page {
+  --fc-accent: #b49bff;
+  --fc-green: #7ec89b;
+  --fc-amber: #e8b86d;
+  --fc-border: rgba(255,255,255,.08);
+  --fc-border-lt: rgba(255,255,255,.12);
+  --fc-card-bg: rgba(255,255,255,.04);
+  --fc-card-hover: rgba(255,255,255,.07);
+  --fc-text: #e0ddd5;
+  --fc-text-dim: #9b9a97;
+  --fc-text-faint: #5a5960;
+}
+
+/* --- Page title --- */
+.fc-page-title {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -.5px;
+  margin-bottom: 40px;
+  color: var(--fc-text);
+}
+
+/* --- Section --- */
+.fc-section {
+  margin-bottom: 48px;
+}
+
+.fc-section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.fc-section-title {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.fc-section-title--prob { color: var(--fc-accent); }
+.fc-section-title--grav { color: var(--fc-green); }
+.fc-section-title--whim { color: var(--fc-amber); }
+
+.fc-section-desc {
+  font-size: 14px;
+  color: var(--fc-text-faint);
+  line-height: 1.55;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+/* --- Divider --- */
+.fc-divider {
+  border: none;
+  border-top: 1px solid var(--fc-border);
+  margin: 48px 0;
+}
+
+/* --- Filters --- */
+.fc-filters {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.fc-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .4px;
+  padding: 4px 12px;
+  border: 1px solid var(--fc-border);
+  border-radius: 16px;
+  background: transparent;
+  color: var(--fc-text-faint);
+  cursor: pointer;
+  transition: all .15s;
+}
+.fc-tag:hover {
+  border-color: var(--fc-border-lt);
+  color: var(--fc-text-dim);
+}
+
+.fc-tag--prob.on { background: var(--fc-accent); border-color: var(--fc-accent); color: #0a0a0f; }
+.fc-tag--grav.on { background: var(--fc-green); border-color: var(--fc-green); color: #0a0a0f; }
+.fc-tag--whim.on { background: var(--fc-amber); border-color: var(--fc-amber); color: #0a0a0f; }
+
+/* --- Card list --- */
+.fc-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Card --- */
+.fc-card {
+  background: var(--fc-card-bg);
+  border: 1px solid var(--fc-border);
+  border-bottom: none;
+  overflow: hidden;
+  transition: background .15s;
+  animation: fcCardIn .35s ease both;
+}
+
+.fc-card:first-child { border-radius: 10px 10px 0 0; }
+.fc-card:last-child { border-radius: 0 0 10px 10px; border-bottom: 1px solid var(--fc-border); }
+.fc-card:only-child { border-radius: 10px; border-bottom: 1px solid var(--fc-border); }
+.fc-card.open { background: var(--fc-card-hover); }
+
+@keyframes fcCardIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fc-card:nth-child(1) { animation-delay: .04s; }
+.fc-card:nth-child(2) { animation-delay: .08s; }
+.fc-card:nth-child(3) { animation-delay: .12s; }
+.fc-card:nth-child(4) { animation-delay: .16s; }
+.fc-card:nth-child(5) { animation-delay: .20s; }
+
+/* --- Question --- */
+.fc-q {
+  padding: 22px 24px;
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  user-select: none;
+  transition: background .1s;
+}
+.fc-q:hover { background: var(--fc-card-hover); }
+
+.fc-q-num {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--fc-text-faint);
+  min-width: 34px;
+  line-height: 1;
+  padding-top: 2px;
+  transition: color .25s;
+}
+
+.fc-card.open .fc-q-num--prob { color: var(--fc-accent); }
+.fc-card.open .fc-q-num--grav { color: var(--fc-green); }
+.fc-card.open .fc-q-num--whim { color: var(--fc-amber); }
+
+.fc-q-body { flex: 1; min-width: 0; }
+
+.fc-q-src {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .4px;
+  color: var(--fc-text-faint);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.fc-q-dt { text-transform: none; opacity: .6; }
+
+/* Difficulty dots */
+.fc-diff {
+  display: inline-flex;
+  gap: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.fc-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--fc-text-faint);
+  display: inline-block;
+}
+.fc-dot--on { background: currentColor; }
+.fc-dot--prob { color: var(--fc-accent); }
+.fc-dot--grav { color: var(--fc-green); }
+.fc-dot--whim { color: var(--fc-amber); }
+
+.fc-q-text {
+  font-size: 16.5px;
+  line-height: 1.5;
+  color: var(--fc-text);
+}
+.fc-q-text em { font-style: italic; }
+
+.fc-q-tags {
+  display: flex;
+  gap: 5px;
+  margin-top: 9px;
+  flex-wrap: wrap;
+}
+.fc-q-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: .3px;
+  color: var(--fc-text-faint);
+  background: rgba(255,255,255,.05);
+  padding: 2px 9px;
+  border-radius: 8px;
+  border: 1px solid var(--fc-border);
+}
+
+/* Chevron */
+.fc-chev {
+  width: 16px;
+  height: 16px;
+  margin-top: 6px;
+  flex-shrink: 0;
+  color: var(--fc-text-faint);
+  transition: transform .35s cubic-bezier(.4,0,.2,1), color .25s;
+}
+.fc-card.open .fc-chev { transform: rotate(180deg); }
+.fc-section--prob .fc-card.open .fc-chev { color: var(--fc-accent); }
+.fc-section--grav .fc-card.open .fc-chev { color: var(--fc-green); }
+.fc-section--whim .fc-card.open .fc-chev { color: var(--fc-amber); }
+
+/* --- Answer --- */
+.fc-ans {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .55s cubic-bezier(.4,0,.2,1);
+}
+.fc-card.open .fc-ans { max-height: 12000px; }
+
+.fc-ans-in {
+  padding: 0 24px 24px 74px;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity .25s .1s, transform .25s .1s;
+}
+.fc-card.open .fc-ans-in { opacity: 1; transform: translateY(0); }
+
+/* Fold line */
+.fc-fold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--fc-border-lt) 15%, var(--fc-border-lt) 85%, transparent);
+  margin-bottom: 18px;
+  position: relative;
+}
+.fc-fold::after {
+  content: 'reveal';
+  font-family: 'Caveat', cursive;
+  font-size: 11px;
+  color: var(--fc-text-faint);
+  position: absolute;
+  right: 0;
+  top: -8px;
+  letter-spacing: .6px;
+}
+
+/* Handwritten note image — inverted for dark bg */
+.fc-hw-img {
+  width: calc(100% + 16px);
+  margin: 0 -8px;
+  display: block;
+  filter: invert(.92) hue-rotate(180deg);
+  border-radius: 6px;
+}
+
+.fc-hw-img + .fc-hw-img {
+  margin-top: -10px;
+}
+
+/* Answer markdown content */
+.fc-ans-content {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--fc-text-dim);
+}
+
+.fc-ans-content p {
+  margin-bottom: 12px;
+}
+
+.fc-ans-content strong {
+  color: var(--fc-text);
+}
+
+/* --- Blog cards (for existing notes like eccentricity, quadrupole) --- */
+.fc-blog-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.fc-blog-card {
+  background: var(--fc-card-bg);
+  border: 1px solid var(--fc-border);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--fc-text);
+  transition: background .15s, border-color .15s;
+  display: block;
+}
+.fc-blog-card:hover {
+  background: var(--fc-card-hover);
+  border-color: var(--fc-border-lt);
+}
+
+.fc-blog-card-img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  display: block;
+  background: rgba(255,255,255,.02);
+}
+
+.fc-blog-card-body { padding: 18px 20px 20px; }
+
+.fc-blog-card-arrow {
+  float: right;
+  color: var(--fc-text-faint);
+  font-size: 18px;
+  transition: transform .15s;
+}
+.fc-blog-card:hover .fc-blog-card-arrow { transform: translateX(3px); }
+
+.fc-blog-card-title {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+
+.fc-section--grav .fc-blog-card-title { color: var(--fc-green); }
+.fc-section--prob .fc-blog-card-title { color: var(--fc-accent); }
+
+.fc-blog-card-desc {
+  font-size: 13.5px;
+  color: var(--fc-text-dim);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.fc-blog-card-date {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  color: var(--fc-text-faint);
+}
+
+/* --- Responsive --- */
+@media (max-width: 640px) {
+  .fc-page-title { font-size: 30px; }
+  .fc-section-title { font-size: 26px; }
+  .fc-blog-grid { grid-template-columns: 1fr; }
+  .fc-q { padding: 16px; gap: 12px; }
+  .fc-q-num { font-size: 24px; min-width: 28px; }
+  .fc-q-text { font-size: 15px; }
+  .fc-ans-in { padding-left: 56px; padding-right: 16px; }
+}
