@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T08:12:44.917193+00:00",
+  "last_updated": "2026-04-14T07:53:30.461132+00:00",
   "total_publications": 32,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -276,28 +276,6 @@
       ]
     },
     {
-      "title": "Directional Search for Persistent Gravitational Waves: Results from the First Part of LIGO-Virgo-KAGRA's Fourth Observing Run",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 780,
-      "journal": "arXiv e-prints",
-      "year": "2025",
-      "pubdate": "2025-10-00",
-      "abstract": "The angular distribution of gravitational-wave power from persistent sources may exhibit anisotropies arising from the large-scale structure of the Universe. This motivates directional searches for astrophysical and cosmological gravitational-wave backgrounds, as well as continuous-wave emitters. We present results of such a search using data from the first observing run through the first portion of the fourth observing run of the LIGO-Virgo-KAGRA Collaborations. We apply gravitational-wave radiometer techniques to generate skymaps and search for both narrowband and broadband persistent gravitational-wave sources. Additionally, we use spherical harmonic decomposition to probe spatially extended sources. No evidence of persistent gravitational-wave signals is found, and we set the most stringent constraints to date on such emissions. For narrowband point sources, our sensitivity estimate to effective strain amplitude lies in the range $(0.03 - 8.4) \\times 10^{-24}$ across all sky and frequency range $(20 - 160)$ Hz. For targeted sources -- Scorpius X-1, SN 1987A, the Galactic Center, Terzan 5, and NGC 6397 -- we constrain the strain amplitude with best limits ranging from $\\sim 1.1 \\times 10^{-25}$ to $6.5 \\times 10^{-24}$. For persistent broadband sources, we constrain the gravitational-wave flux $F_{α, \\hat{n}}^{95\\%, \\mathrm{UL}}(25\\, \\mathrm{Hz}) &lt; (0.008 - 5.5) \\times 10^{-8}\\, \\mathrm{erg\\, cm^{-2}\\, s^{-1}\\, Hz^{-1}}$, depending on the sky direction $\\hat{n}$ and spectral index $α=0,\\,2/3,\\,3$. Finally, for extended sources, we place upper limits on the strain angular power spectrum $C_\\ell^{1/2} &lt; (0.63 - 17) \\times 10^{-10} \\,\\mathrm{sr}^{-1}$.",
-      "bibcode": "2025arXiv251017487T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025arXiv251017487T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2510.17487",
-      "citation_count": 8,
-      "read_count": 945,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.IM",
-        "hep-ex"
-      ]
-    },
-    {
       "title": "Cosmological and High Energy Physics implications from gravitational-wave background searches in LIGO-Virgo-KAGRA's O1-O4a runs",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -317,6 +295,28 @@
         "gr-qc",
         "astro-ph.CO",
         "hep-th"
+      ]
+    },
+    {
+      "title": "Directional Search for Persistent Gravitational Waves: Results from the First Part of LIGO-Virgo-KAGRA's Fourth Observing Run",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 780,
+      "journal": "arXiv e-prints",
+      "year": "2025",
+      "pubdate": "2025-10-00",
+      "abstract": "The angular distribution of gravitational-wave power from persistent sources may exhibit anisotropies arising from the large-scale structure of the Universe. This motivates directional searches for astrophysical and cosmological gravitational-wave backgrounds, as well as continuous-wave emitters. We present results of such a search using data from the first observing run through the first portion of the fourth observing run of the LIGO-Virgo-KAGRA Collaborations. We apply gravitational-wave radiometer techniques to generate skymaps and search for both narrowband and broadband persistent gravitational-wave sources. Additionally, we use spherical harmonic decomposition to probe spatially extended sources. No evidence of persistent gravitational-wave signals is found, and we set the most stringent constraints to date on such emissions. For narrowband point sources, our sensitivity estimate to effective strain amplitude lies in the range $(0.03 - 8.4) \\times 10^{-24}$ across all sky and frequency range $(20 - 160)$ Hz. For targeted sources -- Scorpius X-1, SN 1987A, the Galactic Center, Terzan 5, and NGC 6397 -- we constrain the strain amplitude with best limits ranging from $\\sim 1.1 \\times 10^{-25}$ to $6.5 \\times 10^{-24}$. For persistent broadband sources, we constrain the gravitational-wave flux $F_{α, \\hat{n}}^{95\\%, \\mathrm{UL}}(25\\, \\mathrm{Hz}) &lt; (0.008 - 5.5) \\times 10^{-8}\\, \\mathrm{erg\\, cm^{-2}\\, s^{-1}\\, Hz^{-1}}$, depending on the sky direction $\\hat{n}$ and spectral index $α=0,\\,2/3,\\,3$. Finally, for extended sources, we place upper limits on the strain angular power spectrum $C_\\ell^{1/2} &lt; (0.63 - 17) \\times 10^{-10} \\,\\mathrm{sr}^{-1}$.",
+      "bibcode": "2025arXiv251017487T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025arXiv251017487T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2510.17487",
+      "citation_count": 8,
+      "read_count": 945,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.IM",
+        "hep-ex"
       ]
     },
     {
@@ -625,32 +625,11 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2021PhRvC.103e5811K/abstract",
       "doi_url": "https://doi.org/10.1103/PhysRevC.103.055811",
       "citation_count": 61,
-      "read_count": 154,
+      "read_count": 184,
       "is_refereed": true,
       "arxiv_class": [
         "astro-ph.HE",
         "nucl-th"
-      ]
-    },
-    {
-      "title": "Searches for Continuous Gravitational Waves from Supernova Remnants in the first part of the LIGO-Virgo-KAGRA Fourth Observing run",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 780,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-03-00",
-      "abstract": "We present results from directed searches for continuous gravitational waves from a sample of 15 nearby supernova remnants, likely hosting young neutron star candidates, using data from the first eight months of the fourth observing run (O4) of the LIGO-Virgo-KAGRA Collaboration. The analysis employs five pipelines: four semi-coherent methods -- the Band-Sampled-Data directed pipeline, Weave and two Viterbi pipelines (single- and dual-harmonic) -- and PyStoch, a cross-correlation-based pipeline. These searches cover wide frequency bands and do not assume prior knowledge of the targets' ephemerides. No evidence of a signal is found from any of the 15 sources. We set 95\\% confidence-level upper limits on the intrinsic strain amplitude, with the most stringent constraints reaching $\\sim 4 \\times 10^{-26}$ near 300 Hz for the nearby source G266.2$-$1.2 (Vela Jr.). We also derive limits on neutron star ellipticity and $r$-mode amplitudes for the same source, with the best constraints reaching $\\lesssim 10^{-7}$ and $\\lesssim 10^{-5}$, respectively, at frequencies above 400 Hz. These results represent the most sensitive wide-band directed searches for continuous gravitational waves from supernova remnants to date.",
-      "bibcode": "2026arXiv260325808T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260325808T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2603.25808",
-      "citation_count": 0,
-      "read_count": 481,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
       ]
     },
     {
@@ -668,6 +647,27 @@
       "doi_url": "https://doi.org/10.48550/arXiv.2603.25938",
       "citation_count": 0,
       "read_count": 500,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "Searches for Continuous Gravitational Waves from Supernova Remnants in the first part of the LIGO-Virgo-KAGRA Fourth Observing run",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 780,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-03-00",
+      "abstract": "We present results from directed searches for continuous gravitational waves from a sample of 15 nearby supernova remnants, likely hosting young neutron star candidates, using data from the first eight months of the fourth observing run (O4) of the LIGO-Virgo-KAGRA Collaboration. The analysis employs five pipelines: four semi-coherent methods -- the Band-Sampled-Data directed pipeline, Weave and two Viterbi pipelines (single- and dual-harmonic) -- and PyStoch, a cross-correlation-based pipeline. These searches cover wide frequency bands and do not assume prior knowledge of the targets' ephemerides. No evidence of a signal is found from any of the 15 sources. We set 95\\% confidence-level upper limits on the intrinsic strain amplitude, with the most stringent constraints reaching $\\sim 4 \\times 10^{-26}$ near 300 Hz for the nearby source G266.2$-$1.2 (Vela Jr.). We also derive limits on neutron star ellipticity and $r$-mode amplitudes for the same source, with the best constraints reaching $\\lesssim 10^{-7}$ and $\\lesssim 10^{-5}$, respectively, at frequencies above 400 Hz. These results represent the most sensitive wide-band directed searches for continuous gravitational waves from supernova remnants to date.",
+      "bibcode": "2026arXiv260325808T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260325808T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2603.25808",
+      "citation_count": 0,
+      "read_count": 481,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
