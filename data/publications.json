@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-24T17:36:57.618466+00:00",
-  "total_publications": 37,
+  "last_updated": "2026-06-25T09:27:58.979847+00:00",
+  "total_publications": 36,
   "orcid": "0000-0001-7389-8825",
   "publications": [
     {
@@ -628,49 +628,9 @@
       "citation_count": 0,
       "read_count": 0,
       "is_refereed": true,
-      "arxiv_class": []
-    },
-    {
-      "title": "Searches for Binary Mergers with Sub-solar Mass Components in Data from the First Part of LIGO--Virgo--KAGRA's Fourth Observing Run",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 813,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-05-00",
-      "abstract": "We report on a gravitational wave search for compact binary coalescences involving at least one component with mass between $0.2 M_\\odot$ to $1 M_\\odot$, and ratio of component masses between 0.1 and 1. The analysis uses data collected by the LIGO detectors between May 24 2023 15:00 UTC and January 16 2024 16:00 UTC. No statistically significant sub-solar mass candidates were identified by the participating search algorithms. We report the detection sensitivity of the current searches to the target sub-solar mass black hole population, while also reporting the sensitivity of the search to low-mass neutron star binaries for the first time. With the absence of detections, we place upper limits on the merger rate of sub-solar mass black holes, ranging from $110$ $\\mathrm{Gpc^{-3}yr^{-1}}$ to $10000$ $\\mathrm{Gpc^{-3}yr^{-1}}$ at 90% confidence. We use the merger rate limits to constrain two illustrative dark matter scenarios that can form sub-solar mass compact objects: primordial black holes, and dark black holes forming in a dissipative dark matter model. For late-forming primordial black hole binaries, our search excludes the fraction of dark matter in primordial black holes to be 1 for masses above $0.9 M_\\odot$. In the early-formation scenario, we limit this fraction to be $\\leq$ 7% at $1 M_\\odot$, and $\\leq$ 40% at $0.35 M_\\odot$. For the dissipative model, the excluded region in the parameter space of dark matter fraction in dark black holes and their minimum possible mass extends down to (1.2 to 1.3) $\\times10^{-5}$ when the minimum mass is $1 M_\\odot$. For binary neutron stars that include sub-solar mass components, we estimate the sensitive space-time hypervolume to be $10^{-3}$ $\\mathrm{Gpc^3yr}$, and report the upper limit on their merger rate for a simple, fixed population as ~86 $\\mathrm{Gpc^{-3}yr^{-1}}$.",
-      "bibcode": "2026arXiv260505444T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260505444T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2605.05444",
-      "citation_count": 1,
-      "read_count": 1244,
-      "is_refereed": false,
-      "arxiv_class": [
-        "astro-ph.HE",
-        "astro-ph.CO"
-      ]
-    },
-    {
-      "title": "GW240925 and GW250207: Astrophysical Calibration of Gravitational-wave Detectors",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 819,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-05-00",
-      "abstract": "GW240925 and GW250207 are two loud gravitational-wave signals from binary black hole coalescences observed with network signal-to-noise ratios $\\sim 32$ and $\\sim 69$, respectively, by the LIGO Hanford--LIGO Livingston--Virgo network. Gravitational-wave signals from coalescing binaries have characteristic phase and amplitude evolution predicted by general relativity. These signal waveforms, together with measured instrumental calibration uncertainties, are used to infer source parameters. However, for sufficiently loud detections it is possible to constrain the calibration of the detectors directly using the signals themselves. We present the first informative astrophysical measurements of gravitational-wave detector calibration. For GW240925, we verify the inference of Hanford calibration from the astrophysical signal through cross-checks with known calibration errors obtained from in-situ measurements. At the time of GW250207, the Hanford detector was not fully stabilized, leading to elevated calibration uncertainties; thus, astrophysical calibration is essential to obtain accurate data and to enable source localization. These well-localized, high signal-to-noise observations have the potential to offer precise measurements of source properties, stringent tests of general relativity, and informative dark siren measurements, provided that calibration uncertainties are properly incorporated. As detector sensitivity improves, astrophysical calibration will become an increasingly valuable complement to in-situ calibration measurements. Obtaining accurate calibration will be essential for precision gravitational-wave science.",
-      "bibcode": "2026arXiv260511703T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260511703T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2605.11703",
-      "citation_count": 2,
-      "read_count": 1910,
-      "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
-        "astro-ph.HE",
-        "astro-ph.IM"
+        "astro-ph.HE"
       ]
     },
     {
@@ -716,6 +676,49 @@
       ]
     },
     {
+      "title": "Searches for Binary Mergers with Sub-solar Mass Components in Data from the First Part of LIGO--Virgo--KAGRA's Fourth Observing Run",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 813,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-05-00",
+      "abstract": "We report on a gravitational wave search for compact binary coalescences involving at least one component with mass between $0.2 M_\\odot$ to $1 M_\\odot$, and ratio of component masses between 0.1 and 1. The analysis uses data collected by the LIGO detectors between May 24 2023 15:00 UTC and January 16 2024 16:00 UTC. No statistically significant sub-solar mass candidates were identified by the participating search algorithms. We report the detection sensitivity of the current searches to the target sub-solar mass black hole population, while also reporting the sensitivity of the search to low-mass neutron star binaries for the first time. With the absence of detections, we place upper limits on the merger rate of sub-solar mass black holes, ranging from $110$ $\\mathrm{Gpc^{-3}yr^{-1}}$ to $10000$ $\\mathrm{Gpc^{-3}yr^{-1}}$ at 90% confidence. We use the merger rate limits to constrain two illustrative dark matter scenarios that can form sub-solar mass compact objects: primordial black holes, and dark black holes forming in a dissipative dark matter model. For late-forming primordial black hole binaries, our search excludes the fraction of dark matter in primordial black holes to be 1 for masses above $0.9 M_\\odot$. In the early-formation scenario, we limit this fraction to be $\\leq$ 7% at $1 M_\\odot$, and $\\leq$ 40% at $0.35 M_\\odot$. For the dissipative model, the excluded region in the parameter space of dark matter fraction in dark black holes and their minimum possible mass extends down to (1.2 to 1.3) $\\times10^{-5}$ when the minimum mass is $1 M_\\odot$. For binary neutron stars that include sub-solar mass components, we estimate the sensitive space-time hypervolume to be $10^{-3}$ $\\mathrm{Gpc^3yr}$, and report the upper limit on their merger rate for a simple, fixed population as ~86 $\\mathrm{Gpc^{-3}yr^{-1}}$.",
+      "bibcode": "2026arXiv260505444T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260505444T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2605.05444",
+      "citation_count": 1,
+      "read_count": 1244,
+      "is_refereed": false,
+      "arxiv_class": [
+        "astro-ph.HE",
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "title": "GW240925 and GW250207: Astrophysical Calibration of Gravitational-wave Detectors",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 819,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-05-00",
+      "abstract": "GW240925 and GW250207 are two loud gravitational-wave signals from binary black hole coalescences observed with network signal-to-noise ratios $\\sim 32$ and $\\sim 69$, respectively, by the LIGO Hanford--LIGO Livingston--Virgo network. Gravitational-wave signals from coalescing binaries have characteristic phase and amplitude evolution predicted by general relativity. These signal waveforms, together with measured instrumental calibration uncertainties, are used to infer source parameters. However, for sufficiently loud detections it is possible to constrain the calibration of the detectors directly using the signals themselves. We present the first informative astrophysical measurements of gravitational-wave detector calibration. For GW240925, we verify the inference of Hanford calibration from the astrophysical signal through cross-checks with known calibration errors obtained from in-situ measurements. At the time of GW250207, the Hanford detector was not fully stabilized, leading to elevated calibration uncertainties; thus, astrophysical calibration is essential to obtain accurate data and to enable source localization. These well-localized, high signal-to-noise observations have the potential to offer precise measurements of source properties, stringent tests of general relativity, and informative dark siren measurements, provided that calibration uncertainties are properly incorporated. As detector sensitivity improves, astrophysical calibration will become an increasingly valuable complement to in-situ calibration measurements. Obtaining accurate calibration will be essential for precision gravitational-wave science.",
+      "bibcode": "2026arXiv260511703T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260511703T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2605.11703",
+      "citation_count": 2,
+      "read_count": 1910,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE",
+        "astro-ph.IM"
+      ]
+    },
+    {
       "title": "All-sky search for long-duration gravitational-wave transients in the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
@@ -733,27 +736,6 @@
       "is_refereed": true,
       "arxiv_class": [
         "gr-qc"
-      ]
-    },
-    {
-      "title": "Searches for Continuous Gravitational Waves from Supernova Remnants in the first part of the LIGO-Virgo-KAGRA Fourth Observing run",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 780,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-03-00",
-      "abstract": "We present results from directed searches for continuous gravitational waves from a sample of 15 nearby supernova remnants, likely hosting young neutron star candidates, using data from the first eight months of the fourth observing run (O4) of the LIGO-Virgo-KAGRA Collaboration. The analysis employs five pipelines: four semi-coherent methods -- the Band-Sampled-Data directed pipeline, Weave and two Viterbi pipelines (single- and dual-harmonic) -- and PyStoch, a cross-correlation-based pipeline. These searches cover wide frequency bands and do not assume prior knowledge of the targets' ephemerides. No evidence of a signal is found from any of the 15 sources. We set 95\\% confidence-level upper limits on the intrinsic strain amplitude, with the most stringent constraints reaching $\\sim 4 \\times 10^{-26}$ near 300 Hz for the nearby source G266.2$-$1.2 (Vela Jr.). We also derive limits on neutron star ellipticity and $r$-mode amplitudes for the same source, with the best constraints reaching $\\lesssim 10^{-7}$ and $\\lesssim 10^{-5}$, respectively, at frequencies above 400 Hz. These results represent the most sensitive wide-band directed searches for continuous gravitational waves from supernova remnants to date.",
-      "bibcode": "2026arXiv260325808T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260325808T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2603.25808",
-      "citation_count": 0,
-      "read_count": 1190,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
       ]
     },
     {
