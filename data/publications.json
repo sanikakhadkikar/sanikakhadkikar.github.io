@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T08:56:31.522484+00:00",
+  "last_updated": "2026-07-06T10:43:02.238826+00:00",
   "total_publications": 42,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -631,6 +631,27 @@
       "arxiv_class": []
     },
     {
+      "title": "Searches for Continuous Gravitational Waves from Supernova Remnants in the First Part of the LIGO-Virgo-KAGRA Fourth Observing Run",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 776,
+      "journal": "The Astrophysical Journal",
+      "year": "2026",
+      "pubdate": "2026-06-00",
+      "abstract": "We present results from directed searches for continuous gravitational waves from a sample of 15 nearby supernova remnants, likely hosting young neutron star candidates, using data from the first eight months of the fourth observing run (O4) of the LIGO─Virgo─KAGRA Collaboration. The analysis employs five pipelines: four semicoherent methods—the Band-Sampled-Data directed pipeline, Weave, and two Viterbi pipelines (single- and dual-harmonic)—and PyStoch, a cross-correlation-based pipeline. These searches cover wide frequency bands and do not assume prior knowledge of the targets' ephemerides. No evidence of a signal is found from any of the 15 sources. We set 95% confidence-level upper limits on the intrinsic strain amplitude, with the most stringent constraints reaching ∼4 × 10<SUP>−26</SUP> near 300 Hz for the nearby source G266.2−1.2 (Vela Jr.). We also derive limits on neutron star ellipticity and r-mode amplitudes for the same source, with the best constraints reaching ≲10<SUP>−7</SUP> and ≲10<SUP>−5</SUP>, respectively, at frequencies above 400 Hz. For frequencies above 200 Hz, these results represent the most sensitive wide-band directed searches for continuous gravitational waves from supernova remnants to date.",
+      "bibcode": "2026ApJ..1004..204A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..204A/abstract",
+      "doi_url": "https://doi.org/10.3847/1538-4357/ae6263",
+      "citation_count": 0,
+      "read_count": 1465,
+      "is_refereed": true,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
       "title": "GW230814: Investigation of a Loud Gravitational-wave Signal Observed with a Single Detector",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
@@ -665,27 +686,6 @@
       "read_count": 0,
       "is_refereed": true,
       "arxiv_class": []
-    },
-    {
-      "title": "Searches for Continuous Gravitational Waves from Supernova Remnants in the First Part of the LIGO-Virgo-KAGRA Fourth Observing Run",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authorship_position": "other",
-      "author_position": 776,
-      "journal": "The Astrophysical Journal",
-      "year": "2026",
-      "pubdate": "2026-06-00",
-      "abstract": "We present results from directed searches for continuous gravitational waves from a sample of 15 nearby supernova remnants, likely hosting young neutron star candidates, using data from the first eight months of the fourth observing run (O4) of the LIGO─Virgo─KAGRA Collaboration. The analysis employs five pipelines: four semicoherent methods—the Band-Sampled-Data directed pipeline, Weave, and two Viterbi pipelines (single- and dual-harmonic)—and PyStoch, a cross-correlation-based pipeline. These searches cover wide frequency bands and do not assume prior knowledge of the targets' ephemerides. No evidence of a signal is found from any of the 15 sources. We set 95% confidence-level upper limits on the intrinsic strain amplitude, with the most stringent constraints reaching ∼4 × 10<SUP>−26</SUP> near 300 Hz for the nearby source G266.2−1.2 (Vela Jr.). We also derive limits on neutron star ellipticity and r-mode amplitudes for the same source, with the best constraints reaching ≲10<SUP>−7</SUP> and ≲10<SUP>−5</SUP>, respectively, at frequencies above 400 Hz. For frequencies above 200 Hz, these results represent the most sensitive wide-band directed searches for continuous gravitational waves from supernova remnants to date.",
-      "bibcode": "2026ApJ..1004..204A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..204A/abstract",
-      "doi_url": "https://doi.org/10.3847/1538-4357/ae6263",
-      "citation_count": 0,
-      "read_count": 1465,
-      "is_refereed": true,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
     },
     {
       "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
