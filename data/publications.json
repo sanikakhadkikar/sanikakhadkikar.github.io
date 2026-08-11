@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T07:46:45.895274+00:00",
+  "last_updated": "2026-08-11T07:12:25.012235+00:00",
   "total_publications": 48,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -21,6 +21,27 @@
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc"
+      ]
+    },
+    {
+      "title": "GWTC-4.0: Tests of General Relativity. I. Overview and General Tests",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 789,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-03-00",
+      "abstract": "The worldwide LIGO-Virgo-KAGRA network of gravitational-wave (GW) detectors continues to increase in sensitivity, thus increasing the quantity and quality of the detected GW signals from compact binary coalescences. These signals allow us to perform ever-more sensitive tests of general relativity (GR) in the dynamical and strong-field regime of gravity. This paper is the first of three, where we present the results of a suite of tests of GR using the binary signals included in the fourth GW Transient Catalog (GWTC-4.0), i.e., up to and including the first part of the fourth observing run of the detectors (O4a). We restrict our analysis to the 91 confident signals, henceforth called events, that were measured by at least two detectors, and have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. These include 42 events from O4a. This first paper presents an overview of the methods, selection of events and GR tests, and serves as a guidemap for all three papers. Here we focus on the four general tests of consistency, where we find no evidence for deviations from our models. Specifically, for all the events considered, we find consistency of the residuals with noise. The final mass and final spin as inferred from the low- and high-frequency parts of the waveform are consistent with each other. We also find no evidence for deviations from the GR predictions for the amplitudes of subdominant GW multipole moments, or for non-GR modes of polarization. We thus find that GR, without new physics beyond it, is still consistent with these GW events. The results of the two additional papers in this trio also find overall consistency with vacuum GR, with more than 90% of the events being consistent with GR at the 90% credible level. While one of the ringdown analyses finds the GR value in the tails for its combined results, this may be due in part to catalog variance.",
+      "bibcode": "2026arXiv260319019T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319019T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2603.19019",
+      "citation_count": 45,
+      "read_count": 1642,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
       ]
     },
     {
@@ -59,27 +80,6 @@
       "doi_url": "https://doi.org/10.48550/arXiv.2603.19021",
       "citation_count": 36,
       "read_count": 1385,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
-    },
-    {
-      "title": "GWTC-4.0: Tests of General Relativity. I. Overview and General Tests",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 789,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-03-00",
-      "abstract": "The worldwide LIGO-Virgo-KAGRA network of gravitational-wave (GW) detectors continues to increase in sensitivity, thus increasing the quantity and quality of the detected GW signals from compact binary coalescences. These signals allow us to perform ever-more sensitive tests of general relativity (GR) in the dynamical and strong-field regime of gravity. This paper is the first of three, where we present the results of a suite of tests of GR using the binary signals included in the fourth GW Transient Catalog (GWTC-4.0), i.e., up to and including the first part of the fourth observing run of the detectors (O4a). We restrict our analysis to the 91 confident signals, henceforth called events, that were measured by at least two detectors, and have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. These include 42 events from O4a. This first paper presents an overview of the methods, selection of events and GR tests, and serves as a guidemap for all three papers. Here we focus on the four general tests of consistency, where we find no evidence for deviations from our models. Specifically, for all the events considered, we find consistency of the residuals with noise. The final mass and final spin as inferred from the low- and high-frequency parts of the waveform are consistent with each other. We also find no evidence for deviations from the GR predictions for the amplitudes of subdominant GW multipole moments, or for non-GR modes of polarization. We thus find that GR, without new physics beyond it, is still consistent with these GW events. The results of the two additional papers in this trio also find overall consistency with vacuum GR, with more than 90% of the events being consistent with GR at the 90% credible level. While one of the ringdown analyses finds the GR value in the tails for its combined results, this may be due in part to catalog variance.",
-      "bibcode": "2026arXiv260319019T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319019T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2603.19019",
-      "citation_count": 45,
-      "read_count": 1642,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
@@ -649,27 +649,6 @@
       ]
     },
     {
-      "title": "Sub-Torque-Balance Upper Limits on Continuous Gravitational Waves from Scorpius X-1",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 818,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-07-00",
-      "abstract": "We present the results of a search for continuous gravitational waves from the low-mass X-ray binary Scorpius X-1 using LIGO data from the first part of the fourth LIGO-Virgo-KAGRA observing run. By applying the resampling version of the cross-correlation pipeline to search for signal frequencies $f_0$ between $25$ and $200\\un{Hz}$ (corresponding to neutron star spin frequencies of $12.5$ to $100\\un{Hz}$ for GW due to triaxiality, or $\\sim15-20$ to $\\sim120-150\\un{Hz}$ for GW due to $r$-modes), we set upper limits below the standard torque balance level, independent of neutron star spin inclination, for $50\\un{Hz}\\lesssim f_0\\lesssim200\\un{Hz}$. While uncertainties in the modelling of torque and equation of state limit the strength of our inference, our results nonetheless argue against torque balance in this spin range for a neutron star described by a hadronic equation of state. The most sensitive upper limits on the gravitational wave amplitude $h_0$, at the upper end of the frequency band searched, approach $5\\times10^{-26}$ marginalized over inclination angle and $2\\times10^{-26}$ assuming the most favorable inclination. The marginalized upper limits correspond to a sensitivity depth of $70-75\\un{Hz}^{-1/2}$, improving sensitivity considerably over previous searches. Expressed as constraints on the triaxial deformation of the neutron star, the limits correspond to an ellipticity of $3\\times10^{-5}$ if the GW frequency $f_0$ is $75\\un{Hz}$ and $3\\times10^{-6}$ if $f_0=200\\un{Hz}$, approaching deformations which could be supported by ordinary nuclear matter. Outliers from the search were ruled out as potential signals by a combination of hierarchical followup and analysis of additional data from later in the observing run.",
-      "bibcode": "2026arXiv260707765T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707765T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2607.07765",
-      "citation_count": 0,
-      "read_count": 737,
-      "is_refereed": false,
-      "arxiv_class": [
-        "astro-ph.HE",
-        "gr-qc"
-      ]
-    },
-    {
       "title": "Directed searches for gravitational waves from ultralight vector boson clouds around merger remnant and galactic black holes during the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
@@ -728,6 +707,45 @@
         "gr-qc",
         "astro-ph.HE"
       ]
+    },
+    {
+      "title": "Sub-Torque-Balance Upper Limits on Continuous Gravitational Waves from Scorpius X-1",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 818,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-07-00",
+      "abstract": "We present the results of a search for continuous gravitational waves from the low-mass X-ray binary Scorpius X-1 using LIGO data from the first part of the fourth LIGO-Virgo-KAGRA observing run. By applying the resampling version of the cross-correlation pipeline to search for signal frequencies $f_0$ between $25$ and $200\\un{Hz}$ (corresponding to neutron star spin frequencies of $12.5$ to $100\\un{Hz}$ for GW due to triaxiality, or $\\sim15-20$ to $\\sim120-150\\un{Hz}$ for GW due to $r$-modes), we set upper limits below the standard torque balance level, independent of neutron star spin inclination, for $50\\un{Hz}\\lesssim f_0\\lesssim200\\un{Hz}$. While uncertainties in the modelling of torque and equation of state limit the strength of our inference, our results nonetheless argue against torque balance in this spin range for a neutron star described by a hadronic equation of state. The most sensitive upper limits on the gravitational wave amplitude $h_0$, at the upper end of the frequency band searched, approach $5\\times10^{-26}$ marginalized over inclination angle and $2\\times10^{-26}$ assuming the most favorable inclination. The marginalized upper limits correspond to a sensitivity depth of $70-75\\un{Hz}^{-1/2}$, improving sensitivity considerably over previous searches. Expressed as constraints on the triaxial deformation of the neutron star, the limits correspond to an ellipticity of $3\\times10^{-5}$ if the GW frequency $f_0$ is $75\\un{Hz}$ and $3\\times10^{-6}$ if $f_0=200\\un{Hz}$, approaching deformations which could be supported by ordinary nuclear matter. Outliers from the search were ruled out as potential signals by a combination of hierarchical followup and analysis of additional data from later in the observing run.",
+      "bibcode": "2026arXiv260707765T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260707765T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2607.07765",
+      "citation_count": 0,
+      "read_count": 737,
+      "is_refereed": false,
+      "arxiv_class": [
+        "astro-ph.HE",
+        "gr-qc"
+      ]
+    },
+    {
+      "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 782,
+      "journal": "The Astrophysical Journal",
+      "year": "2026",
+      "pubdate": "2026-06-00",
+      "abstract": "LIGO, Virgo, and KAGRA form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center. This paper describes open data from this network, including the addition of data from the first part of the fourth observing run and selected periods from the preceding engineering run, collected from 2023 May to 2024 January. The public dataset includes calibrated strain time series for each instrument, data from additional channels used for noise subtraction and detector characterization, and analysis data products from version 4.0 of the Gravitational-Wave Transient Catalog.",
+      "bibcode": "2026ApJ..1004..232A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..232A/abstract",
+      "doi_url": "https://doi.org/10.3847/1538-4357/ae211e",
+      "citation_count": 6,
+      "read_count": 7,
+      "is_refereed": true,
+      "arxiv_class": []
     },
     {
       "title": "GWTC-4.0: Updating the Gravitational-wave Transient Catalog with Observations from the First Part of the Fourth LIGO─Virgo─KAGRA Observing Run",
@@ -790,22 +808,25 @@
       ]
     },
     {
-      "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "title": "GWTC-5.0: Methods for Identifying and Characterizing Gravitational-wave Transients",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
       "authorship_position": "other",
-      "author_position": 782,
-      "journal": "The Astrophysical Journal",
+      "author_position": 812,
+      "journal": "arXiv e-prints",
       "year": "2026",
-      "pubdate": "2026-06-00",
-      "abstract": "LIGO, Virgo, and KAGRA form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center. This paper describes open data from this network, including the addition of data from the first part of the fourth observing run and selected periods from the preceding engineering run, collected from 2023 May to 2024 January. The public dataset includes calibrated strain time series for each instrument, data from additional channels used for noise subtraction and detector characterization, and analysis data products from version 4.0 of the Gravitational-Wave Transient Catalog.",
-      "bibcode": "2026ApJ..1004..232A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..232A/abstract",
-      "doi_url": "https://doi.org/10.3847/1538-4357/ae211e",
+      "pubdate": "2026-05-00",
+      "abstract": "The Gravitational-Wave Transient Catalog (GWTC) is a collection of candidate gravitational-wave transient signals identified and characterized by the LIGO-Virgo-KAGRA Collaboration. Producing the contents of the GWTC from detector data requires complex analysis methods. These comprise techniques to model the signal; identify the transients in the data; evaluate the quality of the data and mitigate possible instrumental issues; infer the parameters of each transient; compare the data with the waveform models for compact binary coalescences, and handle the large amount of results associated with all these different analyses. In this paper, we describe the methods employed to produce the catalog's fifth release, GWTC-5.0, focusing on the analysis of the second part of the fourth observing run of LIGO, Virgo and KAGRA.",
+      "bibcode": "2026arXiv260527224T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260527224T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2605.27224",
       "citation_count": 6,
-      "read_count": 7,
-      "is_refereed": true,
-      "arxiv_class": []
+      "read_count": 1491,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
     },
     {
       "title": "GWTC-5.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
@@ -886,27 +907,6 @@
       "doi_url": "https://doi.org/10.48550/arXiv.2605.27090",
       "citation_count": 7,
       "read_count": 1410,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
-    },
-    {
-      "title": "GWTC-5.0: Methods for Identifying and Characterizing Gravitational-wave Transients",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 812,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-05-00",
-      "abstract": "The Gravitational-Wave Transient Catalog (GWTC) is a collection of candidate gravitational-wave transient signals identified and characterized by the LIGO-Virgo-KAGRA Collaboration. Producing the contents of the GWTC from detector data requires complex analysis methods. These comprise techniques to model the signal; identify the transients in the data; evaluate the quality of the data and mitigate possible instrumental issues; infer the parameters of each transient; compare the data with the waveform models for compact binary coalescences, and handle the large amount of results associated with all these different analyses. In this paper, we describe the methods employed to produce the catalog's fifth release, GWTC-5.0, focusing on the analysis of the second part of the fourth observing run of LIGO, Virgo and KAGRA.",
-      "bibcode": "2026arXiv260527224T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260527224T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2605.27224",
-      "citation_count": 6,
-      "read_count": 1491,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
