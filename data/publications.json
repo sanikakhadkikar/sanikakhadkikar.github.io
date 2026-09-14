@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T11:20:45.026107+00:00",
+  "last_updated": "2026-09-14T12:12:51.166254+00:00",
   "total_publications": 49,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -21,6 +21,27 @@
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc"
+      ]
+    },
+    {
+      "title": "GWTC-4.0: Tests of General Relativity. I. Overview and General Tests",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 789,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-03-00",
+      "abstract": "The worldwide LIGO-Virgo-KAGRA network of gravitational-wave (GW) detectors continues to increase in sensitivity, thus increasing the quantity and quality of the detected GW signals from compact binary coalescences. These signals allow us to perform ever-more sensitive tests of general relativity (GR) in the dynamical and strong-field regime of gravity. This paper is the first of three, where we present the results of a suite of tests of GR using the binary signals included in the fourth GW Transient Catalog (GWTC-4.0), i.e., up to and including the first part of the fourth observing run of the detectors (O4a). We restrict our analysis to the 91 confident signals, henceforth called events, that were measured by at least two detectors, and have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. These include 42 events from O4a. This first paper presents an overview of the methods, selection of events and GR tests, and serves as a guidemap for all three papers. Here we focus on the four general tests of consistency, where we find no evidence for deviations from our models. Specifically, for all the events considered, we find consistency of the residuals with noise. The final mass and final spin as inferred from the low- and high-frequency parts of the waveform are consistent with each other. We also find no evidence for deviations from the GR predictions for the amplitudes of subdominant GW multipole moments, or for non-GR modes of polarization. We thus find that GR, without new physics beyond it, is still consistent with these GW events. The results of the two additional papers in this trio also find overall consistency with vacuum GR, with more than 90% of the events being consistent with GR at the 90% credible level. While one of the ringdown analyses finds the GR value in the tails for its combined results, this may be due in part to catalog variance.",
+      "bibcode": "2026arXiv260319019T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319019T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2603.19019",
+      "citation_count": 52,
+      "read_count": 1397,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
       ]
     },
     {
@@ -59,27 +80,6 @@
       "doi_url": "https://doi.org/10.48550/arXiv.2603.19021",
       "citation_count": 40,
       "read_count": 1381,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
-    },
-    {
-      "title": "GWTC-4.0: Tests of General Relativity. I. Overview and General Tests",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 789,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-03-00",
-      "abstract": "The worldwide LIGO-Virgo-KAGRA network of gravitational-wave (GW) detectors continues to increase in sensitivity, thus increasing the quantity and quality of the detected GW signals from compact binary coalescences. These signals allow us to perform ever-more sensitive tests of general relativity (GR) in the dynamical and strong-field regime of gravity. This paper is the first of three, where we present the results of a suite of tests of GR using the binary signals included in the fourth GW Transient Catalog (GWTC-4.0), i.e., up to and including the first part of the fourth observing run of the detectors (O4a). We restrict our analysis to the 91 confident signals, henceforth called events, that were measured by at least two detectors, and have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. These include 42 events from O4a. This first paper presents an overview of the methods, selection of events and GR tests, and serves as a guidemap for all three papers. Here we focus on the four general tests of consistency, where we find no evidence for deviations from our models. Specifically, for all the events considered, we find consistency of the residuals with noise. The final mass and final spin as inferred from the low- and high-frequency parts of the waveform are consistent with each other. We also find no evidence for deviations from the GR predictions for the amplitudes of subdominant GW multipole moments, or for non-GR modes of polarization. We thus find that GR, without new physics beyond it, is still consistent with these GW events. The results of the two additional papers in this trio also find overall consistency with vacuum GR, with more than 90% of the events being consistent with GR at the 90% credible level. While one of the ringdown analyses finds the GR value in the tails for its combined results, this may be due in part to catalog variance.",
-      "bibcode": "2026arXiv260319019T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319019T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2603.19019",
-      "citation_count": 52,
-      "read_count": 1397,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
@@ -319,6 +319,27 @@
       ]
     },
     {
+      "title": "GW250114: Testing Hawking's Area Law and the Kerr Nature of Black Holes",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 784,
+      "journal": "Physical Review Letters",
+      "year": "2025",
+      "pubdate": "2025-09-00",
+      "abstract": "The gravitational-wave signal GW250114 was observed by the two LIGO detectors with a network matched-filter signal-to-noise ratio of 80. The signal was emitted by the coalescence of two black holes with near-equal masses <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>33.6</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.8</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.2</mml:mn></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>32.2</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1.3</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.8</mml:mn></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>, and small spins <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>≤</mml:mo><mml:mn>0.26</mml:mn></mml:mrow></mml:math></inline-formula> (90% credibility) and negligible eccentricity <inline-formula><mml:math><mml:mi>e</mml:mi><mml:mrow><mml:mo>≤</mml:mo><mml:mn>0.03</mml:mn></mml:mrow></mml:math></inline-formula>. Postmerger data excluding the peak region are consistent with the dominant quadrupolar <inline-formula><mml:math><mml:mrow><mml:mo>(</mml:mo><mml:mo>ℓ</mml:mo><mml:mo>=</mml:mo><mml:mo>|</mml:mo><mml:mi>m</mml:mi><mml:mo>|</mml:mo><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> mode of a Kerr black hole and its first overtone. We constrain the modes' frequencies to <inline-formula><mml:math><mml:mo>±</mml:mo><mml:mrow><mml:mn>30</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:math></inline-formula> of the Kerr spectrum, providing a test of the remnant's Kerr nature. We also examine Hawking's area law, also known as the second law of black hole mechanics, which states that the total area of the black hole event horizons cannot decrease with time. A range of analyses that exclude up to five of the strongest merger cycles confirm that the remnant area is larger than the sum of the initial areas to high credibility.",
+      "bibcode": "2025PhRvL.135k1403A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvL.135k1403A/abstract",
+      "doi_url": "https://doi.org/10.1103/kw5g-d732",
+      "citation_count": 198,
+      "read_count": 1338,
+      "is_refereed": true,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
       "title": "Directed searches for gravitational waves from ultralight vector boson clouds around merger remnant and galactic black holes during the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -338,27 +359,6 @@
         "gr-qc",
         "astro-ph.HE",
         "hep-ph"
-      ]
-    },
-    {
-      "title": "GW250114: Testing Hawking's Area Law and the Kerr Nature of Black Holes",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authorship_position": "other",
-      "author_position": 784,
-      "journal": "Physical Review Letters",
-      "year": "2025",
-      "pubdate": "2025-09-00",
-      "abstract": "The gravitational-wave signal GW250114 was observed by the two LIGO detectors with a network matched-filter signal-to-noise ratio of 80. The signal was emitted by the coalescence of two black holes with near-equal masses <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>33.6</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.8</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.2</mml:mn></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>32.2</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1.3</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.8</mml:mn></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>, and small spins <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>≤</mml:mo><mml:mn>0.26</mml:mn></mml:mrow></mml:math></inline-formula> (90% credibility) and negligible eccentricity <inline-formula><mml:math><mml:mi>e</mml:mi><mml:mrow><mml:mo>≤</mml:mo><mml:mn>0.03</mml:mn></mml:mrow></mml:math></inline-formula>. Postmerger data excluding the peak region are consistent with the dominant quadrupolar <inline-formula><mml:math><mml:mrow><mml:mo>(</mml:mo><mml:mo>ℓ</mml:mo><mml:mo>=</mml:mo><mml:mo>|</mml:mo><mml:mi>m</mml:mi><mml:mo>|</mml:mo><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> mode of a Kerr black hole and its first overtone. We constrain the modes' frequencies to <inline-formula><mml:math><mml:mo>±</mml:mo><mml:mrow><mml:mn>30</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:math></inline-formula> of the Kerr spectrum, providing a test of the remnant's Kerr nature. We also examine Hawking's area law, also known as the second law of black hole mechanics, which states that the total area of the black hole event horizons cannot decrease with time. A range of analyses that exclude up to five of the strongest merger cycles confirm that the remnant area is larger than the sum of the initial areas to high credibility.",
-      "bibcode": "2025PhRvL.135k1403A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvL.135k1403A/abstract",
-      "doi_url": "https://doi.org/10.1103/kw5g-d732",
-      "citation_count": 198,
-      "read_count": 1338,
-      "is_refereed": true,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
       ]
     },
     {
@@ -528,25 +528,24 @@
       ]
     },
     {
-      "title": "Upper limits on the isotropic gravitational-wave background from the first part of LIGO, Virgo, and KAGRA's fourth observing run",
+      "title": "GWTC-4.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authorship_position": "other",
-      "author_position": 773,
-      "journal": "Physical Review D",
+      "author_position": 780,
+      "journal": "The Astrophysical Journal Letters",
       "year": "2026",
       "pubdate": "2026-08-00",
-      "abstract": "We present results from the search for an isotropic gravitational-wave background using Advanced LIGO and Advanced Virgo data from O1 through O4a, the first part of the fourth observing run. This background is the accumulated signal from unresolved sources throughout cosmic history and encodes information about the merger history of compact binaries throughout the Universe, as well as exotic physics and potentially primordial processes from the early cosmos. Our cross-correlation analysis reveals no statistically significant background signal, enabling us to constrain several theoretical scenarios. For compact binary coalescences which approximately follow a <inline-formula><mml:math><mml:mrow><mml:mn>2</mml:mn><mml:mo>/</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:math></inline-formula> power-law spectrum, we constrain the fractional energy density to <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>GW</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:mn>2.0</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula> (95% credibility), a factor of 1.7 improvement over previous results. Scale-invariant backgrounds are constrained to <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>GW</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:mn>2.8</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, representing a <inline-formula><mml:math><mml:mrow><mml:mn>2.1</mml:mn><mml:mo>×</mml:mo></mml:mrow></mml:math></inline-formula> sensitivity gain. We also place new limits on alternative gravity theories predicting nonstandard polarization modes and confirm that terrestrial magnetic noise sources remain below our detection threshold. Combining these spectral limits with population models for Gravitational-Wave Transient Catalog (GWTC)-4, the latest gravitational-wave event catalog, we find our constraints remain above predicted merger backgrounds but are approaching detectability. The joint analysis combining the background limits shown here with GWTC-4 enables improved inference of the binary black hole merger rate evolution across cosmic time. Furthermore, employing GWTC-4 inference results and standard modeling choices, we estimate that the total background arising from compact binary coalescences is <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>CBC</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:msubsup><mml:mrow><mml:mn>0.9</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.5</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.1</mml:mn></mml:mrow></mml:msubsup><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mrow></mml:math></inline-formula> at 90% confidence, where the largest contribution is due to binary black holes only, <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>BBH</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>0.8</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.5</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.1</mml:mn></mml:mrow></mml:msubsup><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>.",
-      "bibcode": "2026PhRvD.114d2001A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026PhRvD.114d2001A/abstract",
-      "doi_url": "https://doi.org/10.1103/wq57-sjt2",
-      "citation_count": 40,
-      "read_count": 1207,
+      "abstract": "We analyze data from 142 of the 218 gravitational-wave (GW) sources in the fourth LIGO─Virgo─KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-4.0) to estimate the Hubble constant H<SUB>0</SUB> jointly with the population properties of merging compact binaries. We measure the luminosity distance and redshifted masses of GW sources directly; in contrast, we infer GW source redshifts statistically through (i) location of features in the compact object mass spectrum and merger rate evolution, and (ii) identifying potential host galaxies in the GW localization volume. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We also constrain parameterized deviations from general relativity that affect GW propagation, specifically those modifying the dependence of a GW signal on the source luminosity distance. Assuming our fiducial model for the source-frame mass distribution and using GW candidates detected up to the end of the fourth observing run (O4a), together with the GLADE+ all-sky galaxy catalog, we estimate <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>75</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>9.1</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>12.8</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:mo>(</mml:mo><mml:mn>75</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>13.3</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>24.5</mml:mn></mml:mrow></mml:msubsup><mml:mo>)</mml:mo><mml:mspace></mml:mspace><mml:msup><mml:mrow><mml:mspace></mml:mspace><mml:mtext>km s</mml:mtext><mml:mspace></mml:mspace></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mspace></mml:mspace><mml:msup><mml:mrow><mml:mspace></mml:mspace><mml:mtext>Mpc</mml:mtext><mml:mspace></mml:mspace></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math> </inline-formula>. This value is reported as a median with 68.3% (90%) symmetric credible interval, and includes combination with the H<SUB>0</SUB> measurement from GW170817 and its electromagnetic counterpart. Using a parameterization of modified GW propagation in terms of the magnitude parameter Ξ<SUB>0</SUB>, we estimate <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>Ξ</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.4</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.0</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.6</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>2.8</mml:mn></mml:mrow></mml:msubsup><mml:mo>)</mml:mo></mml:math> </inline-formula>, where Ξ<SUB>0</SUB> = 1 recovers the behavior of general relativity.",
+      "bibcode": "2026ApJ..1007L..17A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1007L..17A/abstract",
+      "doi_url": "https://doi.org/10.3847/2041-8213/ae69dd",
+      "citation_count": 87,
+      "read_count": 1308,
       "is_refereed": true,
       "arxiv_class": [
-        "gr-qc",
         "astro-ph.CO",
-        "astro-ph.HE"
+        "gr-qc"
       ]
     },
     {
@@ -572,24 +571,25 @@
       ]
     },
     {
-      "title": "GWTC-4.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
+      "title": "Upper limits on the isotropic gravitational-wave background from the first part of LIGO, Virgo, and KAGRA's fourth observing run",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authorship_position": "other",
-      "author_position": 780,
-      "journal": "The Astrophysical Journal Letters",
+      "author_position": 773,
+      "journal": "Physical Review D",
       "year": "2026",
       "pubdate": "2026-08-00",
-      "abstract": "We analyze data from 142 of the 218 gravitational-wave (GW) sources in the fourth LIGO─Virgo─KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-4.0) to estimate the Hubble constant H<SUB>0</SUB> jointly with the population properties of merging compact binaries. We measure the luminosity distance and redshifted masses of GW sources directly; in contrast, we infer GW source redshifts statistically through (i) location of features in the compact object mass spectrum and merger rate evolution, and (ii) identifying potential host galaxies in the GW localization volume. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We also constrain parameterized deviations from general relativity that affect GW propagation, specifically those modifying the dependence of a GW signal on the source luminosity distance. Assuming our fiducial model for the source-frame mass distribution and using GW candidates detected up to the end of the fourth observing run (O4a), together with the GLADE+ all-sky galaxy catalog, we estimate <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>75</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>9.1</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>12.8</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:mo>(</mml:mo><mml:mn>75</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>13.3</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>24.5</mml:mn></mml:mrow></mml:msubsup><mml:mo>)</mml:mo><mml:mspace></mml:mspace><mml:msup><mml:mrow><mml:mspace></mml:mspace><mml:mtext>km s</mml:mtext><mml:mspace></mml:mspace></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mspace></mml:mspace><mml:msup><mml:mrow><mml:mspace></mml:mspace><mml:mtext>Mpc</mml:mtext><mml:mspace></mml:mspace></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math> </inline-formula>. This value is reported as a median with 68.3% (90%) symmetric credible interval, and includes combination with the H<SUB>0</SUB> measurement from GW170817 and its electromagnetic counterpart. Using a parameterization of modified GW propagation in terms of the magnitude parameter Ξ<SUB>0</SUB>, we estimate <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>Ξ</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.4</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.0</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.6</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>2.8</mml:mn></mml:mrow></mml:msubsup><mml:mo>)</mml:mo></mml:math> </inline-formula>, where Ξ<SUB>0</SUB> = 1 recovers the behavior of general relativity.",
-      "bibcode": "2026ApJ..1007L..17A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1007L..17A/abstract",
-      "doi_url": "https://doi.org/10.3847/2041-8213/ae69dd",
-      "citation_count": 87,
-      "read_count": 1308,
+      "abstract": "We present results from the search for an isotropic gravitational-wave background using Advanced LIGO and Advanced Virgo data from O1 through O4a, the first part of the fourth observing run. This background is the accumulated signal from unresolved sources throughout cosmic history and encodes information about the merger history of compact binaries throughout the Universe, as well as exotic physics and potentially primordial processes from the early cosmos. Our cross-correlation analysis reveals no statistically significant background signal, enabling us to constrain several theoretical scenarios. For compact binary coalescences which approximately follow a <inline-formula><mml:math><mml:mrow><mml:mn>2</mml:mn><mml:mo>/</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:math></inline-formula> power-law spectrum, we constrain the fractional energy density to <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>GW</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:mn>2.0</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula> (95% credibility), a factor of 1.7 improvement over previous results. Scale-invariant backgrounds are constrained to <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>GW</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:mn>2.8</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, representing a <inline-formula><mml:math><mml:mrow><mml:mn>2.1</mml:mn><mml:mo>×</mml:mo></mml:mrow></mml:math></inline-formula> sensitivity gain. We also place new limits on alternative gravity theories predicting nonstandard polarization modes and confirm that terrestrial magnetic noise sources remain below our detection threshold. Combining these spectral limits with population models for Gravitational-Wave Transient Catalog (GWTC)-4, the latest gravitational-wave event catalog, we find our constraints remain above predicted merger backgrounds but are approaching detectability. The joint analysis combining the background limits shown here with GWTC-4 enables improved inference of the binary black hole merger rate evolution across cosmic time. Furthermore, employing GWTC-4 inference results and standard modeling choices, we estimate that the total background arising from compact binary coalescences is <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>CBC</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:msubsup><mml:mrow><mml:mn>0.9</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.5</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.1</mml:mn></mml:mrow></mml:msubsup><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mrow></mml:math></inline-formula> at 90% confidence, where the largest contribution is due to binary black holes only, <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>BBH</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>0.8</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.5</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.1</mml:mn></mml:mrow></mml:msubsup><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>.",
+      "bibcode": "2026PhRvD.114d2001A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026PhRvD.114d2001A/abstract",
+      "doi_url": "https://doi.org/10.1103/wq57-sjt2",
+      "citation_count": 40,
+      "read_count": 1207,
       "is_refereed": true,
       "arxiv_class": [
+        "gr-qc",
         "astro-ph.CO",
-        "gr-qc"
+        "astro-ph.HE"
       ]
     },
     {
@@ -740,24 +740,6 @@
       ]
     },
     {
-      "title": "Directed searches for gravitational waves from ultralight vector boson clouds around merger remnant and galactic black holes during the first part of the fourth LIGO-Virgo-KAGRA observing run",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authorship_position": "other",
-      "author_position": 779,
-      "journal": "Physical Review D",
-      "year": "2026",
-      "pubdate": "2026-07-00",
-      "abstract": "We present the first directed searches for long-transient and continuous gravitational waves from ultralight vector boson clouds around known black holes (BHs). We use LIGO data from the first part of the fourth LIGO-Virgo-KAGRA observing run. The searches target two distinct types of BHs and use two new semicoherent methods: hidden Markov model (HMM) tracking for the remnant BHs of the mergers GW230814_230901 and GW231123_135430 (referred to as GW230814 and GW231123 in this study) and a dedicated method using the Band Sampled Data (BSD) framework for the galactic BH in the Cygnus X-1 binary system. Without finding evidence of a signal from vector bosons in the data, we estimate the mass range that can be constrained. For the HMM searches targeting the remnants from GW231123 and GW230814, we disfavor vector boson masses in the ranges [0.94, 1.08] and <inline-formula><mml:math><mml:mo>[</mml:mo><mml:mn>2.75</mml:mn><mml:mo>,</mml:mo><mml:mn>3.28</mml:mn><mml:mo>]</mml:mo><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>-</mml:mo><mml:mn>13</mml:mn></mml:mrow></mml:msup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>eV</mml:mi></mml:math></inline-formula>, respectively, at 30% confidence, assuming a 1% false alarm probability. Although these searches are only marginally sensitive to signals from merger remnants at relatively large distances, future observations are expected to yield more stringent constraints with high confidence. For the BSD search targeting the BH in Cygnus X-1, we exclude vector boson masses in the range <inline-formula><mml:math><mml:mo>[</mml:mo><mml:mn>0.85</mml:mn><mml:mo>,</mml:mo><mml:mn>1.59</mml:mn><mml:mo>]</mml:mo><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>-</mml:mo><mml:mn>13</mml:mn></mml:mrow></mml:msup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>eV</mml:mi></mml:math></inline-formula> at 95% confidence, assuming an initial BH spin larger than 0.5.",
-      "bibcode": "2026PhRvD.114b2006A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026PhRvD.114b2006A/abstract",
-      "doi_url": "https://doi.org/10.1103/mjfs-m6t7",
-      "citation_count": 0,
-      "read_count": 4,
-      "is_refereed": true,
-      "arxiv_class": []
-    },
-    {
       "title": "Narrowband Searches for Continuous Gravitational Waves from known Pulsars in the First Two Parts of the Fourth LIGO─Virgo─KAGRA Observing Run",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adam, A.; Adamcewicz, C.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adam, A.; Adamcewicz, C.; et al.",
@@ -777,6 +759,24 @@
         "gr-qc",
         "astro-ph.HE"
       ]
+    },
+    {
+      "title": "Directed searches for gravitational waves from ultralight vector boson clouds around merger remnant and galactic black holes during the first part of the fourth LIGO-Virgo-KAGRA observing run",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 779,
+      "journal": "Physical Review D",
+      "year": "2026",
+      "pubdate": "2026-07-00",
+      "abstract": "We present the first directed searches for long-transient and continuous gravitational waves from ultralight vector boson clouds around known black holes (BHs). We use LIGO data from the first part of the fourth LIGO-Virgo-KAGRA observing run. The searches target two distinct types of BHs and use two new semicoherent methods: hidden Markov model (HMM) tracking for the remnant BHs of the mergers GW230814_230901 and GW231123_135430 (referred to as GW230814 and GW231123 in this study) and a dedicated method using the Band Sampled Data (BSD) framework for the galactic BH in the Cygnus X-1 binary system. Without finding evidence of a signal from vector bosons in the data, we estimate the mass range that can be constrained. For the HMM searches targeting the remnants from GW231123 and GW230814, we disfavor vector boson masses in the ranges [0.94, 1.08] and <inline-formula><mml:math><mml:mo>[</mml:mo><mml:mn>2.75</mml:mn><mml:mo>,</mml:mo><mml:mn>3.28</mml:mn><mml:mo>]</mml:mo><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>-</mml:mo><mml:mn>13</mml:mn></mml:mrow></mml:msup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>eV</mml:mi></mml:math></inline-formula>, respectively, at 30% confidence, assuming a 1% false alarm probability. Although these searches are only marginally sensitive to signals from merger remnants at relatively large distances, future observations are expected to yield more stringent constraints with high confidence. For the BSD search targeting the BH in Cygnus X-1, we exclude vector boson masses in the range <inline-formula><mml:math><mml:mo>[</mml:mo><mml:mn>0.85</mml:mn><mml:mo>,</mml:mo><mml:mn>1.59</mml:mn><mml:mo>]</mml:mo><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>-</mml:mo><mml:mn>13</mml:mn></mml:mrow></mml:msup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>eV</mml:mi></mml:math></inline-formula> at 95% confidence, assuming an initial BH spin larger than 0.5.",
+      "bibcode": "2026PhRvD.114b2006A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026PhRvD.114b2006A/abstract",
+      "doi_url": "https://doi.org/10.1103/mjfs-m6t7",
+      "citation_count": 0,
+      "read_count": 4,
+      "is_refereed": true,
+      "arxiv_class": []
     },
     {
       "title": "GW230814: Investigation of a Loud Gravitational-wave Signal Observed with a Single Detector",
@@ -818,27 +818,6 @@
       "arxiv_class": []
     },
     {
-      "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authorship_position": "other",
-      "author_position": 782,
-      "journal": "The Astrophysical Journal",
-      "year": "2026",
-      "pubdate": "2026-06-00",
-      "abstract": "LIGO, Virgo, and KAGRA form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center. This paper describes open data from this network, including the addition of data from the first part of the fourth observing run and selected periods from the preceding engineering run, collected from 2023 May to 2024 January. The public dataset includes calibrated strain time series for each instrument, data from additional channels used for noise subtraction and detector characterization, and analysis data products from version 4.0 of the Gravitational-Wave Transient Catalog.",
-      "bibcode": "2026ApJ..1004..232A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..232A/abstract",
-      "doi_url": "https://doi.org/10.3847/1538-4357/ae211e",
-      "citation_count": 100,
-      "read_count": 857,
-      "is_refereed": true,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
-    },
-    {
       "title": "Searches for Continuous Gravitational Waves from Supernova Remnants in the First Part of the LIGO-Virgo-KAGRA Fourth Observing Run",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
@@ -853,6 +832,27 @@
       "doi_url": "https://doi.org/10.3847/1538-4357/ae6263",
       "citation_count": 2,
       "read_count": 1054,
+      "is_refereed": true,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 782,
+      "journal": "The Astrophysical Journal",
+      "year": "2026",
+      "pubdate": "2026-06-00",
+      "abstract": "LIGO, Virgo, and KAGRA form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center. This paper describes open data from this network, including the addition of data from the first part of the fourth observing run and selected periods from the preceding engineering run, collected from 2023 May to 2024 January. The public dataset includes calibrated strain time series for each instrument, data from additional channels used for noise subtraction and detector characterization, and analysis data products from version 4.0 of the Gravitational-Wave Transient Catalog.",
+      "bibcode": "2026ApJ..1004..232A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004..232A/abstract",
+      "doi_url": "https://doi.org/10.3847/1538-4357/ae211e",
+      "citation_count": 100,
+      "read_count": 857,
       "is_refereed": true,
       "arxiv_class": [
         "gr-qc",
@@ -965,27 +965,6 @@
       ]
     },
     {
-      "title": "GWTC-5.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 809,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-05-00",
-      "abstract": "We employ 236 gravitational-wave (GW) sources in the fifth LIGO--Virgo--KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-5.0) to estimate the Hubble constant $H_0$. We compare the luminosity distance measured from GWs to the redshift inferred i) using features in the mass spectrum, and ii) using statistical host galaxy association. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We estimate $H_0 = {71.7}_{-7.5}^{+9.4}\\,{\\text{km}\\,\\text{s}^{-1}\\,\\text{Mpc}^{-1}}$ (median with $68\\%$ symmetric credible interval). This combines information from the source-frame mass distribution with the $H_0$ measurement from GW170817 and its electromagnetic counterpart as well as galaxy catalog information from Dark Energy Survey Year 6 (DES-Y6). We improve over the GWTC-4.0 measurement by using more GW sources, some with significantly smaller sky localization volumes, which leads to a reduction by $22.0\\%$ of the $H_0$ uncertainty and a reconstructed mass distribution with lower uncertainties. We also constrain deviations from general relativity (GR) which affect GW propagation, specifically that modify the luminosity distance inferred from the GW signal. We find no departures from GR in parameterized tests of GW propagation.",
-      "bibcode": "2026arXiv260527227T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260527227T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2605.27227",
-      "citation_count": 12,
-      "read_count": 1828,
-      "is_refereed": false,
-      "arxiv_class": [
-        "astro-ph.CO",
-        "gr-qc"
-      ]
-    },
-    {
       "title": "Searches for Binary Mergers with Sub-solar Mass Components in Data from the First Part of LIGO--Virgo--KAGRA's Fourth Observing Run",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -1004,6 +983,27 @@
       "arxiv_class": [
         "astro-ph.HE",
         "astro-ph.CO"
+      ]
+    },
+    {
+      "title": "GWTC-5.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 809,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-05-00",
+      "abstract": "We employ 236 gravitational-wave (GW) sources in the fifth LIGO--Virgo--KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-5.0) to estimate the Hubble constant $H_0$. We compare the luminosity distance measured from GWs to the redshift inferred i) using features in the mass spectrum, and ii) using statistical host galaxy association. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We estimate $H_0 = {71.7}_{-7.5}^{+9.4}\\,{\\text{km}\\,\\text{s}^{-1}\\,\\text{Mpc}^{-1}}$ (median with $68\\%$ symmetric credible interval). This combines information from the source-frame mass distribution with the $H_0$ measurement from GW170817 and its electromagnetic counterpart as well as galaxy catalog information from Dark Energy Survey Year 6 (DES-Y6). We improve over the GWTC-4.0 measurement by using more GW sources, some with significantly smaller sky localization volumes, which leads to a reduction by $22.0\\%$ of the $H_0$ uncertainty and a reconstructed mass distribution with lower uncertainties. We also constrain deviations from general relativity (GR) which affect GW propagation, specifically that modify the luminosity distance inferred from the GW signal. We find no departures from GR in parameterized tests of GW propagation.",
+      "bibcode": "2026arXiv260527227T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260527227T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2605.27227",
+      "citation_count": 12,
+      "read_count": 1828,
+      "is_refereed": false,
+      "arxiv_class": [
+        "astro-ph.CO",
+        "gr-qc"
       ]
     },
     {
