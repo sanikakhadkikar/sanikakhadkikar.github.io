@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T10:49:13.655604+00:00",
+  "last_updated": "2026-09-19T10:32:55.237626+00:00",
   "total_publications": 49,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -45,27 +45,6 @@
       ]
     },
     {
-      "title": "GWTC-4.0: Tests of General Relativity. II. Parameterized Tests",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 791,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-03-00",
-      "abstract": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the 4th Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration (LOSA). We include events up to and including the 1st part of the 4th observing run (O4a) of the LIGO-Virgo-KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have FAR &lt; 10^{-3}/yr from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the 8 tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole (BH), and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr BH in GR, or for LOSA, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. The increased number of events analyzed allow us to improve the constraints on deviations from GR. For instance, for the PN coefficients, we improve the constraints by factors of 1.2-5.5, though some of this improvement is due to allowing the PN coefficient deviations to affect more of the waveform. We also provide illustrative translations to some modified theories. We update the bound on the graviton mass, at 90% credibility, to $m_g\\leq1.92\\times10^{-23}\\mathrm{eV}/c^2$. Many of the bounds on possible deviations derived from our events are the best to date.",
-      "bibcode": "2026arXiv260319020T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319020T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2603.19020",
-      "citation_count": 48,
-      "read_count": 1438,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
-    },
-    {
       "title": "GWTC-4.0: Tests of General Relativity. I. Overview and General Tests",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -80,6 +59,27 @@
       "doi_url": "https://doi.org/10.48550/arXiv.2603.19019",
       "citation_count": 52,
       "read_count": 1397,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "GWTC-4.0: Tests of General Relativity. II. Parameterized Tests",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 791,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-03-00",
+      "abstract": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the 4th Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration (LOSA). We include events up to and including the 1st part of the 4th observing run (O4a) of the LIGO-Virgo-KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have FAR &lt; 10^{-3}/yr from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the 8 tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole (BH), and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr BH in GR, or for LOSA, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. The increased number of events analyzed allow us to improve the constraints on deviations from GR. For instance, for the PN coefficients, we improve the constraints by factors of 1.2-5.5, though some of this improvement is due to allowing the PN coefficient deviations to affect more of the waveform. We also provide illustrative translations to some modified theories. We update the bound on the graviton mass, at 90% credibility, to $m_g\\leq1.92\\times10^{-23}\\mathrm{eV}/c^2$. Many of the bounds on possible deviations derived from our events are the best to date.",
+      "bibcode": "2026arXiv260319020T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260319020T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2603.19020",
+      "citation_count": 48,
+      "read_count": 1438,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
@@ -779,6 +779,27 @@
       ]
     },
     {
+      "title": "GW230814: Investigation of a Loud Gravitational-wave Signal Observed with a Single Detector",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 784,
+      "journal": "The Astrophysical Journal Letters",
+      "year": "2026",
+      "pubdate": "2026-06-00",
+      "abstract": "GW230814, detected by the LIGO Livingston observatory with a signal-to-noise ratio of 42.4, represents the loudest gravitational-wave signal in the GWTC-4.0 catalog. Its source is consistent with a binary black hole coalescence with component masses <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>33</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>7</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>2.2</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>2.9</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:math> </inline-formula> and <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>28</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>3.1</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>2.2</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:math> </inline-formula> and a small effective inspiral spin <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mi>eff</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mn>0.0</mml:mn><mml:msubsup><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.07</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.06</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula>. The high signal-to-noise ratio enabled us to detect an ℓ = ∣m∣ = 4 mode in the inspiral─merger─ringdown signal for the first time (with Bayes factor ≍10), as well as enabling a range of tests of consistency between theoretical predictions and the observed waveform. While most of these tests show agreement with theoretical predictions, there are suggestions of minor deviations in the ringdown phase. Simulations that incorporate general relativity and realistic detector noise reproduce similar deviations, suggesting that they do not constitute evidence for a breakdown of general relativity. The observation of GW230814 demonstrates that the unprecedented sensitivity of the detectors enables highly significant detections with a single observatory. However, without corroborating data from a multidetector network, the ability to draw rigorous conclusions about fundamental physics remains severely limited.",
+      "bibcode": "2026ApJ..1004L..23A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004L..23A/abstract",
+      "doi_url": "https://doi.org/10.3847/2041-8213/ae2ad3",
+      "citation_count": 41,
+      "read_count": 934,
+      "is_refereed": true,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
       "title": "GWTC-4.0: Updating the Gravitational-wave Transient Catalog with Observations from the First Part of the Fourth LIGO─Virgo─KAGRA Observing Run",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
@@ -811,27 +832,6 @@
       "doi_url": "https://doi.org/10.3847/1538-4357/ae6263",
       "citation_count": 2,
       "read_count": 1054,
-      "is_refereed": true,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
-      ]
-    },
-    {
-      "title": "GW230814: Investigation of a Loud Gravitational-wave Signal Observed with a Single Detector",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authorship_position": "other",
-      "author_position": 784,
-      "journal": "The Astrophysical Journal Letters",
-      "year": "2026",
-      "pubdate": "2026-06-00",
-      "abstract": "GW230814, detected by the LIGO Livingston observatory with a signal-to-noise ratio of 42.4, represents the loudest gravitational-wave signal in the GWTC-4.0 catalog. Its source is consistent with a binary black hole coalescence with component masses <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>33</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>7</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>2.2</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>2.9</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:math> </inline-formula> and <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>28</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>3.1</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>2.2</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:math> </inline-formula> and a small effective inspiral spin <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mi>eff</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mn>0.0</mml:mn><mml:msubsup><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.07</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.06</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula>. The high signal-to-noise ratio enabled us to detect an ℓ = ∣m∣ = 4 mode in the inspiral─merger─ringdown signal for the first time (with Bayes factor ≍10), as well as enabling a range of tests of consistency between theoretical predictions and the observed waveform. While most of these tests show agreement with theoretical predictions, there are suggestions of minor deviations in the ringdown phase. Simulations that incorporate general relativity and realistic detector noise reproduce similar deviations, suggesting that they do not constitute evidence for a breakdown of general relativity. The observation of GW230814 demonstrates that the unprecedented sensitivity of the detectors enables highly significant detections with a single observatory. However, without corroborating data from a multidetector network, the ability to draw rigorous conclusions about fundamental physics remains severely limited.",
-      "bibcode": "2026ApJ..1004L..23A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1004L..23A/abstract",
-      "doi_url": "https://doi.org/10.3847/2041-8213/ae2ad3",
-      "citation_count": 41,
-      "read_count": 934,
       "is_refereed": true,
       "arxiv_class": [
         "gr-qc",
