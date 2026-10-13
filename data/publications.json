@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T14:49:36.784820+00:00",
+  "last_updated": "2026-10-13T13:49:40.385867+00:00",
   "total_publications": 50,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -477,7 +477,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2022JApA...43...57K/abstract",
       "doi_url": "https://doi.org/10.1007/s12036-022-09849-0",
       "citation_count": 1,
-      "read_count": 95,
+      "read_count": 99,
       "is_refereed": true,
       "arxiv_class": [
         "astro-ph.HE",
