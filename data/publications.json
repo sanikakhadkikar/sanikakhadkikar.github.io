@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T12:34:34.055160+00:00",
+  "last_updated": "2026-10-20T11:08:10.381630+00:00",
   "total_publications": 52,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -506,24 +506,6 @@
       ]
     },
     {
-      "title": "Sub-torque-balance Upper Limits on Continuous Gravitational Waves from Scorpius X-1",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adam, A.; Adamcewicz, C.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adam, A.; Adamcewicz, C.; et al.",
-      "authorship_position": "other",
-      "author_position": 812,
-      "journal": "The Astrophysical Journal Letters",
-      "year": "2026",
-      "pubdate": "2026-10-00",
-      "abstract": "We present the results of a search for continuous gravitational waves (GWs) from the low-mass X-ray binary Scorpius X-1 using LIGO data from the first part of the fourth LIGO--Virgo--KAGRA observing run. By applying the resampling version of the cross-correlation pipeline to search for signal frequencies f<SUB>0</SUB> between 25 and 200 Hz (corresponding to neutron star spin frequencies of 12.5--100 Hz for GWs due to triaxiality, or ~15--20 to ~120--150 Hz for GWs due to r-modes), we are able to achieve longer coherence times than before, and for the first time set upper limits below the standard torque balance level, independent of neutron star spin inclination, for 50 Hz ≲ f<SUB>0</SUB> ≲ 200 Hz. The most sensitive upper limits on the gravitational wave amplitude h<SUB>0</SUB>, at the upper end of the frequency band searched, approach 5 × 10<SUP>-26</SUP> marginalized over inclination angle and 2 × 10<SUP>-26</SUP> assuming the most favorable inclination. The marginalized upper limits correspond to a sensitivity depth of 70--75 Hz<SUP>-1/2</SUP>, improving sensitivity considerably over previous searches. Expressed as constraints on the triaxial deformation of the neutron star, the limits correspond to an ellipticity of 3 × 10<SUP>-5</SUP> if the GW frequency f<SUB>0</SUB> is 75 Hz and 3 × 10<SUP>-6</SUP> if f<SUB>0</SUB> = 200 Hz, approaching deformations that could be supported by ordinary nuclear matter. Outliers from the search were ruled out as potential signals by a combination of hierarchical follow-up and analysis of additional data from later in the observing run.",
-      "bibcode": "2026ApJ..1010L..23A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1010L..23A/abstract",
-      "doi_url": "https://doi.org/10.3847/2041-8213/aea296",
-      "citation_count": 0,
-      "read_count": 0,
-      "is_refereed": true,
-      "arxiv_class": []
-    },
-    {
       "title": "Search for Compact Binary Coalescences with Sub-solar Mass Components in Data from the Second Part of LIGO-Virgo-KAGRA's Fourth Observing Run",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -542,6 +524,24 @@
       "arxiv_class": [
         "gr-qc"
       ]
+    },
+    {
+      "title": "Sub-torque-balance Upper Limits on Continuous Gravitational Waves from Scorpius X-1",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adam, A.; Adamcewicz, C.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adam, A.; Adamcewicz, C.; et al.",
+      "authorship_position": "other",
+      "author_position": 812,
+      "journal": "The Astrophysical Journal Letters",
+      "year": "2026",
+      "pubdate": "2026-10-00",
+      "abstract": "We present the results of a search for continuous gravitational waves (GWs) from the low-mass X-ray binary Scorpius X-1 using LIGO data from the first part of the fourth LIGO--Virgo--KAGRA observing run. By applying the resampling version of the cross-correlation pipeline to search for signal frequencies f<SUB>0</SUB> between 25 and 200 Hz (corresponding to neutron star spin frequencies of 12.5--100 Hz for GWs due to triaxiality, or ~15--20 to ~120--150 Hz for GWs due to r-modes), we are able to achieve longer coherence times than before, and for the first time set upper limits below the standard torque balance level, independent of neutron star spin inclination, for 50 Hz ≲ f<SUB>0</SUB> ≲ 200 Hz. The most sensitive upper limits on the gravitational wave amplitude h<SUB>0</SUB>, at the upper end of the frequency band searched, approach 5 × 10<SUP>-26</SUP> marginalized over inclination angle and 2 × 10<SUP>-26</SUP> assuming the most favorable inclination. The marginalized upper limits correspond to a sensitivity depth of 70--75 Hz<SUP>-1/2</SUP>, improving sensitivity considerably over previous searches. Expressed as constraints on the triaxial deformation of the neutron star, the limits correspond to an ellipticity of 3 × 10<SUP>-5</SUP> if the GW frequency f<SUB>0</SUB> is 75 Hz and 3 × 10<SUP>-6</SUP> if f<SUB>0</SUB> = 200 Hz, approaching deformations that could be supported by ordinary nuclear matter. Outliers from the search were ruled out as potential signals by a combination of hierarchical follow-up and analysis of additional data from later in the observing run.",
+      "bibcode": "2026ApJ..1010L..23A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1010L..23A/abstract",
+      "doi_url": "https://doi.org/10.3847/2041-8213/aea296",
+      "citation_count": 0,
+      "read_count": 0,
+      "is_refereed": true,
+      "arxiv_class": []
     },
     {
       "title": "Direct Multimodel Dark Matter Search with Gravitational-Wave Interferometers Using Data from the First Part of the Fourth LIGO-Virgo-KAGRA Observing Run",
