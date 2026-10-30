@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Fourth Year Graduate Student
+role: Fifth Year Graduate Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: academicons/cv
-    url: /uploads/Sanika_Resume_Oct2025.pdf
+    url: /uploads/Sanika_Resume_Oct2026.pdf
     label: Download CV
   - icon: at-symbol
     url: 'mailto:sanika@psu.edu'
