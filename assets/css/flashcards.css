@@ -285,7 +285,7 @@
 .flashcard-page .fc-ans-content p      { margin-bottom: 10px !important; color: rgba(255,255,255,.7) !important; font-size: 15px !important; }
 .flashcard-page .fc-ans-content strong { color: #e0ddd5 !important; }
 
-/* --- Blog cards (Gravitational Gleanings notes) --- */
+/* --- Blog cards (Beyond Research notes) --- */
 .flashcard-page .fc-blog-grid {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;

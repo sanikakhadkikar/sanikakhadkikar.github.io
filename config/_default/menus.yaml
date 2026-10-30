@@ -17,3 +17,6 @@ main:
   - name: Food for Thought
     url: notes/
     weight: 50
+  - name: It's Not Cringe to Be Nerdy
+    url: not-cringe/
+    weight: 55

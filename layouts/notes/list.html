@@ -9,14 +9,14 @@
   <h1 class="fc-page-title">Food for Thought</h1>
 
   {{/* ============================================================
-       SECTION 1: GRAVITATIONAL GLEANINGS
+       SECTION 1: BEYOND RESEARCH
        ============================================================ */}}
   {{ $grav_blogs := where .Pages "Params.problem_section" "==" nil }}
   {{ $grav_problems := where .Pages "Params.problem_section" "grav" }}
 
   <div class="fc-section fc-section--grav">
     <div class="fc-section-head">
-      <h2 class="fc-section-title fc-section-title--grav">Gravitational Gleanings</h2>
+      <h2 class="fc-section-title fc-section-title--grav">Beyond Research</h2>
     </div>
     <p class="fc-section-desc">
       Gravitational physics is what I specialize in. What are some of the coolest things, in my opinion, in gravity?
@@ -112,13 +112,13 @@
   <hr class="fc-divider">
 
   {{/* ============================================================
-       SECTION 2: PROBABILISTIC PONDERINGS
+       SECTION 2: ACADEMIC CURIOSITIES
        ============================================================ */}}
   {{ $prob_problems := where .Pages "Params.problem_section" "prob" }}
 
   <div class="fc-section fc-section--prob">
     <div class="fc-section-head">
-      <h2 class="fc-section-title fc-section-title--prob">Probabilistic Ponderings</h2>
+      <h2 class="fc-section-title fc-section-title--prob">Academic Curiosities</h2>
     </div>
     <p class="fc-section-desc">
       I work with data analysis and probability daily. But how much can I really apply it?
@@ -156,85 +156,6 @@
               <span class="fc-diff">
                 {{ range seq 3 }}
                   <i class="fc-dot{{ if le . $p.Params.difficulty }} fc-dot--on fc-dot--prob{{ end }}"></i>
-                {{ end }}
-              </span>
-              {{ end }}
-            </div>
-            {{ end }}
-            <div class="fc-q-text">{{ $p.Params.question | markdownify }}</div>
-            {{ with $p.Params.tags }}
-            <div class="fc-q-tags">
-              {{ range . }}<span class="fc-q-tag">{{ . }}</span>{{ end }}
-            </div>
-            {{ end }}
-          </div>
-          <svg class="fc-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-        </div>
-        <div class="fc-ans">
-          <div class="fc-ans-in">
-            <div class="fc-fold"></div>
-            {{ $images := $p.Resources.Match "*.{jpg,jpeg,png,gif}" }}
-            {{ range $images }}
-              <img class="fc-hw-img" src="{{ .RelPermalink }}" alt="Handwritten solution" loading="lazy" />
-            {{ end }}
-            {{ if $p.Content }}
-            <div class="fc-ans-content">{{ $p.Content }}</div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
-  </div>
-
-  <hr class="fc-divider">
-
-  {{/* ============================================================
-       SECTION 3: WHIMSICAL WONDERINGS
-       ============================================================ */}}
-  {{ $whim_problems := where .Pages "Params.problem_section" "whim" }}
-
-  <div class="fc-section fc-section--whim">
-    <div class="fc-section-head">
-      <h2 class="fc-section-title fc-section-title--whim">Whimsical Wonderings</h2>
-    </div>
-    <p class="fc-section-desc">
-      Using the most random thoughts I get to strengthen my mind to do back-of-the-envelope calculations.
-    </p>
-
-    {{ $whim_tags := slice }}
-    {{ range $whim_problems }}
-      {{ range .Params.tags }}
-        {{ $whim_tags = $whim_tags | append . }}
-      {{ end }}
-    {{ end }}
-    {{ $whim_tags = $whim_tags | uniq }}
-
-    {{ if $whim_tags }}
-    <div class="fc-filters" data-section="whim">
-      <button class="fc-tag fc-tag--whim on" data-filter="all">all</button>
-      {{ range $whim_tags }}
-      <button class="fc-tag fc-tag--whim" data-filter="{{ . }}">{{ . }}</button>
-      {{ end }}
-    </div>
-    {{ end }}
-
-    {{ if $whim_problems }}
-    <div class="fc-cards" data-section="whim">
-      {{ range $i, $p := $whim_problems }}
-      <div class="fc-card" data-tags="{{ delimit $p.Params.tags " " }}">
-        <div class="fc-q" onclick="fcToggle(this)">
-          <div class="fc-q-num fc-q-num--whim">{{ printf "%02d" (add $i 1) }}</div>
-          <div class="fc-q-body">
-            {{ with $p.Params.source }}
-            <div class="fc-q-src">
-              {{ . }}
-              {{ with $p.Date }}<span class="fc-q-dt">· {{ .Format "Jan 2006" }}</span>{{ end }}
-              {{ with $p.Params.difficulty }}
-              <span class="fc-diff">
-                {{ range seq 3 }}
-                  <i class="fc-dot{{ if le . $p.Params.difficulty }} fc-dot--on fc-dot--whim{{ end }}"></i>
                 {{ end }}
               </span>
               {{ end }}

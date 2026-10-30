@@ -4,7 +4,7 @@ title: "Problem Title Here"
 date: 2026-01-01
 
 # REQUIRED: which section does this belong to?
-# Options: "prob", "grav", "whim"
+# Options: "prob", "grav"
 problem_section: "prob"
 
 # Source — where you found this problem
