@@ -1,2 +1,1 @@
-{{ with .Params.kind }}<span class="nc-kicker">{{ . | humanize }}</span>{{ end }}
-{{ with .Params.verdict }}<span class="nc-stamp nc-stamp--{{ $.Params.rating | default "false" }}">{{ . }}</span>{{ end }}
+{{ with .Params.genre }}<span class="nc-stamp">{{ . | humanize }}</span>{{ end }}

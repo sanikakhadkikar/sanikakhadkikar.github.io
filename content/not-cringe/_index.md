@@ -1,5 +1,5 @@
 ---
 title: "It's Not Cringe to Be Nerdy"
-description: "Cartoons, encyclopedias, maps, maths, poetry, Pokémon. Things I wonder about and then go find out."
+description: "Geography, Biology, Economics, Data Science, Poetry, Encyclopedias and Much More"
 cms_exclude: true
 ---

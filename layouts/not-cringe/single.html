@@ -9,17 +9,10 @@
 
     <a class="nc-back" href="{{ "/not-cringe/" | relURL }}">← It's Not Cringe to Be Nerdy</a>
 
-    {{ with .Params.kind }}<div><span class="nc-kicker">{{ . | humanize }}</span></div>{{ end }}
+    <div>{{ partial "notcringe-kicker.html" . }}</div>
     <h1 class="nc-headline">{{ .Title }}</h1>
     {{ with .Params.summary }}<p class="nc-dek">{{ . }}</p>{{ end }}
     <div class="nc-byline">By Sanika Khadkikar · {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read</div>
-
-    {{ with .Params.claim }}
-    <div class="nc-claim">
-      <div class="nc-claim-text"><b>The claim</b>{{ . | markdownify }}</div>
-      {{ with $.Params.verdict }}<span class="nc-stamp nc-stamp--big nc-stamp--{{ $.Params.rating | default "false" }}">{{ . }}</span>{{ end }}
-    </div>
-    {{ end }}
 
     {{ with .Resources.GetMatch "featured*" }}<img class="nc-hero" src="{{ .RelPermalink }}" alt="{{ $.Title }}" />{{ end }}
 

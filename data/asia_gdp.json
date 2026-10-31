@@ -1,0 +1,395 @@
+{
+ "year": 2025,
+ "source": "IMF World Economic Outlook",
+ "missing": [
+  "North Korea",
+  "Syria",
+  "Palestine"
+ ],
+ "rows": [
+  {
+   "country": "Singapore",
+   "region": "Southeast Asia",
+   "gdp": 603.9,
+   "gdp_pc": 99365,
+   "gdp_ppp": 998.2,
+   "gdp_pc_ppp": 164244
+  },
+  {
+   "country": "Macao",
+   "region": "East Asia",
+   "gdp": 52.1,
+   "gdp_pc": 74465,
+   "gdp_ppp": 94.0,
+   "gdp_pc_ppp": 134421
+  },
+  {
+   "country": "Qatar",
+   "region": "West Asia",
+   "gdp": 215.6,
+   "gdp_pc": 67894,
+   "gdp_ppp": 379.6,
+   "gdp_pc_ppp": 119556
+  },
+  {
+   "country": "Israel",
+   "region": "West Asia",
+   "gdp": 616.6,
+   "gdp_pc": 60899,
+   "gdp_ppp": 573.8,
+   "gdp_pc_ppp": 56676
+  },
+  {
+   "country": "Hong Kong",
+   "region": "East Asia",
+   "gdp": 427.1,
+   "gdp_pc": 56876,
+   "gdp_ppp": 603.8,
+   "gdp_pc_ppp": 80408
+  },
+  {
+   "country": "UAE",
+   "region": "West Asia",
+   "gdp": 614.4,
+   "gdp_pc": 54151,
+   "gdp_ppp": 975.4,
+   "gdp_pc_ppp": 85967
+  },
+  {
+   "country": "Taiwan",
+   "region": "East Asia",
+   "gdp": 920.6,
+   "gdp_pc": 39512,
+   "gdp_ppp": 2102.9,
+   "gdp_pc_ppp": 90256
+  },
+  {
+   "country": "South Korea",
+   "region": "East Asia",
+   "gdp": 1881.7,
+   "gdp_pc": 36408,
+   "gdp_ppp": 3394.9,
+   "gdp_pc_ppp": 65685
+  },
+  {
+   "country": "Japan",
+   "region": "East Asia",
+   "gdp": 4453.1,
+   "gdp_pc": 36119,
+   "gdp_ppp": 7032.9,
+   "gdp_pc_ppp": 57043
+  },
+  {
+   "country": "Saudi Arabia",
+   "region": "West Asia",
+   "gdp": 1273.6,
+   "gdp_pc": 35370,
+   "gdp_ppp": 2730.1,
+   "gdp_pc_ppp": 75823
+  },
+  {
+   "country": "Brunei",
+   "region": "Southeast Asia",
+   "gdp": 15.0,
+   "gdp_pc": 32634,
+   "gdp_ppp": 43.2,
+   "gdp_pc_ppp": 94043
+  },
+  {
+   "country": "Kuwait",
+   "region": "West Asia",
+   "gdp": 157.2,
+   "gdp_pc": 31573,
+   "gdp_ppp": 274.7,
+   "gdp_pc_ppp": 55173
+  },
+  {
+   "country": "Bahrain",
+   "region": "West Asia",
+   "gdp": 49.0,
+   "gdp_pc": 30541,
+   "gdp_ppp": 113.6,
+   "gdp_pc_ppp": 70859
+  },
+  {
+   "country": "Oman",
+   "region": "West Asia",
+   "gdp": 109.4,
+   "gdp_pc": 20619,
+   "gdp_ppp": 232.4,
+   "gdp_pc_ppp": 43781
+  },
+  {
+   "country": "Maldives",
+   "region": "South Asia",
+   "gdp": 7.8,
+   "gdp_pc": 18886,
+   "gdp_ppp": 15.1,
+   "gdp_pc_ppp": 36812
+  },
+  {
+   "country": "Türkiye",
+   "region": "West Asia",
+   "gdp": 1602.9,
+   "gdp_pc": 18676,
+   "gdp_ppp": 3794.2,
+   "gdp_pc_ppp": 44208
+  },
+  {
+   "country": "Russia",
+   "region": "North Asia",
+   "gdp": 2572.3,
+   "gdp_pc": 17864,
+   "gdp_ppp": 7234.6,
+   "gdp_pc_ppp": 50241
+  },
+  {
+   "country": "Kazakhstan",
+   "region": "Central Asia",
+   "gdp": 306.0,
+   "gdp_pc": 15006,
+   "gdp_ppp": 923.1,
+   "gdp_pc_ppp": 45270
+  },
+  {
+   "country": "China",
+   "region": "East Asia",
+   "gdp": 19626.2,
+   "gdp_pc": 13970,
+   "gdp_ppp": 41260.9,
+   "gdp_pc_ppp": 29369
+  },
+  {
+   "country": "Malaysia",
+   "region": "Southeast Asia",
+   "gdp": 472.7,
+   "gdp_pc": 13965,
+   "gdp_ppp": 1493.9,
+   "gdp_pc_ppp": 44131
+  },
+  {
+   "country": "Turkmenistan",
+   "region": "Central Asia",
+   "gdp": 77.4,
+   "gdp_pc": 11587,
+   "gdp_ppp": 155.7,
+   "gdp_pc_ppp": 23312
+  },
+  {
+   "country": "Georgia",
+   "region": "West Asia",
+   "gdp": 38.1,
+   "gdp_pc": 9705,
+   "gdp_ppp": 115.8,
+   "gdp_pc_ppp": 29457
+  },
+  {
+   "country": "Armenia",
+   "region": "West Asia",
+   "gdp": 29.3,
+   "gdp_pc": 9496,
+   "gdp_ppp": 76.3,
+   "gdp_pc_ppp": 24730
+  },
+  {
+   "country": "Thailand",
+   "region": "Southeast Asia",
+   "gdp": 577.0,
+   "gdp_pc": 8057,
+   "gdp_ppp": 1879.9,
+   "gdp_pc_ppp": 26248
+  },
+  {
+   "country": "Azerbaijan",
+   "region": "West Asia",
+   "gdp": 75.9,
+   "gdp_pc": 7322,
+   "gdp_ppp": 267.4,
+   "gdp_pc_ppp": 25782
+  },
+  {
+   "country": "Mongolia",
+   "region": "East Asia",
+   "gdp": 25.4,
+   "gdp_pc": 7060,
+   "gdp_ppp": 74.2,
+   "gdp_pc_ppp": 20654
+  },
+  {
+   "country": "Lebanon",
+   "region": "West Asia",
+   "gdp": 34.5,
+   "gdp_pc": 5897,
+   "gdp_ppp": 69.9,
+   "gdp_pc_ppp": 11958
+  },
+  {
+   "country": "Iraq",
+   "region": "West Asia",
+   "gdp": 264.2,
+   "gdp_pc": 5803,
+   "gdp_ppp": 698.8,
+   "gdp_pc_ppp": 15352
+  },
+  {
+   "country": "Jordan",
+   "region": "West Asia",
+   "gdp": 61.7,
+   "gdp_pc": 5169,
+   "gdp_ppp": 145.5,
+   "gdp_pc_ppp": 12189
+  },
+  {
+   "country": "Indonesia",
+   "region": "Southeast Asia",
+   "gdp": 1445.6,
+   "gdp_pc": 5078,
+   "gdp_ppp": 5045.1,
+   "gdp_pc_ppp": 17723
+  },
+  {
+   "country": "Sri Lanka",
+   "region": "South Asia",
+   "gdp": 108.9,
+   "gdp_pc": 5004,
+   "gdp_ppp": 371.2,
+   "gdp_pc_ppp": 17063
+  },
+  {
+   "country": "Vietnam",
+   "region": "Southeast Asia",
+   "gdp": 494.0,
+   "gdp_pc": 4829,
+   "gdp_ppp": 1837.5,
+   "gdp_pc_ppp": 17962
+  },
+  {
+   "country": "Bhutan",
+   "region": "South Asia",
+   "gdp": 3.5,
+   "gdp_pc": 4439,
+   "gdp_ppp": 14.6,
+   "gdp_pc_ppp": 18429
+  },
+  {
+   "country": "Philippines",
+   "region": "Southeast Asia",
+   "gdp": 487.1,
+   "gdp_pc": 4278,
+   "gdp_ppp": 1468.6,
+   "gdp_pc_ppp": 12899
+  },
+  {
+   "country": "Iran",
+   "region": "West Asia",
+   "gdp": 371.1,
+   "gdp_pc": 4263,
+   "gdp_ppp": 1856.0,
+   "gdp_pc_ppp": 21319
+  },
+  {
+   "country": "Uzbekistan",
+   "region": "Central Asia",
+   "gdp": 147.1,
+   "gdp_pc": 3846,
+   "gdp_ppp": 503.9,
+   "gdp_pc_ppp": 13179
+  },
+  {
+   "country": "Kyrgyzstan",
+   "region": "Central Asia",
+   "gdp": 22.6,
+   "gdp_pc": 3131,
+   "gdp_ppp": 67.7,
+   "gdp_pc_ppp": 9367
+  },
+  {
+   "country": "Cambodia",
+   "region": "Southeast Asia",
+   "gdp": 50.7,
+   "gdp_pc": 2838,
+   "gdp_ppp": 150.4,
+   "gdp_pc_ppp": 8426
+  },
+  {
+   "country": "India",
+   "region": "South Asia",
+   "gdp": 3909.0,
+   "gdp_pc": 2670,
+   "gdp_ppp": 17351.2,
+   "gdp_pc_ppp": 11853
+  },
+  {
+   "country": "Bangladesh",
+   "region": "South Asia",
+   "gdp": 457.9,
+   "gdp_pc": 2636,
+   "gdp_ppp": 1783.6,
+   "gdp_pc_ppp": 10266
+  },
+  {
+   "country": "Laos",
+   "region": "Southeast Asia",
+   "gdp": 16.9,
+   "gdp_pc": 2171,
+   "gdp_ppp": 88.0,
+   "gdp_pc_ppp": 11300
+  },
+  {
+   "country": "Pakistan",
+   "region": "South Asia",
+   "gdp": 408.2,
+   "gdp_pc": 1697,
+   "gdp_ppp": 1687.3,
+   "gdp_pc_ppp": 7016
+  },
+  {
+   "country": "Tajikistan",
+   "region": "Central Asia",
+   "gdp": 17.5,
+   "gdp_pc": 1693,
+   "gdp_ppp": 63.9,
+   "gdp_pc_ppp": 6165
+  },
+  {
+   "country": "Nepal",
+   "region": "South Asia",
+   "gdp": 45.5,
+   "gdp_pc": 1536,
+   "gdp_ppp": 182.9,
+   "gdp_pc_ppp": 6174
+  },
+  {
+   "country": "Myanmar",
+   "region": "Southeast Asia",
+   "gdp": 82.3,
+   "gdp_pc": 1501,
+   "gdp_ppp": 276.4,
+   "gdp_pc_ppp": 5039
+  },
+  {
+   "country": "Timor-Leste",
+   "region": "Southeast Asia",
+   "gdp": 2.1,
+   "gdp_pc": 1464,
+   "gdp_ppp": 7.1,
+   "gdp_pc_ppp": 5058
+  },
+  {
+   "country": "Afghanistan",
+   "region": "South Asia",
+   "gdp": 19.7,
+   "gdp_pc": 450,
+   "gdp_ppp": 99.5,
+   "gdp_pc_ppp": 2269
+  },
+  {
+   "country": "Yemen",
+   "region": "West Asia",
+   "gdp": 7.9,
+   "gdp_pc": 418,
+   "gdp_ppp": 29.9,
+   "gdp_pc_ppp": 1589
+  }
+ ]
+}

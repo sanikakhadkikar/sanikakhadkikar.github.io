@@ -2,69 +2,30 @@
 
 {{ $nc := resources.Get "css/notcringe.css" }}
 <link rel="stylesheet" href="{{ $nc.RelPermalink }}">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Libre+Franklin:wght@500;800;900&display=swap" rel="stylesheet">
-
-{{ $posts := .Pages.ByDate.Reverse }}
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Libre+Franklin:wght@500;600;800;900&display=swap" rel="stylesheet">
 
 <div class="nc-paper">
-
-  <div class="nc-ears">
-    <span>Vol. I · No. {{ len $posts }}</span>
-    <span>Price: one unanswered question</span>
-  </div>
 
   <h1 class="nc-masthead">It's Not <em>Cringe</em> to Be Nerdy</h1>
 
   <div class="nc-dateline">
-    <span>{{ now.Format "Monday, January 2, 2006" }}</span>
     <span class="nc-tagline">{{ .Params.description }}</span>
-    <span>Est. 2026</span>
   </div>
 
-  {{ with $posts }}
-  {{ $lead := index . 0 }}
-  <div class="nc-front">
-    <article class="nc-lead">
-      <a href="{{ $lead.RelPermalink }}">
-        {{ with $lead.Resources.GetMatch "featured*" }}<img src="{{ .RelPermalink }}" alt="{{ $lead.Title }}" />{{ end }}
-        {{ partial "notcringe-kicker.html" $lead }}
-        <h2 class="nc-lead-title">{{ $lead.Title }}</h2>
-        <p class="nc-dek">{{ $lead.Params.summary | default $lead.Summary }}</p>
-        <div class="nc-byline">By Sanika Khadkikar · {{ $lead.Date.Format "Jan 2, 2006" }}</div>
-      </a>
-    </article>
-
-    <aside class="nc-side">
-      {{ range first 3 (after 1 .) }}
-      <a class="nc-story" href="{{ .RelPermalink }}">
+  <div class="nc-rows">
+    {{ range .Pages.ByDate.Reverse }}
+    <a class="nc-row" href="{{ .RelPermalink }}">
+      <div class="nc-row-meta">
         {{ partial "notcringe-kicker.html" . }}
-        <h3 class="nc-story-title">{{ .Title }}</h3>
-        <p>{{ .Params.summary | default .Summary | truncate 140 }}</p>
-      </a>
-      {{ else }}
-      <p class="nc-empty">More stories developing…</p>
-      {{ end }}
-    </aside>
+        <span class="nc-row-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      </div>
+      <h2 class="nc-row-title">{{ .Title }}</h2>
+      {{ with .Params.summary }}<p class="nc-row-dek">{{ . }}</p>{{ end }}
+    </a>
+    {{ else }}
+    <p class="nc-empty">First edition going to print soon. Stop the presses.</p>
+    {{ end }}
   </div>
-
-  {{ with after 4 . }}
-  <div class="nc-more">
-    <span class="nc-kicker">From the archives</span>
-    <div class="nc-grid">
-      {{ range . }}
-      <a class="nc-story" href="{{ .RelPermalink }}">
-        {{ partial "notcringe-kicker.html" . }}
-        <h3 class="nc-story-title">{{ .Title }}</h3>
-        <p>{{ .Params.summary | default .Summary | truncate 120 }}</p>
-      </a>
-      {{ end }}
-    </div>
-  </div>
-  {{ end }}
-
-  {{ else }}
-  <p class="nc-empty">First edition going to print soon. Stop the presses.</p>
-  {{ end }}
 
 </div>
 

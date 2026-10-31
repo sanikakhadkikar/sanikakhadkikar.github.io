@@ -1,0 +1,40 @@
+{{ $d := site.Data.asia_gdp }}
+{{ $region := .Get "region" }}
+{{ $rows := $d.rows }}
+{{ with $region }}{{ $rows = where $d.rows "region" . }}{{ end }}
+{{ with .Get "countries" }}{{ $rows = where $d.rows "country" "in" (split . ",") }}{{ $region = "custom" }}{{ end }}
+{{ $compare := slice }}
+{{ with .Get "compare" }}{{ $compare = where $d.rows "country" "in" (split . ",") }}{{ end }}
+<figure class="nc-table-wrap">
+  <div class="nc-table-scroll">
+    <table class="nc-table">
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Country</th>
+          {{ if not $region }}<th>Region</th>{{ end }}
+          <th class="num">GDP per capita ($)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ $refs := apply $compare "index" "." "country" }}
+        {{ $n := 0 }}
+        {{ range sort ($rows | append $compare) "gdp_pc" "desc" }}
+        {{ $ref := in $refs .country }}
+        {{ if not $ref }}{{ $n = add $n 1 }}{{ end }}
+        <tr{{ if $ref }} class="nc-ref"{{ else if and (not $region) (eq .region "Central Asia") }} class="nc-hl"{{ end }}>
+          <td class="rank">{{ if not $ref }}{{ $n }}{{ end }}</td>
+          <td class="country">{{ .country }}</td>
+          {{ if not $region }}<td>{{ .region }}</td>{{ end }}
+          <td class="num">{{ lang.FormatNumber 0 .gdp_pc }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+  <figcaption>
+    {{ $d.year }} figures, current US dollars. Source: {{ $d.source }}.{{ with $compare }} {{ delimit (apply . "index" "." "country") ", " " and " }} in grey for comparison.{{ end }}
+    {{ if not $region }}Central Asia highlighted. No IMF data for {{ delimit $d.missing ", " ", or " }}.{{ end }}
+  </figcaption>
+</figure>
+

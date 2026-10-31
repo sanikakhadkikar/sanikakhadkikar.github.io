@@ -1,0 +1,6 @@
+{{ with .Page.Resources.Get (.Get "src") }}
+<figure class="nc-map-wrap">
+  {{ .Content | safeHTML }}
+  {{ with $.Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{ end }}
