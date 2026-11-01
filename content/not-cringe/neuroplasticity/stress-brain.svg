@@ -1,0 +1,52 @@
+<svg class="nc-map" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Calm brain versus chronically stressed brain, showing a larger amygdala and weaker prefrontal cortex under stress">
+<rect width="1000" height="520" fill="#f4efe4"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1b1a17"/></marker></defs>
+<text x="250" y="40" text-anchor="middle" class="nc-map-country" >CALM</text>
+<text x="750" y="40" text-anchor="middle" class="nc-map-country" >CHRONIC STRESS</text>
+<g transform="translate(50,105)">
+<path d="M292,206 C320,200 362,200 382,212 C398,228 388,260 356,266 C322,272 292,260 282,244 C278,228 282,212 292,206 Z" fill="#f4efe4" stroke="#1b1a17" stroke-width="2.2"/>
+<path d="M292,226 C320,222 352,222 380,228 M286,240 C316,236 352,236 384,242 M292,254 C318,252 346,252 372,256" fill="none" stroke="#b9b09d" stroke-width="1.4"/>
+<path d="M232,232 C242,256 248,284 250,306 L230,306 C226,284 220,262 210,244 Z" fill="#f4efe4" stroke="#1b1a17" stroke-width="2.2"/>
+<path d="M28,150 C22,82 92,24 190,20 C292,16 378,60 393,140 C398,170 392,192 376,202 C352,214 322,214 300,212 C280,216 262,226 248,236 C224,250 186,254 160,244 C132,234 112,218 104,198 C90,198 64,196 48,186 C36,178 30,166 28,150 Z" fill="#f4efe4" stroke="#1b1a17" stroke-width="2.5"/>
+<path d="M28,150 C22,82 92,24 150,21 C140,60 130,104 124,150 C120,172 114,186 108,196 C90,198 64,196 48,186 C36,178 30,166 28,150 Z" fill="#c8102e" stroke="#1b1a17" stroke-width="1.6"/>
+<path d="M108,196 C140,184 186,174 228,166 C250,162 268,154 280,142" fill="none" stroke="#1b1a17" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M222,22 C214,58 200,96 190,132 C186,146 184,156 186,166" fill="none" stroke="#1b1a17" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M196,24 C188,60 176,98 166,140 C164,150 164,160 166,170" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M248,26 C240,62 228,100 220,138" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M70,82 C100,72 130,68 160,70" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M52,120 C84,110 118,106 152,110" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M150,226 C188,216 232,206 276,196 C298,191 318,190 340,193" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M262,90 C292,82 320,86 346,100" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M352,62 C346,90 352,116 368,140" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<ellipse cx="152" cy="214" rx="13" ry="9.4" fill="#eab3ba" stroke="#1b1a17" stroke-width="2" stroke-dasharray="5 3"/>
+<path d="M96,140 C112,168 122,182 143,203" fill="none" stroke="#1b1a17" stroke-width="6" marker-end="url(#arrow)"/>
+</g>
+<g transform="translate(550,105)">
+<path d="M292,206 C320,200 362,200 382,212 C398,228 388,260 356,266 C322,272 292,260 282,244 C278,228 282,212 292,206 Z" fill="#f4efe4" stroke="#1b1a17" stroke-width="2.2"/>
+<path d="M292,226 C320,222 352,222 380,228 M286,240 C316,236 352,236 384,242 M292,254 C318,252 346,252 372,256" fill="none" stroke="#b9b09d" stroke-width="1.4"/>
+<path d="M232,232 C242,256 248,284 250,306 L230,306 C226,284 220,262 210,244 Z" fill="#f4efe4" stroke="#1b1a17" stroke-width="2.2"/>
+<path d="M28,150 C22,82 92,24 190,20 C292,16 378,60 393,140 C398,170 392,192 376,202 C352,214 322,214 300,212 C280,216 262,226 248,236 C224,250 186,254 160,244 C132,234 112,218 104,198 C90,198 64,196 48,186 C36,178 30,166 28,150 Z" fill="#f4efe4" stroke="#1b1a17" stroke-width="2.5"/>
+<path d="M28,150 C22,82 92,24 150,21 C140,60 130,104 124,150 C120,172 114,186 108,196 C90,198 64,196 48,186 C36,178 30,166 28,150 Z" fill="#eab3ba" stroke="#1b1a17" stroke-width="1.6"/>
+<path d="M108,196 C140,184 186,174 228,166 C250,162 268,154 280,142" fill="none" stroke="#1b1a17" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M222,22 C214,58 200,96 190,132 C186,146 184,156 186,166" fill="none" stroke="#1b1a17" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M196,24 C188,60 176,98 166,140 C164,150 164,160 166,170" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M248,26 C240,62 228,100 220,138" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M70,82 C100,72 130,68 160,70" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M52,120 C84,110 118,106 152,110" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M150,226 C188,216 232,206 276,196 C298,191 318,190 340,193" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M262,90 C292,82 320,86 346,100" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M352,62 C346,90 352,116 368,140" fill="none" stroke="#b9b09d" stroke-width="1.6" stroke-linecap="round"/>
+<ellipse cx="152" cy="214" rx="24" ry="17.3" fill="#c8102e" stroke="#1b1a17" stroke-width="2" stroke-dasharray="5 3"/>
+<path d="M96,140 C112,168 122,182 135,195" fill="none" stroke="#1b1a17" stroke-width="2" marker-end="url(#arrow)"/>
+</g>
+<line x1="120" y1="97" x2="122" y2="165" stroke="#1b1a17" stroke-width="1"/>
+<text x="120" y="91" text-anchor="middle" class="nc-map-gdp" >prefrontal cortex</text>
+<line x1="202" y1="328" x2="182" y2="435" stroke="#1b1a17" stroke-width="1"/>
+<text x="182" y="451" text-anchor="middle" class="nc-map-gdp" >amygdala (deep inside)</text>
+<line x1="620" y1="97" x2="622" y2="165" stroke="#1b1a17" stroke-width="1"/>
+<text x="620" y="91" text-anchor="middle" class="nc-map-gdp" >prefrontal cortex shrinks</text>
+<line x1="702" y1="336" x2="682" y2="435" stroke="#1b1a17" stroke-width="1"/>
+<text x="682" y="451" text-anchor="middle" class="nc-map-gdp" >amygdala grows</text>
+<text x="500" y="500" text-anchor="middle" class="nc-map-place" >Schematic based on chronic stress studies in rats, drawn on a human brain. Arrow thickness shows how well the prefrontal cortex calms the amygdala.</text>
+<rect width="1000" height="520" fill="none" stroke="#1b1a17" stroke-width="3"/>
+</svg>
