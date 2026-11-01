@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Fire Together, Wire Together"
 date: 2026-10-31
 summary: "What neuroplasticity says about learning to feel, and why it is never too late."
