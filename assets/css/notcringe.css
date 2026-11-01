@@ -81,7 +81,7 @@ html:has(.nc-paper) #starfield-canvas { display: none !important; }
   margin-bottom: 1rem !important;
   transition: background .15s, transform .15s, box-shadow .15s;
 }
-.nc-paper .nc-row:hover { background: #fffaf0 !important; transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--nc-rule); }
+.nc-paper .nc-row:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--nc-rule); }
 .nc-paper .nc-row-meta { display: flex !important; flex-wrap: wrap !important; align-items: center !important; gap: .5rem !important; }
 .nc-paper .nc-row-meta .nc-kicker { margin-bottom: 0 !important; }
 .nc-paper .nc-row-date {
@@ -230,3 +230,35 @@ html:has(.nc-paper) #starfield-canvas { display: none !important; }
   color: var(--nc-muted) !important;
   margin-top: .5rem !important;
 }
+
+/* --- Grey pull quote (pullquote shortcode) --- */
+.nc-paper .nc-pullquote { margin: 2.5rem 0 1rem !important; padding: 1.5rem 0 0 !important; border-top: 1px solid var(--nc-rule) !important; }
+.nc-paper .nc-pullquote blockquote { border: none !important; margin: 0 !important; padding: 0 !important; }
+.nc-paper .nc-pullquote blockquote, .nc-paper .nc-pullquote blockquote p {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  font-size: 1.3rem !important;
+  line-height: 1.5 !important;
+  color: #8a8478 !important;
+}
+.nc-paper .nc-pullquote figcaption, .nc-paper .nc-pullquote figcaption a {
+  font-family: 'Libre Franklin', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  letter-spacing: .08em !important;
+  text-transform: uppercase !important;
+  color: #8a8478 !important;
+  margin-top: .75rem !important;
+}
+
+/* --- Topic tints and faint background icons on story rows --- */
+.nc-paper .nc-topic--geography    { background: #eaf0e4 !important; }
+.nc-paper .nc-topic--economics    { background: #f4ecd8 !important; }
+.nc-paper .nc-topic--biology,
+.nc-paper .nc-topic--neuroscience { background: #f4e7ea !important; }
+.nc-paper .nc-topic--poetry       { background: #ece8f3 !important; }
+.nc-paper .nc-topic--data         { background: #e6eef2 !important; }
+.nc-paper .nc-topic--history      { background: #f2e9de !important; }
+.nc-paper .nc-topic--pokemon      { background: #f5eadf !important; }
+.nc-paper .nc-row:hover { filter: brightness(1.02); }

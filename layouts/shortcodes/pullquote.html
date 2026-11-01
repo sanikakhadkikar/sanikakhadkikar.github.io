@@ -1,0 +1,4 @@
+<figure class="nc-pullquote">
+  <blockquote>{{ .Inner | markdownify }}</blockquote>
+  {{ with .Get "by" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

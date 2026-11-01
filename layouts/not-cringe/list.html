@@ -14,7 +14,7 @@
 
   <div class="nc-rows">
     {{ range .Pages.ByDate.Reverse }}
-    <a class="nc-row" href="{{ .RelPermalink }}">
+    <a class="nc-row nc-topic--{{ index (.Params.tags | default (slice "other")) 0 | lower | urlize }}" href="{{ .RelPermalink }}">
       <div class="nc-row-meta">
         {{ partial "notcringe-kicker.html" . }}
         <span class="nc-row-date">{{ .Date.Format "Jan 2, 2006" }}</span>

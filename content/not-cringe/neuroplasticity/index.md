@@ -3,7 +3,7 @@ draft: false
 title: "Fire Together, Wire Together"
 date: 2026-10-31
 summary: "What neuroplasticity says about learning to feel, and why it is never too late."
-genre: explainer
+genre: op-ed
 tags:
   - neuroscience
   - biology
@@ -37,16 +37,14 @@ What surprised me most was the research on holding emotions in. Psychologist Jam
 
 ## Practices that actually rewire
 
-If neurons that fire together wire together, then what I need are practices that I can repeat until a new pathway forms. Plenty of things make you feel better in the moment, but I wanted the ones where repeating them for weeks measurably changed the brain. There are fewer than I expected, but they exist.
+Everyone feels things, even if they don't emote. I might not show my stress, talk about it, or tell someone I love that I appreciate them, but the feelings are still there inside, and my chest ache was proof of that. Giving those feelings an outlet is where emotional regulation comes in, and the part that got me really excited is that it can be trained like any other skill.
 
-The strongest is a [2026 study from the University of Illinois](https://news.illinois.edu/emotion-regulation-training-reduces-distress-changes-the-brain-team-reports/), published in Scientific Reports. College students trained twice a week for five weeks in two skills. The first was steering their attention towards neutral details instead of the upsetting centre of a scene, like looking at the trees and the sky in a photo of a car accident. The second was reappraisal, looking at a difficult situation from a different angle. Afterwards they reported less distress, even when thinking about hard events from their own lives, and their brain scans had changed, with the prefrontal cortex more connected and the regions linked to negative emotions less sensitive.
+What blew my mind is how fast the brain responds. In a [2026 study from the University of Illinois](https://news.illinois.edu/emotion-regulation-training-reduces-distress-changes-the-brain-team-reports/), college students practised steering their attention to neutral details of an upsetting scene, like the trees and the sky in a photo of a car accident, and looking at difficult situations from a different angle. After just five weeks, they felt less distressed even about hard events from their own lives, and their brain scans had actually changed, with the prefrontal cortex more connected and the regions linked to negative emotions less sensitive. Five weeks! Slowing your breath down to around six breaths a minute every day for five weeks [strengthened the connection](https://link.springer.com/article/10.3758/s13415-022-01032-w) between the amygdala and the prefrontal cortex in another trial, and even practising looking at a painful situation from the outside, like a fly on the wall, [changed the brain's negative emotion patterns](https://pmc.ncbi.nlm.nih.gov/articles/PMC11305902/) in just two weeks in a small study. These are early results, but they are real changes in real brains, in weeks, not years.
 
-The second is resonance breathing, slowing your breath down to around six breaths a minute while an app or a sensor shows you your heart rate. In a [randomized trial](https://link.springer.com/article/10.3758/s13415-022-01032-w), young adults did this daily for five weeks, and the connection between the left amygdala and the medial prefrontal cortex got stronger. To be fair, the effect the researchers were mainly looking for on the right side of the brain did not show up, so this is promising rather than proven. A [review of studies from 2020 to 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13443423/) found it also leads to small to moderate drops in stress, anxiety and depression.
+I have seen a small version of this in myself too. The less I use social media, the less impulsive I am all the time. And the more I have been journalling over the last few months, the more I think before speaking and the better I understand myself.
 
-The third is distancing, practising looking at a painful situation as if from the outside, like a fly on the wall. In a [small 2024 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11305902/), five sessions over two weeks reduced the brain's negative emotion patterns, although this was in people with borderline personality disorder and the authors call it a proof of concept.
+When we were young, our brains learnt whatever they could just by being around things, but as adults they need deliberate training. Some of us, for various reasons, have had certain mechanisms locked in place for a long time because that is what we learnt. But it is not too late. Neuroplasticity gives me the courage and the strength to keep going. It is hard, but no matter who you are, if you want to live a secure, happy and content life, the science says we can get there. I am 26, and science says I can do it!
 
-Something that surprised me is what did not make the list. Mindfulness meditation is often sold as rewiring the amygdala, but [two larger randomized trials](https://www.science.org/doi/10.1126/sciadv.abk3316) failed to find the structural brain changes an [earlier small study](https://pubmed.ncbi.nlm.nih.gov/19776221/) reported. It can still help with anxiety and stress, but the rewiring claim is shaky.
-
-And sleep, while not a practice in itself, is where a lot of this strengthening gets locked in. After one night without sleep, the amygdala was [over 60% more reactive](https://walkerlab.berkeley.edu/reprints/Yoo-Walker_CurrBiol_2007.pdf) and its link to the prefrontal cortex weakened, so skipping sleep undoes the very connection I am trying to build.
-
-Neuroplasticity gives me the courage and the strength to keep going. It is hard, but no matter who you are, if you want to live a secure, happy and content life, the science says we can get there. I am 26, and I have time to do it.
+{{< pullquote by="Prof. Sanda Dolcos, University of Illinois Urbana-Champaign" >}}
+“We are seeing that resilience is about flexibility. The key to resilience is not avoiding negative emotions or just simply trying to feel positive all the time; it’s more about developing the flexibility to respond to emotions in ways that fit the situation.”
+{{< /pullquote >}}
