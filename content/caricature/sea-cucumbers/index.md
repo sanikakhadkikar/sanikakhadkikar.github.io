@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "The Weirdly Interesting Life of Sea Cucumbers"
 date: 2026-11-03
 summary: "They walk, they swim, they clean the ocean floor, and when things get bad, they throw their guts at you."

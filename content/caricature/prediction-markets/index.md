@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Betting on Everything"
 date: 2026-11-02
 summary: "Prediction markets say they are not gambling. So how is \"Will Jesus return before GTA VI\" a financial derivative?"
