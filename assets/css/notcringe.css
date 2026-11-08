@@ -259,6 +259,21 @@ html:has(.nc-paper) #starfield-canvas { display: none !important; }
 .nc-paper .nc-topic--neuroscience { background: #f4e7ea !important; }
 .nc-paper .nc-topic--poetry       { background: #ece8f3 !important; }
 .nc-paper .nc-topic--data         { background: #e6eef2 !important; }
+.nc-paper .nc-topic--politics     { background: #e1e8f4 !important; }
 .nc-paper .nc-topic--history      { background: #f2e9de !important; }
 .nc-paper .nc-topic--pokemon      { background: #f5eadf !important; }
 .nc-paper .nc-row:hover { filter: brightness(1.02); }
+
+/* --- Meme / inline image with caption --- */
+.nc-paper .nc-meme { max-width: 480px !important; margin: 2rem auto !important; }
+.nc-paper .nc-meme img { width: 100% !important; display: block; border: 1px solid var(--nc-rule) !important; }
+.nc-paper .nc-meme figcaption {
+  font-family: 'Libre Franklin', sans-serif !important;
+  font-size: 12px !important;
+  color: var(--nc-muted) !important;
+  margin-top: .5rem !important;
+  text-align: center !important;
+}
+.nc-paper .nc-photo { max-width: 640px !important; }
+.nc-paper .nc-photo figcaption { text-align: left !important; }
+.nc-paper .nc-photo .nc-credit, .nc-paper .nc-photo .nc-credit a { color: #8a8478 !important; font-style: italic !important; }

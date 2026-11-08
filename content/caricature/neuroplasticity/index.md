@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /not-cringe/neuroplasticity/
 draft: false
 title: "Fire Together, Wire Together"
 date: 2026-10-31

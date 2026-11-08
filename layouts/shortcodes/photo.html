@@ -1,0 +1,11 @@
+{{ with .Page.Resources.Get (.Get "src") }}
+<figure class="nc-meme nc-photo">
+  <img src="{{ .RelPermalink }}" alt="{{ $.Get "alt" }}" loading="lazy">
+  <figcaption>{{ $.Get "caption" | markdownify }}
+    <span class="nc-credit">
+      {{- with $.Get "by" }}Photo by {{ . }}{{ end -}}
+      {{- with $.Get "source" }}{{ if $.Get "by" }}, via {{ else }}Via {{ end }}<a href="{{ . }}">Wikimedia Commons</a>{{ end -}}
+      {{- with $.Get "license" }}, {{ with $.Get "license_url" }}<a href="{{ . }}">{{ $.Get "license" }}</a>{{ else }}{{ $.Get "license" }}{{ end }}{{ end }}.</span>
+  </figcaption>
+</figure>
+{{ end }}

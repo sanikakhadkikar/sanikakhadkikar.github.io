@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 repo = Path(__file__).resolve().parent.parent
-out = repo / "content/not-cringe/kazakhstan/map.svg"
+out = repo / "content/caricature/kazakhstan/map.svg"
 
 countries = json.load(open(sys.argv[1]))["features"]
 gdp = {r["country"]: r["gdp_pc"] for r in json.load(open(repo / "data/asia_gdp.json"))["rows"]}

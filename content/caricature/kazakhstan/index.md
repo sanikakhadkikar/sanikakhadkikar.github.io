@@ -1,9 +1,12 @@
 ---
+aliases:
+  - /not-cringe/kazakhstan/
 draft: false
 title: "The Underdog of Central Asia"
 date: 2026-10-30
 summary: "Kazakhstan, and how everything came together to make it so successful."
 genre: explainer
+math: false
 tags:
   - geography
   - economics
@@ -68,3 +71,7 @@ The other part is that China is not one economy, it is many. Cities like Beijing
 Very. Kazakhstan is not empty steppe with nothing happening on it. It is empty steppe sitting on top of oil, uranium and half the periodic table, with few people to share it, a government that let investors in early and a fund that saved the money for when things go bad. Turkmenistan has the gas but keeps the doors shut. And Uzbekistan, my confident pick, has the people, the cotton and the fertile valley, but not the stuff underground that turns into dollars.
 
 Next time Worldle asks me about Central Asia, I'm going straight for Kazakhstan.
+
+---
+
+*Update, November 5, 2026.* Today's Worldle country was Venezuela, and the SAME thing happened. Guyana, its tiny neighbour, has a GDP per capita of about [$26,100](https://www.imf.org/external/datamapper/NGDPDPC@WEO/GUY/BRA/VEN), roughly 2.5 times Brazil's (about $10,700) and more than seven times Venezuela's (about $3,600). Guess why. Oil, oil, oil. ExxonMobil found huge offshore oil fields off Guyana in 2015, production started at the end of 2019, and the country's GDP per person has more than quadrupled since then. The twist is that Venezuela has the largest proven oil reserves in the world, which says a lot about the other half of the Kazakhstan story. Having oil is not enough, you also have to let people get it out of the ground and not waste the money.

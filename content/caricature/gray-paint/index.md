@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /not-cringe/gray-paint/
 draft: false
 title: "Fifty Shades of Data Center Gray"
 date: 2026-11-01

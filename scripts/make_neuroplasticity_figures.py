@@ -7,7 +7,7 @@ Text classes match the .nc-map styles in assets/css/notcringe.css.
 import random
 from pathlib import Path
 
-out = Path(__file__).resolve().parent.parent / "content/not-cringe/neuroplasticity"
+out = Path(__file__).resolve().parent.parent / "content/caricature/neuroplasticity"
 
 ink, paper, red, pink, grey, muted = "#1b1a17", "#f4efe4", "#c8102e", "#eab3ba", "#b9b09d", "#5d574c"
 
