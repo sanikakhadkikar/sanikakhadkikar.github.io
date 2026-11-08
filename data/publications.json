@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T12:40:30.321396+00:00",
+  "last_updated": "2026-11-08T12:57:41.710658+00:00",
   "total_publications": 50,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -192,6 +192,27 @@
       ]
     },
     {
+      "title": "GW231123: A Binary Black Hole Merger with Total Mass 190─265 M<SUB>⊙</SUB>",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 781,
+      "journal": "The Astrophysical Journal Letters",
+      "year": "2025",
+      "pubdate": "2025-11-00",
+      "abstract": "On 2023 November 23, the two LIGO observatories both detected GW231123, a gravitational-wave signal consistent with the merger of two black holes with masses <inline-formula> <mml:math><mml:mn>13</mml:mn><mml:msubsup><mml:mrow><mml:mn>7</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>18</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>23</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:math> </inline-formula> and <inline-formula> <mml:math><mml:mn>10</mml:mn><mml:msubsup><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>50</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>22</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:math> </inline-formula> (90% credible intervals), at a luminosity distance of 0.7─4.1 Gpc, a redshift of <inline-formula> <mml:math><mml:mn>0.4</mml:mn><mml:msubsup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.25</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.27</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula>, and with a network signal-to-noise ratio of ∼20.7. Both black holes exhibit high spins—<inline-formula> <mml:math><mml:mn>0.9</mml:mn><mml:msubsup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.19</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.10</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula> and <inline-formula> <mml:math><mml:mn>0.8</mml:mn><mml:msubsup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.52</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.20</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula>, respectively. A massive black hole remnant is supported by an independent ringdown analysis. Some properties of GW231123 are subject to large systematic uncertainties, as indicated by differences in the inferred parameters between signal models. The primary black hole lies within or above the theorized mass gap where black holes between 60─130 M<SUB>⊙</SUB> should be rare, due to pair-instability mechanisms, while the secondary spans the gap. The observation of GW231123 therefore suggests the formation of black holes from channels beyond standard stellar collapse and that intermediate-mass black holes of mass ∼200 M<SUB>⊙</SUB> form through gravitational-wave-driven mergers.",
+      "bibcode": "2025ApJ...993L..25A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025ApJ...993L..25A/abstract",
+      "doi_url": "https://doi.org/10.3847/2041-8213/ae0c9c",
+      "citation_count": 338,
+      "read_count": 2145,
+      "is_refereed": true,
+      "arxiv_class": [
+        "astro-ph.HE",
+        "gr-qc"
+      ]
+    },
+    {
       "title": "GW241011 and GW241110: Exploring Binary Formation and Fundamental Physics with Asymmetric, High-spin Black Hole Coalescences",
       "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
       "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
@@ -204,8 +225,8 @@
       "bibcode": "2025ApJ...993L..21A",
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2025ApJ...993L..21A/abstract",
       "doi_url": "https://doi.org/10.3847/2041-8213/ae0d54",
-      "citation_count": 118,
-      "read_count": 955,
+      "citation_count": 119,
+      "read_count": 963,
       "is_refereed": true,
       "arxiv_class": [
         "astro-ph.HE",
@@ -226,49 +247,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvD.112j2005A/abstract",
       "doi_url": "https://doi.org/10.1103/wjdz-jdby",
       "citation_count": 22,
-      "read_count": 354,
-      "is_refereed": true,
-      "arxiv_class": [
-        "astro-ph.HE",
-        "gr-qc"
-      ]
-    },
-    {
-      "title": "GW231123: A Binary Black Hole Merger with Total Mass 190─265 M<SUB>⊙</SUB>",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authorship_position": "other",
-      "author_position": 781,
-      "journal": "The Astrophysical Journal Letters",
-      "year": "2025",
-      "pubdate": "2025-11-00",
-      "abstract": "On 2023 November 23, the two LIGO observatories both detected GW231123, a gravitational-wave signal consistent with the merger of two black holes with masses <inline-formula> <mml:math><mml:mn>13</mml:mn><mml:msubsup><mml:mrow><mml:mn>7</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>18</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>23</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:math> </inline-formula> and <inline-formula> <mml:math><mml:mn>10</mml:mn><mml:msubsup><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>50</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>22</mml:mn></mml:mrow></mml:msubsup><mml:mspace></mml:mspace><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub></mml:math> </inline-formula> (90% credible intervals), at a luminosity distance of 0.7─4.1 Gpc, a redshift of <inline-formula> <mml:math><mml:mn>0.4</mml:mn><mml:msubsup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.25</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.27</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula>, and with a network signal-to-noise ratio of ∼20.7. Both black holes exhibit high spins—<inline-formula> <mml:math><mml:mn>0.9</mml:mn><mml:msubsup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.19</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.10</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula> and <inline-formula> <mml:math><mml:mn>0.8</mml:mn><mml:msubsup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.52</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.20</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula>, respectively. A massive black hole remnant is supported by an independent ringdown analysis. Some properties of GW231123 are subject to large systematic uncertainties, as indicated by differences in the inferred parameters between signal models. The primary black hole lies within or above the theorized mass gap where black holes between 60─130 M<SUB>⊙</SUB> should be rare, due to pair-instability mechanisms, while the secondary spans the gap. The observation of GW231123 therefore suggests the formation of black holes from channels beyond standard stellar collapse and that intermediate-mass black holes of mass ∼200 M<SUB>⊙</SUB> form through gravitational-wave-driven mergers.",
-      "bibcode": "2025ApJ...993L..25A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025ApJ...993L..25A/abstract",
-      "doi_url": "https://doi.org/10.3847/2041-8213/ae0c9c",
-      "citation_count": 340,
-      "read_count": 2118,
-      "is_refereed": true,
-      "arxiv_class": [
-        "astro-ph.HE",
-        "gr-qc"
-      ]
-    },
-    {
-      "title": "Precise and accurate neutron star radius measurements with next-generation gravitational wave detectors",
-      "authors": "Khadkikar, Sanika; Gupta, Ish; Kashyap, Rahul; Chandra, Koustav; Gamba, Rossella; Sathyaprakash, Bangalore S.",
-      "authors_highlighted": "<strong>Khadkikar, Sanika</strong>; Gupta, Ish; Kashyap, Rahul; Chandra, Koustav; Gamba, Rossella; Sathyaprakash, Bangalore S.",
-      "authorship_position": "first",
-      "author_position": 1,
-      "journal": "Physical Review D",
-      "year": "2025",
-      "pubdate": "2025-09-00",
-      "abstract": "Gravitational waves from merging binary neutron stars carry characteristic information about their astrophysical properties, including component masses and tidal deformabilities, that are needed to infer their radii. In this study, we use Bayesian inference to quantify the precision with which radius can inferred with upgrades in the current gravitational wave detectors and next-generation observatories such as the Einstein Telescope and Cosmic Explorer. We assign evidences for a set of plausible equations of state, which are then used as weights to obtain radius posteriors. We find that prior choices and the loudness of observed signals limit the precision and accuracy of inferred radii by current detectors. In contrast, next-generation observatories can resolve the radius precisely and accurately, across most of the mass range to within <inline-formula><mml:math><mml:mo>≲</mml:mo><mml:mn>5</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula> for both soft and stiff equations of state. We also explore how the choice of neutron star mass prior can influence the inferred masses and, in turn, potentially affect radius measurements. However, we find that using an astrophysically motivated prior does not significantly impact the radius measurement of an individual neutron star.",
-      "bibcode": "2025PhRvD.112f3020K",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvD.112f3020K/abstract",
-      "doi_url": "https://doi.org/10.1103/h6rl-mcjm",
-      "citation_count": 10,
-      "read_count": 275,
+      "read_count": 356,
       "is_refereed": true,
       "arxiv_class": [
         "astro-ph.HE",
@@ -289,11 +268,32 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvL.135k1403A/abstract",
       "doi_url": "https://doi.org/10.1103/kw5g-d732",
       "citation_count": 273,
-      "read_count": 1724,
+      "read_count": 1739,
       "is_refereed": true,
       "arxiv_class": [
         "gr-qc",
         "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "Precise and accurate neutron star radius measurements with next-generation gravitational wave detectors",
+      "authors": "Khadkikar, Sanika; Gupta, Ish; Kashyap, Rahul; Chandra, Koustav; Gamba, Rossella; Sathyaprakash, Bangalore S.",
+      "authors_highlighted": "<strong>Khadkikar, Sanika</strong>; Gupta, Ish; Kashyap, Rahul; Chandra, Koustav; Gamba, Rossella; Sathyaprakash, Bangalore S.",
+      "authorship_position": "first",
+      "author_position": 1,
+      "journal": "Physical Review D",
+      "year": "2025",
+      "pubdate": "2025-09-00",
+      "abstract": "Gravitational waves from merging binary neutron stars carry characteristic information about their astrophysical properties, including component masses and tidal deformabilities, that are needed to infer their radii. In this study, we use Bayesian inference to quantify the precision with which radius can inferred with upgrades in the current gravitational wave detectors and next-generation observatories such as the Einstein Telescope and Cosmic Explorer. We assign evidences for a set of plausible equations of state, which are then used as weights to obtain radius posteriors. We find that prior choices and the loudness of observed signals limit the precision and accuracy of inferred radii by current detectors. In contrast, next-generation observatories can resolve the radius precisely and accurately, across most of the mass range to within <inline-formula><mml:math><mml:mo>≲</mml:mo><mml:mn>5</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula> for both soft and stiff equations of state. We also explore how the choice of neutron star mass prior can influence the inferred masses and, in turn, potentially affect radius measurements. However, we find that using an astrophysically motivated prior does not significantly impact the radius measurement of an individual neutron star.",
+      "bibcode": "2025PhRvD.112f3020K",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvD.112f3020K/abstract",
+      "doi_url": "https://doi.org/10.1103/h6rl-mcjm",
+      "citation_count": 10,
+      "read_count": 276,
+      "is_refereed": true,
+      "arxiv_class": [
+        "astro-ph.HE",
+        "gr-qc"
       ]
     },
     {
@@ -327,7 +327,7 @@
       "bibcode": "2024CQGra..41x5001G",
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2024CQGra..41x5001G/abstract",
       "doi_url": "https://doi.org/10.1088/1361-6382/ad7b99",
-      "citation_count": 143,
+      "citation_count": 142,
       "read_count": 320,
       "is_refereed": true,
       "arxiv_class": [
@@ -368,8 +368,8 @@
       "bibcode": "2023arXiv230613745E",
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2023arXiv230613745E/abstract",
       "doi_url": "https://doi.org/10.48550/arXiv.2306.13745",
-      "citation_count": 232,
-      "read_count": 677,
+      "citation_count": 231,
+      "read_count": 686,
       "is_refereed": false,
       "arxiv_class": [
         "astro-ph.IM",
@@ -431,7 +431,7 @@
       "abstract": "Gravitational wave observations of neutron star mergers provide a unique window into the interiors of neutron stars, probing dense matter from microscopic nuclear interactions to the macroscopic structure, including their maximum mass, beyond which the remnant collapses to a black hole. Accurate inference of these properties is crucial, as many astrophysical, nuclear, and multimessenger studies rely on gravitational wave constraints. Studies on estimating neutron-star properties from gravitational waves often employ priors that neglect correlations between parameters, or treat tidal degrees of freedom inconsistently, leading to biases in inferred neutron-star properties. We introduce a novel physically informed prior, Goldilocks Prior, that is informed by a broad, semi-parametric ensemble of equations of state, accounts for the joint correlations among the chirp mass, mass ratio, and both tidal deformability parameters, and is tailored to detector sensitivity. Using several mock binary neutron star merger simulations spanning symmetric and asymmetric masses, spinning and non-spinning systems, and a range of signal-to-noise ratios, we show that Goldilocks Prior consistently reduces biases in the inferred tidal posteriors relative to uniform and previously proposed EoS-informed priors. This framework provides a robust, systematic approach for neutron star parameter estimation, enabling more reliable inference for both current and future gravitational wave observations.",
       "bibcode": "2026arXiv261107146K",
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv261107146K/abstract",
-      "doi_url": null,
+      "doi_url": "https://doi.org/10.48550/arXiv.2611.07146",
       "citation_count": 0,
       "read_count": 21,
       "is_refereed": false,
@@ -452,9 +452,30 @@
       "abstract": "Gravitational waves from binary neutron star mergers encode the properties of the densest matter in the universe, but recovering them accurately requires controlling biases introduced by the inference framework. The recently developed Goldilocks Prior incorporates correlations predicted by a large ensemble of candidate equations of state and broadens them according to the expected detector sensitivity. We apply this framework to GW170817 and GW190425 and find that the inferred component tidal deformabilities differ substantially from standard analyses. For GW170817, we infer both neutron stars to be more tidally deformable than previously reported, with the most probable value for the lighter star nearly doubling from $Λ_2\\simeq215$ to $Λ_2\\simeq443$ relative to the uniform-prior analysis. For GW190425, the Goldilocks Prior considerably reduces the range of allowed tidal deformabilities. We propagate the resulting event likelihoods to the dense matter equation of state using two complementary hierarchical methods, a strongly parametrized spectral representation and a broader semi-parametric Gaussian-process ensemble. For GW170817, both prior treatments yield consistent EoS constraints despite substantial differences in the inferred properties of the individual neutron stars. For GW190425, however, the EoS constraints differ beyond numerical scatter even after removing the source-level priors, showing that prior choice affects likelihood recovery for low-SNR events. The joint EoS constraints nevertheless remain largely unchanged because GW170817 dominates the inference.",
       "bibcode": "2026arXiv261107147K",
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv261107147K/abstract",
-      "doi_url": null,
+      "doi_url": "https://doi.org/10.48550/arXiv.2611.07147",
       "citation_count": 0,
       "read_count": 24,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "Search for Compact Binary Coalescences with Sub-solar Mass Components in Data from the Second Part of LIGO-Virgo-KAGRA's Fourth Observing Run",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 811,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-10-00",
+      "abstract": "We report on a gravitational wave search for compact binary coalescences with secondary mass between 0.2 M and 1 M and primary mass between 0.2 M and 10 M, restricting the component mass ratio to lie between 0.1 and 1. The analysis uses data collected by the LIGO and Virgo detectors between 2024 April 10 15:00:00 and 2025 January 28 17:00:00, the second part of the fourth observing run of the LIGO-Virgo-KAGRA Collaboration. Results from two out of three search pipelines show outlier candidates, but not at a sufficient level of significance to provide evidence for detection. We report the combined sensitivity of the current searches over the first and second parts of the observing run to the target sub-solar mass (SSM) black hole (BH) population, as well as to neutron star (NS) binaries with one or more sub-solar component. We place upper limits on the merger rate of SSM BHs, ranging from $50 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$ to~$5000 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$ (90% confidence) for different component mass combinations. We use the merger rate limits to constrain two illustrative dark matter (DM) scenarios that can form SSM compact objects: primordial BHs, and dark BHs forming in a dissipative DM model. Our search limits the fraction of DM in primordial BHs, assuming a monochromatic mass distribution, to be $\\leq$ (0.018-0.032) at 1 M, and $\\leq$ (0.10-0.18) at 0.35 M for early-forming binaries; or to be less than 1 at masses above (0.62-0.74) M for late-forming binaries. For the dissipative model, we constrain the fraction of DM for a range of minimum dark black hole masses below $1\\,M$ to be as low as (1.0-1.1) x $10^{-5}$; we also exclude minimum masses above (0.62-0.74) M, if dark BHs constitute all of the DM. For binary NSs that include sub-solar mass components, assuming a simple, fixed population model we find a merger rate upper limit of $249 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$.",
+      "bibcode": "2026arXiv261020276T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv261020276T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2610.20276",
+      "citation_count": 0,
+      "read_count": 1154,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
@@ -502,27 +523,6 @@
       "arxiv_class": [
         "astro-ph.HE",
         "gr-qc"
-      ]
-    },
-    {
-      "title": "Search for Compact Binary Coalescences with Sub-solar Mass Components in Data from the Second Part of LIGO-Virgo-KAGRA's Fourth Observing Run",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 811,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-10-00",
-      "abstract": "We report on a gravitational wave search for compact binary coalescences with secondary mass between 0.2 M and 1 M and primary mass between 0.2 M and 10 M, restricting the component mass ratio to lie between 0.1 and 1. The analysis uses data collected by the LIGO and Virgo detectors between 2024 April 10 15:00:00 and 2025 January 28 17:00:00, the second part of the fourth observing run of the LIGO-Virgo-KAGRA Collaboration. Results from two out of three search pipelines show outlier candidates, but not at a sufficient level of significance to provide evidence for detection. We report the combined sensitivity of the current searches over the first and second parts of the observing run to the target sub-solar mass (SSM) black hole (BH) population, as well as to neutron star (NS) binaries with one or more sub-solar component. We place upper limits on the merger rate of SSM BHs, ranging from $50 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$ to~$5000 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$ (90% confidence) for different component mass combinations. We use the merger rate limits to constrain two illustrative dark matter (DM) scenarios that can form SSM compact objects: primordial BHs, and dark BHs forming in a dissipative DM model. Our search limits the fraction of DM in primordial BHs, assuming a monochromatic mass distribution, to be $\\leq$ (0.018-0.032) at 1 M, and $\\leq$ (0.10-0.18) at 0.35 M for early-forming binaries; or to be less than 1 at masses above (0.62-0.74) M for late-forming binaries. For the dissipative model, we constrain the fraction of DM for a range of minimum dark black hole masses below $1\\,M$ to be as low as (1.0-1.1) x $10^{-5}$; we also exclude minimum masses above (0.62-0.74) M, if dark BHs constitute all of the DM. For binary NSs that include sub-solar mass components, assuming a simple, fixed population model we find a merger rate upper limit of $249 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$.",
-      "bibcode": "2026arXiv261020276T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv261020276T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2610.20276",
-      "citation_count": 0,
-      "read_count": 1154,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
       ]
     },
     {
@@ -634,28 +634,6 @@
       ]
     },
     {
-      "title": "Upper limits on the isotropic gravitational-wave background from the first part of LIGO, Virgo, and KAGRA's fourth observing run",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authorship_position": "other",
-      "author_position": 773,
-      "journal": "Physical Review D",
-      "year": "2026",
-      "pubdate": "2026-08-00",
-      "abstract": "We present results from the search for an isotropic gravitational-wave background using Advanced LIGO and Advanced Virgo data from O1 through O4a, the first part of the fourth observing run. This background is the accumulated signal from unresolved sources throughout cosmic history and encodes information about the merger history of compact binaries throughout the Universe, as well as exotic physics and potentially primordial processes from the early cosmos. Our cross-correlation analysis reveals no statistically significant background signal, enabling us to constrain several theoretical scenarios. For compact binary coalescences which approximately follow a <inline-formula><mml:math><mml:mrow><mml:mn>2</mml:mn><mml:mo>/</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:math></inline-formula> power-law spectrum, we constrain the fractional energy density to <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>GW</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:mn>2.0</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula> (95% credibility), a factor of 1.7 improvement over previous results. Scale-invariant backgrounds are constrained to <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>GW</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:mn>2.8</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, representing a <inline-formula><mml:math><mml:mrow><mml:mn>2.1</mml:mn><mml:mo>×</mml:mo></mml:mrow></mml:math></inline-formula> sensitivity gain. We also place new limits on alternative gravity theories predicting nonstandard polarization modes and confirm that terrestrial magnetic noise sources remain below our detection threshold. Combining these spectral limits with population models for Gravitational-Wave Transient Catalog (GWTC)-4, the latest gravitational-wave event catalog, we find our constraints remain above predicted merger backgrounds but are approaching detectability. The joint analysis combining the background limits shown here with GWTC-4 enables improved inference of the binary black hole merger rate evolution across cosmic time. Furthermore, employing GWTC-4 inference results and standard modeling choices, we estimate that the total background arising from compact binary coalescences is <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>CBC</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:msubsup><mml:mrow><mml:mn>0.9</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.5</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.1</mml:mn></mml:mrow></mml:msubsup><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mrow></mml:math></inline-formula> at 90% confidence, where the largest contribution is due to binary black holes only, <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>BBH</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>0.8</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.5</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.1</mml:mn></mml:mrow></mml:msubsup><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>.",
-      "bibcode": "2026PhRvD.114d2001A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026PhRvD.114d2001A/abstract",
-      "doi_url": "https://doi.org/10.1103/wq57-sjt2",
-      "citation_count": 74,
-      "read_count": 1091,
-      "is_refereed": true,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.CO",
-        "astro-ph.HE"
-      ]
-    },
-    {
       "title": "Updated Upper Limits on the Isotropic Gravitational-Wave Background from LIGO, Virgo, and KAGRA Data through April 2025",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -671,6 +649,28 @@
       "citation_count": 9,
       "read_count": 2203,
       "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.CO",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "Upper limits on the isotropic gravitational-wave background from the first part of LIGO, Virgo, and KAGRA's fourth observing run",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 773,
+      "journal": "Physical Review D",
+      "year": "2026",
+      "pubdate": "2026-08-00",
+      "abstract": "We present results from the search for an isotropic gravitational-wave background using Advanced LIGO and Advanced Virgo data from O1 through O4a, the first part of the fourth observing run. This background is the accumulated signal from unresolved sources throughout cosmic history and encodes information about the merger history of compact binaries throughout the Universe, as well as exotic physics and potentially primordial processes from the early cosmos. Our cross-correlation analysis reveals no statistically significant background signal, enabling us to constrain several theoretical scenarios. For compact binary coalescences which approximately follow a <inline-formula><mml:math><mml:mrow><mml:mn>2</mml:mn><mml:mo>/</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:math></inline-formula> power-law spectrum, we constrain the fractional energy density to <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>GW</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:mn>2.0</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula> (95% credibility), a factor of 1.7 improvement over previous results. Scale-invariant backgrounds are constrained to <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>GW</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:mn>2.8</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, representing a <inline-formula><mml:math><mml:mrow><mml:mn>2.1</mml:mn><mml:mo>×</mml:mo></mml:mrow></mml:math></inline-formula> sensitivity gain. We also place new limits on alternative gravity theories predicting nonstandard polarization modes and confirm that terrestrial magnetic noise sources remain below our detection threshold. Combining these spectral limits with population models for Gravitational-Wave Transient Catalog (GWTC)-4, the latest gravitational-wave event catalog, we find our constraints remain above predicted merger backgrounds but are approaching detectability. The joint analysis combining the background limits shown here with GWTC-4 enables improved inference of the binary black hole merger rate evolution across cosmic time. Furthermore, employing GWTC-4 inference results and standard modeling choices, we estimate that the total background arising from compact binary coalescences is <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>CBC</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:msubsup><mml:mrow><mml:mn>0.9</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.5</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.1</mml:mn></mml:mrow></mml:msubsup><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mrow></mml:math></inline-formula> at 90% confidence, where the largest contribution is due to binary black holes only, <inline-formula><mml:math><mml:mrow><mml:msub><mml:mrow><mml:mi>Ω</mml:mi></mml:mrow><mml:mrow><mml:mi>BBH</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mn>25</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Hz</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>0.8</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>0.5</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>1.1</mml:mn></mml:mrow></mml:msubsup><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>9</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>.",
+      "bibcode": "2026PhRvD.114d2001A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026PhRvD.114d2001A/abstract",
+      "doi_url": "https://doi.org/10.1103/wq57-sjt2",
+      "citation_count": 74,
+      "read_count": 1091,
+      "is_refereed": true,
       "arxiv_class": [
         "gr-qc",
         "astro-ph.CO",
@@ -908,48 +908,6 @@
       ]
     },
     {
-      "title": "GWTC-5.0: Population Properties of Merging Compact Binaries",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 811,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-05-00",
-      "abstract": "We present the population properties of merging compact binaries inferred using 267 mergers from the cumulative Gravitational-Wave Transient Catalog 5.0. As this data set contains no new sources with a neutron star, we primarily focus on the properties of the binary black hole mergers. We infer the merger rate of binary black holes with component masses between $2.5\\,\\mathrm{M}_\\odot $ and $200\\,\\mathrm{M}_\\odot $ to be $27.5\\text{--} 49.4 \\, \\mathrm{Gpc}^{-3}\\,\\mathrm{yr}^{-1}$ (all intervals at $90\\%$ credible levels) at redshift $z = 0.2$. We find evidence for a subpopulation of binary black hole mergers that host a rapidly spinning black hole (dimensionless spins $χ\\sim 0.7$), consistent with signatures of hierarchical mergers. We find that these occur at two mass scales, the first at primary masses $\\sim 10$--$20\\,\\mathrm{M}_\\odot $ and the second above $\\sim 45\\,\\mathrm{M}_\\odot $, and we estimate their total rate at $z=0.2$ to be $0.2\\text{--} 3.11 \\, {\\rm Gpc}^{-3} {\\rm yr}^{-1}$. We infer that, above $40\\,\\mathrm{M}_\\odot $, the mass distribution of the less massive (secondary) black hole declines more steeply than that of the more massive (primary) one. This is consistent with a flatter mass-ratio distribution and indicates the prevalence of unequal-mass binaries with large primary masses. We find evidence for two features in the black hole mass spectrum: a peak around $10\\,\\mathrm{M}_\\odot $ and a change of slope at around $35\\,\\mathrm{M}_\\odot $. Black holes of $\\sim 35\\,\\mathrm{M}_\\odot $ pair preferentially with companions of similar mass. Additionally, we find that the effective inspiral spin distribution of binary black holes is asymmetric about zero, based on which we infer that at least $9 \\%$ of mergers occur in channels with some preference for spin-orbit alignment. We find evidence that...",
-      "bibcode": "2026arXiv260527226T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260527226T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2605.27226",
-      "citation_count": 152,
-      "read_count": 2278,
-      "is_refereed": false,
-      "arxiv_class": [
-        "astro-ph.HE",
-        "gr-qc"
-      ]
-    },
-    {
-      "title": "GWTC-5.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 809,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-05-00",
-      "abstract": "We employ 236 gravitational-wave (GW) sources in the fifth LIGO--Virgo--KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-5.0) to estimate the Hubble constant $H_0$. We compare the luminosity distance measured from GWs to the redshift inferred i) using features in the mass spectrum, and ii) using statistical host galaxy association. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We estimate $H_0 = {71.7}_{-7.5}^{+9.4}\\,{\\text{km}\\,\\text{s}^{-1}\\,\\text{Mpc}^{-1}}$ (median with $68\\%$ symmetric credible interval). This combines information from the source-frame mass distribution with the $H_0$ measurement from GW170817 and its electromagnetic counterpart as well as galaxy catalog information from Dark Energy Survey Year 6 (DES-Y6). We improve over the GWTC-4.0 measurement by using more GW sources, some with significantly smaller sky localization volumes, which leads to a reduction by $22.0\\%$ of the $H_0$ uncertainty and a reconstructed mass distribution with lower uncertainties. We also constrain deviations from general relativity (GR) which affect GW propagation, specifically that modify the luminosity distance inferred from the GW signal. We find no departures from GR in parameterized tests of GW propagation.",
-      "bibcode": "2026arXiv260527227T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260527227T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2605.27227",
-      "citation_count": 49,
-      "read_count": 1663,
-      "is_refereed": false,
-      "arxiv_class": [
-        "astro-ph.CO",
-        "gr-qc"
-      ]
-    },
-    {
       "title": "GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -1031,6 +989,48 @@
       "arxiv_class": [
         "gr-qc",
         "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "GWTC-5.0: Population Properties of Merging Compact Binaries",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 811,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-05-00",
+      "abstract": "We present the population properties of merging compact binaries inferred using 267 mergers from the cumulative Gravitational-Wave Transient Catalog 5.0. As this data set contains no new sources with a neutron star, we primarily focus on the properties of the binary black hole mergers. We infer the merger rate of binary black holes with component masses between $2.5\\,\\mathrm{M}_\\odot $ and $200\\,\\mathrm{M}_\\odot $ to be $27.5\\text{--} 49.4 \\, \\mathrm{Gpc}^{-3}\\,\\mathrm{yr}^{-1}$ (all intervals at $90\\%$ credible levels) at redshift $z = 0.2$. We find evidence for a subpopulation of binary black hole mergers that host a rapidly spinning black hole (dimensionless spins $χ\\sim 0.7$), consistent with signatures of hierarchical mergers. We find that these occur at two mass scales, the first at primary masses $\\sim 10$--$20\\,\\mathrm{M}_\\odot $ and the second above $\\sim 45\\,\\mathrm{M}_\\odot $, and we estimate their total rate at $z=0.2$ to be $0.2\\text{--} 3.11 \\, {\\rm Gpc}^{-3} {\\rm yr}^{-1}$. We infer that, above $40\\,\\mathrm{M}_\\odot $, the mass distribution of the less massive (secondary) black hole declines more steeply than that of the more massive (primary) one. This is consistent with a flatter mass-ratio distribution and indicates the prevalence of unequal-mass binaries with large primary masses. We find evidence for two features in the black hole mass spectrum: a peak around $10\\,\\mathrm{M}_\\odot $ and a change of slope at around $35\\,\\mathrm{M}_\\odot $. Black holes of $\\sim 35\\,\\mathrm{M}_\\odot $ pair preferentially with companions of similar mass. Additionally, we find that the effective inspiral spin distribution of binary black holes is asymmetric about zero, based on which we infer that at least $9 \\%$ of mergers occur in channels with some preference for spin-orbit alignment. We find evidence that...",
+      "bibcode": "2026arXiv260527226T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260527226T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2605.27226",
+      "citation_count": 152,
+      "read_count": 2278,
+      "is_refereed": false,
+      "arxiv_class": [
+        "astro-ph.HE",
+        "gr-qc"
+      ]
+    },
+    {
+      "title": "GWTC-5.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 809,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-05-00",
+      "abstract": "We employ 236 gravitational-wave (GW) sources in the fifth LIGO--Virgo--KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-5.0) to estimate the Hubble constant $H_0$. We compare the luminosity distance measured from GWs to the redshift inferred i) using features in the mass spectrum, and ii) using statistical host galaxy association. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We estimate $H_0 = {71.7}_{-7.5}^{+9.4}\\,{\\text{km}\\,\\text{s}^{-1}\\,\\text{Mpc}^{-1}}$ (median with $68\\%$ symmetric credible interval). This combines information from the source-frame mass distribution with the $H_0$ measurement from GW170817 and its electromagnetic counterpart as well as galaxy catalog information from Dark Energy Survey Year 6 (DES-Y6). We improve over the GWTC-4.0 measurement by using more GW sources, some with significantly smaller sky localization volumes, which leads to a reduction by $22.0\\%$ of the $H_0$ uncertainty and a reconstructed mass distribution with lower uncertainties. We also constrain deviations from general relativity (GR) which affect GW propagation, specifically that modify the luminosity distance inferred from the GW signal. We find no departures from GR in parameterized tests of GW propagation.",
+      "bibcode": "2026arXiv260527227T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260527227T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2605.27227",
+      "citation_count": 49,
+      "read_count": 1663,
+      "is_refereed": false,
+      "arxiv_class": [
+        "astro-ph.CO",
+        "gr-qc"
       ]
     },
     {
