@@ -12,6 +12,13 @@
     <span class="nc-tagline">{{ .Params.description }}</span>
   </div>
 
+  {{ with .Content }}
+  <div class="nc-intro">
+    <span class="nc-kicker">A note from the writer</span>
+    {{ . }}
+  </div>
+  {{ end }}
+
   <div class="nc-rows">
     {{ range .Pages.ByDate.Reverse }}
     <a class="nc-row nc-topic--{{ index (.Params.tags | default (slice "other")) 0 | lower | urlize }}" href="{{ .RelPermalink }}">
