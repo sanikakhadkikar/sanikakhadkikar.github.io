@@ -279,3 +279,11 @@ html:has(.nc-paper) #starfield-canvas { display: none !important; }
 .nc-paper .nc-photo { max-width: 640px !important; }
 .nc-paper .nc-photo figcaption { text-align: left !important; }
 .nc-paper .nc-photo .nc-credit, .nc-paper .nc-photo .nc-credit a { color: #8a8478 !important; font-style: italic !important; }
+
+.nc-paper .nc-photo--right { float: right !important; max-width: 240px !important; margin: .3rem 0 1rem 1.5rem !important; }
+.nc-paper .nc-photo--left  { float: left !important;  max-width: 240px !important; margin: .3rem 1.5rem 1rem 0 !important; }
+.nc-paper .nc-body h2 { clear: both; }
+.nc-paper .nc-hindi { font-family: 'Noto Sans Devanagari', 'Mangal', sans-serif !important; font-style: normal !important; }
+@media (max-width: 600px) {
+  .nc-paper .nc-photo--right, .nc-paper .nc-photo--left { float: none !important; max-width: 100% !important; margin: 1.5rem auto !important; }
+}
