@@ -1,0 +1,23 @@
+<svg class="nc-map" viewBox="0 0 1000 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A ball carrier shown as a light source, a defender casting a shadow, and a teammate stepping out of the shadow to receive a pass">
+<rect width="1000" height="380" fill="#f4efe4"/>
+<defs><marker id="fb-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1b1a17"/></marker></defs>
+<polygon points="430,168 900,131 900,249 430,212" fill="#b9b09d" opacity="0.5"/>
+<text x="860" y="195" text-anchor="end" class="nc-map-place">cover shadow</text>
+<line x1="150" y1="190" x2="900" y2="54" stroke="#c8102e" stroke-width="1.6" opacity="0.8"/>
+<line x1="150" y1="190" x2="900" y2="320" stroke="#c8102e" stroke-width="1.6" opacity="0.8"/>
+<line x1="150" y1="190" x2="900" y2="10" stroke="#c8102e" stroke-width="1.6" opacity="0.8"/>
+<line x1="150" y1="190" x2="900" y2="370" stroke="#c8102e" stroke-width="1.6" opacity="0.8"/>
+<line x1="150" y1="190" x2="408" y2="190" stroke="#c8102e" stroke-width="1.6" opacity="0.8"/>
+<circle cx="150" cy="190" r="22" fill="#f3d36b" stroke="#1b1a17" stroke-width="2"/>
+<text x="150" y="245" text-anchor="middle" class="nc-map-country">BALL CARRIER</text>
+<text x="150" y="265" text-anchor="middle" class="nc-map-place">the light source</text>
+<circle cx="430" cy="190" r="22" fill="#1b1a17"/>
+<text x="430" y="245" text-anchor="middle" class="nc-map-country">DEFENDER</text>
+<text x="430" y="265" text-anchor="middle" class="nc-map-place">an opaque object</text>
+<circle cx="700" cy="190" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="700" y="232" text-anchor="middle" class="nc-map-gdp">in the shadow, can't be reached</text>
+<circle cx="700" cy="90" r="19" fill="#c8102e" stroke="#1b1a17" stroke-width="2"/>
+<text x="745" y="80" text-anchor="start" class="nc-map-gdp">steps out, now lit</text>
+<path d="M700,168 Q692,140 700,114" fill="none" stroke="#1b1a17" stroke-width="2" marker-end="url(#fb-arrow)"/>
+<rect width="1000" height="380" fill="none" stroke="#1b1a17" stroke-width="3"/>
+</svg>

@@ -1,0 +1,79 @@
+---
+draft: false
+title: "Força Barça"
+date: 2026-11-08
+summary: "I stopped watching football in 2015. A physicist's catch-up on ten years of FC Barcelona, told through triangles, shadows and space."
+genre: feature
+math: false
+tags:
+  - football
+  - economics
+---
+
+From Spain winning the FIFA World Cup in 2010 to Barcelona winning the treble in 2015, I was an obsessed kid. Andrés Iniesta was my favourite player, and I loved watching how Lionel Messi, Sergio Busquets, Xavi and the rest of that team played together like they could read each other's minds. People who knew me back then mostly remember me in a Messi or Iniesta jersey, staying up late at night to watch matches. But as it always happens, life got rough. After my 10th standard board exams in India, the stress of studying became so overpowering that I let go of the things I loved, and football was one of them.
+
+Yesterday, Barcelona played Atlético Madrid, and I watched it with two friends whose excitement reminded me of exactly who I used to be. Barça came from behind to win [2-1, with two goals from Fermín López](https://www.espn.com/soccer/report/_/gameId/401882816), and I felt that old joy again. So much of this website is about picking up old hobbies, so here is a deep dive into my favourite team and what I missed in the last ten years. And since I am a physicist now, I have tried to view it all with my geometry hat on.
+
+## The 2015 team, and why it worked
+
+Football formations are written as numbers counting outwards from your own goal, ignoring the goalkeeper. In 2015, Barça played a **4-3-3**, four defenders, three midfielders and three forwards. In the Champions League final against Juventus, which Barça won 3-1 in Berlin, it looked like this.
+
+{{< inline-svg src="barca-2015.svg" caption="Barcelona's starting line-up in the 2015 Champions League final. The dashed lines show some of the passing triangles between midfield and attack." >}}
+
+The three red players at the top are the reason that team is still talked about. Messi, Luis Suárez and Neymar, known as MSN, scored [122 goals between them](https://en.wikipedia.org/wiki/MSN_%28association_football%29) that season, and Barça became the [first club to win the treble](https://en.wikipedia.org/wiki/2014%E2%80%9315_UEFA_Champions_League) of league, domestic cup and Champions League twice. But the front three only worked because of what was behind them.
+
+The whole Barça philosophy, inherited from Johan Cruyff, is built on triangles. When the player on the ball has two teammates standing at an angle to them, a single defender can only block one of the two passes, so one is always open. If those two teammates stood in a straight line instead, one defender could block both. Every player belongs to several triangles at once, so the ball moves faster than the defence can shift.
+
+The way I think about it is optics. The player with the ball is a light source, every possible pass is a ray, and every defender is an opaque object that casts a shadow. Coaches actually call this the defender's "cover shadow". A teammate standing in that shadow cannot be reached, so the whole game is about stepping out of the shadow and back into the light.
+
+{{< inline-svg src="cover-shadow.svg" caption="A pass behaves like a ray of light. A teammate in the defender's shadow can't receive it, so they move until they are lit." >}}
+
+This decides who Barça picks for each position. If everything depends on quick passes in tight spaces, the midfielders need to receive and pass with very few touches, turn under pressure and constantly reposition to open new angles. That is why a midfield of relatively small, technical players like Xavi, Iniesta and Busquets could dominate much bigger ones. Busquets, standing just in front of the defence, was the "pivot" who received the ball from the defenders and kept it moving. The full-backs, Jordi Alba and Dani Alves, needed huge stamina, because in this system they spent the game running up and down the whole length of the pitch, defending one minute and attacking down the wing the next.
+
+## Why everyone has to keep moving
+
+The reason for all that running is my favourite part of the physics. Imagine the ball was dropped at a random spot on the pitch. Who would get to it first? Answer that for every point and you get a map of which team controls which patch of grass. The simplest version gives each spot to the closest player, which is a Voronoi diagram. But being closest is not the same as arriving first. A player who is already moving beats a player standing still nearby, because a body at rest needs time to accelerate. So the real map is a dynamic Voronoi diagram, stretched in the direction players are moving, and a player who stands still is slowly giving their territory away.
+
+This is not just my physicist brain talking. In 2018, Javier Fernández, a data scientist at FC Barcelona itself, and Luke Bornn presented a model called ["Wide Open Spaces"](https://www.researchgate.net/publication/324942294_Wide_Open_Spaces_A_statistical_technique_for_measuring_space_creation_in_professional_soccer) at the MIT Sloan Sports Analytics Conference, which colours the pitch by who would reach the ball first based on every player's position and speed. William Spearman built a similar ["pitch control"](https://www.researchgate.net/publication/327139841_Beyond_Expected_Goals) model the same year. It put numbers on something Barça had trained into its players for decades.
+
+Barça's training is designed around exactly this. Its most famous drill is the rondo, where a circle of players keeps the ball away from two defenders in the middle using only one or two touches, so you only survive by constantly moving to give the passer a new angle. Under Pep Guardiola, the team also followed the famous ["six-second rule"](https://www.skysports.com/football/news/15126/10505903/the-top-five-innovations-of-pep-guardiolas-coaching-career). When they lost the ball, everyone nearby pressed for about six seconds to win it straight back, and if that failed, they dropped back into a compact shape. Both ideas only work if nobody ever stands still.
+
+## After 2015, the slow fall
+
+Then things went wrong, one decision at a time.
+
+The first problem was the midfield. The trio that made the triangles work was getting older, and it broke up one player at a time. Xavi left for Qatar right after the 2015 final, Iniesta left for Japan in [2018 at the age of 34](https://www.nationalworld.com/sport/football/andres-iniesta-retires-xavi-sergio-busquets-barcelona-4805001), and Busquets carried on until 2023. Barça never really replaced the first two.
+
+The second problem was money spent in the wrong places. In 2017, Paris Saint-Germain paid Neymar's [€222 million release clause](https://www.teamtalk.com/news/the-10-most-expensive-barcelona-transfers-of-all-time-and-how-they-fared-coutinho-dembele-neymar), still the most expensive transfer in history. Barça tried to replace him directly with another winger, Ousmane Dembélé, for a fee that rose towards €140 million with add-ons. Dembélé had moments of brilliance, but he was [constantly injured and inconsistent](https://www.goal.com/en-om/lists/ousmane-dembele-beat-lamine-yamal-to-2025-ballon-d-or-wide-margin-confirms-france-football-editor-in-chief/bltb075591a33939529) during his six years in Barcelona. The painful irony is that after leaving, he won the Ballon d'Or in 2025 with PSG. Then came Philippe Coutinho, an attacking midfielder who cost up to €160 million and was seen as the long-term successor to Iniesta, and Antoine Griezmann, a forward bought for €120 million to score goals next to Messi and Suárez. Both were excellent at their old clubs, and neither ever fit into Barça's triangles. Notice what all three have in common. None of them was a Xavi or a Busquets. Barça spent almost all that money on attacking players, while the deep midfield that actually built the triangles kept getting older without real replacements. Over that period, Barça signed [29 players for just over €1 billion](https://www.goal.com/en/news/the-fall-of-an-empire-how-bartomeus-barcelona-wasted-messis-best-years/7fg1daqrpm341tt11m86nixim), and Goal concluded that not one of them was an unqualified success, while critics argued the club's own academy players were [overlooked for these expensive imports](https://www.fourfourtwo.com/features/barcelona-la-masia-death-academy-failure-philosophy-cruyff-messi-iniesta-xavi-crisis-club).
+
+The coaches changed almost as fast as the players. Ernesto Valverde won two league titles in a row, but his Barça played a more cautious, defence-first version of the 4-3-3, leaning heavily on Messi to win games, and it collapsed on the biggest nights. In 2018 Barça won the first leg against Roma 4-1 and lost the return 3-0, and in 2019 it was 3-0 up against Liverpool and lost 4-0 at Anfield. After a [Super Cup defeat to Atlético](https://www.skysports.com/football/news/11833/11907961/barcelona-sack-ernesto-valverde-where-did-it-go-wrong-for-head-coach) in January 2020, he was sacked, with critics saying he had moved the club away from the possession style that Cruyff and Guardiola had built. His replacement, Quique Setién, was a Cruyff devotee hired to bring that style back, and he lasted seven months, ending with an 8-2 Champions League defeat to Bayern Munich.
+
+Ronald Koeman came next and won the Copa del Rey in 2021, but that summer the club revealed debts of around [€1.35 billion](https://swissramble.substack.com/p/barcelona-finances-202223). With La Liga's spending limits, Barça could no longer afford to keep Lionel Messi, and he left. Without him, Koeman's team lost its balance. Barça lost 3-0 to both Bayern Munich and Benfica in the Champions League, its worst ever start to the competition, and after a [defeat to Rayo Vallecano](https://www.skysports.com/football/news/12413637/ronald-koeman-sacked-by-barcelona) left the team ninth in La Liga in October 2021, Koeman was sacked. To keep the club running, Barça pulled what it called "economic levers", including selling [25% of its La Liga TV rights for the next 25 years](https://www.footballtransfers.com/en/transfer-news/es-la-liga/2022/07/barcelona-sell-tv-rights-sixth-street) to an American investment fund.
+
+## Why it is working again
+
+The way back started out of necessity. With no money to spend, Barça had to turn to La Masia, its youth academy, the same one that produced Messi, Xavi, Iniesta and Busquets. Xavi returned as coach in late 2021 and won [La Liga in 2022-23](https://www.fcbarcelona.com/en/club/history/coaches) with a very young team built around a new academy generation, including Pedri, Gavi, Pau Cubarsí and a teenager named Lamine Yamal. But his team was criticised for being slow, with a lot of sideways passing, and he left in 2024.
+
+Then came Hansi Flick, and he changed the geometry again. This is what Barça looks like now, in the line-up from yesterday's win.
+
+{{< inline-svg src="barca-2026.svg" caption="Barcelona's line-up against Atlético Madrid on 8 November 2026, a 4-2-3-1. Positions are drawn schematically to show the shape." >}}
+
+There are two big differences from 2015. The first is the shape. Instead of one pivot and three forwards, Flick uses a **4-2-3-1**, with two holding midfielders side by side and four attacking players in front of them. So yes, this Barça is more attack-heavy. It also plays [more directly](https://sportsgazette.co.uk/from-xavi-to-flick-a-tactical-transformation-at-fc-barcelona/), which means it makes fewer passes than Xavi's team, but more of them go forward towards goal instead of sideways to keep possession. In Flick's first season, Barça scored [102 league goals](https://www.si.com/soccer/barcelona-2024-25-la-liga-title-by-the-numbers-), more than any other team in Europe's top five leagues.
+
+The second difference is the defensive line, and to understand it you need the offside rule. An attacker is not allowed to simply wait behind the defence for a pass. If they are closer to the goal than the last defender at the moment the pass is played, they are offside and play stops. So wherever the defenders stand, they draw an invisible line that the attackers cannot be beyond.
+
+Most teams keep their defenders fairly close to their own goal. Flick's defenders stand much further up, near the halfway line, and that drags the invisible line up with them. The opponent's attackers can no longer wait near Barça's goal, because they would be offside, so they have to stay in front of the defenders. Meanwhile Barça's own attackers are pressing high up near the other goal. The whole game gets squeezed into a short strip of the pitch.
+
+{{< inline-svg src="high-line.svg" caption="With a deep defensive line, play is spread over most of the pitch. With Flick's high line, the offside line moves up and the whole game is squeezed into a short strip near the opponent's goal." >}}
+
+In that squeezed strip, Barça has lots of players packed close together, so whenever an opponent gets the ball, a Barça player is only a step or two away. In our "who gets there first" map, Barça owns almost every spot near the ball. It is a bit like playing on a smaller pitch where you outnumber the other team. And the line itself becomes a trap. If an attacker is standing level with the defenders and they all step forward together just as the pass is played, the attacker is suddenly behind them and offside. Barça did this so often that opponents were caught offside [181 times in the league](https://www.si.com/soccer/barcelona-2024-25-la-liga-title-by-the-numbers-) that season, the most in Europe's top five leagues.
+
+It is a high-risk bet. If an opponent plays a long ball over the top and times the run perfectly, it becomes a race between an attacker who is already sprinting and a defender who first has to turn around and accelerate, and our dynamic Voronoi diagram says the defender loses that race. So Flick needs players who can sprint again and again. His fitness staff rebuilt the training to [mirror real match movements](https://www.espn.com/soccer/story/_/id/44229111/how-fitness-guru-got-barcelona-sprinting-top-laliga), and by the middle of that season Barça led La Liga in total sprints, with some players nearly doubling the number of high-speed sprints they made per game. It worked. Barça won a [domestic treble in 2024-25](https://en.wikipedia.org/wiki/2024%E2%80%9325_FC_Barcelona_season) and [La Liga again in 2025-26](https://www.fcbarcelona.com/en/laliga-champions-2025-2026), the club's 29th league title.
+
+## What comes next
+
+After yesterday's win, Barça are [alone at the top of La Liga](https://www.si.com/soccer/barcelona-player-ratings-vs-atletico-madrid-11-8-26) heading into the international break. The academy is producing stars again, and this summer Spain won the 2026 World Cup with [nine La Masia graduates in the final](https://www.fcbarcelona.com/en/news/4537154/nine-from-la-masia-in-world-cup-final) and Pau Cubarsí named best young player, which feels like a lovely full circle from the 2010 World Cup that first made me fall in love with all this. Off the pitch, the money problems are not fully behind them. The club is still finishing its renovated Camp Nou and recently approved another [€510 million in financing](https://www.fcbarcelona.com/en/club/news/4578665/barca-approves-510-million-euros-in-new-financing-to-complete-spotify-camp-nou) to complete it.
+
+The one thing still missing is Europe. Barça have not won the Champions League since that night in Berlin in 2015, and last season ended with [a quarter-final exit](https://www.si.com/soccer/barcelona-2025-26-season-review-domestic-dominance-missing-european-validation). Maybe this is the year. Either way, I am back to watching, and this time I will be thinking about light sources and shadows every time Pedri looks up for a pass.
+
+Força Barça.

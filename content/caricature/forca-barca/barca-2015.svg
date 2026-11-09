@@ -1,0 +1,51 @@
+<svg class="nc-map" viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Barcelona 2015 Champions League final line-up in a 4-3-3, with passing triangles between midfield and attack">
+<rect width="1000" height="640" fill="#f4efe4"/>
+<rect x="200" y="30" width="600" height="580" fill="#e8e3d3" stroke="#1b1a17" stroke-width="2.5"/>
+<line x1="200" y1="320" x2="800" y2="320" stroke="#1b1a17" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="350" y="30" width="300" height="90" fill="none" stroke="#1b1a17" stroke-width="1.5"/>
+<rect x="350" y="520" width="300" height="90" fill="none" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="500" cy="320" r="55" fill="none" stroke="#1b1a17" stroke-width="1.5"/>
+<polygon points="610,290 680,140 500,120" fill="none" stroke="#c8102e" stroke-width="2" stroke-dasharray="5 4"/>
+<polygon points="390,290 320,140 500,120" fill="none" stroke="#c8102e" stroke-width="2" stroke-dasharray="5 4"/>
+<polygon points="390,290 500,370 610,290" fill="none" stroke="#c8102e" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="100" y="60" text-anchor="middle" class="nc-map-country">2015</text>
+<text x="100" y="82" text-anchor="middle" class="nc-map-place">4-3-3</text>
+<text x="100" y="300" text-anchor="middle" class="nc-map-place">attacking</text>
+<text x="100" y="320" text-anchor="middle" class="nc-map-place">this way ↑</text>
+<circle cx="320" cy="140" r="19" fill="#c8102e" stroke="#1b1a17" stroke-width="2"/>
+<text x="320" y="145" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#f4efe4;stroke:none">LW</text>
+<text x="320" y="180" text-anchor="middle" class="nc-map-gdp">Neymar</text>
+<circle cx="500" cy="120" r="19" fill="#c8102e" stroke="#1b1a17" stroke-width="2"/>
+<text x="500" y="125" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#f4efe4;stroke:none">ST</text>
+<text x="500" y="160" text-anchor="middle" class="nc-map-gdp">Suárez</text>
+<circle cx="680" cy="140" r="19" fill="#c8102e" stroke="#1b1a17" stroke-width="2"/>
+<text x="680" y="145" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#f4efe4;stroke:none">RW</text>
+<text x="680" y="180" text-anchor="middle" class="nc-map-gdp">Messi</text>
+<circle cx="390" cy="290" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="390" y="295" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">CM</text>
+<text x="390" y="330" text-anchor="middle" class="nc-map-gdp">Iniesta</text>
+<circle cx="610" cy="290" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="610" y="295" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">CM</text>
+<text x="610" y="330" text-anchor="middle" class="nc-map-gdp">Rakitić</text>
+<circle cx="500" cy="370" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="500" y="375" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">DM</text>
+<text x="500" y="410" text-anchor="middle" class="nc-map-gdp">Busquets</text>
+<circle cx="250" cy="440" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="250" y="445" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">LB</text>
+<text x="250" y="480" text-anchor="middle" class="nc-map-gdp">Alba</text>
+<circle cx="410" cy="480" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="410" y="485" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">CB</text>
+<text x="410" y="520" text-anchor="middle" class="nc-map-gdp">Mascherano</text>
+<circle cx="590" cy="480" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="590" y="485" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">CB</text>
+<text x="590" y="520" text-anchor="middle" class="nc-map-gdp">Piqué</text>
+<circle cx="750" cy="440" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="750" y="445" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">RB</text>
+<text x="750" y="480" text-anchor="middle" class="nc-map-gdp">Alves</text>
+<circle cx="500" cy="570" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="500" y="575" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">GK</text>
+<text x="500" y="610" text-anchor="middle" class="nc-map-gdp">ter Stegen</text>
+<text x="900" y="300" text-anchor="middle" class="nc-map-place">dashed lines =</text>
+<text x="900" y="320" text-anchor="middle" class="nc-map-place">passing triangles</text>
+<rect width="1000" height="640" fill="none" stroke="#1b1a17" stroke-width="3"/>
+</svg>

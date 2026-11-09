@@ -1,0 +1,52 @@
+<svg class="nc-map" viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Barcelona line-up against Atlético Madrid on 8 November 2026 in a 4-2-3-1 with a high defensive line">
+<rect width="1000" height="640" fill="#f4efe4"/>
+<rect x="200" y="30" width="600" height="580" fill="#e8e3d3" stroke="#1b1a17" stroke-width="2.5"/>
+<line x1="200" y1="320" x2="800" y2="320" stroke="#1b1a17" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="350" y="30" width="300" height="90" fill="none" stroke="#1b1a17" stroke-width="1.5"/>
+<rect x="350" y="520" width="300" height="90" fill="none" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="500" cy="320" r="55" fill="none" stroke="#1b1a17" stroke-width="1.5"/>
+<rect x="200" y="372" width="600" height="6" fill="#c8102e" opacity="0.35"/>
+<text x="100" y="60" text-anchor="middle" class="nc-map-country">2026</text>
+<text x="100" y="82" text-anchor="middle" class="nc-map-place">4-2-3-1</text>
+<text x="100" y="300" text-anchor="middle" class="nc-map-place">attacking</text>
+<text x="100" y="320" text-anchor="middle" class="nc-map-place">this way ↑</text>
+<text x="900" y="370" text-anchor="middle" class="nc-map-place">defensive line</text>
+<text x="900" y="390" text-anchor="middle" class="nc-map-place">pushed up towards</text>
+<text x="900" y="410" text-anchor="middle" class="nc-map-place">the halfway line</text>
+<text x="900" y="150" text-anchor="middle" class="nc-map-place">four attackers</text>
+<text x="900" y="170" text-anchor="middle" class="nc-map-place">instead of three</text>
+<circle cx="500" cy="95" r="19" fill="#c8102e" stroke="#1b1a17" stroke-width="2"/>
+<text x="500" y="100" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#f4efe4;stroke:none">ST</text>
+<text x="500" y="135" text-anchor="middle" class="nc-map-gdp">Raphinha</text>
+<circle cx="300" cy="185" r="19" fill="#c8102e" stroke="#1b1a17" stroke-width="2"/>
+<text x="300" y="190" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#f4efe4;stroke:none">LW</text>
+<text x="300" y="225" text-anchor="middle" class="nc-map-gdp">Gordon</text>
+<circle cx="500" cy="200" r="19" fill="#c8102e" stroke="#1b1a17" stroke-width="2"/>
+<text x="500" y="205" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#f4efe4;stroke:none">AM</text>
+<text x="500" y="240" text-anchor="middle" class="nc-map-gdp">López</text>
+<circle cx="700" cy="185" r="19" fill="#c8102e" stroke="#1b1a17" stroke-width="2"/>
+<text x="700" y="190" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#f4efe4;stroke:none">RW</text>
+<text x="700" y="225" text-anchor="middle" class="nc-map-gdp">Yamal</text>
+<circle cx="410" cy="300" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="410" y="305" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">DM</text>
+<text x="410" y="340" text-anchor="middle" class="nc-map-gdp">Bernal</text>
+<circle cx="590" cy="300" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="590" y="305" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">DM</text>
+<text x="590" y="340" text-anchor="middle" class="nc-map-gdp">Pedri</text>
+<circle cx="250" cy="365" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="250" y="370" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">LB</text>
+<text x="250" y="405" text-anchor="middle" class="nc-map-gdp">Cancelo</text>
+<circle cx="420" cy="395" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="420" y="400" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">CB</text>
+<text x="420" y="435" text-anchor="middle" class="nc-map-gdp">Martín</text>
+<circle cx="580" cy="395" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="580" y="400" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">CB</text>
+<text x="580" y="435" text-anchor="middle" class="nc-map-gdp">Cubarsí</text>
+<circle cx="750" cy="365" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="750" y="370" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">RB</text>
+<text x="750" y="405" text-anchor="middle" class="nc-map-gdp">Fariñas</text>
+<circle cx="500" cy="560" r="19" fill="#eab3ba" stroke="#1b1a17" stroke-width="2"/>
+<text x="500" y="565" text-anchor="middle" class="nc-map-gdp" style="font-size:12px;font-weight:800;fill:#1b1a17;stroke:none">GK</text>
+<text x="500" y="600" text-anchor="middle" class="nc-map-gdp">García</text>
+<rect width="1000" height="640" fill="none" stroke="#1b1a17" stroke-width="3"/>
+</svg>

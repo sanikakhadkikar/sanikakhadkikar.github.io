@@ -262,6 +262,7 @@ html:has(.nc-paper) #starfield-canvas { display: none !important; }
 .nc-paper .nc-topic--politics     { background: #e1e8f4 !important; }
 .nc-paper .nc-topic--gaming       { background: #e4efe9 !important; }
 .nc-paper .nc-topic--technology   { background: #eae8ef !important; }
+.nc-paper .nc-topic--football     { background: #f2e2e2 !important; }
 .nc-paper .nc-topic--history      { background: #f2e9de !important; }
 .nc-paper .nc-topic--pokemon      { background: #f5eadf !important; }
 .nc-paper .nc-row:hover { filter: brightness(1.02); }

@@ -1,0 +1,67 @@
+<svg class="nc-map" viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comparison of a deep defensive line with play spread over the pitch and a high defensive line that squeezes play into a short strip">
+<rect width="1000" height="460" fill="#f4efe4"/>
+<rect x="60" y="70" width="400" height="340" fill="#e8e3d3" stroke="#1b1a17" stroke-width="2.5"/>
+<line x1="60" y1="240" x2="460" y2="240" stroke="#1b1a17" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="180" y="70" width="160" height="40" fill="none" stroke="#1b1a17" stroke-width="1.2"/>
+<rect x="180" y="370" width="160" height="40" fill="none" stroke="#1b1a17" stroke-width="1.2"/>
+<rect x="60" y="110" width="400" height="240" fill="#c8102e" opacity="0.12"/>
+<line x1="60" y1="335" x2="460" y2="335" stroke="#c8102e" stroke-width="2.5"/>
+<text x="260" y="38" text-anchor="middle" class="nc-map-country">A DEEP LINE</text>
+<text x="260" y="58" text-anchor="middle" class="nc-map-place">space stretched over most of the pitch</text>
+<text x="455" y="329" text-anchor="end" class="nc-map-place">offside line</text>
+<circle cx="140" cy="340" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="220" cy="345" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="300" cy="345" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="380" cy="340" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="180" cy="290" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="260" cy="300" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="340" cy="290" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="160" cy="230" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="260" cy="220" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="360" cy="230" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="180" cy="300" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="260" cy="320" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="340" cy="300" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="210" cy="250" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="310" cy="250" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="260" cy="190" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="170" cy="170" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="350" cy="170" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="220" cy="130" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="300" cy="130" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<rect x="540" y="70" width="400" height="340" fill="#e8e3d3" stroke="#1b1a17" stroke-width="2.5"/>
+<line x1="540" y1="240" x2="940" y2="240" stroke="#1b1a17" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="660" y="70" width="160" height="40" fill="none" stroke="#1b1a17" stroke-width="1.2"/>
+<rect x="660" y="370" width="160" height="40" fill="none" stroke="#1b1a17" stroke-width="1.2"/>
+<rect x="540" y="85" width="400" height="160" fill="#c8102e" opacity="0.12"/>
+<line x1="540" y1="232" x2="940" y2="232" stroke="#c8102e" stroke-width="2.5"/>
+<text x="740" y="38" text-anchor="middle" class="nc-map-country">FLICK'S HIGH LINE</text>
+<text x="740" y="58" text-anchor="middle" class="nc-map-place">the game squeezed into a short strip</text>
+<text x="935" y="226" text-anchor="end" class="nc-map-place">offside line</text>
+<circle cx="620" cy="235" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="700" cy="240" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="780" cy="240" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="860" cy="235" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="680" cy="200" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="800" cy="200" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="630" cy="160" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="740" cy="170" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="850" cy="160" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="740" cy="120" r="9" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<circle cx="670" cy="215" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="810" cy="215" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="740" cy="190" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="640" cy="180" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="840" cy="180" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="710" cy="150" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="770" cy="150" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="680" cy="110" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="800" cy="110" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="740" cy="95" r="9" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<circle cx="80" cy="440" r="8" fill="#c8102e" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="95" y="445" class="nc-map-gdp">Barça (defending the bottom goal)</text>
+<circle cx="420" cy="440" r="8" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.8"/>
+<text x="435" y="445" class="nc-map-gdp">opponents</text>
+<text x="940" y="445" text-anchor="end" class="nc-map-place">schematic</text>
+<rect width="1000" height="460" fill="none" stroke="#1b1a17" stroke-width="3"/>
+</svg>
