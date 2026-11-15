@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T13:11:41.502403+00:00",
+  "last_updated": "2026-11-15T13:39:59.340651+00:00",
   "total_publications": 50,
   "orcid": "0000-0001-7389-8825",
   "publications": [
@@ -121,7 +121,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2026PhRvD.113b3029K/abstract",
       "doi_url": "https://doi.org/10.1103/tzz8-wvrf",
       "citation_count": 6,
-      "read_count": 168,
+      "read_count": 167,
       "is_refereed": true,
       "arxiv_class": [
         "astro-ph.HE",
@@ -172,27 +172,6 @@
       ]
     },
     {
-      "title": "All-sky search for short gravitational-wave bursts in the first part of the fourth LIGO-Virgo-KAGRA observing run",
-      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
-      "authorship_position": "other",
-      "author_position": 776,
-      "journal": "Physical Review D",
-      "year": "2025",
-      "pubdate": "2025-11-00",
-      "abstract": "We present a search for short-duration gravitational-wave transients in data from the first eight months of Advanced LIGO-Virgo-KAGRA's fourth observing run, denoted O4a. We use four analyses which are sensitive to a wide range of potential signals lasting up to a few seconds in the 16--4096 Hz band. Excluding binary black hole merger candidates that were already identified by low-latency analyses, we find no statistically significant evidence for other gravitational-wave transients. We measure the sensitivity of the search for representative signals, including sine-Gaussians, Gaussian pulses, and white-noise bursts with different frequencies and durations, adopting a false alarm rate of 1 per 100 years as detection threshold. Depending on signal type, we find improvements over previous searches by factors of 2 to 10 in terms of sensitivity to strain amplitude and of 90% confidence upper limit on the rate density of sources. We also evaluate a variety of core-collapse supernova models and find that, for some models, the search could have detected gravitational waves from stellar core-collapse throughout the Milky Way. Finally, we consider neutron star <inline-formula><mml:math><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:math></inline-formula>-modes associated with pulsar glitches and find that, assuming a source similar to the Vela Pulsar, the search could have detected a gravitational-wave signal from a glitch with fractional frequency change as small as <inline-formula><mml:math><mml:mo>~</mml:mo><mml:mn>2</mml:mn></mml:math></inline-formula> to <inline-formula><mml:math><mml:mn>6</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>-</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula> depending on the neutron star mass.",
-      "bibcode": "2025PhRvD.112j2005A",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvD.112j2005A/abstract",
-      "doi_url": "https://doi.org/10.1103/wjdz-jdby",
-      "citation_count": 24,
-      "read_count": 357,
-      "is_refereed": true,
-      "arxiv_class": [
-        "astro-ph.HE",
-        "gr-qc"
-      ]
-    },
-    {
       "title": "All-sky search for continuous gravitational-wave signals from unknown neutron stars in binary systems in the first part of the fourth LIGO-Virgo-KAGRA observing run",
       "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
       "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
@@ -226,7 +205,28 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2025ApJ...993L..21A/abstract",
       "doi_url": "https://doi.org/10.3847/2041-8213/ae0d54",
       "citation_count": 118,
-      "read_count": 952,
+      "read_count": 963,
+      "is_refereed": true,
+      "arxiv_class": [
+        "astro-ph.HE",
+        "gr-qc"
+      ]
+    },
+    {
+      "title": "All-sky search for short gravitational-wave bursts in the first part of the fourth LIGO-Virgo-KAGRA observing run",
+      "authors": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authors_highlighted": "Abac, A. G.; Abouelfettouh, I.; Acernese, F.; Ackley, K.; Adamcewicz, C.; Adhicary, S.; et al.",
+      "authorship_position": "other",
+      "author_position": 776,
+      "journal": "Physical Review D",
+      "year": "2025",
+      "pubdate": "2025-11-00",
+      "abstract": "We present a search for short-duration gravitational-wave transients in data from the first eight months of Advanced LIGO-Virgo-KAGRA's fourth observing run, denoted O4a. We use four analyses which are sensitive to a wide range of potential signals lasting up to a few seconds in the 16--4096 Hz band. Excluding binary black hole merger candidates that were already identified by low-latency analyses, we find no statistically significant evidence for other gravitational-wave transients. We measure the sensitivity of the search for representative signals, including sine-Gaussians, Gaussian pulses, and white-noise bursts with different frequencies and durations, adopting a false alarm rate of 1 per 100 years as detection threshold. Depending on signal type, we find improvements over previous searches by factors of 2 to 10 in terms of sensitivity to strain amplitude and of 90% confidence upper limit on the rate density of sources. We also evaluate a variety of core-collapse supernova models and find that, for some models, the search could have detected gravitational waves from stellar core-collapse throughout the Milky Way. Finally, we consider neutron star <inline-formula><mml:math><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:math></inline-formula>-modes associated with pulsar glitches and find that, assuming a source similar to the Vela Pulsar, the search could have detected a gravitational-wave signal from a glitch with fractional frequency change as small as <inline-formula><mml:math><mml:mo>~</mml:mo><mml:mn>2</mml:mn></mml:math></inline-formula> to <inline-formula><mml:math><mml:mn>6</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>-</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula> depending on the neutron star mass.",
+      "bibcode": "2025PhRvD.112j2005A",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvD.112j2005A/abstract",
+      "doi_url": "https://doi.org/10.1103/wjdz-jdby",
+      "citation_count": 24,
+      "read_count": 359,
       "is_refereed": true,
       "arxiv_class": [
         "astro-ph.HE",
@@ -246,8 +246,8 @@
       "bibcode": "2025ApJ...993L..25A",
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2025ApJ...993L..25A/abstract",
       "doi_url": "https://doi.org/10.3847/2041-8213/ae0c9c",
-      "citation_count": 340,
-      "read_count": 2126,
+      "citation_count": 342,
+      "read_count": 2151,
       "is_refereed": true,
       "arxiv_class": [
         "astro-ph.HE",
@@ -268,7 +268,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvL.135k1403A/abstract",
       "doi_url": "https://doi.org/10.1103/kw5g-d732",
       "citation_count": 274,
-      "read_count": 1726,
+      "read_count": 1755,
       "is_refereed": true,
       "arxiv_class": [
         "gr-qc",
@@ -289,7 +289,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2025PhRvD.112f3020K/abstract",
       "doi_url": "https://doi.org/10.1103/h6rl-mcjm",
       "citation_count": 10,
-      "read_count": 208,
+      "read_count": 209,
       "is_refereed": true,
       "arxiv_class": [
         "astro-ph.HE",
@@ -328,7 +328,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2024CQGra..41x5001G/abstract",
       "doi_url": "https://doi.org/10.1088/1361-6382/ad7b99",
       "citation_count": 142,
-      "read_count": 325,
+      "read_count": 323,
       "is_refereed": true,
       "arxiv_class": [
         "gr-qc",
@@ -369,7 +369,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2023arXiv230613745E/abstract",
       "doi_url": "https://doi.org/10.48550/arXiv.2306.13745",
       "citation_count": 233,
-      "read_count": 685,
+      "read_count": 694,
       "is_refereed": false,
       "arxiv_class": [
         "astro-ph.IM",
@@ -433,7 +433,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv261107146K/abstract",
       "doi_url": "https://doi.org/10.48550/arXiv.2611.07146",
       "citation_count": 0,
-      "read_count": 350,
+      "read_count": 383,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
@@ -454,7 +454,28 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv261107147K/abstract",
       "doi_url": "https://doi.org/10.48550/arXiv.2611.07147",
       "citation_count": 0,
-      "read_count": 338,
+      "read_count": 369,
+      "is_refereed": false,
+      "arxiv_class": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "title": "Search for Compact Binary Coalescences with Sub-solar Mass Components in Data from the Second Part of LIGO-Virgo-KAGRA's Fourth Observing Run",
+      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
+      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
+      "authorship_position": "other",
+      "author_position": 811,
+      "journal": "arXiv e-prints",
+      "year": "2026",
+      "pubdate": "2026-10-00",
+      "abstract": "We report on a gravitational wave search for compact binary coalescences with secondary mass between 0.2 M and 1 M and primary mass between 0.2 M and 10 M, restricting the component mass ratio to lie between 0.1 and 1. The analysis uses data collected by the LIGO and Virgo detectors between 2024 April 10 15:00:00 and 2025 January 28 17:00:00, the second part of the fourth observing run of the LIGO-Virgo-KAGRA Collaboration. Results from two out of three search pipelines show outlier candidates, but not at a sufficient level of significance to provide evidence for detection. We report the combined sensitivity of the current searches over the first and second parts of the observing run to the target sub-solar mass (SSM) black hole (BH) population, as well as to neutron star (NS) binaries with one or more sub-solar component. We place upper limits on the merger rate of SSM BHs, ranging from $50 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$ to~$5000 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$ (90% confidence) for different component mass combinations. We use the merger rate limits to constrain two illustrative dark matter (DM) scenarios that can form SSM compact objects: primordial BHs, and dark BHs forming in a dissipative DM model. Our search limits the fraction of DM in primordial BHs, assuming a monochromatic mass distribution, to be $\\leq$ (0.018-0.032) at 1 M, and $\\leq$ (0.10-0.18) at 0.35 M for early-forming binaries; or to be less than 1 at masses above (0.62-0.74) M for late-forming binaries. For the dissipative model, we constrain the fraction of DM for a range of minimum dark black hole masses below $1\\,M$ to be as low as (1.0-1.1) x $10^{-5}$; we also exclude minimum masses above (0.62-0.74) M, if dark BHs constitute all of the DM. For binary NSs that include sub-solar mass components, assuming a simple, fixed population model we find a merger rate upper limit of $249 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$.",
+      "bibcode": "2026arXiv261020276T",
+      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv261020276T/abstract",
+      "doi_url": "https://doi.org/10.48550/arXiv.2610.20276",
+      "citation_count": 0,
+      "read_count": 1279,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
@@ -481,27 +502,6 @@
         "gr-qc",
         "astro-ph.CO",
         "hep-th"
-      ]
-    },
-    {
-      "title": "Search for Compact Binary Coalescences with Sub-solar Mass Components in Data from the Second Part of LIGO-Virgo-KAGRA's Fourth Observing Run",
-      "authors": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration",
-      "authors_highlighted": "LIGO Scientific Collaboration, Virgo Collaboration, KAGRA Collaboration (incl. <strong>Khadkikar, Sanika</strong>)",
-      "authorship_position": "other",
-      "author_position": 811,
-      "journal": "arXiv e-prints",
-      "year": "2026",
-      "pubdate": "2026-10-00",
-      "abstract": "We report on a gravitational wave search for compact binary coalescences with secondary mass between 0.2 M and 1 M and primary mass between 0.2 M and 10 M, restricting the component mass ratio to lie between 0.1 and 1. The analysis uses data collected by the LIGO and Virgo detectors between 2024 April 10 15:00:00 and 2025 January 28 17:00:00, the second part of the fourth observing run of the LIGO-Virgo-KAGRA Collaboration. Results from two out of three search pipelines show outlier candidates, but not at a sufficient level of significance to provide evidence for detection. We report the combined sensitivity of the current searches over the first and second parts of the observing run to the target sub-solar mass (SSM) black hole (BH) population, as well as to neutron star (NS) binaries with one or more sub-solar component. We place upper limits on the merger rate of SSM BHs, ranging from $50 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$ to~$5000 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$ (90% confidence) for different component mass combinations. We use the merger rate limits to constrain two illustrative dark matter (DM) scenarios that can form SSM compact objects: primordial BHs, and dark BHs forming in a dissipative DM model. Our search limits the fraction of DM in primordial BHs, assuming a monochromatic mass distribution, to be $\\leq$ (0.018-0.032) at 1 M, and $\\leq$ (0.10-0.18) at 0.35 M for early-forming binaries; or to be less than 1 at masses above (0.62-0.74) M for late-forming binaries. For the dissipative model, we constrain the fraction of DM for a range of minimum dark black hole masses below $1\\,M$ to be as low as (1.0-1.1) x $10^{-5}$; we also exclude minimum masses above (0.62-0.74) M, if dark BHs constitute all of the DM. For binary NSs that include sub-solar mass components, assuming a simple, fixed population model we find a merger rate upper limit of $249 {\\rm Gpc}^{-3} {\\rm yr}^{-1}$.",
-      "bibcode": "2026arXiv261020276T",
-      "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv261020276T/abstract",
-      "doi_url": "https://doi.org/10.48550/arXiv.2610.20276",
-      "citation_count": 0,
-      "read_count": 1238,
-      "is_refereed": false,
-      "arxiv_class": [
-        "gr-qc",
-        "astro-ph.HE"
       ]
     },
     {
@@ -669,7 +669,7 @@
       "ads_url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260823477T/abstract",
       "doi_url": "https://doi.org/10.48550/arXiv.2608.23477",
       "citation_count": 9,
-      "read_count": 2241,
+      "read_count": 2270,
       "is_refereed": false,
       "arxiv_class": [
         "gr-qc",
