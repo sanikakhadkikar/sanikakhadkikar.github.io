@@ -21,6 +21,9 @@
 
   <div class="nc-rows">
     {{ range .Pages.ByDate.Reverse }}
+    {{ if .Params.notice }}
+    <div class="nc-notice"><span>{{ .Title }}</span></div>
+    {{ else }}
     <a class="nc-row nc-topic--{{ index (.Params.tags | default (slice "other")) 0 | lower | urlize }}" href="{{ .RelPermalink }}">
       <div class="nc-row-meta">
         {{ partial "notcringe-kicker.html" . }}
@@ -29,6 +32,7 @@
       <h2 class="nc-row-title">{{ .Title }}</h2>
       {{ with .Params.summary }}<p class="nc-row-dek">{{ . }}</p>{{ end }}
     </a>
+    {{ end }}
     {{ else }}
     <p class="nc-empty">First edition going to print soon. Stop the presses.</p>
     {{ end }}
