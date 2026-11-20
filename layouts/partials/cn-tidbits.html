@@ -1,0 +1,10 @@
+<div class="cn-tid-h">Tidbits I've picked up</div>
+{{ range $i, $t := .list }}
+ {{ $n := add $i $.offset }}
+ {{ $paper := $t.paper | default (index $.papers (mod $n 5)) }}
+ <div class="cn-tb cn-tb--{{ $paper }}" style="--r:{{ index $.R (mod $n 8) }}deg;--t:{{ index $.C2 (mod $n 6) | safeCSS }}">
+   <span class="cn-tack"></span>
+   {{ with $t.source }}<small>{{ . }}</small>{{ end }}
+   {{ $t.text }}
+ </div>
+{{ end }}

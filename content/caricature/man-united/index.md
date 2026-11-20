@@ -3,6 +3,8 @@ draft: false
 title: "Buy Low, Score High"
 date: 2026-11-11
 summary: "How a football club ended up on the New York Stock Exchange, and why some countries make sure it can never happen to theirs."
+cover_credit: "Arne Müseler, CC BY-SA 3.0 de, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Manchester_United_Old_Trafford.jpg"
 genre: follow-the-money
 math: false
 tags:

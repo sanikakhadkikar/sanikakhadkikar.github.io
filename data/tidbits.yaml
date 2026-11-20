@@ -1,0 +1,30 @@
+# Tidbits pinned to the cutting mat on the Caricature of a Nerd homepage.
+# Newest first. Only the first 8 are shown.
+# text:   the tidbit itself
+# source: small label above it (where you heard it)
+# paper:  optional, one of yellow, card, receipt, pink, kraft (cycles if left out)
+
+- text: 'Molybdenum is element 42, and people who work with it just call it "moly".'
+  source: from Holy Moly!
+  paper: yellow
+- text: "Liberia's name comes from the Latin word for free."
+  source: from Bent but Never Broken
+  paper: card
+- text: "Before people arrived, New Zealand's only native mammals were bats and sea mammals."
+  source: from Birds of a Different Feather
+  paper: receipt
+- text: "Nobody has ever built a bridge across the Amazon."
+  source: from Not Shackled by a Bridge
+  paper: pink
+- text: "When things get bad, sea cucumbers throw their guts at you."
+  source: from Sea Cucumbers
+  paper: kraft
+- text: "Egypt is the only country in Africa that changes its clocks."
+  source: from Energy Saving Time
+  paper: yellow
+- text: "Three Polish mathematicians broke Enigma before Turing did."
+  source: from Before Turing
+  paper: card
+- text: "Ethiopians have called their kingdom Ethiopia since the fourth century."
+  source: from Bent but Never Broken
+  paper: pink

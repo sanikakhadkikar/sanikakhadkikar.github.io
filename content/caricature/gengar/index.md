@@ -3,6 +3,8 @@ draft: false
 title: "The Realism of Geng Geng Gengar"
 date: 2026-11-10
 summary: "Gengar learns five moves in the original games. Humans have managed to pull off a surprising number of them."
+cover_credit: "François GOGLINS, CC BY-SA 4.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Sergines-FR-89-carnaval_2023-a10.jpg"
 genre: op-ed
 math: false
 tags:

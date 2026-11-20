@@ -1,43 +1,143 @@
 {{ define "main" }}
 
-{{ $nc := resources.Get "css/notcringe.css" | fingerprint }}
-<link rel="stylesheet" href="{{ $nc.RelPermalink }}">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Libre+Franklin:wght@500;600;800;900&display=swap" rel="stylesheet">
+{{ $css := resources.Get "css/caricature-front.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,800;0,9..144,900;1,9..144,500;1,9..144,800;1,9..144,900&family=Libre+Franklin:wght@500;600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Caveat:wght@600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 
-<div class="nc-paper">
+{{/* topic colours (first tag), second tape colours, gentle tilts */}}
+{{ $C := dict "geography" "#2f9e8f" "history" "#e4572e" "physics" "#3d7be0" "biology" "#5bb04d" "economics" "#e8a200" "football" "#c2185b" "technology" "#5a5a72" "gaming" "#ff7a3d" "pokemon" "#7b5cd6" "politics" "#d6336c" "neuroscience" "#e0569b" }}
+{{ $C2 := slice "#ffc93c" "#7b2cbf" "#ff8fb1" "#2f9e8f" "#e4572e" "#3d7be0" }}
+{{ $R := slice "-2" "1.6" "-1.2" "2.2" "-1.6" "1" "-2.4" "1.8" }}
 
-  <h1 class="nc-masthead">Caricature of a <em>Nerd</em></h1>
+{{ $all := .Pages.ByDate.Reverse }}
+{{ $posts := slice }}
+{{ range $all }}{{ if not .Params.notice }}{{ $posts = $posts | append . }}{{ end }}{{ end }}
+{{ $top := first 4 $posts }}
+{{ $topLinks := slice }}{{ range $top }}{{ $topLinks = $topLinks | append .RelPermalink }}{{ end }}
 
-  <div class="nc-dateline">
-    <span class="nc-tagline">{{ .Params.description }}</span>
-  </div>
+{{ $tidbits := first 8 (site.Data.tidbits | default slice) }}
+{{ $papers := slice "yellow" "card" "receipt" "pink" "kraft" }}
 
-  {{ with .Content }}
-  <div class="nc-intro">
-    <span class="nc-kicker">A note from the writer</span>
-    {{ . }}
-  </div>
+<div class="cn-site" style="--bleed:url('{{ "media/caricature/bleed.svg" | relURL }}')">
+ <div class="cn-board">
+
+
+  {{ if $tidbits }}
+  <aside class="cn-tid" aria-label="Tidbits">{{ partial "cn-tidbits" (dict "list" (first 4 $tidbits) "offset" 0 "papers" $papers "R" $R "C2" $C2) }}</aside>
   {{ end }}
 
-  <div class="nc-rows">
-    {{ range .Pages.ByDate.Reverse }}
-    {{ if .Params.notice }}
-    <div class="nc-notice"><span>{{ .Title }}</span></div>
+  <div class="cn-paper">
+
+   <div class="cn-mast">
+     <h1>Caricature of a <em>Nerd</em></h1>
+     <div class="cn-dl">
+       <span>Vol. I · No. {{ len $posts }}</span>
+       <span class="cn-dl-tag">{{ .Params.description }}</span>
+       <span>{{ now.Format "Monday, January 2, 2006" }}</span>
+     </div>
+   </div>
+
+   {{ with .Content }}
+   <section class="cn-letter">
+     <i class="cn-w cn-w3" style="--c2:#7b2cbf"></i>
+     <h2><small>A note from the writer</small>Why this blog exists</h2>
+     <div>{{ . }}<span class="cn-sig">Sanika</span></div>
+   </section>
+   {{ end }}
+
+   {{ range $i, $p := $top }}
+    {{ $tag := index ($p.Params.tags | default (slice "other")) 0 | lower }}
+    {{ $c := index $C $tag | default "#5a5a72" }}
+    {{ $style := printf "--c:%s;--c2:%s;--r:%sdeg" $c (index $C2 (mod $i 6)) (index $R (mod $i 8)) }}
+    {{ $img := partial "cn-cover" (dict "page" $p "size" "960x720") }}
+    {{ if eq $i 0 }}
+     <a class="cn-lead" href="{{ $p.RelPermalink }}" style="{{ $style | safeCSS }}">
+       <div class="cn-tx">
+         {{ with $p.Params.genre }}<span class="cn-kick">{{ . | humanize }}</span>{{ end }}
+         <h2>{{ $p.Title }}</h2>
+         {{ with $p.Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
+         <span class="cn-by">By Sanika Khadkikar · {{ $p.Date.Format "Jan 2" }}</span>
+         <span class="cn-go">Read the story <i>→</i></span>
+       </div>
+       <figure class="cn-fig"><i class="cn-w cn-w1"></i><i class="cn-w cn-w2"></i>{{ $img }}</figure>
+     </a>
+     <div class="cn-secs">
     {{ else }}
-    <a class="nc-row nc-topic--{{ index (.Params.tags | default (slice "other")) 0 | lower | urlize }}" href="{{ .RelPermalink }}">
-      <div class="nc-row-meta">
-        {{ partial "notcringe-kicker.html" . }}
-        <span class="nc-row-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-      </div>
-      <h2 class="nc-row-title">{{ .Title }}</h2>
-      {{ with .Params.summary }}<p class="nc-row-dek">{{ . }}</p>{{ end }}
-    </a>
+     <a class="cn-st" href="{{ $p.RelPermalink }}" style="{{ $style | safeCSS }}">
+       <figure class="cn-fig"><i class="cn-w cn-w1"></i><i class="cn-w cn-w2"></i>{{ $img }}</figure>
+       <div class="cn-tx">
+         {{ with $p.Params.genre }}<span class="cn-kick">{{ . | humanize }}</span>{{ end }}
+         <h2>{{ $p.Title }}</h2>
+         {{ with $p.Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
+         <span class="cn-by">{{ $p.Date.Format "Jan 2" }}</span>
+         <span class="cn-go">Read the story <i>→</i></span>
+       </div>
+     </a>
     {{ end }}
-    {{ else }}
-    <p class="nc-empty">First edition going to print soon. Stop the presses.</p>
-    {{ end }}
+   {{ end }}
+   {{ if $top }}</div>{{ end }}
+
+   {{ $restCount := sub (len $posts) (len $top) }}
+   {{ if gt $restCount 0 }}
+   <section class="cn-arch">
+     <h2>Earlier editions <span>{{ $restCount }} more rabbit holes</span></h2>
+     <div class="cn-rows">
+     {{ $j := 0 }}
+     {{ range $all }}
+      {{ if .Params.notice }}
+       {{ if lt .Date (index $top (sub (len $top) 1)).Date }}
+       <div class="cn-away">
+         <svg class="cn-path" viewBox="0 0 900 120" preserveAspectRatio="none" aria-hidden="true"><path d="M10 100 C200 10 420 130 640 50 S820 30 840 56" fill="none" stroke="#e4572e" stroke-width="3" stroke-dasharray="10 10" stroke-linecap="round" vector-effect="non-scaling-stroke"/><circle cx="10" cy="100" r="6" fill="#2f9e8f"/></svg>
+         <svg class="cn-plane" viewBox="0 0 100 100" aria-hidden="true"><g fill="#211a2e"><path d="M8 46 h62 q16 0 24 4 q-8 4 -24 4 h-62z"/><path d="M44 46 L28 14 h11 L64 46z"/><path d="M44 54 L28 86 h11 L64 54z"/><path d="M12 46 L4 30 h7 L24 46z"/><path d="M12 54 L4 70 h7 L24 54z"/></g></svg>
+         <span class="cn-aw-t">{{ .Params.notice_short | default .Title }}</span>
+         {{ with .Params.notice_sub }}<span class="cn-aw-s">{{ . }}</span>{{ end }}
+       </div>
+       {{ end }}
+      {{ else if not (in $topLinks .RelPermalink) }}
+       {{ $tag := index (.Params.tags | default (slice "other")) 0 | lower }}
+       {{ $c := index $C $tag | default "#5a5a72" }}
+       <a class="cn-row" href="{{ .RelPermalink }}" style="--c:{{ $c | safeCSS }};--c2:{{ index $C2 (mod $j 6) | safeCSS }};--r:{{ index $R (mod (add $j 3) 8) }}deg">
+         <div class="cn-when"><b>{{ .Date.Day }}</b><span>{{ .Date.Format "Jan" }}</span></div>
+         <div class="cn-tx">
+           <div class="cn-meta">{{ with .Params.genre }}<span class="cn-kick">{{ . | humanize }}</span>{{ end }}<span class="cn-topic">{{ $tag }}</span></div>
+           <h3>{{ .Title }}</h3>
+           {{ with .Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
+           <span class="cn-go">Read <i>→</i></span>
+         </div>
+         <div class="cn-th"><i class="cn-w cn-w3"></i>{{ partial "cn-cover" (dict "page" . "size" "480x360") }}</div>
+       </a>
+       {{ $j = add $j 1 }}
+      {{ end }}
+     {{ end }}
+     </div>
+   </section>
+   {{ end }}
+
+   <div class="cn-end">■ ■ ■</div>
+
+   {{ $withCredit := slice }}
+   {{ range $posts }}{{ if .Params.cover_credit }}{{ $withCredit = $withCredit | append . }}{{ end }}{{ end }}
+   {{ if $withCredit }}
+   <details class="cn-credits">
+     <summary>Photo credits</summary>
+     <ul>
+     {{ range $withCredit }}
+       <li><b>{{ .Title }}</b> · {{ if .Params.cover_credit_url }}<a href="{{ .Params.cover_credit_url }}">{{ .Params.cover_credit }}</a>{{ else }}{{ .Params.cover_credit }}{{ end }}</li>
+     {{ end }}
+     </ul>
+   </details>
+   {{ end }}
+
   </div>
 
+  {{ if gt (len $tidbits) 4 }}
+  <aside class="cn-tid" aria-label="More tidbits">{{ partial "cn-tidbits" (dict "list" (after 4 $tidbits) "offset" 4 "papers" $papers "R" $R "C2" $C2) }}</aside>
+  {{ end }}
+ </div>
+
+ {{ if $tidbits }}
+ <div class="cn-tid-strip">{{ partial "cn-tidbits" (dict "list" $tidbits "offset" 0 "papers" $papers "R" $R "C2" $C2) }}</div>
+ {{ end }}
 </div>
 
 {{ end }}

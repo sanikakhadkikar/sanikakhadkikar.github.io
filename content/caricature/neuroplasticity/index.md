@@ -5,6 +5,8 @@ draft: false
 title: "Fire Together, Wire Together"
 date: 2026-10-31
 summary: "What neuroplasticity says about learning to feel, and why it is never too late."
+cover_credit: "Jeff W. Lichtman and Joshua R. Sanes, CC BY 3.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Brainbow_(Lichtman_2008).jpg"
 genre: op-ed
 tags:
   - neuroscience

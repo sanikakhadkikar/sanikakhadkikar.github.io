@@ -3,6 +3,8 @@ draft: false
 title: "Not Shackled by a Bridge"
 date: 2026-11-18
 summary: "The Amazon is one of the biggest rivers on Earth, and nobody has ever built a bridge across it."
+cover_credit: "Neil Palmer/CIAT, CC BY-SA 2.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Amazon_CIAT_(3).jpg"
 genre: rabbit-hole
 math: false
 tags:

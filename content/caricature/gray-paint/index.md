@@ -5,6 +5,8 @@ draft: false
 title: "Fifty Shades of Data Center Gray"
 date: 2026-11-01
 summary: "Everyone expected the AI boom to make chipmakers rich. Nobody expected paint companies."
+cover_credit: "United Soybean Board, CC BY 2.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Open_Soy_Paint_Cans_(10481725136).jpg"
 genre: follow-the-money
 math: false
 tags:

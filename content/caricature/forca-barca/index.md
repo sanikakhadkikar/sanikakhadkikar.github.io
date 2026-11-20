@@ -3,6 +3,8 @@ draft: false
 title: "Força Barça"
 date: 2026-11-08
 summary: "I stopped watching football in 2015. A physicist's catch-up on ten years of FC Barcelona, told through triangles, shadows and space."
+cover_credit: "Luis Miguel Bugallo Sánchez (Lmbuga), CC BY-SA 3.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:2014._Camp_Nou._M%C3%A9s_que_un_club._Barcelona_B40.jpg"
 genre: feature
 math: false
 tags:

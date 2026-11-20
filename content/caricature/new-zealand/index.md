@@ -3,6 +3,8 @@ draft: false
 title: "Birds of a Different Feather"
 date: 2026-11-17
 summary: "New Zealand had almost no mammals, so birds and reptiles took over their jobs."
+cover_credit: "Bernard Spragg. NZ from Christchurch, New Zealand, CC0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:South_Island_Takahe._(Porphyrio_hochstetteri)_(8177479445).jpg"
 genre: field-notes
 math: false
 tags:

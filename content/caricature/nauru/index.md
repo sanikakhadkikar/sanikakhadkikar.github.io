@@ -3,6 +3,8 @@ draft: false
 title: "The Island That Was Mined Away"
 date: 2026-11-12
 summary: "Nauru is called the fattest country in the world. Bird droppings and mining explain why."
+cover_credit: "Hadi Zaher from Melbourne, Australia, CC BY 2.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Living_on_a_Blue_Planet_-_Nauru.jpg"
 genre: op-ed
 math: false
 tags:

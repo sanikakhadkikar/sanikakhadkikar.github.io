@@ -3,6 +3,8 @@ draft: false
 title: "The Weirdly Interesting Life of Sea Cucumbers"
 date: 2026-11-03
 summary: "They walk, they swim, they clean the ocean floor, and when things get bad, they throw their guts at you."
+cover_credit: "Гурьева Светлана (zooclub.ru), CC BY-SA 4.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Pseudocolochirus-tricolor.jpg"
 genre: field-notes
 math: false
 tags:

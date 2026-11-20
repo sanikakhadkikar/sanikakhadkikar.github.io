@@ -1,0 +1,198 @@
+/* ================================================================
+   caricature-front.css: Caricature of a Nerd homepage
+   folded newsprint on a cutting mat, taped photos, pinned tidbits
+   cn- prefix; !important only where the site theme fights back
+   ================================================================ */
+
+/* ---------- cutting mat behind everything ---------- */
+html:has(.cn-site), html:has(.cn-site) body {
+  background-color: #2f7a5a !important;
+  background-image:
+    linear-gradient(rgba(255,255,255,.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.28) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px),
+    repeating-linear-gradient(45deg, transparent 0 119px, rgba(255,255,255,.08) 119px 120px) !important;
+  background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px, auto !important;
+}
+html:has(.cn-site) #starfield-canvas { display: none !important; }
+html:has(.cn-site) footer, html:has(.cn-site) footer p, html:has(.cn-site) footer a { color: #e6f2ea !important; }
+html:has(.cn-site) footer a { text-decoration: underline !important; }
+
+/* ---------- tokens ---------- */
+.cn-site {
+  --paper: #fbf0d8; --ink: #211a2e; --muted: #6a5f72; --coral: #e4572e; --purple: #7b2cbf; --sun: #ffc93c;
+  --head: 'Fraunces', Georgia, serif; --body: 'Source Serif 4', Georgia, serif;
+  --label: 'Libre Franklin', Arial, sans-serif; --hand: 'Caveat', cursive;
+  color: var(--ink); font-family: var(--body) !important; font-size: 16px; line-height: 1.5;
+  padding: clamp(8px, 2vw, 24px) max(12px, env(safe-area-inset-right, 0px)) 24px max(12px, env(safe-area-inset-left, 0px));
+}
+.cn-site *, .cn-site *::before, .cn-site *::after { box-sizing: border-box; }
+.cn-site h1, .cn-site h2, .cn-site h3, .cn-site p, .cn-site figure { margin: 0 !important; color: var(--ink) !important; }
+.cn-site a, .cn-site a:hover { color: inherit !important; text-decoration: none !important; }
+
+/* the site theme forces DM Sans on every p/div/span with !important */
+:where(.cn-site) :is(p, li, div, span, a, small, b, summary, figure) { font-family: var(--body) !important; }
+.cn-site .cn-mast, .cn-site .cn-mast h1 { background: none !important; padding: 0 !important; }
+.cn-site .cn-dl span { font: inherit !important; }
+
+/* ---------- board: paper with tidbit columns on wide screens ---------- */
+.cn-board { display: block; }
+.cn-tid { display: none; }
+@media (min-width: 1150px) {
+  .cn-board { display: grid; grid-template-columns: minmax(150px, 1fr) minmax(0, 1100px) minmax(150px, 1fr); gap: clamp(16px, 2vw, 30px); align-items: start; }
+  .cn-board .cn-paper { margin: 0; width: 100%; }
+  .cn-tid { display: grid; gap: 40px; justify-items: center; padding-top: 140px; }
+  .cn-tid .cn-tb { width: min(190px, 100%); }
+  .cn-tid-strip { display: none !important; }
+}
+
+/* ---------- folded newsprint ---------- */
+.cn-paper {
+  position: relative; max-width: 1100px; margin: 0 auto;
+  padding: clamp(18px, 3.5vw, 46px) clamp(16px, 4vw, 50px) 40px;
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 88% 7%, transparent 52px, rgba(120,72,30,.16) 54px, rgba(120,72,30,.08) 58px, transparent 61px),
+    linear-gradient(90deg, transparent calc(50% - 1px), rgba(90,60,20,.10) 50%, rgba(255,255,255,.5) calc(50% + 1px), transparent calc(50% + 3px)),
+    linear-gradient(180deg, transparent 1100px, rgba(90,60,20,.08) 1101px, rgba(255,255,255,.45) 1102px, transparent 1104px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .4  0 0 0 0 .28  0 0 0 0 .12  0 0 0 .12 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  box-shadow: inset 0 0 70px rgba(200,130,40,.22), 0 30px 70px rgba(10,30,40,.45);
+}
+/* ink from the other side bleeding through */
+.cn-paper::before { content: ""; position: absolute; inset: 0; opacity: .6; background-image: var(--bleed); background-size: 900px 1200px; pointer-events: none; z-index: 0; }
+.cn-paper > * { position: relative; z-index: 1; }
+
+/* ---------- masthead ---------- */
+.cn-mast { text-align: center; }
+.cn-site .cn-mast h1 { font: 900 italic clamp(2.6rem, 8vw, 5.8rem)/1.02 var(--head) !important; padding-bottom: .08em !important; letter-spacing: -.03em; text-wrap: balance; }
+.cn-mast h1 em { color: var(--coral); font-style: italic !important; }
+.cn-dl {
+  display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 6px 16px;
+  background: var(--ink); color: var(--paper); border-radius: 26px; margin-top: 26px; padding: 12px 28px;
+  font: 600 11.5px/1.3 var(--label) !important; letter-spacing: .09em; text-transform: uppercase;
+}
+.cn-site .cn-dl span:first-child { grid-column: 1; grid-row: 1; text-align: left; }
+.cn-site .cn-dl span:last-child { grid-column: 2; grid-row: 1; text-align: right; }
+.cn-site .cn-dl span.cn-dl-tag { grid-column: 1 / -1; grid-row: 2; font-size: 10.5px !important; letter-spacing: .1em;
+  text-align: justify; text-align-last: justify; opacity: .85; border-top: 1px solid rgba(251,240,216,.25); padding-top: 6px; }
+@media (max-width: 900px) {
+  .cn-dl { grid-template-columns: auto auto; justify-content: space-between; border-radius: 16px; padding: 10px 16px; font-size: 10px !important; letter-spacing: .06em; }
+  .cn-site .cn-dl span:first-child, .cn-site .cn-dl span:last-child { white-space: nowrap; }
+  .cn-site .cn-dl span.cn-dl-tag { font-size: 9.5px !important; letter-spacing: .06em; }
+}
+
+/* ---------- shared bits ---------- */
+.cn-kick { display: inline-block; align-self: flex-start; background: var(--c, var(--coral)); color: #fff; font: 800 10.5px var(--label) !important; letter-spacing: .13em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; }
+.cn-tx { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.cn-site .cn-tx h2 { font: 800 1.5rem/1.08 var(--head) !important; letter-spacing: -.01em; text-wrap: balance; }
+.cn-site .cn-dek { font-size: 15px !important; }
+.cn-by { font: 600 11px var(--label) !important; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.cn-go { margin-top: auto; padding-top: 6px; font: 800 12px var(--label) !important; letter-spacing: .1em; text-transform: uppercase; display: inline-flex; gap: 6px; align-items: center; }
+.cn-go i { font-style: normal !important; transition: transform .18s; }
+a:hover .cn-go i, a:focus-visible .cn-go i { transform: translateX(5px); }
+
+/* taped photo print */
+.cn-fig { position: relative; background: #fff; padding: 8px; box-shadow: 0 3px 8px rgba(0,0,0,.15), 0 14px 26px rgba(0,0,0,.08); transform: rotate(var(--r, 0deg)); }
+.cn-fig img, .cn-th img { display: block; width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; }
+.cn-noimg { display: grid; place-items: center; aspect-ratio: 4/3; padding: 12px; text-align: center; background: var(--c, #ccc); color: #fff; font: 900 italic 1.2rem/1.1 var(--head) !important; }
+.cn-w { position: absolute; z-index: 2; height: 24px; width: 92px; top: -11px; opacity: .92;
+  clip-path: polygon(3% 0,97% 0,100% 20%,96% 40%,100% 60%,96% 80%,100% 100%,3% 100%,0 80%,4% 60%,0 40%,4% 20%); box-shadow: 0 1px 2px rgba(0,0,0,.1); }
+.cn-w1 { left: -18px; transform: rotate(-30deg); background: repeating-linear-gradient(90deg, var(--c) 0 9px, color-mix(in srgb, var(--c) 45%, #fff) 9px 18px); }
+.cn-w2 { right: -18px; transform: rotate(26deg); background: radial-gradient(circle, var(--c2) 3px, transparent 3.5px) 0 0/11px 11px, #fff7e8; }
+.cn-w3 { left: 50%; margin-left: -40px; width: 80px; transform: rotate(-3deg); background: repeating-linear-gradient(45deg, var(--c2) 0 6px, #fff 6px 12px); }
+
+/* ---------- letter from the writer ---------- */
+.cn-letter { position: relative; display: grid; grid-template-columns: 200px 1fr; gap: 24px; align-items: start; background: #fffaf0; border: 1.5px solid var(--ink); padding: 24px 26px 20px; margin: 28px auto 0; max-width: 900px; box-shadow: 6px 6px 0 var(--sun); }
+.cn-site .cn-letter h2 { font: 800 italic 1.7rem/1 var(--head) !important; }
+.cn-letter h2 small { display: block; font: 800 10.5px var(--label) !important; letter-spacing: .14em; text-transform: uppercase; color: var(--coral); margin-bottom: 8px; }
+.cn-site .cn-letter p { font-size: 15px !important; line-height: 1.6; }
+.cn-site .cn-letter p + p { margin-top: 10px !important; }
+.cn-sig { font: 700 1.7rem/1 var(--hand) !important; color: var(--purple); margin-top: 8px; display: block; }
+.cn-letter .cn-w3 { top: -12px; }
+
+/* ---------- lead story ---------- */
+.cn-lead { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(20px, 3.5vw, 46px); align-items: center; margin-top: 30px;
+  background: #ffe27a; border: 2px solid var(--ink); border-radius: 10px; padding: clamp(20px, 3vw, 34px); box-shadow: 7px 7px 0 var(--ink);
+  transition: transform .18s ease, box-shadow .18s ease; }
+.cn-lead:hover, .cn-lead:focus-visible { transform: translate(-4px, -4px); box-shadow: 12px 12px 0 var(--ink); outline: none; }
+.cn-site .cn-lead h2 { font: 900 clamp(2.2rem, 5.4vw, 4rem)/.98 var(--head) !important; letter-spacing: -.025em; }
+.cn-site .cn-lead .cn-dek { font: 600 1.08rem/1.45 var(--label) !important; }
+.cn-lead .cn-fig { --r: 2deg; }
+.cn-lead .cn-go { align-self: flex-start; background: var(--ink); color: #fff; padding: 9px 16px; border-radius: 999px; margin-top: 8px; }
+
+/* ---------- three spotlight cards ---------- */
+.cn-secs { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 3vw, 36px); padding: 34px 0 30px; }
+.cn-st { display: flex; flex-direction: column; gap: 18px; background: #fff; border: 2px solid var(--ink); border-radius: 10px; padding: 20px 18px 18px; box-shadow: 6px 6px 0 var(--c);
+  transition: transform .18s ease, box-shadow .18s ease; }
+.cn-st:hover, .cn-st:focus-visible { transform: translate(-4px, -4px) rotate(-.5deg); box-shadow: 11px 11px 0 var(--c); outline: none; }
+.cn-st .cn-tx { flex: 1; }
+.cn-site .cn-st h2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.16em; }
+.cn-site .cn-st .cn-dek { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-height: 4.5em; }
+
+/* ---------- earlier editions ---------- */
+.cn-arch { max-width: 900px; margin: 30px auto 0; }
+.cn-site .cn-arch > h2 { font: 900 italic 1.9rem var(--head) !important; margin-bottom: 16px !important; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.cn-arch > h2 span { font: 800 10.5px var(--label) !important; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.cn-rows { display: grid; gap: 16px; }
+.cn-row { display: grid; grid-template-columns: 70px minmax(0, 1fr) 168px; gap: 22px; align-items: center; background: #fffaf0; border: 1.5px solid var(--ink); border-radius: 10px; padding: 18px 20px;
+  transition: transform .15s, box-shadow .15s; }
+.cn-row:hover, .cn-row:focus-visible { transform: translate(-3px, -3px); box-shadow: 6px 6px 0 var(--c); outline: none; }
+.cn-when { text-align: center; line-height: 1; border-right: 1.5px dashed rgba(33,26,46,.3); padding-right: 16px; }
+.cn-when b { display: block; font: 900 italic 2.7rem/.9 var(--head) !important; color: var(--c); }
+.cn-when span { display: block; font: 800 italic 1rem var(--head) !important; margin-top: 4px; }
+.cn-site .cn-row h3 { font: 800 1.4rem/1.1 var(--head) !important; }
+.cn-site .cn-row .cn-dek { font: 500 15.5px/1.5 var(--label) !important; color: var(--ink) !important; }
+.cn-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.cn-topic { font: 600 11px var(--label) !important; letter-spacing: .08em; text-transform: uppercase; color: #4a4050; }
+.cn-row .cn-go { font-size: 11px !important; color: var(--c); }
+.cn-th { position: relative; background: #fff; padding: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.14); transform: rotate(var(--r, 0deg)); }
+.cn-th .cn-w3 { width: 62px; margin-left: -31px; height: 20px; top: -9px; }
+
+/* no-post days: flight path and a plane */
+.cn-away { position: relative; display: grid; gap: 4px; justify-items: center; padding: 30px 120px 30px 40px; background: #fff; border: 2px solid var(--ink); border-radius: 10px; overflow: hidden; text-align: center; }
+.cn-path { position: absolute; inset: 0; width: 100%; height: 100%; }
+.cn-plane { position: absolute; right: 28px; top: 50%; width: 72px; height: 72px; margin-top: -50px; transform: rotate(-14deg); }
+.cn-aw-t { position: relative; font: 900 italic clamp(1.6rem, 3.6vw, 2.4rem)/1 var(--head) !important; background: #fff; padding: 0 8px; }
+.cn-aw-s { position: relative; font: 800 11px var(--label) !important; letter-spacing: .14em; text-transform: uppercase; color: var(--coral); background: #fff; padding: 2px 8px; }
+
+.cn-end { text-align: center; margin-top: 30px; font: 900 italic 1.1rem var(--head) !important; color: var(--coral); letter-spacing: .3em; }
+.cn-credits { max-width: 900px; margin: 22px auto 0; font: 500 12.5px/1.5 var(--label) !important; color: var(--muted); }
+.cn-credits summary { cursor: pointer; font-weight: 800 !important; letter-spacing: .1em; text-transform: uppercase; font-size: 11px !important; }
+.cn-credits ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 3px; }
+.cn-site .cn-credits a { text-decoration: underline !important; }
+
+/* ---------- tidbits pinned to the mat ---------- */
+.cn-tid-strip { display: flex; flex-wrap: wrap; gap: 30px 24px; justify-content: center; align-items: flex-start; max-width: 1100px; margin: 44px auto 0; }
+.cn-tid-h { flex-basis: 100%; text-align: center; font: 700 2rem/1 var(--hand) !important; color: #fff; transform: rotate(-2deg); text-shadow: 0 2px 0 rgba(0,0,0,.25); }
+.cn-tid .cn-tid-h { font-size: 1.7rem !important; }
+.cn-tb { position: relative; width: 190px; padding: 24px 16px 16px; font: 700 1.25rem/1.2 var(--hand) !important; color: var(--ink); box-shadow: 0 8px 14px rgba(0,0,0,.32); transform: rotate(var(--r)); }
+.cn-tb small { display: block; font: 800 9.5px/1.3 var(--label) !important; letter-spacing: .12em; text-transform: uppercase; color: #6a5f72; margin-bottom: 6px; }
+.cn-tack { position: absolute; top: -9px; left: 50%; margin-left: -11px; width: 22px; height: 22px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, rgba(255,255,255,.75) 0 3px, transparent 4px), var(--t);
+  box-shadow: 0 4px 5px rgba(0,0,0,.45), inset -2px -3px 4px rgba(0,0,0,.25); }
+.cn-tb--yellow { background: #ffe066; }
+.cn-tb--pink { background: #ffc6d9; }
+.cn-tb--kraft { background: #d9b98a; }
+.cn-tb--card { background: #fff; background-image: linear-gradient(#e4572e 0 0), repeating-linear-gradient(transparent 0 23px, #bcd3ea 23px 24px);
+  background-size: 100% 2px, 100% 100%; background-position: 0 20px, 0 22px; background-repeat: no-repeat, repeat; }
+.cn-tb--receipt { background: #fbfbf7; font: 500 13px/1.45 'IBM Plex Mono', monospace !important; padding-bottom: 22px; box-shadow: none; filter: drop-shadow(0 6px 8px rgba(0,0,0,.3));
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 8px),94% 100%,88% calc(100% - 8px),82% 100%,76% calc(100% - 8px),70% 100%,64% calc(100% - 8px),58% 100%,52% calc(100% - 8px),46% 100%,40% calc(100% - 8px),34% 100%,28% calc(100% - 8px),22% 100%,16% calc(100% - 8px),10% 100%,4% calc(100% - 8px),0 100%); }
+
+/* ---------- phones and tablets ---------- */
+@media (max-width: 780px) {
+  .cn-lead { grid-template-columns: 1fr; }
+  .cn-lead .cn-fig { order: -1; }
+  .cn-secs { grid-template-columns: 1fr; }
+  .cn-letter { grid-template-columns: 1fr; gap: 12px; }
+  .cn-row { grid-template-columns: 52px minmax(0, 1fr); gap: 14px; padding: 16px; }
+  .cn-row .cn-th { grid-column: 1 / -1; width: min(260px, 100%); justify-self: end; margin-top: 4px; }
+  .cn-when { padding-right: 10px; }
+  .cn-when b { font-size: 2.1rem !important; }
+  .cn-away { padding: 24px 70px 24px 14px; }
+  .cn-aw-t { font-size: 1.35rem !important; }
+  .cn-plane { width: 52px; height: 52px; right: 12px; margin-top: -34px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cn-lead, .cn-st, .cn-row, .cn-go i { transition: none; }
+}

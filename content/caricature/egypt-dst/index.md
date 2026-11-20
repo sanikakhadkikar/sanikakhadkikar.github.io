@@ -3,6 +3,8 @@ draft: false
 title: "Energy Saving Time"
 date: 2026-11-04
 summary: "Why is Egypt the only country in Africa that changes its clocks? It has nothing to do with daylight."
+cover_credit: "Spottedviper, CC BY-SA 4.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Sunset_at_the_Pyramids.jpg"
 genre: explainer
 math: false
 tags:

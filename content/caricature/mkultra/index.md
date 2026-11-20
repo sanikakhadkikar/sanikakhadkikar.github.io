@@ -3,6 +3,8 @@ draft: false
 title: "The Search for a Mind to Control"
 date: 2026-11-16
 summary: "A Cold War program to understand mind control, and what science learnt along the way."
+cover_credit: "David S. Soriano, CC BY-SA 4.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png"
 genre: declassified
 math: false
 tags:

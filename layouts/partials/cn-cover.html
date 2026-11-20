@@ -1,0 +1,10 @@
+{{/* Homepage picture for a post: cover.* first, else the first photo in the bundle, else a coloured tile. Always cropped to 4:3. */}}
+{{ $p := .page }}
+{{ $img := $p.Resources.GetMatch "cover.*" }}
+{{ if not $img }}{{ range $p.Resources.ByType "image" }}{{ if and (not $img) (ne .MediaType.SubType "svg") }}{{ $img = . }}{{ end }}{{ end }}{{ end }}
+{{ if $img }}
+ {{ $f := $img.Fill (printf "%s Center q78 jpg" .size) }}
+ <img src="{{ $f.RelPermalink }}" width="{{ $f.Width }}" height="{{ $f.Height }}" alt="" loading="lazy" decoding="async">
+{{ else }}
+ <span class="cn-noimg">{{ $p.Title }}</span>
+{{ end }}

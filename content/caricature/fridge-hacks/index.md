@@ -3,6 +3,8 @@ draft: false
 title: "A New Cold War"
 date: 2026-11-06
 summary: "Hackers are breaking into supermarket fridges, and the Pentagon wants to know if they got into the ones on US military bases too."
+cover_credit: "Wolfmann, CC BY-SA 4.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Meny_supermarket_T%C3%B8nsberg_Norway_melk_melkeprodukter_Tine_Q_Styrk_lettmelk_i_kj%C3%B8leskap_med_glassd%C3%B8r_glass_door_refrigerator_chiller_showcase_2017-09-20_02.jpg"
 genre: explainer
 math: false
 tags:

@@ -3,6 +3,8 @@ draft: false
 title: "Bent but Never Broken"
 date: 2026-11-20
 summary: "How Ethiopia stayed independent while almost all of Africa was carved up, starting with a single mistranslated word."
+cover_credit: "A. Davey from Where I Live Now: Pacific Northwest, CC BY 2.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Detail,_%22Battle_of_Adwa_(2141058909).jpg"
 genre: lost-history
 math: false
 tags:

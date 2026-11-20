@@ -3,6 +3,8 @@ draft: false
 title: "Before Turing, There Was Rejewski"
 date: 2026-11-09
 summary: "Everyone knows Alan Turing broke Enigma. Fewer people know that three Polish mathematicians did it first."
+cover_credit: "Vintage Fan 5678, CC BY 4.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Enigma_Machine_Rotor_Variations_on_display_at_Bletchley_Park_in_2022.jpg"
 genre: lost-history
 math: false
 tags:

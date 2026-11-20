@@ -3,6 +3,8 @@ draft: false
 title: "The Little Goose of Time"
 date: 2026-11-05
 summary: "Ocarina of Time is back. Why a 1998 game still matters, why Nintendo remade it, and what an ocarina even is."
+cover_credit: "0x010C, CC BY-SA 4.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:2016-01_Ocarina_front.jpg"
 genre: feature
 math: false
 tags:

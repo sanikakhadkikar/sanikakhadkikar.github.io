@@ -5,6 +5,8 @@ draft: false
 title: "The Underdog of Central Asia"
 date: 2026-10-30
 summary: "Kazakhstan, and how everything came together to make it so successful."
+cover_credit: "Matti Blume, CC BY-SA 4.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Night_at_Esil_District,_Astana_(P1190721).jpg"
 genre: explainer
 math: false
 tags:
