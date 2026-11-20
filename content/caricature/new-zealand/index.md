@@ -3,7 +3,7 @@ draft: false
 title: "Birds of a Different Feather"
 date: 2026-11-17
 summary: "New Zealand had almost no mammals, so birds and reptiles took over their jobs."
-genre: explainer
+genre: field-notes
 math: false
 tags:
   - biology
@@ -18,9 +18,9 @@ Before humans arrived, New Zealand's only native mammals were [bats](https://en.
 
 One of the possible answers would be that mammals simply never made it. The problem is that New Zealand split from Gondwana when mammals already existed. In 2006, scientists described a tiny jaw and thigh bone from near the town of St Bathans, from a mouse-sized land mammal that lived there about [19 to 16 million years ago](https://en.wikipedia.org/wiki/Saint_Bathans_fauna). So New Zealand did have land mammals once, and then, at some point, they disappeared without a trace. Nobody knows exactly why.
 
-Another possible answer is that the climate cooled and they could not survive it. A more dramatic one is that around 23 million years ago, most of Zealandia, the mostly sunken continent New Zealand sits on, went underwater. Some geologists think it [may have been almost completely submerged](https://en.wikipedia.org/wiki/Zealandia), which would have wiped out most land animals and left the islands to be recolonised by things that could fly, float or swim. That debate is still open. What is clear is that for millions of years New Zealand ran an experiment the rest of the world never did, a land ecosystem without mammals.
+Another possible answer is that the climate cooled and they could not survive it. A more dramatic one is that around 23 million years ago, most of Zealandia, the mostly sunken continent New Zealand sits on, went underwater. Some geologists think it [may have been almost completely submerged](https://en.wikipedia.org/wiki/Zealandia), which would have wiped out most land animals and left the islands to be recolonised by things that could fly, float or swim. That debate is still open. For millions of years, bats were New Zealand’s only native land mammals.
 
-The bats show how strange that experiment got. The lesser short-tailed bat spends a lot of its time [on the ground](https://en.wikipedia.org/wiki/New_Zealand_lesser_short-tailed_bat). It folds up its wings, uses them as front legs, and scurries through the leaf litter sniffing out insects, like a mouse would anywhere else.
+The lesser short-tailed bat spends a lot of its time [on the ground](https://en.wikipedia.org/wiki/New_Zealand_lesser_short-tailed_bat). It folds up its wings, uses them as front legs, and scurries through the leaf litter sniffing out insects, like a mouse would anywhere else.
 
 ## Birds doing mammal jobs
 
@@ -53,6 +53,4 @@ Then there is the [tuatara](https://en.wikipedia.org/wiki/Tuatara). It looks lik
 
 ## Then mammals arrived
 
-The experiment ended with people. Polynesian settlers arrived around 1300, and all the moa were gone by about 1445, probably in less than a century. The settlers also brought the Polynesian rat and dogs, and from 1769 Europeans added pigs, cats, stoats, possums, deer and more. For birds that had spent millions of years with nothing to run from, nesting on the ground and unable to fly, it was a disaster. Many of New Zealand's surviving native animals, including the tuatara and the takahē, now live mainly on predator-free islands and in fenced sanctuaries.
-
-So New Zealand does have mammals now, plenty of them. The interesting part is everything that evolved in the millions of years when it did not.
+Polynesian settlers arrived around 1300, and all the moa were gone by about 1445, probably in less than a century. The settlers also brought the Polynesian rat and dogs, and from 1769 Europeans added pigs, cats, stoats, possums, deer and more. For birds that had spent millions of years with nothing to run from, nesting on the ground and unable to fly, it was a disaster. Many of New Zealand's surviving native animals, including the tuatara and the takahē, now live mainly on predator-free islands and in fenced sanctuaries.

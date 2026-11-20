@@ -3,14 +3,14 @@ draft: false
 title: "Before Turing, There Was Rejewski"
 date: 2026-11-09
 summary: "Everyone knows Alan Turing broke Enigma. Fewer people know that three Polish mathematicians did it first."
-genre: explainer
+genre: lost-history
 math: false
 tags:
   - history
   - data
 ---
 
-Today I came across the word *bomba*, Polish for "bomb", and learnt that it was the name of a machine built in 1938 by a Polish mathematician called Marian Rejewski to break the German Enigma cipher. My first reaction was confusion. If the Poles had a machine to break Enigma in 1938, then what was Alan Turing doing? I grew up thinking Turing broke Enigma, full stop. It turns out the real story is a relay race, and the Poles ran the first and hardest leg.
+Today I came across the word *bomba*, Polish for "bomb", and learnt that it was the name of a machine built in 1938 by a Polish mathematician called Marian Rejewski to break the German Enigma cipher. My first reaction was confusion. If the Poles had a machine to break Enigma in 1938, then what was Alan Turing doing? I grew up thinking Turing broke Enigma, full stop.
 
 ## Enigma was never just one machine
 
@@ -18,7 +18,7 @@ Enigma looked like a typewriter in a wooden box. Every time you pressed a key, a
 
 {{< photo src="enigma.jpg" alt="A German Enigma machine in a wooden case with a keyboard and lamp board, on display behind glass" caption="A German Army and Air Force Enigma machine on display at Bletchley Park." by="Vintage Fan 5678" source="https://commons.wikimedia.org/wiki/File:German_Army_and_Luftwaffe_Enigma_Machine_-_A16991_in_Bletchley_Park.jpg" license="CC BY 4.0" license_url="https://creativecommons.org/licenses/by/4.0/" >}}
 
-What I did not realise is that Enigma was not one fixed machine that someone broke once. The Germans kept changing the hardware and the rules for using it, and every change meant the codebreakers had to break it again. The story makes much more sense as a series of versions, each one harder than the last.
+What I did not realise is that Enigma was not one fixed machine that someone broke once. The Germans kept changing the hardware and the rules for using it, and every change meant the codebreakers had to break it again.
 
 ## Version one, broken by a repeated word
 
@@ -34,7 +34,7 @@ For the rest of the 1930s, the three of them built tools to find each day's sett
 
 In [September 1938](https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma), the Germans changed the rules so that each operator chose their own starting position for every message, and the old card catalogue stopped working. They were still typing the message key twice, though, and Rejewski used exactly that. Within about two months he had designed the [bomba](https://en.wikipedia.org/wiki/Bomba_%28cryptography%29), Polish for "bomb", an electrically powered machine that combined six Enigmas and ran through rotor positions hunting for the repeated key. Six bombas were ready by mid-November 1938, and each could find a day's key in about two hours.
 
-A quick note on names, because they get mixed up a lot. The Polish machine was the bomba. The British machine that came later, which most people have heard of, was the Bombe. They are related, but they are not the same machine.
+The Polish *bomba* and the later British *Bombe* were separate machines.
 
 ## Versions three and four, and things get out of hand
 
@@ -48,7 +48,7 @@ By the summer of 1939 the Poles knew war was coming and that they could not keep
 
 Alan Turing was not at that meeting, but he was about to inherit everything that came out of it. He had been working part-time for Britain's codebreaking agency since 1938 and reported to Bletchley Park on 4 September 1939, the day after Britain declared war. In January 1940 he travelled to France to [spend several days with the Polish codebreakers](https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma), who had escaped there.
 
-## So what was Turing doing?
+## The British Bombe
 
 Turing was not an unknown codebreaker who got lucky. In 1936, at the age of 24, he had published a paper called "[On Computable Numbers](https://en.wikipedia.org/wiki/Alan_Turing)", which described an imaginary machine that could carry out any calculation by following simple rules. We now call it a Turing machine, and it is still the basic model of what a computer is. In the same paper he proved that some problems can never be solved by any machine, however clever, the most famous example being that no program can decide in advance whether every other program will eventually stop. He then did a PhD at Princeton under the logician Alonzo Church. Among mathematicians, he was already someone to watch.
 
@@ -60,12 +60,8 @@ The first [Bombe](https://en.wikipedia.org/wiki/Bombe) was installed in March 19
 
 Turing also took on the hardest version of all, the Enigma used by the German navy and its U-boats, and developed a statistical method called [Banburismus](https://en.wikipedia.org/wiki/Banburismus) to attack it. The historian Harry Hinsley later estimated that the intelligence from Bletchley Park shortened the war by at least two years.
 
-So the Poles broke Enigma first and showed that it could be done. Turing's contribution was making it breakable even after the Germans fixed their mistakes, and that is why he is remembered.
+## Rejewski and Zygalski in exile
 
-## The people history forgot
-
-What happened to the Polish team afterwards is the part that stayed with me. When Poland fell, the codebreakers escaped through Romania to France, where they kept working on Enigma until France fell too. Różycki died in January 1942 when the [passenger ship he was travelling on sank](https://en.wikipedia.org/wiki/Jerzy_R%C3%B3%C5%BCycki) in the Mediterranean. Rejewski and Zygalski escaped over the Pyrenees into Spain, where they were jailed for months, and finally reached Britain in August 1943. By then, Enigma had become a British and American operation, and the two men who had cracked it first were [kept away from it](https://en.wikipedia.org/wiki/Marian_Rejewski), working instead on lesser ciphers.
+When Poland fell, the codebreakers escaped through Romania to France, where they kept working on Enigma until France fell too. Różycki died in January 1942 when the [passenger ship he was travelling on sank](https://en.wikipedia.org/wiki/Jerzy_R%C3%B3%C5%BCycki) in the Mediterranean. Rejewski and Zygalski escaped over the Pyrenees into Spain, where they were jailed for months, and finally reached Britain in August 1943. By then, Enigma had become a British and American operation, and the two men who had cracked it first were [kept away from it](https://en.wikipedia.org/wiki/Marian_Rejewski), working instead on lesser ciphers.
 
 After the war, Rejewski went back to communist Poland, where he was investigated by the security services for nearly a decade. Because the whole Enigma story stayed classified until the 1970s, almost nobody knew what he had done. Most of the honours came only after he died in 1980, including a monument in Poznań and, in 2021, the Enigma Cipher Centre, a museum in the same city dedicated to the Polish codebreakers.
-
-So the next time someone says Alan Turing broke Enigma, it is worth adding that he was standing on the shoulders of three young Polish mathematicians who got there first.

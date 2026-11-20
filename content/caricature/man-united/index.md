@@ -3,14 +3,14 @@ draft: false
 title: "Buy Low, Score High"
 date: 2026-11-11
 summary: "How a football club ended up on the New York Stock Exchange, and why some countries make sure it can never happen to theirs."
-genre: explainer
+genre: follow-the-money
 math: false
 tags:
   - football
   - economics
 ---
 
-I recently found out something that made me laugh out loud. Manchester United, one of the most famous football clubs in the world, is listed on the New York Stock Exchange, right next to companies like Coca-Cola and Nike. Its ticker symbol is MANU. If you have a trading app on your phone, you can buy a share of Manchester United in about thirty seconds. So how does a football club from the north of England end up as a stock in New York, and could anyone just do this to any club?
+Manchester United, one of the most famous football clubs in the world, is listed on the New York Stock Exchange, right next to companies like Coca-Cola and Nike. Its ticker symbol is MANU. If you have a trading app on your phone, you can buy a share of Manchester United in about thirty seconds. I wanted to know why they listed in New York and whether the owners of any club could do the same.
 
 ## A club bought with its own money
 
@@ -30,9 +30,9 @@ Today, the Glazers still own the majority of the club. In 2024, the British bill
 
 ## United was not even the first
 
-Football clubs on stock exchanges are not new. Tottenham Hotspur became the [first football club in the world to float on a stock exchange](https://www.tottenhamhotspur.com/the-club/history/year-by-year/) back in 1983, in London. In the 1990s, many English clubs followed, hoping to raise money as football became big business. Most of them, including Tottenham, eventually left the stock market again, because it turns out that football clubs are not great investments. They spend most of what they earn on wages and transfers, and their value depends on whether a ball goes into a net.
+Football clubs on stock exchanges are not new. Tottenham Hotspur became the [first football club in the world to float on a stock exchange](https://www.tottenhamhotspur.com/the-club/history/year-by-year/) back in 1983, in London. In the 1990s, many English clubs followed, hoping to raise money as football became big business. Most of them, including Tottenham, eventually left the stock market again, and it’s easy to see why. Clubs spend most of what they earn on wages and transfers, and their value depends on whether a ball goes into a net.
 
-## So could anyone just buy a club?
+## Who can buy a club?
 
 In England, more or less, yes. If you have enough money and a club's owners are willing to sell, the club can be bought and loaded with debt, as United was. Some countries have decided they do not want that.
 

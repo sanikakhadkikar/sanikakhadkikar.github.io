@@ -3,7 +3,7 @@ draft: false
 title: "The Search for a Mind to Control"
 date: 2026-11-16
 summary: "A Cold War program to understand mind control, and what science learnt along the way."
-genre: explainer
+genre: declassified
 math: false
 tags:
   - history
@@ -38,10 +38,10 @@ In 1973, most of the MKUltra files were destroyed. About 20,000 pages survived b
 
 Some compensation followed. Olson's family received a settlement and an apology from President Ford in 1975. Nine of Cameron's patients reached a settlement with the US government in 1988, and Canada paid 77 former patients in 1992. The Montreal patients have never received a formal apology, and only in July 2025 did a Quebec court allow a [class action](https://www.ctvnews.ca/montreal/article/mk-ultra-mind-control-class-action-authorized-by-quebec-superior-court/) by them and their families to go ahead.
 
-## So what happened to the prisoners?
+## What the prisoners reported
 
 If brainwashing was not real, why did the prisoners in Korea act the way they did? The psychologist [Edgar Schein](https://www.militarypsych.org/wp-content/uploads/05-Hamilton-Spotlight-Edgar-Schein.pdf) interviewed them as they came home in 1953 and later called what they went through coercive persuasion. Their captors kept them isolated, cold, hungry and exhausted, interrogated them over and over, and asked for small things first, like a signature or a short statement, that slowly turned into bigger ones. Most of the prisoners cooperated at some point in ways that seemed trivial to them at the time, and almost none of them came out with genuinely changed beliefs. In 1956, the US Army concluded it could not find [even one conclusively documented case](https://en.wikipedia.org/wiki/Brainwashing) of an American prisoner being brainwashed.
 
 The US military drew its own lesson from this. In 1955, President Eisenhower signed a [Code of Conduct](https://www.kunsan.af.mil/News/Article/414344/the-military-code-of-conduct-a-brief-history/) for American soldiers in captivity, and the military created survival and resistance training, known as SERE, that put soldiers through these same pressures so they would recognise them if they were ever captured. The techniques were studied in detail by the sociologist Albert Biderman, whose [chart of coercive methods](https://traces.brynmawr.edu/exhibits/show/brainwashing/intro/serebiderman.html) was taught in that training for decades.
 
-As for MKUltra, after twenty years it had learnt how to confuse people, frighten them and erase their memories, but never how to control them. The mind control everyone was so afraid of turned out not to exist.
+After twenty years, MKUltra had documented ways to frighten people, disorient them and damage their memory. It had failed to demonstrate mind control.

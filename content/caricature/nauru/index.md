@@ -24,13 +24,13 @@ When Nauru became independent in 1968, it took control of the mining, and the mo
 
 ## Nothing left to farm
 
-This is where the obesity story actually begins. Mining stripped away about 80% of the island, leaving the middle of Nauru a field of jagged limestone pinnacles where nothing can grow and nobody can live. Around [90% of the land](https://en.wikipedia.org/wiki/Nauru) that could once have been farmed was destroyed. People were squeezed onto a thin strip of land along the coast, and nearly all of their food now has to be shipped in.
+Mining stripped away about 80% of the island, leaving the middle of Nauru a field of jagged limestone pinnacles where nothing can grow and nobody can live. Around [90% of the land](https://en.wikipedia.org/wiki/Nauru) that could once have been farmed was destroyed. People were squeezed onto a thin strip of land along the coast, and nearly all of their food now has to be shipped in.
 
 Food that survives a long journey to a remote island in the middle of the Pacific is not fresh fruit and vegetables. It is rice, sugar, flour, tinned meat and other processed food. During the boom years, Nauruans could afford plenty of it, and the old diet of fish, coconut and local plants faded away. When the money ran out, the land to go back to farming was already gone. Nauru later sued Australia at the International Court of Justice over the damage, and in 1993 Australia agreed to pay [A$107 million](https://en.wikipedia.org/wiki/Nauru_v_Australia), along with yearly payments, while maintaining that it was not responsible for the land mined before 1967.
 
-## It is not just Nauru
+## Food imports across the Pacific
 
-Here is the part that made me want to rant. Nauru is not even an outlier. Look at the share of adults living with obesity across the Pacific.
+The same pattern shows up elsewhere in the Pacific.
 
 {{< photo src="obesity.png" alt="Horizontal bar chart of the share of adults living with obesity. Fourteen Pacific islands top the list, from American Samoa at 77% and Nauru at 73% down to Fiji at 40%, compared with the United States at 42%, Australia at 31%, India at 8% and Japan at 6%." caption="Adults living with obesity, men and women combined." credit="Chart by me, data from the World Obesity Federation based on NCD-RisC estimates" credit_url="https://data.worldobesity.org/tables/ranking-obesity-by-country-adults-1.pdf" >}}
 
@@ -38,6 +38,6 @@ The top eight places in the world all belong to Pacific islands, and in several 
 
 The best example is turkey tails, the fatty back end of a turkey that Americans rarely eat. Huge amounts were exported to Samoa, so in 2007 Samoa banned them to protect its people's health. But to join the World Trade Organization, Samoa had to promise to drop the ban, and in 2013 it [lifted it](https://www.rnz.co.nz/international/pacific-news/213404/samoa-lifts-ban-on-importing-turkey-tail-meat). A doctor at Samoa's own Ministry of Health said it showed the government [putting trade ahead of the health of its people](https://www.rnz.co.nz/international/pacific-news/220279/samoa-turkey-tail-turnabout-puts-trade-ahead-of-health-doctor).
 
-## So is it forced?
+## What’s available to eat
 
-Personal choices still exist in Nauru, the same as anywhere. But choices are made from what is available, and Nauru's options were shaped long before anyone living there today was born. A century of mining that fed other countries' farms took away the island's own ability to grow food. The money that was supposed to replace it was lost. What was left was an island that has to import almost everything it eats, at the end of a very long shipping route. Calling Nauru the fattest country in the world makes it sound like a punchline. It is closer to a warning about what happens when a place is treated as something to dig up and ship away.
+Personal choices still exist in Nauru, the same as anywhere. But choices are made from what is available, and Nauru's options were shaped long before anyone living there today was born. A century of mining that fed other countries' farms took away the island's own ability to grow food. The money that was supposed to replace it was lost. What was left was an island that has to import almost everything it eats, at the end of a very long shipping route. Calling Nauru the fattest country in the world makes it sound like a punchline.

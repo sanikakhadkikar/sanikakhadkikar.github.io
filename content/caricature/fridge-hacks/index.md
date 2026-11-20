@@ -10,7 +10,7 @@ tags:
   - politics
 ---
 
-Of all the headlines I expected to read this year, "hackers are attacking refrigerators" was not one of them. But here we are. Freezers at US military commissaries mysteriously defrosted, hundreds of supermarkets in France had their fridges cranked up to oven temperatures overnight, and yesterday the US government issued an official warning about it. Apparently fridges are the new frontier of cyberwarfare.
+Of all the headlines I expected to read this year, "hackers are attacking refrigerators" was not one of them. But here we are. Freezers at US military commissaries mysteriously defrosted, hundreds of supermarkets in France had their fridges cranked up to oven temperatures overnight, and yesterday the US government issued an official warning about it.
 
 ## The commissary mystery
 
@@ -24,18 +24,16 @@ On the night of October 11, someone broke into the refrigeration controllers of 
 
 Then on November 2 it happened again, this time at supermarkets across Belgium, Luxembourg, the Netherlands, Sweden, Germany, Ireland, Estonia and Portugal. Worst of all, attackers also targeted three French blood banks and tried to heat stored plasma to 110°C. Thankfully their monitoring alarms worked and staff stepped in before anything was destroyed.
 
-## How do you even hack a fridge?
+## Refrigeration controllers
 
-This is the part that got me. Big commercial fridges are not like the one in your kitchen. They are run by small computers called controllers, which let a store manage the temperature of every freezer from one place, often remotely over the internet. The attacks targeted controllers made by Danfoss, a major supplier, and some of the models involved are ancient by computer standards. One reached its end of life in 2016 and another in 2021, meaning they no longer get security updates. Security researchers at Claroty had already reported in 2025 that some of these controllers could be logged into with the username "admin" and a hidden daily code that could be worked out from the device's own date. Many of them were simply sitting on the open internet for anyone to find.
+Commercial refrigeration systems run on small computers called controllers, which let a store manage the temperature of every freezer from one place, often remotely over the internet. The attacks targeted controllers made by Danfoss, a major supplier, and some of the models involved are ancient by computer standards. One reached its end of life in 2016 and another in 2021, meaning they no longer get security updates. Security researchers at Claroty had already reported in 2025 that some of these controllers could be logged into with the username "admin" and a hidden daily code that could be worked out from the device's own date. Many of them were simply sitting on the open internet for anyone to find.
 
 The US military seems to have the same problem. NPR reported that commissaries use [older Danfoss controllers](https://www.npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges), including some from the mid-2000s that can no longer be updated with secure software.
 
 ## Who did it?
 
-Nobody knows yet. US officials reportedly suspect Iran-linked hackers were behind the commissary outages, and one industry analyst said the pattern [closely matches Iranian groups](https://www.defenseone.com/threats/2026/11/warn-refrigerator-hacks-attacks-military/417076/). But no government has officially named anyone, and one security expert in France even suggested it could have been kids messing around. When the door is left this wide open, it does not take a nation state to walk through it.
+Nobody knows yet. US officials reportedly suspect Iran-linked hackers were behind the commissary outages, and one industry analyst said the pattern [closely matches Iranian groups](https://www.defenseone.com/threats/2026/11/warn-refrigerator-hacks-attacks-military/417076/). But no government has officially named anyone, and one security expert in France even suggested it could have been kids messing around.
 
-## Why this is not actually funny
+## What a shutdown costs
 
-It is easy to laugh at the idea of a fridge being hacked, and I did at first. But refrigeration keeps a lot more than ice cream cold. Food supplies, medicines, vaccines and blood all depend on it, which is exactly why the blood bank attack is so chilling (sorry). Yesterday, CISA, the FBI and the Departments of Health, Agriculture and Transportation issued a [joint warning](https://www.defenseone.com/threats/2026/11/warn-refrigerator-hacks-attacks-military/417076/) telling businesses to take refrigeration controls off the public internet, change default passwords, install updates and retire equipment that is no longer supported. And the head of the UK's National Cyber Security Centre warned that this is just the beginning, since AI now makes it much easier to find and exploit old, forgotten technology like this.
-
-So the next time someone tells you their smart fridge is the future, maybe ask them when it last got a security update.
+A refrigeration outage can spoil food, medicines, vaccines and blood supplies. Yesterday, CISA, the FBI and the Departments of Health, Agriculture and Transportation issued a [joint warning](https://www.defenseone.com/threats/2026/11/warn-refrigerator-hacks-attacks-military/417076/) telling businesses to take refrigeration controls off the public internet, change default passwords, install updates and retire equipment that is no longer supported. And the head of the UK's National Cyber Security Centre warned that this is just the beginning, since AI now makes it much easier to find and exploit old, forgotten technology like this.

@@ -5,14 +5,14 @@ draft: false
 title: "Fifty Shades of Data Center Gray"
 date: 2026-11-01
 summary: "Everyone expected the AI boom to make chipmakers rich. Nobody expected paint companies."
-genre: explainer
+genre: follow-the-money
 math: false
 tags:
   - economics
   - data
 ---
 
-When you think about who is making money from the AI boom, you probably think of GPUs, chipmakers, power companies and maybe the people building the giant data centers themselves. What you probably don't think of is paint. But it turns out that every one of those data centers needs to be coated, floor to ceiling, and two very old-school paint companies have quietly walked into the most futuristic industry on the planet.
+PPG and Sherwin-Williams are selling paint to data center builders. The buildings need coatings from floor to ceiling, and the color is usually gray.
 
 ## Why does a data center need paint?
 
@@ -26,8 +26,8 @@ The two names that keep coming up are PPG and Sherwin-Williams. Coverage of a Ne
 
 They are not the only companies that can make this kind of coating. Hempel, a Danish coatings company, markets [fire protection coatings specifically for data centers](https://www.hempel.com/en-us/-/media/Hempel/Files/Brochures-and-Leaflets/Segments/Energy-and-Infra/Fire-Protection/C-PFP_Brochure_EN.pdf), and companies like AkzoNobel and Jotun make similar fire protection products. But PPG and Sherwin-Williams are the two big paint companies openly racing for the data center market right now.
 
-## So did I buy the stock?
+## My PPG shares
 
-I did. When I found out about this about a month ago, I bought some PPG shares, and I can already see it rising. To be completely honest though, the recent jump came after a [strong quarter](https://finance.yahoo.com/markets/stocks/articles/ppg-industries-ppg-fairly-valued-062656664.html) that was driven mostly by aerospace and regular architectural paint, not data centers. Data center paint is still a small slice of a company that sells over $4 billion worth of coatings every quarter. So I was right about the trend, but whether it is what actually moves the stock is a different question. Let's see how it goes.
+I bought PPG shares about a month ago. The recent jump followed a [strong quarter](https://finance.yahoo.com/markets/stocks/articles/ppg-industries-ppg-fairly-valued-062656664.html) that was driven mostly by aerospace and regular architectural paint, not data centers. Data center paint is still a small slice of a company that sells over $4 billion worth of coatings every quarter.
 
 *Disclosure: I own PPG stock. This is not financial advice, and please take financial talk from a PhD student with a gigantic boulder of salt.*
