@@ -2,7 +2,7 @@
 draft: false
 title: "Get Home Safe"
 date: 2026-11-13
-summary: "It is Friday the 13th, so a physics student asks whether ghosts are real, and why so many of us keep seeing the people we have lost."
+summary: "It is Friday the 13th. A physics student asks whether ghosts are real."
 genre: op-ed
 math: false
 tags:

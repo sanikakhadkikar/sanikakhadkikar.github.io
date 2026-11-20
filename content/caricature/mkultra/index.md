@@ -2,7 +2,7 @@
 draft: false
 title: "The Search for a Mind to Control"
 date: 2026-11-16
-summary: "A Cold War research program that set out to understand mind control, what the declassified records show, and what science learnt about brainwashing along the way."
+summary: "A Cold War program to understand mind control, and what science learnt along the way."
 genre: explainer
 math: false
 tags:
