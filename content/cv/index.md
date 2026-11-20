@@ -4,4 +4,5 @@ type: cv
 layout: single
 show_breadcrumbs: false
 show_title: false
+heading: Curriculum Vitae
 ---

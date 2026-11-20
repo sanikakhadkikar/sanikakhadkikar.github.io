@@ -4,22 +4,22 @@
 # source: small label above it (where you heard it)
 # paper:  optional, one of yellow, card, receipt, pink, kraft (cycles if left out)
 
-- text: 'Molybdenum is element 42, and people who work with it just call it "moly".'
+- text: 'Molybdenum is element 42. Its nickname is "moly".'
   source: from Holy Moly!
   paper: yellow
 - text: "Liberia's name comes from the Latin word for free."
   source: from Bent but Never Broken
   paper: card
-- text: "Before people arrived, New Zealand's only native mammals were bats and sea mammals."
+- text: "For millions of years, bats were New Zealand's only native land mammals."
   source: from Birds of a Different Feather
   paper: receipt
-- text: "Nobody has ever built a bridge across the Amazon."
+- text: "The bridge at Manaus crosses the Rio Negro. The Amazon itself has no bridge."
   source: from Not Shackled by a Bridge
   paper: pink
-- text: "When things get bad, sea cucumbers throw their guts at you."
+- text: "Some sea cucumbers expel their guts when threatened, then grow them back."
   source: from Sea Cucumbers
   paper: kraft
-- text: "Egypt is the only country in Africa that changes its clocks."
+- text: "Egypt brought back daylight saving time in 2023 to cut energy use."
   source: from Energy Saving Time
   paper: yellow
 - text: "Three Polish mathematicians broke Enigma before Turing did."

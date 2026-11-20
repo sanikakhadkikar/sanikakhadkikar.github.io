@@ -30,7 +30,7 @@ Even the launch did not go to plan. The shares were [sold at $14](https://www.re
 
 Today, the Glazers still own the majority of the club. In 2024, the British billionaire Jim Ratcliffe and his company INEOS bought a [27.7% stake for about £1.3 billion](https://www.africanews.com/2024/03/12/man-united-ratcliffe-has-already-cost-nearly-44-billion//) and took over running the football side. If you buy a share today, you will technically own part of Manchester United, but your vote will be worth one tenth of a Glazer's, and there are far fewer of yours.
 
-## United was not even the first
+## Tottenham listed first
 
 Football clubs on stock exchanges are not new. Tottenham Hotspur became the [first football club in the world to float on a stock exchange](https://www.tottenhamhotspur.com/the-club/history/year-by-year/) back in 1983, in London. In the 1990s, many English clubs followed, hoping to raise money as football became big business. Most of them, including Tottenham, eventually left the stock market again, and it’s easy to see why. Clubs spend most of what they earn on wages and transfers, and their value depends on whether a ball goes into a net.
 
@@ -38,7 +38,7 @@ Football clubs on stock exchanges are not new. Tottenham Hotspur became the [fir
 
 In England, more or less, yes. If you have enough money and a club's owners are willing to sell, the club can be bought and loaded with debt, as United was. Some countries have decided they do not want that.
 
-In Germany, the [50+1 rule](https://en.wikipedia.org/wiki/50%2B1_rule) says a club's members must always hold at least 50% of the votes plus one. Investors can put money in, but they cannot take control. A few exceptions exist for clubs that a company has funded for more than twenty years, like Bayer Leverkusen, which grew out of the Bayer pharmaceutical company, and Wolfsburg, which is tied to Volkswagen. A Glazer-style takeover of a club like Borussia Dortmund is simply not allowed.
+In Germany, the [50+1 rule](https://en.wikipedia.org/wiki/50%2B1_rule) says a club's members must always hold at least 50% of the votes plus one. Investors can put money in, but they cannot take control. A few exceptions exist for clubs that a company has funded for more than twenty years, like Bayer Leverkusen, which grew out of the Bayer pharmaceutical company, and Wolfsburg, which is tied to Volkswagen. A Glazer-style takeover of a club like Borussia Dortmund is barred under that rule.
 
 Spain went in a different direction. In 1990, a new sports law forced Spanish professional clubs to turn into companies with shareholders. Only four clubs that had healthy finances at the time were [allowed to stay as member-owned associations](https://en.wikipedia.org/wiki/Sociedad_An%C3%B3nima_Deportiva). They were Real Madrid, Barcelona, Athletic Bilbao and Osasuna. These clubs belong to their members, the *socios*, who elect the club president, so nobody can buy them, not the Glazers, not a billionaire, not a country.
 

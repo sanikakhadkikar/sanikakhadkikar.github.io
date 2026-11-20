@@ -4,7 +4,7 @@ aliases:
 draft: false
 title: "The Underdog of Central Asia"
 date: 2026-10-30
-summary: "Kazakhstan, and how everything came together to make it so successful."
+summary: "I guessed Uzbekistan would lead Central Asia in GDP per person. Here’s what I missed about Kazakhstan."
 cover_credit: "Matti Blume, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Night_at_Esil_District,_Astana_(P1190721).jpg"
 genre: explainer
@@ -20,7 +20,7 @@ My best guess for the highest GDP was Uzbekistan, because it has one of the high
 
 But BOY was I surprised. Kazakhstan had the highest GDP per person, and then came Turkmenistan.
 
-{{< inline-svg src="map.svg" caption="GDP per capita, 2025. Deeper red means richer per person. Boundaries from Natural Earth, figures from the IMF." >}}
+{{< inline-svg src="map.svg" caption="GDP per capita, 2025. Darker red indicates higher GDP per person. Boundaries from Natural Earth, figures from the IMF." >}}
 
 {{< gdp-table countries="Kazakhstan,China,Turkmenistan,Iran,Uzbekistan,Kyrgyzstan,Tajikistan,Afghanistan" >}}
 
@@ -32,7 +32,7 @@ Russia obviously has way more oil than Kazakhstan. But Russia also has about sev
 
 And the neighbours? Kyrgyzstan and Tajikistan have basically no oil or gas at all. Uzbekistan has some gas, but nowhere near enough to carry 37 million people.
 
-## Uranium (and basically the whole periodic table)
+## Uranium and other minerals
 
 This one I genuinely did not know. Kazakhstan is the largest uranium producer in the world, and not by a little. In 2024 it mined about 39% of all the uranium on Earth. Most of it is mined by pumping a solution into the ground, dissolving the uranium and pumping it back up, which is a lot cheaper than digging giant pits.
 
@@ -56,7 +56,7 @@ I thought people leave Tajikistan and Kyrgyzstan, and they do, a lot. They just 
 
 And my Fergana Valley theory? The valley is genuinely one of the most fertile places in Central Asia, and Uzbekistan really is one of the world's big cotton producers. But fertile land feeds people, it doesn't make a country rich the way oil does. Also, plot twist, almost none of the Fergana Valley is in Kazakhstan. It is split between Uzbekistan, Kyrgyzstan and Tajikistan, which all sit in the bottom half of the table.
 
-## Turkmenistan, the gas giant nobody talks about
+## Turkmenistan’s gas exports
 
 Turkmenistan coming in right behind China makes a lot more sense once you know it has some of the largest natural gas reserves on the planet. Depending on who you ask, the country as a whole ranks fourth or fifth in the world for gas reserves. But one single field, Galkynysh, is so big that it is the second-largest gas field anywhere on Earth. Most of that gas goes through a pipeline straight to China.
 

@@ -6,7 +6,7 @@
 
 <div class="flashcard-page">
 
-  <h1 class="fc-page-title">Food for Thought</h1>
+  {{ partial "pro-head.html" (dict "eyebrow" "Notes" "title" (.Params.heading | default .Title) "lede" .Params.lede) }}
 
   {{/* ============================================================
        SECTION 1: BEYOND RESEARCH

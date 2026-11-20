@@ -2,7 +2,7 @@
 draft: false
 title: "Energy Saving Time"
 date: 2026-11-04
-summary: "Why is Egypt the only country in Africa that changes its clocks? It has nothing to do with daylight."
+summary: "Egypt brought back daylight saving time in 2023 to cut energy use and export more gas."
 cover_credit: "Spottedviper, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Sunset_at_the_Pyramids.jpg"
 genre: explainer
@@ -14,7 +14,7 @@ tags:
 
 I missed more meetings than I would like to admit last week. Europe turned its clocks back on October 25, but the US only did it on November 1, so for one whole week every transatlantic meeting was an hour off from where my brain thought it was. While I was busy apologising to collaborators, I started wondering which countries even bother with daylight saving time, and I found out something strange. Egypt is the [only country in Africa](https://www.pewresearch.org/short-reads/2023/10/26/most-countries-dont-observe-daylight-saving-time/) that does it.
 
-{{< photo src="pew-dst-map.jpg" alt="World map showing daylight saving time is observed mostly in Europe and North America, with Egypt the only African country" caption="Countries that observe daylight saving time, as of October 2023. Spot the one dark blue country in Africa." credit="Pew Research Center" credit_url="https://www.pewresearch.org/short-reads/2023/10/26/most-countries-dont-observe-daylight-saving-time/" >}}
+{{< photo src="pew-dst-map.jpg" alt="World map showing daylight saving time is observed mostly in Europe and North America, with Egypt the only African country" caption="Countries observing daylight saving time in October 2023. Egypt is marked in dark blue." credit="Pew Research Center" credit_url="https://www.pewresearch.org/short-reads/2023/10/26/most-countries-dont-observe-daylight-saving-time/" >}}
 
 ## Why would Egypt need to save daylight?
 
@@ -22,11 +22,11 @@ At first this sounds completely unnecessary. Daylight saving time exists because
 
 The geography backs up my confusion. Look at how much the length of the day changes over a year in three cities.
 
-{{< photo src="daylight.png" alt="Line chart of daylight hours over the year for London, Cairo and Nairobi" caption="London's day swings by almost 9 hours between winter and summer, Cairo's by under 4, and Nairobi's barely moves at all." credit="Chart by me, computed from each city's latitude" >}}
+{{< photo src="daylight.png" alt="Line chart of daylight hours over the year for London, Cairo and Nairobi" caption="Day length varies by nearly nine hours in London, less than four in Cairo, and very little in Nairobi." credit="Chart by me, computed from each city's latitude" >}}
 
 London gets less than 8 hours of daylight in December and more than 16 in June, so moving an hour of light around actually makes a difference there. Cairo only swings between about 10 and 14 hours, and near the equator in Nairobi, the day is basically 12 hours long all year. Most of Africa sits close to the equator, which is why almost nobody there bothers. The countries outside Europe and North America that still change their clocks, like Chile, New Zealand, southern Australia and Israel, all sit further from the equator, and Egypt sits right at the edge of where it starts to make sense.
 
-## There is always a colonial connection
+## British wartime summer time
 
 The British [first introduced summer time in Egypt in 1940](https://en.wikipedia.org/wiki/Daylight_saving_time_in_Egypt), during the Second World War, when Egypt was a key British military base. It stopped after the war, came back in 1957, and then Egypt spent the next several decades switching it on and off.
 
@@ -38,7 +38,7 @@ When the government restored it in 2023, the stated reason was to [save energy](
 
 This doesn't completely make sense to me though, because the heat is the same no matter what the clock says. In a hot country, the biggest demand on the power grid is not lights, it's air conditioning. Shifting the clock means people are home and awake during the hottest part of the evening, possibly running their air conditioners even more. And there is research suggesting exactly that. When parts of Indiana adopted daylight saving time, economists used it as a natural experiment and found that it actually [increased household electricity use by about 1%](https://www.nber.org/system/files/working_papers/w14429/w14429.pdf), mostly because the savings on lighting were wiped out by extra heating and cooling. Egypt's own electricity ministry reached a similar conclusion back in 2015, which might explain why the country keeps switching it on and off.
 
-## Morocco’s clocks?
+## Morocco’s clocks
 
 Morocco, the other North African country with complicated clocks, used to permanently run an hour ahead and briefly switch back during Ramadan, but it [returned to plain GMT](https://www.moroccoworldnews.com/2026/09/338817/morocco-gears-up-for-historic-return-to-gmt-on-sunday/) this September, leaving Egypt truly alone.
 

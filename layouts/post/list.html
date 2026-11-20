@@ -1,10 +1,8 @@
 {{ define "main" }}
 
-<div class="page-header" style="padding: 2.5rem 2rem 0; max-width: 1200px; margin: 0 auto;">
-  <p class="page-title">{{ .Title }}</p>
-</div>
-
-<div class="page-body" style="max-width: 1200px; margin: 0 auto; padding: 2rem 2rem 5rem;">
+<div class="pro-wrap">
+  {{ partial "pro-head.html" (dict "eyebrow" .Title "title" (.Params.heading | default .Title) "lede" .Params.lede) }}
+<div>
   <div class="news-list">
     {{ range .Pages.ByDate.Reverse }}
       {{ $dest := .RelPermalink }}
@@ -38,6 +36,7 @@
       </a>
     {{ end }}
   </div>
+</div>
 </div>
 
 <style>
@@ -114,7 +113,7 @@
 }
 
 .news-card-title {
-  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-family: 'Fraunces', Georgia, serif !important;
   font-size: 1.25rem !important;
   font-weight: 400 !important;
   color: #ffffff;

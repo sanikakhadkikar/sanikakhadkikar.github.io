@@ -74,7 +74,7 @@ h4, h5, h6,
 }
 
 /* ── Fonts ────────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 body, p, li, span, div, a, td, th, input, textarea, button {
   font-family: 'DM Sans', system-ui, sans-serif !important;
@@ -84,7 +84,7 @@ body, p, li, span, div, a, td, th, input, textarea, button {
 h1, h2, h3, h4, h5, h6,
 .hero-title, .section-title,
 [class*="title"], [class*="heading"] {
-  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-family: 'Fraunces', Georgia, serif !important;
   font-weight: 400 !important;
 }
 
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* ── Page titles (Publications, Research, Food for Thought) ───── */
 .page-title {
-  font-family: 'DM Serif Display', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: 1.75rem;
   font-weight: 400;
   color: #ffffff;
@@ -385,7 +385,7 @@ nav a,
 #news article:hover {
   background: rgba(255, 255, 255, 0.02);
   transform: translateX(5px);
-  border-left: 3px solid #10b981;
+  border-left: 3px solid #b8a9ff;
 }
 
 /* CV button hover effect */
@@ -431,8 +431,8 @@ a[href*="resume.pdf"]:hover::before {
 }
 
 #collabs a:hover {
-  background: rgba(16, 185, 129, 0.1);
-  color: #10b981;
+  background: rgba(184, 169, 255, 0.12);
+  color: #b8a9ff;
   transform: translateX(3px);
 }
 
@@ -442,7 +442,7 @@ a:not(.no-hover) {
 }
 
 a:not(.no-hover):hover {
-  color: #10b981;
+  color: #b8a9ff;
 }
 
 /* Smooth scroll behavior */

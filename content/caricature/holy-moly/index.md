@@ -2,7 +2,7 @@
 draft: true
 title: "Holy Moly!"
 date: 2026-11-19
-summary: "Tens of millions of medical scans a year depend on one isotope that only six old reactors really make."
+summary: "A handful of reactors supply the isotope that hospitals use to make technetium for scans."
 genre: explainer
 math: false
 tags:
@@ -18,7 +18,7 @@ Ordinary molybdenum is already inside almost all of us. It is an essential trace
 
 ## Why moly matters in medicine
 
-Doctors never actually inject molybdenum-99 into patients. What they use is what it turns into, because as molybdenum-99 decays it becomes [technetium-99m](https://en.wikipedia.org/wiki/Technetium-99m), the most used medical isotope in the world.
+For scans, doctors use the decay product of molybdenum-99, [technetium-99m](https://en.wikipedia.org/wiki/Technetium-99m), the most used medical isotope in the world.
 
 Technetium-99m is almost perfect for imaging. It gives off gamma rays at an energy a special camera can easily pick up, with very little other radiation, so the patient gets only a small dose, and it is out of the body within about a day. Doctors attach it to different molecules depending on what they want to look at, inject it and watch where it travels, which tells them whether blood is reaching the heart muscle, whether a cancer has spread to the bones, or how well the kidneys and thyroid are working.
 
@@ -28,11 +28,11 @@ The OECD's Nuclear Energy Agency counts [more than 40 million medical procedures
 
 Half of any batch of technetium-99m is gone in about 6 hours, and even molybdenum-99 loses half of itself every 66 hours or so, which means nobody can make a big batch and keep it for later.
 
-Hospitals get around this with a neat trick. They order the molybdenum-99 in a small, heavily shielded container called a generator, where it sits on a column and keeps turning into technetium. Every morning a technician runs salt water through the column, which washes out the fresh technetium and leaves the molybdenum behind to make more. People in nuclear medicine call the generator a ["moly cow"](https://en.wikipedia.org/wiki/Technetium-99m) and this daily wash "milking", and after about a week, when the cow runs dry, the hospital needs a new one.
+Hospitals order the molybdenum-99 in a small, heavily shielded container called a generator, where it sits on a column and keeps turning into technetium. Every morning a technician runs salt water through the column, which washes out the fresh technetium and leaves the molybdenum behind to make more. People in nuclear medicine call the generator a ["moly cow"](https://en.wikipedia.org/wiki/Technetium-99m) and this daily wash "milking", and after about a week, when the cow runs dry, the hospital needs a new one.
 
 {{< photo src="generator.jpg" alt="A gloved hand in a white lab coat holding a small glass vial with a gold cap" caption="The small column inside a technetium generator. Most of the rest is shielding." by="IAEA Imagebank" source="https://commons.wikimedia.org/wiki/File:Drytec_Technetium_Generator_(02210375)_(8468527888).jpg" license="CC BY-SA 2.0" license_url="https://creativecommons.org/licenses/by-sa/2.0/" >}}
 
-## Who can actually make it
+## Which reactors make molybdenum-99
 
 Molybdenum-99 is made by splitting uranium inside a nuclear research reactor. Small uranium targets spend several days in the reactor before a specialised plant dissolves them, pulls out the molybdenum and packs it into generators, which are then rushed to hospitals while the molybdenum is decaying the whole way. To do this, a country needs a suitable reactor, a processing plant and a fast route to its hospitals, and very few countries have all three.
 
@@ -59,8 +59,8 @@ It has kept happening since. In late 2022, outages at several European reactors 
 
 ## How everyone else manages
 
-Most countries make no molybdenum-99 at all and simply import it, which means the whole system runs just in time. Every week, generators are made in a handful of places and flown out, racing against their own decay, so a reactor fault, a cancelled flight or a slow customs check can all mean fewer scans somewhere.
+Most countries make no molybdenum-99 at all and import it, which means the whole system runs just in time. Every week, generators are made in a handful of places and flown out, racing against their own decay, so a reactor fault, a cancelled flight or a slow customs check can all mean fewer scans somewhere.
 
-Even rich countries live like this. The United States uses roughly [half of the world's molybdenum-99](https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/why-us-still-dependent-foreign-medical-isotope-production) but has not made any at scale since the late 1980s, and imports it from Europe, South Africa and Australia. Japan, another big user, is aiming to make part of its own supply by 2028. According to the OECD, it is low and middle-income countries that [suffer the most](https://oecd-nea.org/upload/docs/application/pdf/2025-10/7743_medical_radioisotopes_supply_rev.pdf), because they sit at the end of the longest supply lines with the least room to absorb a shortage.
+The United States uses roughly [half of the world's molybdenum-99](https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/why-us-still-dependent-foreign-medical-isotope-production) but has not made any at scale since the late 1980s, and imports it from Europe, South Africa and Australia. Japan, another big user, is aiming to make part of its own supply by 2028. According to the OECD, it is low and middle-income countries that [suffer the most](https://oecd-nea.org/upload/docs/application/pdf/2025-10/7743_medical_radioisotopes_supply_rev.pdf), because they sit at the end of the longest supply lines with the least room to absorb a shortage.
 
 People are working on ways around the reactors. Since 2020, the TRIUMF laboratory in Canada has had approval to make technetium-99m directly in a cyclotron, a type of particle accelerator, skipping both molybdenum and reactors. In the United States, a company called SHINE is building an accelerator-based plant planned for 2027, and new reactors are on the way too, including PALLAS in the Netherlands in the early 2030s, the Jules Horowitz Reactor in France, and RA-10 in Argentina, which could give South America its own supply for the first time.

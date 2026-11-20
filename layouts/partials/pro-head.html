@@ -1,0 +1,8 @@
+{{/* Page opening used on every professional page: small label, big title, one line about the page.
+     Pass a dict with eyebrow, title, lede (HTML allowed) and optional actions (HTML). */}}
+<div class="pro-head">
+  {{ with .eyebrow }}<span class="pro-eyebrow">{{ . }}</span>{{ end }}
+  <h1 class="pro-title">{{ .title }}</h1>
+  {{ with .lede }}<div class="pro-lede">{{ . | safeHTML }}</div>{{ end }}
+  {{ with .actions }}<div class="pro-actions">{{ . | safeHTML }}</div>{{ end }}
+</div>

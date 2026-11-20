@@ -196,3 +196,8 @@ a:hover .cn-go i, a:focus-visible .cn-go i { transform: translateX(5px); }
 @media (prefers-reduced-motion: reduce) {
   .cn-lead, .cn-st, .cn-row, .cn-go i { transition: none; }
 }
+
+/* ---------- cards tinted with a light wash of their topic colour ---------- */
+.cn-st { background: color-mix(in srgb, var(--c) 16%, #fff); }
+.cn-row { background: color-mix(in srgb, var(--c) 11%, #fffaf0); }
+.cn-row .cn-when { border-right-color: color-mix(in srgb, var(--c) 45%, transparent); }

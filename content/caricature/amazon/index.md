@@ -28,11 +28,11 @@ There is even a second, hidden "river" under the ground. In 2011, a team led by 
 
 It is not a river in the way we usually picture one, though. It is water seeping through porous rock, moving at less than a millimetre per second, slower than most glaciers. The Amazon above it moves at around 2 metres per second. Hamza himself said he used the word river "not in the conventional sense", and many scientists think it should not be called a river at all. So does a second river underneath make the ground even shakier for a bridge? Probably not. At 4 kilometres deep, it is far below where any bridge foundation would reach. The ground problems engineers worry about are the ones at the surface, the floods, the mud and the moving banks.
 
-## A city of two million, cut off
+## Getting to Manaus
 
 A crossing might make more sense at [Manaus](https://en.wikipedia.org/wiki/Manaus), the biggest concentration of people anywhere along the Amazon. It began in 1669 as a Portuguese fort at a river junction, became one of the richest cities in South America during the rubber boom of the late 1800s, and then boomed again after 1967, when Brazil turned it into a tax-free industrial zone and factories moved in. Today it is home to about 2.3 million people, all in one place surrounded by forest.
 
-If a bridge makes sense anywhere, it is here. There is still no paved road connecting Manaus to the rest of Brazil. One highway runs north to Venezuela, and the one heading south towards Porto Velho starts with a ferry across the river and turns into an unusable dirt track after about 100 kilometres. Almost everything and everyone arrives by boat or by plane.
+There is still no paved road connecting Manaus to the rest of Brazil. One highway runs north to Venezuela, and the one heading south towards Porto Velho starts with a ferry across the river and turns into an unusable dirt track after about 100 kilometres. Most people and goods come by boat or plane.
 
 Manaus does have one big bridge, and that comes down to where the city was built in the first place. The old fort was not placed on the main Amazon but on the bank of the Rio Negro, its biggest tributary, just before the two rivers meet. So in 2011, when Brazil finally built the [Rio Negro Bridge](https://en.wikipedia.org/wiki/Rio_Negro_Bridge), a 3.6 kilometre cable-stayed bridge to the town of Iranduba, it crossed the Rio Negro, not the Amazon itself. To reach the highway on the south side of the main river, you still need a ferry.
 

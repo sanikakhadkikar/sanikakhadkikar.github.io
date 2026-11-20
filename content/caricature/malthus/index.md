@@ -26,7 +26,7 @@ His key number was that a population could [double every 25 years](https://math.
 
 ## Remove the excess
 
-I am not writing this article because I was intrigued by the theory. I am writing it because I am disgusted by its consequences. Instead of asking how to produce more food, manage it better or distribute it more fairly, the answer that took hold was to control the population, and especially the poor. My best friend and I always joked about a line from one of our favourite parody videos, <span class="nc-hindi">"ग़रीब हटाओ, ग़रीबी automatically हट जाएगी"</span> (garib hatao, garibi automatically hat jayegi), which means remove the poor and poverty will disappear on its own. It is a twist on Indira Gandhi's real 1971 election slogan, ["Garibi Hatao"](http://indiragandhi.in/en/timeline/index/garibi-hatao-timeline), remove poverty. Reading about Malthusianism, I realised the joke version was basically policy.
+I am not writing this article because I was intrigued by the theory. I am writing it because I am disgusted by its consequences. Instead of asking how to produce more food, manage it better or distribute it more fairly, the answer that took hold was to control the population, and especially the poor. My best friend and I always joked about a line from one of our favourite parody videos, <span class="nc-hindi">"ग़रीब हटाओ, ग़रीबी automatically हट जाएगी"</span> (garib hatao, garibi automatically hat jayegi), which means remove the poor and poverty will disappear on its own. It is a twist on Indira Gandhi's real 1971 election slogan, ["Garibi Hatao"](http://indiragandhi.in/en/timeline/index/garibi-hatao-timeline), remove poverty. Reading about Malthusianism, I realised the joke version had been put into practice.
 
 England had provided food and support to the poor since the Elizabethan Poor Law of 1601. In 1834, that was overhauled by the [Poor Law Amendment Act](https://en.wikipedia.org/wiki/Poor_Law_Amendment_Act_1834), shaped by a commission dominated by Malthusian economists, who argued that helping the poor only encouraged them to have more children and drained resources. Relief now meant entering a workhouse, with conditions made deliberately miserable so that fewer people would ask for help. In other words, if you did not prove worthy enough to have a seat at the table, you should not be at it.
 
@@ -34,7 +34,7 @@ A decade later, during the Irish potato famine of the 1840s, the same thinking s
 
 ## From Malthus to eugenics
 
-Malthus did inspire some genuinely good science. Both Charles Darwin and Alfred Russel Wallace credited his essay with helping them arrive at the theory of natural selection. But that chain did not stop there. Darwin's cousin, the statistician Francis Galton, took the idea of natural selection and applied it to people, and in 1883 he [coined the word "eugenics"](https://www.genome.gov/about-genomics/educational-resources/timelines/eugenics), arguing that society should encourage the "fit" to marry and have children.
+Charles Darwin and Alfred Russel Wallace both credited Malthus’s essay with helping them develop the theory of natural selection. Darwin's cousin, the statistician Francis Galton, took the idea of natural selection and applied it to people, and in 1883 he [coined the word "eugenics"](https://www.genome.gov/about-genomics/educational-resources/timelines/eugenics), arguing that society should encourage the "fit" to marry and have children.
 
 I had always thought of eugenics as an extremist fringe, but it was enthusiastically taken up by [George Bernard Shaw, H.G. Wells](https://www.newworldencyclopedia.org/entry/Francis_Galton) and the progressive Fabian socialists, people who were literate, scientific and liberal, and whom we still respect today. In the US, after the Supreme Court allowed forced sterilisation in 1927, around [70,000 Americans](https://www.scientificamerican.com/article/why-malthus-is-still-wrong/) were sterilised against their will.
 
@@ -42,11 +42,11 @@ And it hits close to home. During India's Emergency in 1975 to 1977, a populatio
 
 ## Was he wrong?
 
-To be fair, Malthus was not wrong about everything. Economic historians like [Gregory Clark](https://en.wikipedia.org/wiki/A_Farewell_to_Alms) argue that his model described most of human history pretty well. Until about 1800, every time food production improved, the population simply grew to eat it, and people did not get any richer. Malthus described the past. His mistake was assuming the future would look the same, right as the Industrial Revolution was starting around him.
+To be fair, Malthus was not wrong about everything. Economic historians like [Gregory Clark](https://en.wikipedia.org/wiki/A_Farewell_to_Alms) argue that his model described most of human history pretty well. Until about 1800, every time food production improved, the population grew to eat it, and people did not get any richer. Malthus described the past. His mistake was assuming the future would look the same, right as the Industrial Revolution was starting around him.
 
-Malthus could not have predicted mechanised tractors, chemical fertilisers made through the Haber–Bosch process (which honestly deserves its own article), refrigeration, or the high-yield crop varieties of the Green Revolution, all of which multiplied how much food the world could grow.
+Malthus could not have predicted mechanised tractors, chemical fertilisers made through the Haber–Bosch process (which deserves its own article), refrigeration, or the high-yield crop varieties of the Green Revolution, all of which multiplied how much food the world could grow.
 
-Even his modern followers keep losing. In 1968, the biologist Paul Ehrlich predicted mass famines in *The Population Bomb*, and in 1980 he bet the economist Julian Simon that five metals would get more expensive as the world ran out of resources. Ten years later, [all five were cheaper](https://en.wikipedia.org/wiki/Simon%E2%80%93Ehrlich_wager) after inflation, and Ehrlich mailed Simon a cheque.
+In 1968, the biologist Paul Ehrlich predicted mass famines in *The Population Bomb*, and in 1980 he bet the economist Julian Simon that five metals would get more expensive as the world ran out of resources. Ten years later, [all five were cheaper](https://en.wikipedia.org/wiki/Simon%E2%80%93Ehrlich_wager) after inflation, and Ehrlich mailed Simon a cheque.
 
 ## Falling birth rates
 

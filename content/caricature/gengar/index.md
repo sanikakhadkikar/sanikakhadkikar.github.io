@@ -2,7 +2,7 @@
 draft: false
 title: "The Realism of Geng Geng Gengar"
 date: 2026-11-10
-summary: "Gengar learns five moves in the original games. Humans have managed to pull off a surprising number of them."
+summary: "Gengar’s original moves sent me reading about tick paralysis, hypnosis and people answering questions in their sleep."
 cover_credit: "François GOGLINS, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Sergines-FR-89-carnaval_2023-a10.jpg"
 genre: op-ed
@@ -11,11 +11,11 @@ tags:
   - pokemon
 ---
 
-Alright! I have finished a third of the Indigo League, and I love this children's show, embarrassingly so. I catch myself humming "I wanna be the very best…" to the point of concern. For a kids' show it has some surprisingly mature moments, like Ash letting Butterfree go, everyone crowding around the cool trainer who abandoned Charmander, and the way even Team Rocket turns out to have some good in them. The Pokémon themselves are wonderfully strange, and they show off the creativity of the people who designed them.
+Alright! I have finished a third of the Indigo League, and I love this children's show, embarrassingly so. I catch myself humming "I wanna be the very best…" to the point of concern. For a kids' show it has some surprisingly mature moments, like Ash letting Butterfree go, everyone crowding around the cool trainer who abandoned Charmander, and the way even Team Rocket turns out to have some good in them.
 
 Along the way I have collected a few complaints, like Blastoise having straight-up Rambo bazookas on its back, or how, out of hundreds of Magnemite, only one was attracted to Pikachu, and even that one managed to stay a safe distance away. But I love the show regardless, and since I have now met about a third of the Gen 1 Pokémon, I want to talk about my Halloween costume this year and my most intriguing Pokémon so far, Gengar. (My starter, for the record, will always be Bulbasaur for historical reasons, and Charmander in a completely unbiased fashion.)
 
-This year, I was Gengar for Halloween. Gengar is a Ghost and Poison type, and it can also learn Psychic-type moves. In the original Red, Blue and Yellow games, the era of the Indigo League I am watching, it learns [only five moves](https://pokeapi.co/api/v2/pokemon/gengar) by levelling up: Lick, Confuse Ray, Night Shade, Hypnosis and Dream Eater. Lately I have been reading about [MKUltra](/caricature/mkultra/), a Cold War research program that studied mind control, and I could not stop noticing that Gengar's moves look a lot like its wish list. Paralyse someone, confuse them, scare them, hypnotise them and get inside their dreams. So let's go through them one by one and see how much of Gengar the real world has actually managed.
+This year, I was Gengar for Halloween. Gengar is a Ghost and Poison type, and it can also learn Psychic-type moves. In the original Red, Blue and Yellow games, the era of the Indigo League I am watching, it learns [only five moves](https://pokeapi.co/api/v2/pokemon/gengar) by levelling up: Lick, Confuse Ray, Night Shade, Hypnosis and Dream Eater. Lately I have been reading about [MKUltra](/caricature/mkultra/), a Cold War research program that studied mind control, and I could not stop noticing that Gengar's moves look a lot like its wish list. Paralyse someone, confuse them, scare them, hypnotise them and get inside their dreams.
 
 ## Lick
 
@@ -27,7 +27,7 @@ The good news is that the tick is the only source of the toxin. Once the whole t
 
 ## Confuse Ray
 
-Confuse Ray is a beam of light that leaves the opponent confused. Pokémon actually proved this one on itself.
+Confuse Ray is a beam of light that leaves the opponent confused. An episode of Pokémon put hundreds of viewers in hospital.
 
 On 16 December 1997, Japan aired an episode called "Electric Soldier Porygon". About 21 minutes in, there is an explosion scene where the screen flashes red and blue for around six seconds, [twelve times every second](https://www.mentalfloss.com/entertainment/tv/when-pokemon-sent-hundreds-viewers-hospital). That frequency sits right in the range known to trigger photosensitive epilepsy, a form of epilepsy where flickering light sets off a seizure. Many people who have it do not know until they see the wrong kind of flashing. That evening, around 685 viewers, mostly children, were taken to hospital with seizures, headaches and other symptoms, and many of them had never had a seizure before.
 
@@ -37,7 +37,7 @@ The aftermath was huge. The episode was never shown again anywhere in the world,
 
 Night Shade wraps the opponent in a frightening shadow. There is no ghost involved in the real version, but darkness really does change how our brains react to threats.
 
-Scientists measure this using the startle reflex, the involuntary blink and flinch you do when you hear a sudden loud noise. It cannot be faked, and it gets stronger when you are anxious, which makes it a good way to measure fear. In [one 2007 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC2093988/), researchers played loud bursts of noise to volunteers sitting in light and in darkness, and found the startle was significantly stronger in the dark. After the volunteers were stressed by having to give a speech and count backwards out loud, the effect of darkness grew even bigger. Nothing in the dark room was actually threatening. The brain simply treats darkness as dangerous by default, which makes sense for a species that spent most of its history unable to see predators at night.
+Scientists measure this using the startle reflex, the involuntary blink and flinch you do when you hear a sudden loud noise. It cannot be faked, and it gets stronger when you are anxious, which makes it a good way to measure fear. In [one 2007 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC2093988/), researchers played loud bursts of noise to volunteers sitting in light and in darkness, and found the startle was significantly stronger in the dark. After the volunteers were stressed by having to give a speech and count backwards out loud, the effect of darkness grew even bigger. Nobody in the room was in danger. The brain treats darkness as dangerous by default, which makes sense for a species that spent most of its history unable to see predators at night.
 
 ## Hypnosis
 
@@ -55,6 +55,6 @@ In 2013, researchers in Kyoto [used a brain scanner to guess what people were dr
 
 In 2020, researchers at MIT built a glove called [Dormio](https://www.news-medical.net/news/20200730/Dream-hacking-with-a-novel-device.aspx) that senses when you are falling asleep. Just at that moment, it played 49 volunteers a recording saying "Remember to think of a tree." When they were woken up a little later, 67 percent of them said trees had appeared in their dreams. Without the recording, people almost never dreamt about trees.
 
-In 2021, four labs in the United States, France, Germany and the Netherlands [had actual conversations with people while they were asleep](https://news.northwestern.edu/stories/2021/02/lucid-dreams-ken-paller/). They worked with lucid dreamers, people who realise they are dreaming while it is happening. The dreamers had agreed beforehand to signal with their eyes, since eye movements still work during dreaming even though the rest of the body is paralysed. Once a dreamer signalled that they were lucid, the researchers asked them yes-or-no questions and simple maths problems out loud, and the dreamers answered from inside their dream by moving their eyes. It did not work every time, but it worked in all four labs.
+In 2021, four labs in the United States, France, Germany and the Netherlands [had conversations with people while they were asleep](https://news.northwestern.edu/stories/2021/02/lucid-dreams-ken-paller/). They worked with lucid dreamers, people who realise they are dreaming while it is happening. The dreamers had agreed beforehand to signal with their eyes, since eye movements still work during dreaming even though the rest of the body is paralysed. Once a dreamer signalled that they were lucid, the researchers asked them yes-or-no questions and simple maths problems out loud, and the dreamers answered from inside their dream by moving their eyes. It did not work every time, but it worked in all four labs.
 
 As I write about in my [MKUltra piece](/caricature/mkultra/), twenty years of serious Cold War research never managed what a Gen 1 ghost does by level 38.

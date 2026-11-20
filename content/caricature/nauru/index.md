@@ -2,7 +2,7 @@
 draft: false
 title: "The Island That Was Mined Away"
 date: 2026-11-12
-summary: "Nauru is called the fattest country in the world. Bird droppings and mining explain why."
+summary: "Phosphate mining stripped away much of Nauru’s farmland. The island now imports nearly all its food."
 cover_credit: "Hadi Zaher from Melbourne, Australia, CC BY 2.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Living_on_a_Blue_Planet_-_Nauru.jpg"
 genre: op-ed
@@ -20,7 +20,7 @@ For hundreds of thousands of years, Nauru was a resting place for seabirds. Thei
 
 In 1900, a prospector discovered it. Mining began in 1907, and after the First World War it was run by the British Phosphate Commission, a body set up by Australia, New Zealand and the United Kingdom. For most of the twentieth century, Nauru's island was dug up, shipped away and spread on farms in other countries, while the people who lived there had little say in it.
 
-## Rich for a moment
+## The phosphate boom
 
 When Nauru became independent in 1968, it took control of the mining, and the money poured in. In the 1970s and early 1980s, Nauruans were among the [richest people in the world](https://en.wikipedia.org/wiki/Nauru) per person. The government set up a trust fund to save the phosphate money for the day it would run out. The day did come, and the fund was not ready. Bad investments, including financing a London musical about Leonardo da Vinci that flopped, helped shrink the fund from A$1.3 billion in 1991 to A$138 million by 2002. By the 1990s, the phosphate worth mining was gone.
 

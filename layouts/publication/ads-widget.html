@@ -1,97 +1,69 @@
 {{ define "main" }}
-<div class="page-header">
-  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 2rem 2rem 0;">
-    {{ if .Title }}
-    <p class="page-title">{{ .Title }}</p>
-    {{ end }}
-  </div>
-</div>
+<div class="pro-wrap">
+  {{ with .Site.Data.publications }}
+    {{ $firstAuthor := slice }}
+    {{ $majorContrib := slice }}
+    {{ $collaboration := slice }}
 
-<div class="page-body">
-  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 1rem 2rem 4rem;">
-    {{ .Content }}
-
-    <div style="margin-top: 1rem;">
-      {{ with .Site.Data.publications }}
-        <div style="margin-bottom: 2rem;">
-          <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; font-family: 'DM Sans', sans-serif;">
-            {{ .total_publications }} publications{{ if .last_updated }} · last updated {{ dateFormat "January 2, 2006" (time .last_updated) }}{{ end }} ·
-            <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A{{ .orcid }}&sort=date%20desc" target="_blank" style="color: #b8a9ff; text-decoration: underline;">View on NASA ADS</a>
-          </p>
-        </div>
-
-        {{ $firstAuthor := slice }}
-        {{ $majorContrib := slice }}
-        {{ $collaboration := slice }}
-
-        {{ range .publications }}
-          {{ if eq .authorship_position "first" }}
-            {{/* Only include refereed journals, skip conference abstracts/proceedings */}}
-            {{ if .is_refereed }}
-              {{ $firstAuthor = $firstAuthor | append . }}
-            {{ end }}
-          {{ else if strings.Contains .authors "LIGO Scientific Collaboration" }}
-            {{ $collaboration = $collaboration | append . }}
-          {{ else }}
-            {{/* Only include if author position is known and reasonable (skip mass-author LVK papers) */}}
-            {{ if and .author_position (lt .author_position 100) }}
-              {{ $majorContrib = $majorContrib | append . }}
-            {{ end }}
-          {{ end }}
+    {{ range .publications }}
+      {{ if eq .authorship_position "first" }}
+        {{/* Refereed papers and arXiv preprints; skip conference abstracts/proceedings */}}
+        {{ if or .is_refereed (eq .journal "arXiv e-prints") }}
+          {{ $firstAuthor = $firstAuthor | append . }}
         {{ end }}
-
-        {{ $firstAuthor  = sort $firstAuthor  "year" "desc" }}
-        {{ $majorContrib = sort $majorContrib "year" "desc" }}
-        {{ $collaboration = sort $collaboration "year" "desc" }}
-
-        <!-- First Author -->
-        {{ if $firstAuthor }}
-          <div style="margin-bottom: 3rem;">
-            <p style="color: #b8a9ff; border-bottom: 2px solid rgba(184,169,255,0.4); padding-bottom: 0.4rem; margin-bottom: 1.25rem; font-size: 1.1rem; font-weight: 600; font-family: 'DM Sans', sans-serif; letter-spacing: 0.03em;">
-              First Author ({{ len $firstAuthor }})
-            </p>
-            {{ range $firstAuthor }}
-              {{ partial "publication-item.html" . }}
-            {{ end }}
-          </div>
-        {{ end }}
-
-        <!-- Major Contributions (non-LVK, non-first-author) -->
-        {{ if $majorContrib }}
-          <div style="margin-bottom: 3rem;">
-            <p style="color: #b8a9ff; border-bottom: 2px solid rgba(184,169,255,0.4); padding-bottom: 0.4rem; margin-bottom: 1.25rem; font-size: 1.1rem; font-weight: 600; font-family: 'DM Sans', sans-serif; letter-spacing: 0.03em;">
-              Major Contributions ({{ len $majorContrib }})
-            </p>
-            {{ range $majorContrib }}
-              {{ partial "publication-item.html" . }}
-            {{ end }}
-          </div>
-        {{ end }}
-
-        <!-- LVK Collaboration Papers -->
-        {{ if $collaboration }}
-          <div style="margin-bottom: 3rem;">
-            <p style="color: #b8a9ff; border-bottom: 2px solid rgba(184,169,255,0.4); padding-bottom: 0.4rem; margin-bottom: 1.25rem; font-size: 1.1rem; font-weight: 600; font-family: 'DM Sans', sans-serif; letter-spacing: 0.03em;">
-              LIGO-Virgo-KAGRA Collaboration ({{ len $collaboration }})
-            </p>
-            {{ range $collaboration }}
-              {{ partial "publication-item.html" . }}
-            {{ end }}
-          </div>
-        {{ end }}
-
+      {{ else if strings.Contains .authors "LIGO Scientific Collaboration" }}
+        {{ $collaboration = $collaboration | append . }}
       {{ else }}
-        <div style="padding: 2rem; background: rgba(255,193,7,0.1); border: 1px solid rgba(255,193,7,0.3); border-radius: 6px; text-align: center; font-family: 'DM Sans', sans-serif;">
-          <p>Publications will appear here once the GitHub Action runs.</p>
-          <p style="font-size: 0.9rem; color: rgba(255,255,255,0.6);">The system fetches from NASA ADS daily.</p>
-        </div>
+        {{/* Only include if author position is known and reasonable (skip mass-author LVK papers) */}}
+        {{ if and .author_position (lt .author_position 100) }}
+          {{ $majorContrib = $majorContrib | append . }}
+        {{ end }}
       {{ end }}
+    {{ end }}
+
+    {{ $firstAuthor  = sort $firstAuthor  "pubdate" "desc" }}
+    {{ $majorContrib = sort $majorContrib "year" "desc" }}
+    {{ $collaboration = sort $collaboration "year" "desc" }}
+
+    {{ $ads := printf "https://ui.adsabs.harvard.edu/search/q=orcid%%3A%s&sort=date%%20desc" .orcid }}
+    {{ $lede := printf "%d publications on NASA ADS%s. <a href=\"%s\" target=\"_blank\" rel=\"noopener\">See them all on ADS</a>." (int .total_publications) (cond (isset . "last_updated") (printf ", last updated %s" (dateFormat "January 2, 2006" (time .last_updated))) "") $ads }}
+    {{ partial "pro-head.html" (dict "eyebrow" $.Title "title" ($.Params.heading | default "Papers and preprints") "lede" $lede) }}
+
+    <div class="pro-chips" role="group" aria-label="Filter publications">
+      <button type="button" class="pro-chip" data-show="all" aria-pressed="true">All</button>
+      {{ with $firstAuthor }}<button type="button" class="pro-chip" data-show="first" aria-pressed="false">First author<small>{{ len . }}</small></button>{{ end }}
+      {{ with $majorContrib }}<button type="button" class="pro-chip" data-show="major" aria-pressed="false">Major contributions<small>{{ len . }}</small></button>{{ end }}
+      {{ with $collaboration }}<button type="button" class="pro-chip" data-show="lvk" aria-pressed="false">LIGO-Virgo-KAGRA<small>{{ len . }}</small></button>{{ end }}
     </div>
-  </div>
+
+    {{ range slice (dict "id" "first" "name" "First author" "list" $firstAuthor "tag" "First author") (dict "id" "major" "name" "Major contributions" "list" $majorContrib "tag" "Co-author") (dict "id" "lvk" "name" "LIGO-Virgo-KAGRA Collaboration" "list" $collaboration "tag" "LVK") }}
+      {{ if .list }}
+      <section class="pro-group" data-group="{{ .id }}">
+        <h2 class="pro-group-title">{{ .name }} <span>{{ len .list }}</span></h2>
+        <div class="pro-pubs">
+          {{ $tag := .tag }}
+          {{ range .list }}{{ partial "publication-item.html" (dict "pub" . "tag" $tag) }}{{ end }}
+        </div>
+      </section>
+      {{ end }}
+    {{ end }}
+
+    <script>
+    (function () {
+      var chips = document.querySelectorAll('.pro-chip[data-show]');
+      var groups = document.querySelectorAll('.pro-group[data-group]');
+      chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          var show = chip.getAttribute('data-show');
+          chips.forEach(function (c) { c.setAttribute('aria-pressed', c === chip ? 'true' : 'false'); });
+          groups.forEach(function (g) { g.hidden = !(show === 'all' || g.getAttribute('data-group') === show); });
+        });
+      });
+    })();
+    </script>
+
+  {{ else }}
+    {{ partial "pro-head.html" (dict "eyebrow" .Title "title" (.Params.heading | default "Papers and preprints") "lede" "Publications will appear here once the GitHub Action runs. The list is fetched from NASA ADS daily.") }}
+  {{ end }}
 </div>
-
-<style>
-.publication-item a, .publication-item span { transition: all 0.25s ease; }
-</style>
-
 {{ end }}

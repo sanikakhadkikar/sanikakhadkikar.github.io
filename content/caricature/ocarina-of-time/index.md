@@ -2,7 +2,7 @@
 draft: false
 title: "The Little Goose of Time"
 date: 2026-11-05
-summary: "Ocarina of Time is back. Why a 1998 game still matters, why Nintendo remade it, and what an ocarina even is."
+summary: "The Ocarina of Time remake, the three Zelda timelines, and how the ocarina got its name."
 cover_credit: "0x010C, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:2016-01_Ocarina_front.jpg"
 genre: feature
@@ -14,7 +14,7 @@ tags:
 
 Today, November 5, the remake of *The Legend of Zelda: Ocarina of Time* came out on the Nintendo Switch 2, and thanks to a very generous coworker who let me try it on his Switch 2, I got to play it on day one. So this one is for him, and for a game that is almost exactly 28 years old.
 
-## Why do people love it so much?
+## Sword fights in 3D
 
 The original came out on the Nintendo 64 in November 1998, and it holds a record that has never been broken. It is the [only game ever to get a Metacritic score of 99](https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time/), making it the highest-rated video game of all time.
 
@@ -30,9 +30,9 @@ The remake keeps the original game but rebuilds almost everything around it, wit
 
 ## Why does Zelda have such a huge fan database?
 
-Part of what keeps people obsessed with Zelda is that the games are connected in a way that is genuinely confusing. In 2011, Nintendo published *Hyrule Historia*, an official history book that finally revealed the timeline, and it turned out that Ocarina of Time is where everything splits. Depending on how the game ends, history branches into [three separate timelines](https://zeldawiki.wiki/wiki/Zelda_Timeline), one where Link returns to his childhood, one where the adult Link's world continues without him, and one where Link actually loses to Ganondorf. Every later game sits somewhere on one of these three branches, and fans have spent decades building wikis, maps and timelines to keep track of it all. Ocarina of Time is basically the root of the entire family tree.
+In 2011, Nintendo published *Hyrule Historia*, which placed Ocarina of Time at the split between [three separate timelines](https://zeldawiki.wiki/wiki/Zelda_Timeline). There’s one where Link returns to his childhood, one where the adult Link's world continues without him, and one where Link loses to Ganondorf. Every later game sits somewhere on one of these three branches, and fans have spent decades building wikis, maps and timelines to keep track of it all.
 
-## Wait, what is an ocarina?
+## The little goose
 
 An ocarina is a small, egg-shaped wind instrument, a kind of vessel flute where you blow into a hollow chamber instead of a tube. People have made instruments like this for thousands of years, including in pre-Columbian South America.
 
@@ -40,7 +40,7 @@ An ocarina is a small, egg-shaped wind instrument, a kind of vessel flute where 
 
 The modern version, and the name, come from Italy. In 1853, a 17-year-old in the town of Budrio near Bologna named Giuseppe Donati is said to have made his first one, and he called it *ocarina*, from the local Bolognese word for ["little goose"](https://en.wikipedia.org/wiki/Ocarina). Look at one from the side and you can see why. So the full title of the game is, technically, *The Legend of Zelda: The Little Goose of Time*.
 
-{{< photo src="ocarina-modern.jpg" alt="A terracotta ocarina with a long beak-like mouthpiece and finger holes along its body" caption="A modern Italian-style ocarina. The little goose shape is hard to miss once you know it." credit="Photo by Stepla, via Wikimedia Commons, CC BY-SA 2.0 de" credit_url="https://commons.wikimedia.org/wiki/File:Ocarina.jpg" >}}
+{{< photo src="ocarina-modern.jpg" alt="A terracotta ocarina with a long beak-like mouthpiece and finger holes along its body" caption="A modern Italian-style ocarina, seen from the side." credit="Photo by Stepla, via Wikimedia Commons, CC BY-SA 2.0 de" credit_url="https://commons.wikimedia.org/wiki/File:Ocarina.jpg" >}}
 
 ## The remake on a Mac
 

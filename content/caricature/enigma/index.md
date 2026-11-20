@@ -2,7 +2,7 @@
 draft: false
 title: "Before Turing, There Was Rejewski"
 date: 2026-11-09
-summary: "Everyone knows Alan Turing broke Enigma. Fewer people know that three Polish mathematicians did it first."
+summary: "How Marian Rejewski, Jerzy Różycki and Henryk Zygalski cracked Enigma before Bletchley Park."
 cover_credit: "Vintage Fan 5678, CC BY 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Enigma_Machine_Rotor_Variations_on_display_at_Bletchley_Park_in_2022.jpg"
 genre: lost-history
@@ -38,7 +38,7 @@ In [September 1938](https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma), 
 
 The Polish *bomba* and the later British *Bombe* were separate machines.
 
-## Versions three and four, and things get out of hand
+## New rotors and new rules
 
 The bomba worked for barely a month. In December 1938 the Germans gave operators five rotors to choose from instead of three, which took the number of possible rotor orders from 6 to 60. The Poles would have needed ten times as many bombas and ten times as many perforated sheets, and Poland simply did not have the money. In January 1939 the Germans also added more plug cables. There is no evidence that the Germans knew the Poles were reading their messages. As far as historians can tell, they were just tightening security, and even after the war German officers believed Enigma had never been broken.
 

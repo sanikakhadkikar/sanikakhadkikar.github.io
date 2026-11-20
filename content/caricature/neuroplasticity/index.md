@@ -4,7 +4,7 @@ aliases:
 draft: false
 title: "Fire Together, Wire Together"
 date: 2026-10-31
-summary: "What neuroplasticity says about learning to feel, and why it is never too late."
+summary: "I wanted to get better at showing what I feel. I started by reading how adults learn to regulate emotions."
 cover_credit: "Jeff W. Lichtman and Joshua R. Sanes, CC BY 3.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Brainbow_(Lichtman_2008).jpg"
 genre: op-ed
@@ -13,7 +13,7 @@ tags:
   - biology
 ---
 
-For a long time I believed humans can function just fine without emoting. Somewhere along the way it became hard for me to do, so I decided it wasn't important. Then someone who meant the world to me asked me for exactly that, and I realised that if I want to have a fulfilling personal life, I need to learn how to emote. As a scientist, I will always favour research-backed science to help me improve. If I could understand how emotions actually work in the brain and the body, maybe I could use that to show up better for myself and for the people I love. That's how I found neuroplasticity.
+For a long time I believed humans can function just fine without emoting. Somewhere along the way it became hard for me to do, so I decided it wasn't important. Then someone who meant the world to me asked me for exactly that, and I realised that if I want to have a fulfilling personal life, I need to learn how to emote. I started reading about what happens in the brain and body when we hold feelings in. That's how I found neuroplasticity.
 
 ## What is neuroplasticity?
 
@@ -29,7 +29,7 @@ That is the synaptic side of things. There is also a structural side, where the 
 
 Children's brains are plastic almost by default. They go through sensitive periods where they learn just by being around something, which is why a kid can pick up a language from playing with friends while I am on day 400 of Duolingo. A lot of what we learn passively as children stays with us for life, the good and the bad.
 
-Adults can still change, but we have to work harder for it. Adult plasticity needs alertness and focused attention to switch on, small and incremental steps rather than giant leaps, and a lot of repetition. Sleep matters too, because that is when a lot of the strengthening actually gets locked in. It is harder at 26 than it was at 6, but it is very much possible.
+Adults can still change, but we have to work harder for it. Adult plasticity needs alertness and focused attention to switch on, small and incremental steps rather than giant leaps, and a lot of repetition. Sleep matters too, because it helps reinforce what we learn. It is harder at 26 than it was at 6, but it is very much possible.
 
 ## What does this have to do with emotions?
 
@@ -43,7 +43,7 @@ Psychologist James Gross and his colleagues found that when people [suppress the
 
 Everyone feels things, even if they don't emote. I might not show my stress, talk about it, or tell someone I love that I appreciate them, but the feelings are still there inside, and my chest ache was proof of that. I wanted to know whether I could learn a different response.
 
-In a [2026 study from the University of Illinois](https://news.illinois.edu/emotion-regulation-training-reduces-distress-changes-the-brain-team-reports/), college students practised steering their attention to neutral details of an upsetting scene, like the trees and the sky in a photo of a car accident, and looking at difficult situations from a different angle. After just five weeks, they felt less distressed even about hard events from their own lives, and their brain scans had actually changed, with the prefrontal cortex more connected and the regions linked to negative emotions less sensitive. Five weeks! Slowing your breath down to around six breaths a minute every day for five weeks [strengthened the connection](https://link.springer.com/article/10.3758/s13415-022-01032-w) between the amygdala and the prefrontal cortex in another trial, and even practising looking at a painful situation from the outside, like a fly on the wall, [changed the brain's negative emotion patterns](https://pmc.ncbi.nlm.nih.gov/articles/PMC11305902/) in just two weeks in a small study.
+In a [2026 study from the University of Illinois](https://news.illinois.edu/emotion-regulation-training-reduces-distress-changes-the-brain-team-reports/), college students practised steering their attention to neutral details of an upsetting scene, like the trees and the sky in a photo of a car accident, and looking at difficult situations from a different angle. After just five weeks, they felt less distressed even about hard events from their own lives, and their brain scans showed changes, with the prefrontal cortex more connected and the regions linked to negative emotions less sensitive. Five weeks! Slowing your breath down to around six breaths a minute every day for five weeks [strengthened the connection](https://link.springer.com/article/10.3758/s13415-022-01032-w) between the amygdala and the prefrontal cortex in another trial, and even practising looking at a painful situation from the outside, like a fly on the wall, [changed the brain's negative emotion patterns](https://pmc.ncbi.nlm.nih.gov/articles/PMC11305902/) in just two weeks in a small study.
 
 I have seen a small version of this in myself too. The less I use social media, the less impulsive I am all the time. And the more I have been journalling over the last few months, the more I think before speaking and the better I understand myself.
 

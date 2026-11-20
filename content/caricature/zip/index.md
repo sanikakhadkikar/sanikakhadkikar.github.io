@@ -2,7 +2,7 @@
 draft: true
 title: "Zip It"
 date: 2026-11-21
-summary: "How zipping a file actually makes it smaller, explained with one banana, plus what .tar, .zip and .h5 really are."
+summary: "How ZIP stores repeated text, using BANANA as an example, and how ZIP differs from TAR and HDF5."
 genre: rabbit-hole
 math: false
 tags:
@@ -10,7 +10,7 @@ tags:
   - data
 ---
 
-I zip and unzip files almost every day, and I work with `.h5` files full of gravitational wave data, but until recently I had no idea what was actually happening when a file got "compressed". A computer cannot just throw data away and hope you will not notice, because when you unzip your thesis you need every single comma back. So how does a file get smaller without losing anything? The answer turns out to be two clever tricks, and the best way to see both of them is with the word BANANA.
+I zip and unzip files almost every day, and I work with `.h5` files full of gravitational wave data, but until recently I had no idea what happened when a file got "compressed". A computer cannot just throw data away and hope you will not notice, because when you unzip your thesis you need every single comma back. So how does a file get smaller without losing anything? You can see both steps in the word BANANA.
 
 ## Trick one, short codes for common letters
 
@@ -20,7 +20,7 @@ That is fair, but wasteful, because the letters are not equally common. BANANA h
 
 The problem is doing this without creating confusion. Say we gave A the code 1 and B the code 11. When the computer later reads 11, it has no way of knowing if that is one B or two A's. So the codes need a special property, that no code can be the start of another code.
 
-In 1951, an MIT student named David Huffman found the best way to do this. His professor, Robert Fano, had given the class a choice. They could sit the final exam, or write a term paper on finding the most efficient binary code. Huffman chose the paper, struggled with it for months, and came up with a method he could prove was the best possible. It is now called [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding), and it is still in use more than seventy years later.
+In 1951, an MIT student named David Huffman found a method he could prove was the best possible way to do this. It is now called [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding), and it is still in use more than seventy years later.
 
 Here is how it works for BANANA, step by step.
 
@@ -49,24 +49,24 @@ When the file is unzipped, the computer reads the note, jumps back 13 characters
 
 ## Put them together and you get .zip
 
-Most of the zip files you have ever opened use a method called [DEFLATE](https://en.wikipedia.org/wiki/Deflate), designed by Phil Katz for his PKZIP program in the late 1980s, and it simply uses both tricks, one after the other.
+Most of the zip files you have ever opened use a method called [DEFLATE](https://en.wikipedia.org/wiki/Deflate), designed by Phil Katz for his PKZIP program in the late 1980s, and it uses both methods in sequence.
 
 First comes trick two. The computer scans through the file and, every time it finds something it has seen before, swaps it for a "go back and copy" note. It looks up to 32 kilobytes into the past, which is roughly the last ten pages of text. What is left is a mix of letters that appeared for the first time and lots of these notes.
 
-Then comes trick one. The computer counts which letters and which notes appear most often, builds a Huffman tree, and gives the most common ones the shortest codes. The result is written into the zip file. Unzipping simply runs both steps backwards. The same method is inside every `.gz` file and every PNG image.
+Then comes trick one. The computer counts which letters and which notes appear most often, builds a Huffman tree, and gives the most common ones the shortest codes. The result is written into the zip file. Unzipping runs both steps backwards. The same method is inside every `.gz` file and every PNG image.
 
-This also explains why zipping a zip file does nothing. After both tricks, the repetition and the uneven letter counts are gone, and what is left looks almost random. There is nothing left to squeeze. In fact, no compression method can shrink every possible file, because there are simply fewer short files than long ones, so some files have to stay the same size or get bigger. Compression only works because real data, like text, code and images, is full of patterns.
+This also explains why zipping a zip file does nothing. After both tricks, the repetition and the uneven letter counts are gone, and what is left looks almost random. There is nothing left to squeeze. In fact, no compression method can shrink every possible file, because there are fewer short files than long ones, so some files have to stay the same size or get bigger. Compression only works because real data, like text, code and images, is full of patterns.
 
 Push that idea to the extreme and you get a zip bomb. The famous [42.zip](https://en.wikipedia.org/wiki/Zip_bomb) is about 42 kilobytes, but it contains five layers of zip files nested inside each other, and if you unzipped all of it, you would get about 4.5 petabytes of data, enough to fill thousands of laptops.
 
 ## So what are .tar and .h5?
 
-{{< inline-svg src="archives.svg" caption="Three ways to pack data. A .tar.gz squeezes everything together, a .zip squeezes each file on its own, and an .h5 file organises data like folders inside a single file." >}}
+{{< inline-svg src="archives.svg" caption="A .tar.gz compresses the whole archive. A .zip compresses files individually. An .h5 file stores datasets in groups." >}}
 
-A [.tar](https://en.wikipedia.org/wiki/Tar_%28computing%29) file does not compress anything at all. The name stands for tape archive, and it dates back to Unix in 1979, when backups were written to long reels of magnetic tape. It simply glues files together one after another into a single bundle. To make it smaller, you then run the whole bundle through a compressor like gzip, which is why you see names like `.tar.gz`. Because the compressor sees all the files at once, it can find repeats across different files and often compresses better than zip. The downside is that, like a tape, it has to be read from start to finish, so getting one file out of a huge `.tar.gz` means unpacking everything before it.
+A [.tar](https://en.wikipedia.org/wiki/Tar_%28computing%29) file does not compress anything at all. The name stands for tape archive, and it dates back to Unix in 1979, when backups were written to long reels of magnetic tape. It stores files one after another in a single archive. To make it smaller, you then run the whole bundle through a compressor like gzip, which is why you see names like `.tar.gz`. Because the compressor sees all the files at once, it can find repeats across different files and often compresses better than zip. The downside is that, like a tape, it has to be read from start to finish, so getting one file out of a huge `.tar.gz` means unpacking everything before it.
 
 A [.zip](https://en.wikipedia.org/wiki/ZIP_%28file_format%29) file does the opposite. It compresses each file on its own and adds an index at the very end saying where each one starts. That makes it a little less efficient, but you can pull out a single file without touching the rest.
 
 An `.h5` file is something else altogether. [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format), which stands for Hierarchical Data Format, is not really an archive. It is more like a whole file system inside one file, with groups that work like folders and datasets that hold large arrays of numbers, each with its own labels and notes attached. Scientists love it because you can read just the slice of data you need without loading the rest, and individual datasets can be compressed too. It is the format the LIGO and Virgo gravitational wave detectors use to [share their data](https://gwosc.org/o2_details) with the public, which is how I ended up using it in the first place.
 
-So the next time you right-click a folder and hit "compress", there is a little tree and a lot of "go back and copy" notes being written for you, all based on an idea a student came up with to get out of a final exam.
+So the next time you right-click a folder and hit "compress", there is a little tree and a lot of "go back and copy" notes being written for you, all based on an idea a student came up with in 1951.

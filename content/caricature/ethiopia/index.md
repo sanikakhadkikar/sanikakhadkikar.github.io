@@ -2,7 +2,7 @@
 draft: false
 title: "Bent but Never Broken"
 date: 2026-11-20
-summary: "How Ethiopia stayed independent while almost all of Africa was carved up, starting with a single mistranslated word."
+summary: "Italy and Ethiopia signed two versions of the same treaty. They disagreed on what it let Italy do."
 cover_credit: "A. Davey from Where I Live Now: Pacific Northwest, CC BY 2.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Detail,_%22Battle_of_Adwa_(2141058909).jpg"
 genre: lost-history
@@ -54,4 +54,4 @@ The occupation lasted only five years. Ethiopian fighters kept up a guerrilla wa
 
 Adwa also gave Ethiopia its flag. In October 1897, a year after the battle, Menelik [combined three coloured pennants](https://en.wikipedia.org/wiki/Flag_of_Ethiopia), green, yellow and red, colours already used by the Ethiopian Orthodox Church, into a single tricolour flag, with the first letter of his name in the middle. Those are the same colours you can see on the flags in the painting of the battle above. The flag has changed since. For most of the twentieth century it carried the crowned Lion of Judah, the symbol of Ethiopia's royal family, and in 1996 the lion was replaced by a yellow star on a blue disc. According to the government's description, the star stands for a bright future, its equal rays for the equality of all Ethiopians regardless of ethnicity, religion or sex, and the blue for peace.
 
-What Ethiopia did at Adwa mattered far beyond its own borders. When African countries began winning their independence in the 1950s and 1960s, many of them looked to Ethiopia as proof that Africans could stand up to European powers and win. Ghana became the first to borrow Ethiopia's [green, yellow and red](https://en.wikipedia.org/wiki/Pan-African_colours) for its flag in 1957, and today 17 countries and territories use those colours or the related Pan-African ones. The African Union even has its headquarters in Addis Ababa.
+What Ethiopia did at Adwa mattered far beyond its own borders. When African countries began winning their independence in the 1950s and 1960s, many of them looked to Ethiopia as proof that Africans could stand up to European powers and win. Ghana became the first to borrow Ethiopia's [green, yellow and red](https://en.wikipedia.org/wiki/Pan-African_colours) for its flag in 1957, and today 17 countries and territories use those colours or the related Pan-African ones. The African Union has its headquarters in Addis Ababa.

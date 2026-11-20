@@ -1,0 +1,5 @@
+{{/* Shared look for the professional pages, plus the heading font used site-wide */}}
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+{{ $pro := resources.Get "css/pro.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $pro.RelPermalink }}">

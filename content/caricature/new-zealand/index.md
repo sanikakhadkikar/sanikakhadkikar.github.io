@@ -16,7 +16,7 @@ New Zealand broke away from the supercontinent Gondwana around [80 million years
 
 ## Almost no mammals
 
-Before humans arrived, New Zealand's only native mammals were [bats](https://en.wikipedia.org/wiki/Fauna_of_New_Zealand) and sea mammals like seals, sea lions, whales and dolphins. What they all have in common is that they could get there by flying or swimming. There was not a single native mammal that walked on four legs, no mice, no deer, no foxes.
+For millions of years, New Zealand's only native mammals were [bats](https://en.wikipedia.org/wiki/Fauna_of_New_Zealand) and sea mammals like seals, sea lions, whales and dolphins. What they all have in common is that they could get there by flying or swimming. There was not a single native mammal that walked on four legs, no mice, no deer, no foxes.
 
 One of the possible answers would be that mammals simply never made it. The problem is that New Zealand split from Gondwana when mammals already existed. In 2006, scientists described a tiny jaw and thigh bone from near the town of St Bathans, from a mouse-sized land mammal that lived there about [19 to 16 million years ago](https://en.wikipedia.org/wiki/Saint_Bathans_fauna). So New Zealand did have land mammals once, and then, at some point, they disappeared without a trace. Nobody knows exactly why.
 
@@ -53,6 +53,6 @@ Almost every gecko in the world lays eggs. New Zealand's geckos are the exceptio
 
 Then there is the [tuatara](https://en.wikipedia.org/wiki/Tuatara). It looks like a lizard, but it is the last surviving member of a group of reptiles that goes back about 240 million years, older than the dinosaurs. It stays active at temperatures as low as 5°C and is most comfortable at 16 to 21°C, the lowest preferred body temperature of any reptile. It does everything slowly, and some live well over 100 years.
 
-## Then mammals arrived
+## Rats, dogs and livestock
 
-Polynesian settlers arrived around 1300, and all the moa were gone by about 1445, probably in less than a century. The settlers also brought the Polynesian rat and dogs, and from 1769 Europeans added pigs, cats, stoats, possums, deer and more. For birds that had spent millions of years with nothing to run from, nesting on the ground and unable to fly, it was a disaster. Many of New Zealand's surviving native animals, including the tuatara and the takahē, now live mainly on predator-free islands and in fenced sanctuaries.
+Polynesians settled New Zealand around 1300, and all the moa were gone by about 1445, probably in less than a century. The settlers also brought the Polynesian rat and dogs, and from 1769 Europeans added pigs, cats, stoats, possums, deer and more. For birds that had spent millions of years with nothing to run from, nesting on the ground and unable to fly, it was a disaster. Many of New Zealand's surviving native animals, including the tuatara and the takahē, now live mainly on predator-free islands and in fenced sanctuaries.

@@ -2,7 +2,7 @@
 draft: false
 title: "The Search for a Mind to Control"
 date: 2026-11-16
-summary: "A Cold War program to understand mind control, and what science learnt along the way."
+summary: "Why the CIA pursued mind control and what former prisoners of war told researchers."
 cover_credit: "David S. Soriano, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png"
 genre: declassified
@@ -12,7 +12,7 @@ tags:
   - neuroscience
 ---
 
-This summer, while I was living close to my best friend, the two of us kept each other going with books, buying them together and pushing each other to actually finish them. I still can't decide whether to thank him with my whole heart or hold a grudge for getting me to read *Tuesdays with Morrie*, which made me cry far more than I was prepared for. What I did notice was how much I relied on that push. Left to myself, I would pick up a book, decide I was too busy with work, and put it down again. But this blog is about making time for your nerdy side anyway, so I am very proud to say that I just finished Holly Jackson's mystery thriller [*Not Quite Dead Yet*](https://www.penguinrandomhouselibrary.com/2025/08/01/fridayreads-not-quite-dead-yet-holly-jackson/) completely on my own. In its honour, today's piece is about something mysterious and thrilling, except this time it is real and actually scary. Where better to find a real-life mystery than in the redacted files of one of the most powerful governments in the world? Let's talk about MKUltra, a Cold War research program that set out to understand mind control, and whose records were declassified decades later.
+This summer, while I was living close to my best friend, the two of us kept each other going with books, buying them together and pushing each other to finish them. I still can't decide whether to thank him with my whole heart or hold a grudge for getting me to read *Tuesdays with Morrie*, which made me cry far more than I was prepared for. What I did notice was how much I relied on that push. Left to myself, I would pick up a book, decide I was too busy with work, and put it down again. But this blog is about making time for your nerdy side anyway, so I am very proud to say that I just finished Holly Jackson's mystery thriller [*Not Quite Dead Yet*](https://www.penguinrandomhouselibrary.com/2025/08/01/fridayreads-not-quite-dead-yet-holly-jackson/) completely on my own. That sent me looking for a mystery outside fiction. I found MKUltra in the CIA’s declassified records.
 
 ## Where the idea came from
 
@@ -24,7 +24,7 @@ That worry led to [MKUltra](https://en.wikipedia.org/wiki/MKUltra), a research p
 
 Some of the testing happened outside labs and hospitals. The records describe an operation called Midnight Climax, in which apartments in San Francisco were set up to observe how people behaved after being given LSD without knowing it. One of the best-known cases from this period is that of [Frank Olson](https://en.wikipedia.org/wiki/Frank_Olson), an army scientist who was given LSD without his knowledge at a work retreat in 1953 and died after falling from a New York hotel window about a week later.
 
-MKUltra even has a strange link to the hippie movement. The program also funded LSD studies that paid volunteers to take the drug, and one of those volunteers was a Stanford student named Ken Kesey. A few years later, Kesey and his friends started throwing huge LSD parties in California, with live music and light shows, that they called the [Acid Tests](https://en.wikipedia.org/wiki/Acid_Tests). The name was theirs, but the parties helped spread LSD into the counterculture of the 1960s. A drug studied as a possible tool for mind control ended up becoming one of the symbols of the 1960s.
+MKUltra funded LSD studies that paid volunteers to take the drug, and one of those volunteers was a Stanford student named Ken Kesey. A few years later, Kesey and his friends started throwing huge LSD parties in California, with live music and light shows, that they called the [Acid Tests](https://en.wikipedia.org/wiki/Acid_Tests). The name was theirs, but the parties helped spread LSD into the counterculture of the 1960s. A drug studied as a possible tool for mind control ended up becoming one of the symbols of the 1960s.
 
 ## Depatterning in Montreal
 
@@ -42,7 +42,7 @@ Some compensation followed. Olson's family received a settlement and an apology 
 
 ## What the prisoners reported
 
-If brainwashing was not real, why did the prisoners in Korea act the way they did? The psychologist [Edgar Schein](https://www.militarypsych.org/wp-content/uploads/05-Hamilton-Spotlight-Edgar-Schein.pdf) interviewed them as they came home in 1953 and later called what they went through coercive persuasion. Their captors kept them isolated, cold, hungry and exhausted, interrogated them over and over, and asked for small things first, like a signature or a short statement, that slowly turned into bigger ones. Most of the prisoners cooperated at some point in ways that seemed trivial to them at the time, and almost none of them came out with genuinely changed beliefs. In 1956, the US Army concluded it could not find [even one conclusively documented case](https://en.wikipedia.org/wiki/Brainwashing) of an American prisoner being brainwashed.
+If brainwashing was not real, why did the prisoners in Korea act the way they did? The psychologist [Edgar Schein](https://www.militarypsych.org/wp-content/uploads/05-Hamilton-Spotlight-Edgar-Schein.pdf) interviewed them as they came home in 1953 and later called what they went through coercive persuasion. Their captors kept them isolated, cold, hungry and exhausted, interrogated them over and over, and asked for small things first, like a signature or a short statement, that slowly turned into bigger ones. Most of the prisoners cooperated at some point in ways that seemed trivial to them at the time, and almost none of them came out with different beliefs. In 1956, the US Army concluded it could not find [even one conclusively documented case](https://en.wikipedia.org/wiki/Brainwashing) of an American prisoner being brainwashed.
 
 The US military drew its own lesson from this. In 1955, President Eisenhower signed a [Code of Conduct](https://www.kunsan.af.mil/News/Article/414344/the-military-code-of-conduct-a-brief-history/) for American soldiers in captivity, and the military created survival and resistance training, known as SERE, that put soldiers through these same pressures so they would recognise them if they were ever captured. The techniques were studied in detail by the sociologist Albert Biderman, whose [chart of coercive methods](https://traces.brynmawr.edu/exhibits/show/brainwashing/intro/serebiderman.html) was taught in that training for decades.
 

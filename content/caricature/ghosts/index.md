@@ -18,7 +18,7 @@ It is Friday the 13th today, so I thought I would finally try to answer those qu
 
 ## What do we mean by a ghost?
 
-Most people, when they say ghost, mean something of a person that survives their death and can still interact with our world. It can be seen, heard, felt in a room, or it moves things. A lot of people believe they have met one. In a [Pew Research Center survey](https://www.pewresearch.org/short-reads/2015/10/30/18-of-americans-say-theyve-seen-a-ghost/), 18% of American adults said they had seen a ghost or been in its presence, and even more, 29%, said they had felt in touch with someone who had died. Those are two different experiences, and that difference turns out to matter a lot.
+Most people, when they say ghost, mean something of a person that survives their death and can still interact with our world. It can be seen, heard, felt in a room, or it moves things. A lot of people believe they have met one. In a [Pew Research Center survey](https://www.pewresearch.org/short-reads/2015/10/30/18-of-americans-say-theyve-seen-a-ghost/), 18% of American adults said they had seen a ghost or been in its presence, and 29% said they had felt in touch with someone who had died.
 
 ## People who tried to measure ghosts
 
@@ -38,7 +38,7 @@ In 1921, an eye doctor named William Wilmer published the story of a family he c
 
 ## Grief is the most common ghost
 
-That still left me wondering about my grandmother. In 1971, a Welsh doctor named Dewi Rees interviewed 293 widowed people in his practice and found that [nearly half](https://pmc.ncbi.nlm.nih.gov/articles/PMC1799198/) had seen, heard or felt their dead husband or wife. The most common form was simply a sense that they were present. Most of them had never told anyone, not even their doctor, and Rees concluded that these experiences were a normal and often helpful part of grieving.
+That still left me wondering about my grandmother. In 1971, a Welsh doctor named Dewi Rees interviewed 293 widowed people in his practice and found that [nearly half](https://pmc.ncbi.nlm.nih.gov/articles/PMC1799198/) had seen, heard or felt their dead husband or wife. The most common form was a sense that the person was still there. Most of them had never told anyone, not even their doctor, and Rees concluded that these experiences were a normal and often helpful part of grieving.
 
 The most moving version of this I found comes from Japan. After the earthquake and tsunami of March 2011 killed thousands of people in the north-east of the country, a sociology student named Yuka Kudo made weekly trips to Ishinomaki, one of the worst-hit cities, to [interview taxi drivers](https://www.thedrive.com/news/2053/after-japans-tsunami-taxi-drivers-carry-ghosts-trying-to-get-home). Seven of them told her about passengers who vanished. One driver picked up a woman near the station who asked to go to a neighbourhood the tsunami had flattened. When he told her there was almost nothing left there, she asked, "Have I died?" When he looked back, the seat was empty. Some of the drivers had started their meters, and showed Kudo the records of fares that were never paid. What struck Kudo most was that none of the drivers were afraid. They spoke about these passengers with reverence, and she wondered whether the taxis had become a private room for a grieving city.
 

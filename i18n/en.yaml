@@ -1,0 +1,3 @@
+# Site overrides for theme labels
+- id: open_project_site
+  translation: "Visit the original page ↗"
