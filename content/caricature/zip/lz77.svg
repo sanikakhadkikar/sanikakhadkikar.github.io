@@ -1,0 +1,47 @@
+<svg class="nc-map" viewBox="0 0 1000 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lempel-Ziv compression of to be or not to be: the second to be is replaced by an instruction to go back 13 characters and copy 5">
+<rect width="1000" height="310" fill="#f4efe4"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#c8102e"/></marker></defs>
+<text x="500" y="32" text-anchor="middle" class="nc-map-country" >LEMPEL–ZIV “TO BE OR NOT TO BE”</text>
+<rect x="50" y="90" width="46" height="56" fill="#d5dcdc" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="73" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">T</text>
+<rect x="100" y="90" width="46" height="56" fill="#d5dcdc" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="123" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">O</text>
+<rect x="150" y="90" width="46" height="56" fill="#d5dcdc" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="173" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">·</text>
+<rect x="200" y="90" width="46" height="56" fill="#d5dcdc" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="223" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">B</text>
+<rect x="250" y="90" width="46" height="56" fill="#d5dcdc" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="273" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">E</text>
+<rect x="300" y="90" width="46" height="56" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="323" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">·</text>
+<rect x="350" y="90" width="46" height="56" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="373" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">O</text>
+<rect x="400" y="90" width="46" height="56" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="423" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">R</text>
+<rect x="450" y="90" width="46" height="56" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="473" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">·</text>
+<rect x="500" y="90" width="46" height="56" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="523" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">N</text>
+<rect x="550" y="90" width="46" height="56" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="573" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">O</text>
+<rect x="600" y="90" width="46" height="56" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="623" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">T</text>
+<rect x="650" y="90" width="46" height="56" fill="#f4efe4" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="673" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">·</text>
+<rect x="700" y="90" width="46" height="56" fill="#eab3ba" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="723" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">T</text>
+<rect x="750" y="90" width="46" height="56" fill="#eab3ba" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="773" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">O</text>
+<rect x="800" y="90" width="46" height="56" fill="#eab3ba" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="823" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">·</text>
+<rect x="850" y="90" width="46" height="56" fill="#eab3ba" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="873" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">B</text>
+<rect x="900" y="90" width="46" height="56" fill="#eab3ba" stroke="#1b1a17" stroke-width="1.5"/>
+<text x="923" y="127" text-anchor="middle" class="nc-map-country" style="font-size:24px">E</text>
+<path d="M825.0,150 C825.0,230 175.0,230 175.0,150" fill="none" stroke="#c8102e" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="175" y="76" text-anchor="middle" class="nc-map-place" >first time: written out</text>
+<text x="825" y="76" text-anchor="middle" class="nc-map-gdp" style="fill:#c8102e">second time: “go back 13, copy 5”</text>
+<text x="500" y="268" text-anchor="middle" class="nc-map-gdp" >Stored as: TO BE OR NOT (go back 13, copy 5)</text>
+<text x="500" y="290" text-anchor="middle" class="nc-map-place" >Two small numbers replace five letters. The dots are spaces, which count as characters too.</text>
+<rect width="1000" height="310" fill="none" stroke="#1b1a17" stroke-width="3"/>
+</svg>
