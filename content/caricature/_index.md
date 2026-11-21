@@ -6,6 +6,6 @@ description: "Geography, Biology, Economics, Data Science, Poetry, Encyclopedias
 cms_exclude: true
 ---
 
-It was pointed out to me that I carry a caricature of a nerd around in my head, and that I have been afraid to let that side of me show as who I really am. Ever since high school, I have done everything I could to ignore and suppress it, trying to be more outgoing, more extroverted, and in general, trying to be someone I am not. Along the way, I learnt to dislike that part of myself, and with it, other people who loved the same niche things I secretly did.
+Someone pointed out to me in October 2026 that over the years, I have built a caricature of a nerd in my head: someone awkward, uncool, unsociable, and unlikeable, someone immature who will eventually grow out of this phase of life. To avoid becoming that caricature, I chased whatever was conventionally considered cool, became more outgoing, and pretended to like things I didn't care about just to be accepted. Along the way, I grew to dislike the genuinely curious, excitable side of myself, confined it to just astrophysics, and pushed away some of the people closest to me when they opened up about the very things I loved too.
 
-This blog is my attempt to undo years of that damage, one curious rabbit hole at a time.
+This blog is my attempt to undo years of that self-conditioning and learn to express myself freely, as the caricature I am, about the things I truly love.
