@@ -1,8 +1,10 @@
 ---
-draft: true
+draft: false
 title: "Zip It"
 date: 2026-11-21
 summary: "How ZIP stores repeated text, using BANANA as an example, and how ZIP differs from TAR and HDF5."
+cover_credit: "Blake Patterson, CC BY 2.0, via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:PKZIP_floppy.jpg"
 genre: rabbit-hole
 math: false
 tags:
