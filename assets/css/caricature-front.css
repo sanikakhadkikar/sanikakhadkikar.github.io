@@ -42,7 +42,10 @@ html:has(.cn-site) footer a { text-decoration: underline !important; }
 @media (min-width: 1150px) {
   .cn-board { display: grid; grid-template-columns: minmax(150px, 1fr) minmax(0, 1100px) minmax(150px, 1fr); gap: clamp(16px, 2vw, 30px); align-items: start; }
   .cn-board .cn-paper { margin: 0; width: 100%; }
-  .cn-tid { display: grid; gap: 40px; justify-items: center; padding-top: 140px; }
+  .cn-board { align-items: stretch; }
+  .cn-tid { display: grid; grid-auto-rows: 1fr; align-items: start; justify-items: center; gap: 40px; padding: 140px 0 160px; }
+  .cn-tid--left { grid-template-rows: auto; }
+  .cn-tid--right { padding-top: 520px; }
   .cn-tid .cn-tb { width: min(190px, 100%); }
   .cn-tid-strip { display: none !important; }
 }
@@ -113,7 +116,7 @@ a:hover .cn-go i, a:focus-visible .cn-go i { transform: translateX(5px); }
 
 /* ---------- lead story ---------- */
 .cn-lead { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(20px, 3.5vw, 46px); align-items: center; margin-top: 30px;
-  background: #ffe27a; border: 2px solid var(--ink); border-radius: 10px; padding: clamp(20px, 3vw, 34px); box-shadow: 7px 7px 0 var(--ink);
+  background: color-mix(in srgb, var(--c) 24%, #fff); border: 2px solid var(--ink); border-radius: 10px; padding: clamp(20px, 3vw, 34px); box-shadow: 7px 7px 0 var(--ink);
   transition: transform .18s ease, box-shadow .18s ease; }
 .cn-lead:hover, .cn-lead:focus-visible { transform: translate(-4px, -4px); box-shadow: 12px 12px 0 var(--ink); outline: none; }
 .cn-site .cn-lead h2 { font: 900 clamp(2.2rem, 5.4vw, 4rem)/.98 var(--head) !important; letter-spacing: -.025em; }
@@ -150,10 +153,10 @@ a:hover .cn-go i, a:focus-visible .cn-go i { transform: translateX(5px); }
 .cn-th .cn-w3 { width: 62px; margin-left: -31px; height: 20px; top: -9px; }
 
 /* no-post days: flight path and a plane */
-.cn-away { position: relative; display: grid; gap: 4px; justify-items: center; padding: 30px 120px 30px 40px; background: #fff; border: 2px solid var(--ink); border-radius: 10px; overflow: hidden; text-align: center; }
+.cn-away { position: relative; display: grid; gap: 4px; justify-items: center; padding: 16px 86px; background: #fff; border: 2px solid var(--ink); border-radius: 10px; overflow: hidden; text-align: center; }
 .cn-path { position: absolute; inset: 0; width: 100%; height: 100%; }
-.cn-plane { position: absolute; right: 28px; top: 50%; width: 72px; height: 72px; margin-top: -50px; transform: rotate(-14deg); }
-.cn-aw-t { position: relative; font: 900 italic clamp(1.6rem, 3.6vw, 2.4rem)/1 var(--head) !important; background: #fff; padding: 0 8px; }
+.cn-plane { position: absolute; right: 22px; top: 50%; width: 46px; height: 46px; margin-top: -26px; transform: rotate(-14deg); }
+.cn-aw-t { position: relative; font: 800 italic clamp(1.05rem, 2.2vw, 1.4rem)/1.15 var(--head) !important; background: #fff; padding: 0 8px; }
 .cn-aw-s { position: relative; font: 800 11px var(--label) !important; letter-spacing: .14em; text-transform: uppercase; color: var(--coral); background: #fff; padding: 2px 8px; }
 
 .cn-end { text-align: center; margin-top: 30px; font: 900 italic 1.1rem var(--head) !important; color: var(--coral); letter-spacing: .3em; }
@@ -163,7 +166,7 @@ a:hover .cn-go i, a:focus-visible .cn-go i { transform: translateX(5px); }
 .cn-site .cn-credits a { text-decoration: underline !important; }
 
 /* ---------- tidbits pinned to the mat ---------- */
-.cn-tid-strip { display: flex; flex-wrap: wrap; gap: 30px 24px; justify-content: center; align-items: flex-start; max-width: 1100px; margin: 44px auto 0; }
+.cn-tid-strip { display: flex; flex-wrap: wrap; gap: 48px 44px; justify-content: center; align-items: flex-start; max-width: 1100px; margin: 44px auto 0; }
 .cn-tid-h { flex-basis: 100%; text-align: center; font: 700 2rem/1 var(--hand) !important; color: #fff; transform: rotate(-2deg); text-shadow: 0 2px 0 rgba(0,0,0,.25); }
 .cn-tid .cn-tid-h { font-size: 1.7rem !important; }
 .cn-tb { position: relative; width: 190px; padding: 24px 16px 16px; font: 700 1.25rem/1.2 var(--hand) !important; color: var(--ink); box-shadow: 0 8px 14px rgba(0,0,0,.32); transform: rotate(var(--r)); }
@@ -189,9 +192,9 @@ a:hover .cn-go i, a:focus-visible .cn-go i { transform: translateX(5px); }
   .cn-row .cn-th { grid-column: 1 / -1; width: min(260px, 100%); justify-self: end; margin-top: 4px; }
   .cn-when { padding-right: 10px; }
   .cn-when b { font-size: 2.1rem !important; }
-  .cn-away { padding: 24px 70px 24px 14px; }
-  .cn-aw-t { font-size: 1.35rem !important; }
-  .cn-plane { width: 52px; height: 52px; right: 12px; margin-top: -34px; }
+  .cn-away { padding: 14px 52px; }
+  .cn-aw-t { font-size: 1.05rem !important; }
+  .cn-plane { width: 36px; height: 36px; right: 12px; margin-top: -20px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .cn-lead, .cn-st, .cn-row, .cn-go i { transition: none; }

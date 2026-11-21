@@ -4,6 +4,12 @@
 # source: small label above it (where you heard it)
 # paper:  optional, one of yellow, card, receipt, pink, kraft (cycles if left out)
 
+- text: "Mexico City got the first printing press of the Americas in 1539."
+  paper: kraft
+- text: "The rocks exposed by the river in the Grand Canyon are 1.8 billion years old, while Earth is about 4.5 billion years old."
+  paper: card
+- text: 'The salt that keeps queso smooth, sodium citrate, is Na₃C₆H₅O₇, which reads as NaCHO. But nachos are named after Ignacio "Nacho" Anaya, who made the first plate in 1943, haha.'
+  paper: receipt
 - text: 'Molybdenum is element 42. Its nickname is "moly".'
   source: from Holy Moly!
   paper: yellow

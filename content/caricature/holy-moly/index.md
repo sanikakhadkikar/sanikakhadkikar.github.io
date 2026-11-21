@@ -6,7 +6,7 @@ summary: "A handful of reactors supply the isotope that hospitals use to make te
 genre: explainer
 math: false
 tags:
-  - physics
+  - chemistry
   - technology
 ---
 

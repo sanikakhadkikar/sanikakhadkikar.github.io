@@ -9,7 +9,6 @@ cover_credit: "Jeff W. Lichtman and Joshua R. Sanes, CC BY 3.0, via Wikimedia Co
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Brainbow_(Lichtman_2008).jpg"
 genre: op-ed
 tags:
-  - neuroscience
   - biology
 ---
 

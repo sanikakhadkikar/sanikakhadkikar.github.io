@@ -5,7 +5,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,800;0,9..144,900;1,9..144,500;1,9..144,800;1,9..144,900&family=Libre+Franklin:wght@500;600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Caveat:wght@600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 
 {{/* topic colours (first tag), second tape colours, gentle tilts */}}
-{{ $C := dict "geography" "#2f9e8f" "history" "#e4572e" "physics" "#3d7be0" "biology" "#5bb04d" "economics" "#e8a200" "football" "#c2185b" "technology" "#5a5a72" "gaming" "#ff7a3d" "pokemon" "#7b5cd6" "politics" "#d6336c" "neuroscience" "#e0569b" }}
+{{ $C := dict "geography" "#2f9e8f" "history" "#e4572e" "physics" "#3d7be0" "chemistry" "#0ea5c6" "biology" "#5bb04d" "economics" "#e8a200" "football" "#c2185b" "technology" "#5a5a72" "gaming" "#ff7a3d" "pokemon" "#7b5cd6" "politics" "#d6336c" "neuroscience" "#e0569b" }}
 {{ $C2 := slice "#ffc93c" "#7b2cbf" "#ff8fb1" "#2f9e8f" "#e4572e" "#3d7be0" }}
 {{ $R := slice "-2" "1.6" "-1.2" "2.2" "-1.6" "1" "-2.4" "1.8" }}
 
@@ -23,7 +23,7 @@
 
 
   {{ if $tidbits }}
-  <aside class="cn-tid" aria-label="Tidbits">{{ partial "cn-tidbits" (dict "list" (first 4 $tidbits) "offset" 0 "papers" $papers "R" $R "C2" $C2) }}</aside>
+  <aside class="cn-tid cn-tid--left" aria-label="Tidbits">{{ partial "cn-tidbits" (dict "list" (first 4 $tidbits) "offset" 0 "papers" $papers "R" $R "C2" $C2) }}</aside>
   {{ end }}
 
   <div class="cn-paper">
@@ -53,7 +53,7 @@
     {{ if eq $i 0 }}
      <a class="cn-lead" href="{{ $p.RelPermalink }}" style="{{ $style | safeCSS }}">
        <div class="cn-tx">
-         {{ with $p.Params.genre }}<span class="cn-kick">{{ . | humanize }}</span>{{ end }}
+         <div class="cn-meta"><span class="cn-kick">{{ $tag }}</span>{{ with $p.Params.genre }}<span class="cn-topic">{{ . | humanize }}</span>{{ end }}</div>
          <h2>{{ $p.Title }}</h2>
          {{ with $p.Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
          <span class="cn-by">By Sanika Khadkikar · {{ $p.Date.Format "Jan 2" }}</span>
@@ -66,7 +66,7 @@
      <a class="cn-st" href="{{ $p.RelPermalink }}" style="{{ $style | safeCSS }}">
        <figure class="cn-fig"><i class="cn-w cn-w1"></i><i class="cn-w cn-w2"></i>{{ $img }}</figure>
        <div class="cn-tx">
-         {{ with $p.Params.genre }}<span class="cn-kick">{{ . | humanize }}</span>{{ end }}
+         <div class="cn-meta"><span class="cn-kick">{{ $tag }}</span>{{ with $p.Params.genre }}<span class="cn-topic">{{ . | humanize }}</span>{{ end }}</div>
          <h2>{{ $p.Title }}</h2>
          {{ with $p.Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
          <span class="cn-by">{{ $p.Date.Format "Jan 2" }}</span>
@@ -99,7 +99,7 @@
        <a class="cn-row" href="{{ .RelPermalink }}" style="--c:{{ $c | safeCSS }};--c2:{{ index $C2 (mod $j 6) | safeCSS }};--r:{{ index $R (mod (add $j 3) 8) }}deg">
          <div class="cn-when"><b>{{ .Date.Day }}</b><span>{{ .Date.Format "Jan" }}</span></div>
          <div class="cn-tx">
-           <div class="cn-meta">{{ with .Params.genre }}<span class="cn-kick">{{ . | humanize }}</span>{{ end }}<span class="cn-topic">{{ $tag }}</span></div>
+           <div class="cn-meta"><span class="cn-kick">{{ $tag }}</span>{{ with .Params.genre }}<span class="cn-topic">{{ . | humanize }}</span>{{ end }}</div>
            <h3>{{ .Title }}</h3>
            {{ with .Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
            <span class="cn-go">Read <i>→</i></span>
@@ -131,7 +131,7 @@
   </div>
 
   {{ if gt (len $tidbits) 4 }}
-  <aside class="cn-tid" aria-label="More tidbits">{{ partial "cn-tidbits" (dict "list" (after 4 $tidbits) "offset" 4 "papers" $papers "R" $R "C2" $C2) }}</aside>
+  <aside class="cn-tid cn-tid--right" aria-label="More tidbits">{{ partial "cn-tidbits" (dict "list" (after 4 $tidbits) "offset" 4 "papers" $papers "R" $R "C2" $C2 "noheading" true) }}</aside>
   {{ end }}
  </div>
 

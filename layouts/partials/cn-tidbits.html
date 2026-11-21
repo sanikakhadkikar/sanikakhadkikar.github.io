@@ -1,4 +1,4 @@
-<div class="cn-tid-h">Tidbits I've picked up</div>
+{{ if not .noheading }}<div class="cn-tid-h">Tidbits I've picked up</div>{{ end }}
 {{ range $i, $t := .list }}
  {{ $n := add $i $.offset }}
  {{ $paper := $t.paper | default (index $.papers (mod $n 5)) }}
