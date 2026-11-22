@@ -28,9 +28,9 @@ For the series' 40th anniversary, Nintendo could have remade anything, including
 
 The remake keeps the original game but rebuilds almost everything around it, with [completely overhauled visuals, voiced cutscenes, expanded dialogue, orchestral music and reworked camera and controls](https://www.nintendo.com/us/whatsnew/its-time-experience-the-legend-of-zelda-ocarina-of-time-reborn-exclusively-for-nintendo-switch-2/). Critics seem to agree it worked. It currently has a Metacritic score of 96, making it the [best-reviewed game of 2026 so far](https://www.videogameschronicle.com/news/the-zelda-ocarina-of-time-remake-has-shot-to-the-top-of-metacritics-best-games-of-2026-so-far-makes-its-all-time-top-30/), although the 1998 original still holds the top spot.
 
-## Why does Zelda have such a huge fan database?
+## Why do Zelda fans keep such detailed wikis?
 
-In 2011, Nintendo published *Hyrule Historia*, which placed Ocarina of Time at the split between [three separate timelines](https://zeldawiki.wiki/wiki/Zelda_Timeline). There’s one where Link returns to his childhood, one where the adult Link's world continues without him, and one where Link loses to Ganondorf. Every later game sits somewhere on one of these three branches, and fans have spent decades building wikis, maps and timelines to keep track of it all.
+In 2011, Nintendo published *Hyrule Historia*, which placed Ocarina of Time at the split between [three separate timelines](https://zeldawiki.wiki/wiki/Zelda_Timeline). There's one where Link returns to his childhood, one where the adult Link's world continues without him, and one where Link loses to Ganondorf. Every later game sits somewhere on one of these three branches, and fans have spent decades building wikis, maps and timelines to keep track of it all.
 
 ## The little goose
 

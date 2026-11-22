@@ -4,7 +4,7 @@ aliases:
 draft: false
 title: "The Underdog of Central Asia"
 date: 2026-10-30
-summary: "I guessed Uzbekistan would lead Central Asia in GDP per person. Here’s what I missed about Kazakhstan."
+summary: "I guessed Uzbekistan would lead Central Asia in GDP per person. Here's what I missed about Kazakhstan."
 cover_credit: "Matti Blume, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Night_at_Esil_District,_Astana_(P1190721).jpg"
 genre: explainer
@@ -18,7 +18,7 @@ I was doing my daily [Worldle](https://worldle.teuteuf.fr/) (amazing daily geogr
 
 My best guess for the highest GDP was Uzbekistan, because it has one of the highest cotton productions in the world, grown in the very, very rich Fergana Valley. My next best guess would be Iran, with Afghanistan being the last, Turkmenistan somewhere in the middle and Kazakhstan somewhere at the bottom, assuming most of it would be unoccupied.
 
-But BOY was I surprised. Kazakhstan had the highest GDP per person, and then came Turkmenistan.
+But BOY was I surprised. Kazakhstan had the highest GDP per person, and then came China, then Turkmenistan.
 
 {{< inline-svg src="map.svg" caption="GDP per capita, 2025. Darker red indicates higher GDP per person. Boundaries from Natural Earth, figures from the IMF." >}}
 
@@ -54,9 +54,9 @@ In 2000, Kazakhstan set up the National Fund, a sovereign wealth fund where a bi
 
 I thought people leave Tajikistan and Kyrgyzstan, and they do, a lot. They just mostly go to Russia, not India or China, and send money back home. In 2024, money sent home from abroad was around 45% of Tajikistan's entire GDP, the highest share of any country in the world. For Kyrgyzstan it was about 24%, and even Uzbekistan was at 14%. That money keeps families afloat, but it means a lot of the work that powers these economies happens somewhere else.
 
-And my Fergana Valley theory? The valley is genuinely one of the most fertile places in Central Asia, and Uzbekistan really is one of the world's big cotton producers. But fertile land feeds people, it doesn't make a country rich the way oil does. Also, plot twist, almost none of the Fergana Valley is in Kazakhstan. It is split between Uzbekistan, Kyrgyzstan and Tajikistan, which all sit in the bottom half of the table.
+And my Fergana Valley theory? The valley is genuinely one of the most fertile places in Central Asia, and Uzbekistan really is one of the world's big cotton producers. But fertile land feeds people, it doesn't make a country rich the way oil does. Also, plot twist, the Fergana Valley is split between Uzbekistan, Kyrgyzstan and Tajikistan, which all sit in the bottom half of the table.
 
-## Turkmenistan’s gas exports
+## Turkmenistan's gas exports
 
 Turkmenistan coming in right behind China makes a lot more sense once you know it has some of the largest natural gas reserves on the planet. Depending on who you ask, the country as a whole ranks fourth or fifth in the world for gas reserves. But one single field, Galkynysh, is so big that it is the second-largest gas field anywhere on Earth. Most of that gas goes through a pipeline straight to China.
 
@@ -68,7 +68,7 @@ The other part is that China is not one economy, it is many. Cities like Beijing
 
 ## What I missed
 
-I had pictured empty steppe. I’d missed the oil and uranium beneath it, and what the government did with the money. Turkmenistan has the gas but keeps the doors shut. And Uzbekistan, my confident pick, has the people, the cotton and the fertile valley, but not the stuff underground that turns into dollars.
+I had pictured empty steppe. I'd missed the oil and uranium beneath it, and what the government did with the money. Turkmenistan has the gas but keeps the doors shut. And Uzbekistan, my confident pick, has the people, the cotton and the fertile valley, but not the stuff underground that turns into dollars.
 
 Next time Worldle asks me about Central Asia, I'm going straight for Kazakhstan.
 

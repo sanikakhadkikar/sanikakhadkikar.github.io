@@ -34,9 +34,7 @@ For the rest of the 1930s, the three of them built tools to find each day's sett
 
 ## Version two, and the bomba
 
-In [September 1938](https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma), the Germans changed the rules so that each operator chose their own starting position for every message, and the old card catalogue stopped working. They were still typing the message key twice, though, and Rejewski used exactly that. Within about two months he had designed the [bomba](https://en.wikipedia.org/wiki/Bomba_%28cryptography%29), Polish for "bomb", an electrically powered machine that combined six Enigmas and ran through rotor positions hunting for the repeated key. Six bombas were ready by mid-November 1938, and each could find a day's key in about two hours.
-
-The Polish *bomba* and the later British *Bombe* were separate machines.
+In [September 1938](https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma), the Germans changed the rules so that each operator chose their own starting position for every message, and the old card catalogue stopped working. They were still typing the message key twice, though, and Rejewski used exactly that. Within about two months he had designed the [bomba](https://en.wikipedia.org/wiki/Bomba_%28cryptography%29), Polish for "bomb", an electrically powered machine that combined six Enigmas and ran through rotor positions hunting for the repeated key. Six bombas were ready by mid-November 1938, and each could find a day's key in about two hours. The Polish *bomba* and the later British *Bombe* were separate machines.
 
 ## New rotors and new rules
 

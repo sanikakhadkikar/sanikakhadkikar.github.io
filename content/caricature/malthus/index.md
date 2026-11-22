@@ -33,7 +33,7 @@ A decade later, during the Irish potato famine of the 1840s, the same thinking s
 
 ## From Malthus to eugenics
 
-Charles Darwin and Alfred Russel Wallace both credited Malthus’s essay with helping them develop the theory of natural selection. Darwin's cousin, the statistician Francis Galton, took the idea of natural selection and applied it to people, and in 1883 he [coined the word "eugenics"](https://www.genome.gov/about-genomics/educational-resources/timelines/eugenics), arguing that society should encourage the "fit" to marry and have children.
+Charles Darwin and Alfred Russel Wallace both credited Malthus's essay with helping them develop the theory of natural selection. Darwin's cousin, the statistician Francis Galton, took the idea of natural selection and applied it to people, and in 1883 he [coined the word "eugenics"](https://www.genome.gov/about-genomics/educational-resources/timelines/eugenics), arguing that society should encourage the "fit" to marry and have children.
 
 I had always thought of eugenics as an extremist fringe, but it was enthusiastically taken up by [George Bernard Shaw, H.G. Wells](https://www.newworldencyclopedia.org/entry/Francis_Galton) and the progressive Fabian socialists, people who were literate, scientific and liberal, and whom we still respect today. In the US, after the Supreme Court allowed forced sterilisation in 1927, around [70,000 Americans](https://www.scientificamerican.com/article/why-malthus-is-still-wrong/) were sterilised against their will.
 

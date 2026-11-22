@@ -17,7 +17,7 @@ The prediction markets turned out to be right, by the way. Kalshi's favourite [w
 
 ## Relatives of starfish and sea urchins
 
-I thought sea cucumbers were just logs lying around on the sea floor. They’re echinoderms, the same group of animals as starfish and sea urchins, with their own class called Holothuroidea. There are [roughly 1,700 to 1,800 known species](https://en.wikipedia.org/wiki/Sea_cucumber), and they look so different from each other that it is hard to believe they are all the same kind of animal.
+I thought sea cucumbers were just logs lying around on the sea floor. They're echinoderms, the same group of animals as starfish and sea urchins, with their own class called Holothuroidea. There are [roughly 1,700 to 1,800 known species](https://en.wikipedia.org/wiki/Sea_cucumber), and they look so different from each other that it is hard to believe they are all the same kind of animal.
 
 {{< photo src="pineapple.jpg" alt="A large sea cucumber covered in star-shaped spiky bumps on a reef" caption="The pineapple sea cucumber (*Thelenota ananas*) in the Red Sea." by="Diego Delso" source="https://commons.wikimedia.org/wiki/File:Pepino_de_mar_%28Thelenota_ananas%29,_mar_Rojo,_Egipto,_2023-04-17,_DD_61.jpg" license="CC BY-SA 4.0" license_url="https://creativecommons.org/licenses/by-sa/4.0/" >}}
 
@@ -54,3 +54,5 @@ Other species push their own guts out, often through their rear end, in a proces
 Sea cucumbers [breathe through their butts](https://www.nationalgeographic.com/science/article/how-this-fish-survives-in-a-sea-cucumbers-bum). They pump water in through the anus into a pair of internal tubes called respiratory trees, which pull out the oxygen. And because there is a steady flow of water going in and out, a fish called the pearlfish has figured out it can just move in and live there, with one leopard sea cucumber found hosting [15 of them at once](https://www.australiangeographic.com.au/blogs/creatura-with-bec-crew/2026/05/the-bizarre-survival-strategies-of-sea-cucumbers/).
 
 {{< photo src="pearlfish.jpg" alt="A vintage engraving of a slender fish emerging tail-first from a coiled sea cucumber" caption="A pearlfish emerging from a sea cucumber, in a century-old engraving by the naturalist David Starr Jordan." source="https://commons.wikimedia.org/wiki/File:FMIB_52214_Pearlfish,_Fierasfer_acus_%28Linnaeus%29,_issuing_from_a_Holothurian_Coast_of_Italy.jpeg" license="public domain" >}}
+
+So the next time you see a sea cucumber lying on the sand, remember it might be cleaning the reef, breathing through its butt and housing a fish, all at the same time.

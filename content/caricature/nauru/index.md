@@ -2,7 +2,7 @@
 draft: false
 title: "The Island That Was Mined Away"
 date: 2026-11-12
-summary: "Phosphate mining stripped away much of Nauru’s farmland. The island now imports nearly all its food."
+summary: "Phosphate mining stripped away much of Nauru's farmland. The island now imports nearly all its food."
 cover_credit: "Hadi Zaher from Melbourne, Australia, CC BY 2.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Living_on_a_Blue_Planet_-_Nauru.jpg"
 math: false
@@ -17,7 +17,7 @@ If you search for the fattest country in the world, one name comes up again and 
 
 For hundreds of thousands of years, Nauru was a resting place for seabirds. Their droppings, called guano, piled up on the island's coral rock, and over time rainwater carried the phosphate out of the guano and into the rock below. The result was a plateau in the middle of the island made largely of [rock phosphate](https://www.britannica.com/place/Nauru), some of the purest in the world. Phosphate is one of the main ingredients in fertiliser, which made Nauru's soil incredibly valuable to anyone trying to grow crops somewhere else.
 
-In 1900, a prospector discovered it. Mining began in 1907, and after the First World War it was run by the British Phosphate Commission, a body set up by Australia, New Zealand and the United Kingdom. For most of the twentieth century, Nauru's island was dug up, shipped away and spread on farms in other countries, while the people who lived there had little say in it.
+In 1900, a prospector discovered it. Mining began in 1907, and after the First World War it was run by the British Phosphate Commission, a body set up by Australia, New Zealand and the United Kingdom. For most of the twentieth century, Nauru was dug up, shipped away and spread on farms in other countries, while the people who lived there had little say in it.
 
 ## The phosphate boom
 
@@ -39,6 +39,6 @@ The top eight places in the world all belong to Pacific islands, and in several 
 
 The best example is turkey tails, the fatty back end of a turkey that Americans rarely eat. Huge amounts were exported to Samoa, so in 2007 Samoa banned them to protect its people's health. But to join the World Trade Organization, Samoa had to promise to drop the ban, and in 2013 it [lifted it](https://www.rnz.co.nz/international/pacific-news/213404/samoa-lifts-ban-on-importing-turkey-tail-meat). A doctor at Samoa's own Ministry of Health said it showed the government [putting trade ahead of the health of its people](https://www.rnz.co.nz/international/pacific-news/220279/samoa-turkey-tail-turnabout-puts-trade-ahead-of-health-doctor).
 
-## What’s available to eat
+## What's available to eat
 
-Personal choices still exist in Nauru, the same as anywhere. But choices are made from what is available, and Nauru's options were shaped long before anyone living there today was born. A century of mining that fed other countries' farms took away the island's own ability to grow food. The money that was supposed to replace it was lost. What was left was an island that has to import almost everything it eats, at the end of a very long shipping route. Calling Nauru the fattest country in the world makes it sound like a punchline.
+Personal choices still exist in Nauru, the same as anywhere. But choices are made from what is available, and Nauru's options were shaped long before anyone living there today was born. A century of mining that fed other countries' farms took away the island's own ability to grow food. The money that was supposed to replace it was lost. What was left was an island that has to import almost everything it eats, at the end of a very long shipping route. Calling Nauru the fattest country in the world makes it sound like a punchline, when it is really the bill for a century of mining.

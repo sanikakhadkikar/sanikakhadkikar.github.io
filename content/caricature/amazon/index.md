@@ -39,3 +39,5 @@ Manaus does have one big bridge, and that comes down to where the city was built
 The Rio Negro is dark, almost black, because it carries dissolved material from decaying plants in the forest. The upper Amazon, which Brazilians call the Solimões, is pale and sandy, full of sediment from the Andes. They flow side by side for kilometres without mixing, because they differ in temperature, speed and density, so you can see a sharp line down the middle of the water. Locals call it the Meeting of Waters.
 
 {{< photo src="meeting.jpg" alt="A tourist boat on a river where dark blue water on the right meets pale sandy brown water on the left, with a sharp line between them" caption="The Meeting of Waters near Manaus, where the dark Rio Negro meets the sandy Solimões, the upper Amazon." by="Mario Roberto Durán Ortiz" source="https://commons.wikimedia.org/wiki/File:Manaus_Encontro_das_aguas_10_2006_102_8x6.jpg" license="CC BY 3.0" license_url="https://creativecommons.org/licenses/by/3.0/" >}}
+
+So the Amazon still has no bridge, not because nobody could build one, but because the river keeps moving and, for most of its length, nobody needs to cross it.

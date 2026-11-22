@@ -38,7 +38,7 @@ When the government restored it in 2023, the stated reason was to [save energy](
 
 This doesn't completely make sense to me though, because the heat is the same no matter what the clock says. In a hot country, the biggest demand on the power grid is not lights, it's air conditioning. Shifting the clock means people are home and awake during the hottest part of the evening, possibly running their air conditioners even more. And there is research suggesting exactly that. When parts of Indiana adopted daylight saving time, economists used it as a natural experiment and found that it actually [increased household electricity use by about 1%](https://www.nber.org/system/files/working_papers/w14429/w14429.pdf), mostly because the savings on lighting were wiped out by extra heating and cooling. Egypt's own electricity ministry reached a similar conclusion back in 2015, which might explain why the country keeps switching it on and off.
 
-## Morocco’s clocks
+## Morocco's clocks
 
 Morocco, the other North African country with complicated clocks, used to permanently run an hour ahead and briefly switch back during Ramadan, but it [returned to plain GMT](https://www.moroccoworldnews.com/2026/09/338817/morocco-gears-up-for-historic-return-to-gmt-on-sunday/) this September, leaving Egypt truly alone.
 

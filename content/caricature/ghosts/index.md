@@ -47,6 +47,6 @@ So when I kept seeing my grandma in things, nothing was wrong with me. My brain 
 
 ## Get home safe
 
-I don’t know of anything in physics that could carry a person's mind after death and still let them knock on a door or appear in a hallway.
+I don't know of anything in physics that could carry a person's mind after death and still let them knock on a door or appear in a hallway.
 
 What physics cannot tell me is what that dream meant. She had never come in my dreams before, and she came the night before she died to tell me to get home safe. I know all the reasonable explanations. I still would not trade that dream for any of them.

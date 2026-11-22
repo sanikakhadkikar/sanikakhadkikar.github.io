@@ -17,7 +17,7 @@ For a long time I believed humans can function just fine without emoting. Somewh
 
 Neuroplasticity is the brain's ability to change itself. Every time you learn something, the connections between your neurons physically change, whether you are remembering the names of your new coworkers, getting better at a video game or learning a new route home.
 
-Neuroscientists like to sum up how it works with the phrase "neurons that fire together, wire together". When two connected neurons keep firing at the same time, the connection between them gets stronger. The receiving neuron adds more receptors, so the same signal has a bigger effect the next time, and the pathway becomes the one your brain is most likely to use. This is called long-term potentiation. It also works the other way round, and connections that are rarely used together get weaker, which is called long-term depression (which has nothing to do with the mood).
+Neuroscientists like to sum up how it works with the phrase "neurons that fire together, wire together". When two connected neurons keep firing at the same time, the connection between them gets stronger. The receiving neuron adds more receptors, so the same signal has a bigger effect the next time, and the pathway becomes the one your brain is most likely to use. This is called long-term potentiation. It also works the other way round, and connections that are rarely used together get weaker, which is called long-term depression (which has nothing to do with the mood disorder).
 
 {{< inline-svg src="synapse.svg" caption="Synaptic plasticity. A connection that is used a lot gains receptors and passes on a stronger signal, while one that is rarely used loses them." >}}
 
@@ -46,5 +46,5 @@ In a [2026 study from the University of Illinois](https://news.illinois.edu/emot
 I have seen a small version of this in myself too. The less I use social media, the less impulsive I am all the time. And the more I have been journalling over the last few months, the more I think before speaking and the better I understand myself.
 
 {{< pullquote by="Prof. Sanda Dolcos, University of Illinois Urbana-Champaign" >}}
-“We are seeing that resilience is about flexibility. The key to resilience is not avoiding negative emotions or just simply trying to feel positive all the time; it’s more about developing the flexibility to respond to emotions in ways that fit the situation.”
+“We are seeing that resilience is about flexibility. The key to resilience is not avoiding negative emotions or just simply trying to feel positive all the time; it's more about developing the flexibility to respond to emotions in ways that fit the situation.”
 {{< /pullquote >}}

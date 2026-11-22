@@ -22,7 +22,7 @@ Fans were furious. Some were so angry that they left and started an entirely new
 
 ## Going public, in New York
 
-In 2012, the Glazers sold part of the club on the stock market, which is called an initial public offering, or IPO. They first tried in Singapore and pulled out after weak interest, then looked at London, and finally [chose New York](https://the-cfo.io/2012/09/20/getting-on-the-public-list/). That is an odd choice for a football club in a country where football is not even the most popular sport called football.
+In 2012, the Glazers sold part of the club on the stock market, which is called an initial public offering, or IPO. They first tried in Singapore and pulled out after weak interest, then looked at London, and finally [chose New York](https://the-cfo.io/2012/09/20/getting-on-the-public-list/). That is an odd choice for a football club in a country where "football" means a different sport entirely.
 
 The likely reason is in the fine print. United created two kinds of shares. The [Class A shares](https://www.sec.gov/Archives/edgar/data/1549107/000104746912008161/a2210672z424b4.htm) sold to the public came with one vote each, while the Class B shares the Glazers kept came with ten votes each. That kind of two-tier setup was acceptable in New York but [much harder to do in London](https://wan-saifullah.blogspot.com/2012/07/the-manchester-united-ipo-some-initial_5.html). So the public could buy a piece of the club, but the family kept control of it.
 
@@ -32,11 +32,11 @@ Today, the Glazers still own the majority of the club. In 2024, the British bill
 
 ## Tottenham listed first
 
-Football clubs on stock exchanges are not new. Tottenham Hotspur became the [first football club in the world to float on a stock exchange](https://www.tottenhamhotspur.com/the-club/history/year-by-year/) back in 1983, in London. In the 1990s, many English clubs followed, hoping to raise money as football became big business. Most of them, including Tottenham, eventually left the stock market again, and it’s easy to see why. Clubs spend most of what they earn on wages and transfers, and their value depends on whether a ball goes into a net.
+Football clubs on stock exchanges are not new. Tottenham Hotspur became the [first football club in the world to float on a stock exchange](https://www.tottenhamhotspur.com/the-club/history/year-by-year/) back in 1983, in London. In the 1990s, many English clubs followed, hoping to raise money as football became big business. Most of them, including Tottenham, eventually left the stock market again, and it's easy to see why. Clubs spend most of what they earn on wages and transfers, and their value depends on whether a ball goes into a net.
 
 ## Who can buy a club?
 
-In England, more or less, yes. If you have enough money and a club's owners are willing to sell, the club can be bought and loaded with debt, as United was. Some countries have decided they do not want that.
+In England, more or less anyone. If you have enough money and a club's owners are willing to sell, the club can be bought and loaded with debt, as United was. Some countries have decided they do not want that.
 
 In Germany, the [50+1 rule](https://en.wikipedia.org/wiki/50%2B1_rule) says a club's members must always hold at least 50% of the votes plus one. Investors can put money in, but they cannot take control. A few exceptions exist for clubs that a company has funded for more than twenty years, like Bayer Leverkusen, which grew out of the Bayer pharmaceutical company, and Wolfsburg, which is tied to Volkswagen. A Glazer-style takeover of a club like Borussia Dortmund is barred under that rule.
 
