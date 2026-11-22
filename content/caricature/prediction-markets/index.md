@@ -5,7 +5,6 @@ date: 2026-11-02
 summary: "Prediction markets say they are not gambling. So how is \"Will Jesus return before GTA VI\" a financial derivative?"
 cover_credit: "chensiyuan, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:1_times_square_night_2013.jpg"
-genre: op-ed
 math: false
 tags:
   - politics

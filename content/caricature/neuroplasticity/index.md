@@ -7,7 +7,6 @@ date: 2026-10-31
 summary: "I wanted to get better at showing what I feel. I started by reading how adults learn to regulate emotions."
 cover_credit: "Jeff W. Lichtman and Joshua R. Sanes, CC BY 3.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Brainbow_(Lichtman_2008).jpg"
-genre: op-ed
 tags:
   - biology
 ---

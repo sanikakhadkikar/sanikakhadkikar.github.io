@@ -5,7 +5,6 @@ date: 2026-11-07
 summary: "Malthus got the math wrong. The powerful believed him, and the poor paid for it."
 cover_credit: "Antoon Claeissens, Public domain, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Antoon_Claeissens_-_Banquet_-_WGA04954.jpg"
-genre: op-ed
 math: false
 tags:
   - economics

@@ -5,7 +5,6 @@ date: 2026-11-10
 summary: "Gengar’s original moves sent me reading about tick paralysis, hypnosis and people answering questions in their sleep."
 cover_credit: "François GOGLINS, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Sergines-FR-89-carnaval_2023-a10.jpg"
-genre: op-ed
 math: false
 tags:
   - pokemon
