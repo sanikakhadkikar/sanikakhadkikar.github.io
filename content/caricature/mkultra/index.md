@@ -9,7 +9,7 @@ genre: declassified
 math: false
 tags:
   - history
-  - neuroscience
+  - biology
 ---
 
 This summer, while I was living close to my best friend, the two of us kept each other going with books, buying them together and pushing each other to finish them. I still can't decide whether to thank him with my whole heart or hold a grudge for getting me to read *Tuesdays with Morrie*, which made me cry far more than I was prepared for. What I did notice was how much I relied on that push. Left to myself, I would pick up a book, decide I was too busy with work, and put it down again. But this blog is about making time for your nerdy side anyway, so I am very proud to say that I just finished Holly Jackson's mystery thriller [*Not Quite Dead Yet*](https://www.penguinrandomhouselibrary.com/2025/08/01/fridayreads-not-quite-dead-yet-holly-jackson/) completely on my own. That sent me looking for a mystery outside fiction. I found MKUltra in the CIA's declassified records.

@@ -8,7 +8,7 @@ cover_credit_url: "https://commons.wikimedia.org/wiki/File:Manchester_United_Old
 genre: follow-the-money
 math: false
 tags:
-  - football
+  - popular culture
   - economics
 ---
 

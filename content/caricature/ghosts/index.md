@@ -9,7 +9,7 @@ genre: rabbit-hole
 math: false
 tags:
   - physics
-  - neuroscience
+  - biology
 ---
 
 In 2016, I lost someone very close to me. I was young, and I don't think I really processed it. Then, in 2021, COVID took my grandmother, and that was when I properly fell apart. By then I was studying physics, and I found myself wanting to know two things. Could physics prove or disprove the existence of ghosts, and what do people even mean by a ghost? I kept seeing my grandma in things, or feeling like she was the one doing them. She had never once appeared in my dreams, until the night before she passed away, when she came and told me to get home safe.

@@ -8,7 +8,7 @@ cover_credit_url: "https://commons.wikimedia.org/wiki/File:2014._Camp_Nou._M%C3%
 genre: feature
 math: false
 tags:
-  - football
+  - popular culture
   - economics
 ---
 
