@@ -8,7 +8,7 @@ cover_credit_url: "https://commons.wikimedia.org/wiki/File:Sergines-FR-89-carnav
 genre: rabbit-hole
 math: false
 tags:
-  - pokemon
+  - popular culture
 ---
 
 Alright! I have finished a third of the Indigo League, and I love this children's show, embarrassingly so. I catch myself humming "I wanna be the very best…" to the point of concern. For a kids' show it has some surprisingly mature moments, like Ash letting Butterfree go, everyone crowding around the cool trainer who abandoned Charmander, and the way even Team Rocket turns out to have some good in them.

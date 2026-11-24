@@ -1,12 +1,12 @@
 ---
 draft: false
-title: "Some Assembly Required"
-date: 2026-11-23T18:00:00
+title: "Check My List or Check Out?"
+date: 2026-11-24
 summary: "I asked three generations what they like about their partners."
 genre: hot-take
 math: false
 tags:
-  - biology
+  - essays
 ---
 
 What do you like about your partner? Your future one if you are exploring right now, your current one if you are already in a relationship, or your past one if you're wallowing or grieving. Works either way. I asked this question to different age groups of people, take it as a social experiment if you may. The oldest dataset was my grandmother and my mentor, then I asked my parents and my best friend's mom, and then I asked my friends and coworkers.

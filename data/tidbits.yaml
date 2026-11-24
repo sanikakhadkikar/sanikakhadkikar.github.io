@@ -4,6 +4,8 @@
 # source: small label above it (where you heard it)
 # paper:  optional, one of yellow, card, receipt, pink, kraft (cycles if left out)
 
+- text: "The Mission: Impossible theme goes dash dash dot dot, which is MI in Morse code. Nobody knows for sure if the composer meant it."
+  paper: yellow
 - text: "Mexico City got the first printing press of the Americas in 1539."
   paper: kraft
 - text: "The rocks exposed by the river in the Grand Canyon are 1.8 billion years old, while Earth is about 4.5 billion years old."

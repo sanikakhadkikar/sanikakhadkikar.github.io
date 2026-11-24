@@ -5,7 +5,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,800;0,9..144,900;1,9..144,500;1,9..144,800;1,9..144,900&family=Libre+Franklin:wght@500;600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Caveat:wght@600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 
 {{/* topic colours (first tag), second tape colours, gentle tilts */}}
-{{ $C := dict "geography" "#2f9e8f" "history" "#e4572e" "physics" "#3d7be0" "chemistry" "#0ea5c6" "biology" "#5bb04d" "economics" "#e8a200" "football" "#c2185b" "technology" "#5a5a72" "gaming" "#ff7a3d" "pokemon" "#7b5cd6" "politics" "#d6336c" "neuroscience" "#e0569b" }}
+{{ $C := dict "geography" "#2f9e8f" "history" "#e4572e" "physics" "#3d7be0" "chemistry" "#0ea5c6" "biology" "#5bb04d" "economics" "#e8a200" "football" "#c2185b" "technology" "#5a5a72" "popular culture" "#ff7a3d" "politics" "#d6336c" "neuroscience" "#e0569b" "essays" "#8e44ad" "poetry" "#8e44ad" }}
 {{ $C2 := slice "#ffc93c" "#7b2cbf" "#ff8fb1" "#2f9e8f" "#e4572e" "#3d7be0" }}
 {{ $R := slice "-2" "1.6" "-1.2" "2.2" "-1.6" "1" "-2.4" "1.8" }}
 
@@ -29,10 +29,11 @@
   <div class="cn-paper">
 
    <div class="cn-mast">
-     <h1>Caricature of a <em>Nerd</em></h1>
+     <h1><a class="cn-home" href="{{ "/caricature/" | relURL }}">Caricature of a <em>Nerd</em></a></h1>
      <div class="cn-dl">
-       <span>Vol. I · No. {{ len $posts }}</span>
-       <span class="cn-dl-tag">{{ .Params.description }}</span>
+       <span><a class="cn-home" href="{{ "/caricature/" | relURL }}">Vol. I · No. {{ len $posts }}</a></span>
+       {{ $fields := slice }}{{ range $posts }}{{ range (.Params.tags | default slice) }}{{ $fields = $fields | append (. | lower) }}{{ end }}{{ end }}
+       <span class="cn-dl-tag">{{ range $k, $f := ($fields | uniq | sort) }}<a href="#{{ $f | urlize }}" data-filter="{{ $f | urlize }}">{{ $f }}</a> {{ end }}<span>&amp; more</span></span>
        <span>{{ now.Format "Monday, January 2, 2006" }}</span>
      </div>
    </div>
@@ -53,7 +54,7 @@
     {{ if eq $i 0 }}
      <a class="cn-lead" href="{{ $p.RelPermalink }}" style="{{ $style | safeCSS }}">
        <div class="cn-tx">
-         <div class="cn-meta"><span class="cn-kick">{{ $tag }}</span>{{ with $p.Params.genre }}<span class="cn-topic">{{ . | humanize }}</span>{{ end }}</div>
+         <div class="cn-meta"><span class="cn-kick" data-filter="{{ $tag | urlize }}" role="button" tabindex="0" title="Show all {{ $tag }} posts">{{ $tag }}</span></div>
          <h2>{{ $p.Title }}</h2>
          {{ with $p.Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
          <span class="cn-by">By Sanika Khadkikar · {{ $p.Date.Format "Jan 2" }}</span>
@@ -66,7 +67,7 @@
      <a class="cn-st" href="{{ $p.RelPermalink }}" style="{{ $style | safeCSS }}">
        <figure class="cn-fig"><i class="cn-w cn-w1"></i><i class="cn-w cn-w2"></i>{{ $img }}</figure>
        <div class="cn-tx">
-         <div class="cn-meta"><span class="cn-kick">{{ $tag }}</span>{{ with $p.Params.genre }}<span class="cn-topic">{{ . | humanize }}</span>{{ end }}</div>
+         <div class="cn-meta"><span class="cn-kick" data-filter="{{ $tag | urlize }}" role="button" tabindex="0" title="Show all {{ $tag }} posts">{{ $tag }}</span></div>
          <h2>{{ $p.Title }}</h2>
          {{ with $p.Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
          <span class="cn-by">{{ $p.Date.Format "Jan 2" }}</span>
@@ -80,7 +81,8 @@
    {{ $restCount := sub (len $posts) (len $top) }}
    {{ if gt $restCount 0 }}
    <section class="cn-arch">
-     <h2>Earlier editions <span>{{ $restCount }} more rabbit holes</span></h2>
+     <h2><b class="cn-arch-t">Earlier editions</b> <span class="cn-arch-n">{{ $restCount }} more rabbit holes</span></h2>
+     <div class="cn-filterbar" hidden>Showing <b class="cn-filter-name"></b> <span class="cn-filter-count"></span> <button type="button" class="cn-filter-clear">Show all ✕</button></div>
      <div class="cn-rows">
      {{ $j := 0 }}
      {{ range $all }}
@@ -93,20 +95,21 @@
          {{ with .Params.notice_sub }}<span class="cn-aw-s">{{ . }}</span>{{ end }}
        </div>
        {{ end }}
-      {{ else if not (in $topLinks .RelPermalink) }}
+      {{ else }}
        {{ $tag := index (.Params.tags | default (slice "other")) 0 | lower }}
        {{ $c := index $C $tag | default "#5a5a72" }}
-       <a class="cn-row" href="{{ .RelPermalink }}" style="--c:{{ $c | safeCSS }};--c2:{{ index $C2 (mod $j 6) | safeCSS }};--r:{{ index $R (mod (add $j 3) 8) }}deg">
+       {{ $tagsAttr := slice }}{{ range (.Params.tags | default (slice "other")) }}{{ $tagsAttr = $tagsAttr | append (. | lower | urlize) }}{{ end }}
+       <a class="cn-row{{ if in $topLinks .RelPermalink }} cn-row--top{{ end }}" data-tags=" {{ delimit $tagsAttr " " }} " href="{{ .RelPermalink }}" style="--c:{{ $c | safeCSS }};--c2:{{ index $C2 (mod $j 6) | safeCSS }};--r:{{ index $R (mod (add $j 3) 8) }}deg">
          <div class="cn-when"><b>{{ .Date.Day }}</b><span>{{ .Date.Format "Jan" }}</span></div>
          <div class="cn-tx">
-           <div class="cn-meta"><span class="cn-kick">{{ $tag }}</span>{{ with .Params.genre }}<span class="cn-topic">{{ . | humanize }}</span>{{ end }}</div>
+           <div class="cn-meta"><span class="cn-kick" data-filter="{{ $tag | urlize }}" role="button" tabindex="0" title="Show all {{ $tag }} posts">{{ $tag }}</span></div>
            <h3>{{ .Title }}</h3>
            {{ with .Params.summary }}<p class="cn-dek">{{ . }}</p>{{ end }}
            <span class="cn-go">Read <i>→</i></span>
          </div>
          <div class="cn-th"><i class="cn-w cn-w3"></i>{{ partial "cn-cover" (dict "page" . "size" "480x360") }}</div>
        </a>
-       {{ $j = add $j 1 }}
+       {{ if not (in $topLinks .RelPermalink) }}{{ $j = add $j 1 }}{{ end }}
       {{ end }}
      {{ end }}
      </div>
@@ -139,5 +142,44 @@
  <div class="cn-tid-strip">{{ partial "cn-tidbits" (dict "list" $tidbits "offset" 0 "papers" $papers "R" $R "C2" $C2) }}</div>
  {{ end }}
 </div>
+
+<script>
+(function () {
+  var site = document.querySelector('.cn-site'); if (!site) return;
+  var bar = site.querySelector('.cn-filterbar'), rows = site.querySelectorAll('.cn-row');
+  var arch = site.querySelector('.cn-arch');
+  function apply() {
+    var tag = decodeURIComponent(location.hash.slice(1)).toLowerCase(), n = 0;
+    var valid = tag && site.querySelector('.cn-row[data-tags*=" ' + tag + ' "]');
+    site.classList.toggle('cn-filtering', !!valid);
+    rows.forEach(function (r) {
+      var on = valid && r.getAttribute('data-tags').indexOf(' ' + tag + ' ') > -1;
+      r.classList.toggle('cn-row--match', !!on); if (on) n++;
+    });
+    site.querySelectorAll('.cn-dl-tag a').forEach(function (l) { l.classList.toggle('is-on', !!valid && l.getAttribute('data-filter') === tag); });
+    if (bar) {
+      bar.hidden = !valid;
+      if (valid) {
+        bar.querySelector('.cn-filter-name').textContent = tag.replace(/-/g, ' ');
+        bar.querySelector('.cn-filter-count').textContent = '· ' + n + (n === 1 ? ' post' : ' posts');
+        if (arch) arch.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }
+  function pick(e) {
+    var el = e.target.closest('[data-filter]'); if (!el) return;
+    if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault(); e.stopPropagation();
+    location.hash = el.getAttribute('data-filter');
+  }
+  site.addEventListener('click', pick, true);
+  site.addEventListener('keydown', pick, true);
+  if (bar) bar.querySelector('.cn-filter-clear').addEventListener('click', function () {
+    history.replaceState(null, '', location.pathname); apply();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  window.addEventListener('hashchange', apply); apply();
+})();
+</script>
 
 {{ end }}

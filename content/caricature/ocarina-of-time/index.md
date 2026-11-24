@@ -8,7 +8,7 @@ cover_credit_url: "https://commons.wikimedia.org/wiki/File:2016-01_Ocarina_front
 genre: feature
 math: false
 tags:
-  - gaming
+  - popular culture
   - history
 ---
 
