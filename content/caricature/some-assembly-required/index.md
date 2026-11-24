@@ -2,7 +2,7 @@
 draft: false
 title: "Some Assembly Required"
 date: 2026-11-23T18:00:00
-summary: "I asked three generations what they like about their partners. The answers went from the person, to what they do for others, to a checklist."
+summary: "I asked three generations what they like about their partners."
 genre: hot-take
 math: false
 tags:
@@ -33,7 +33,7 @@ The numbers for the perfect one are not great either. Randall Munroe of xkcd onc
 
 ## The art of staying
 
-So maybe the qualities, the checklist and the impulses are overrated. Yes, sometimes a quality may be weird. A tragic lack of anime-watching skills, a love for exercise I will never understand.
+So maybe the qualities, the checklist and the impulses are overrated. Yes, sometimes a quality may be weird, like a difference in humour, a difference in preferred pastimes or a difference in opinion on *Brooklyn Nine-Nine* (my favourite show, haha).
 
 It reminds me of Robin Williams in *Good Will Hunting*. As the therapist Sean, he tells Will about his late wife, who used to fart in her sleep, and how those little quirks are what he misses the most. ["People call those imperfections, but no, that's the good stuff."](https://www.imdb.com/title/tt0119217/quotes) Williams improvised most of that story, and Matt Damon's laughter in the scene is [completely real](https://uk.news.yahoo.com/robin-williams-improvised-line-good-072740685.html). It is hard, and they are weird, but if I feel the way I feel, I would rather stay anyway.
 
@@ -53,6 +53,6 @@ In lives this optimised to succeed, grow, earn and somehow also be physically ok
 
 The last couple of months have been some of the hardest of my life, and they taught me the importance of love, of community and of being realistic about relationships. I suddenly had a lot of time to hyper-optimise my life, to pursue whatever I wanted and to work as hard as, or even harder than, ever before, ignoring my loved ones as usual. Instead, and rather fortunately, I slowed down, and today I am supported better than ever, even if I am not doing great on the career front. When I look back on the last couple of months, I don't remember my career or my accolades. I remember my family and friends who stayed. They taught me all this.
 
-{{< photo src="grovyle.png" alt="A Pokémon Mystery Dungeon style screenshot of Dialga, Grovyle, Celebi and Dusknoir on an icy mountain, with a dialogue box where Grovyle says: Regret is proof you've grown. The fact that you wish you had done better means you are already someone who would." caption="Fake, but it resonates, haha." credit="Shared online, original creator unknown" >}}
+{{< photo src="grovyle.png" alt="A Pokémon Mystery Dungeon style screenshot of Dialga, Grovyle, Celebi and Dusknoir on an icy mountain, with a dialogue box where Grovyle says: Regret is proof you've grown. The fact that you wish you had done better means you are already someone who would." caption="This screenshot is fake. Grovyle never actually says this in *Pokémon Mystery Dungeon*, but it still resonates with me, haha." credit="Shared online, original creator unknown" >}}
 
 Compatibility is overrated. You love the people, not what they bring to the table.
