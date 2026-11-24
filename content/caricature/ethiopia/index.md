@@ -2,7 +2,7 @@
 draft: false
 title: "Bent but Never Broken"
 date: 2026-11-20
-summary: "Italy and Ethiopia signed two versions of the same treaty. They disagreed on what it let Italy do."
+summary: "How Ethiopia managed to remain uncolonised."
 cover_credit: "A. Davey from Where I Live Now: Pacific Northwest, CC BY 2.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Detail,_%22Battle_of_Adwa_(2141058909).jpg"
 genre: lost-history

@@ -5,6 +5,7 @@ date: 2026-11-07
 summary: "Malthus got the math wrong. The powerful believed him, and the poor paid for it."
 cover_credit: "Antoon Claeissens, Public domain, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Antoon_Claeissens_-_Banquet_-_WGA04954.jpg"
+genre: lost-history
 math: false
 tags:
   - economics
@@ -21,7 +22,7 @@ One of today's answers was Malthusianism. Most of us have a vague idea of what M
 
 Thomas Robert Malthus was an English economist who also happened to be a clergyman in the Church of England. In his 1798 book *An Essay on the Principle of Population*, he argued that population, left unchecked, grows exponentially, while food supply only grows linearly. Sooner or later the people outnumber the food, and famine, disease and war step in to bring the numbers back down.
 
-His key number was that a population could [double every 25 years](https://math.uchicago.edu/~shmuel/Modeling/Malthus,%20An%20essay%20on%20the%20principle%20of%20population.pdf), a rate taken mostly from the North American colonies, following an observation by Benjamin Franklin. What I find interesting in itself is that from 1805 until his death, Malthus was a professor at the [East India Company's college](https://www.britannica.com/money/Thomas-Malthus), training the young men who would go on to run British India, and yet the Indian colonies never really seem to have entered his thinking.
+His key number was that a population could [double every 25 years](https://math.uchicago.edu/~shmuel/Modeling/Malthus,%20An%20essay%20on%20the%20principle%20of%20population.pdf), a rate taken mostly from the North American colonies, following an observation by Benjamin Franklin. What I find interesting in itself is that from 1805 until his death, Malthus was a professor at the [East India Company's college](https://www.britannica.com/money/Thomas-Malthus), training the young men who would go on to run British India, and yet that doubling rate came from the American colonies, not from India, whose far larger population would have made a much better dataset.
 
 ## Remove the excess
 

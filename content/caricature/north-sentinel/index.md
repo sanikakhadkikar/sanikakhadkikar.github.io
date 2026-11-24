@@ -2,7 +2,7 @@
 draft: false
 title: "Do Not Disturb"
 date: 2026-11-22
-summary: "North Sentinel is the most secluded island in the world today, and it sits just 50 kilometres from an Indian city."
+summary: "The most secluded island on Earth is 50 km from an Indian city."
 cover_credit: "PJeganathan, CC BY-SA 4.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:North_Sentinel_Island_from_flight_(27356).jpg"
 genre: rabbit-hole

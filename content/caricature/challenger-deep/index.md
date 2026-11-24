@@ -2,7 +2,7 @@
 draft: false
 title: "Rock Bottom"
 date: 2026-11-23
-summary: "The deepest point on Earth is home to crustaceans in aluminium armour and very busy microbes, and they could help us look for life on icy moons."
+summary: "Life takes on the deepest of challenges in the Challenger Deep."
 cover_credit: "Daiju Azuma, CC BY-SA 2.5, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Hirondellea_gigas.jpg"
 genre: rabbit-hole

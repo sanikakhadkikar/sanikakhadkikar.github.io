@@ -5,6 +5,7 @@ date: 2026-11-12
 summary: "Phosphate mining stripped away much of Nauru's farmland. The island now imports nearly all its food."
 cover_credit: "Hadi Zaher from Melbourne, Australia, CC BY 2.0, via Wikimedia Commons"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Living_on_a_Blue_Planet_-_Nauru.jpg"
+genre: follow-the-money
 math: false
 tags:
   - geography
