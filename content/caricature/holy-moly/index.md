@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Holy Moly!"
 date: 2026-11-25
 summary: "A handful of reactors supply the isotope that hospitals use to make technetium for scans."
